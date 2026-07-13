@@ -240,6 +240,75 @@ status: active
 	- `cuee`는 아직 0에서 1로 만든 경험이 아니라 0 to 1 후보 또는 초기 제품화 경험으로 기록
 - Reuse axis: 경제적 자유/FIRE/레버리지, 독서/책/학습, Codex 개발 워크플로, 제품/창업, 취업/포트폴리오
 
+## [2026-07-13] ingest | YouTube Shorts 몸값 높이는 독서법
+
+- Source: [[2026-07-13-YouTube-Shorts-몸값-높이는-독서법]]
+- Origin: `00. Inbox/01. Articles/몸값 높이는 독서법.md`
+- Collection purpose: 독서와 학습을 취업 포트폴리오보다 경제적 자유/FIRE/레버리지 축에 더 강하게 연결하기 위해 수집. 사용자는 영상의 메시지에 동의하며, 자본주의 사회에서 능력과 시장가치를 키우는 태도를 장기 자유의 기반으로 기록하려고 함
+- Raw Source 저장:
+	- `10. Raw Sources/11. Articles/2026-07-13-YouTube-Shorts-몸값-높이는-독서법.md`
+- Mode: A standalone — mothership search skipped, `mainVaultRelated` / `mainVaultCmds` left empty
+- Wiki 페이지 업데이트 (3):
+	- [[경제적 자유는 나의 북극성이다]]
+	- [[독서는 판단력과 자산관리의 기반이다]]
+	- [[레버리지를 당하지 않고 사용하는 삶]]
+- Index 업데이트:
+	- [[index]]
+- Key context captured:
+	- 이 쇼츠는 독서를 단순 취미나 취업 스펙이 아니라, 능력과 시장가치를 키워 선택권을 넓히는 수단으로 해석한다
+	- 사용자는 개발자 취업 축보다 경제적 자유/FIRE/레버리지 축에 더 강하게 연결하기를 원했다
+- Verification boundary:
+	- 영상의 시장/능력주의 주장은 외부 관점이므로 검증된 사회과학 명제가 아니라 개인 운영 관점으로 보존한다
+- Reuse axis: 경제적 자유/FIRE/레버리지, 독서/책/학습
+
+## [2026-07-14] query | Sales and psychology book recommendations
+
+- Source query: `Clippings/1등이 될 수 없다면 무기를 모아야 합니다 1.md`
+- Saved query result: [[2026-07-14-Q-sales-psychology-book-recommendations]]
+- Updated Wiki page:
+	- [[독서는 판단력과 자산관리의 기반이다]]
+- Index 업데이트:
+	- [[index]]
+- Key context captured:
+	- 사용자는 세일즈와 심리학을 사람을 모으는 능력, 사람과 사람을 설득하는 능력으로 공부하고 싶어 한다.
+	- 이 관심사는 본업 위에 상위 25% 보조 능력을 쌓는 전략이며, 독서/책/학습, 경제적 자유/FIRE/레버리지, 제품/창업 축에 연결된다.
+- Reuse axis: 독서/책/학습, 경제적 자유/FIRE/레버리지, 제품/창업
+
+## [2026-07-14] query | How to read sales and psychology books
+
+- Source query: 세일즈와 심리학 책들을 읽을 때 어떻게 해야 잘 읽을 수 있는지에 대한 사용자 질문
+- Saved query result: [[2026-07-14-Q-how-to-read-sales-psychology-books]]
+- Updated Wiki page:
+	- [[독서는 판단력과 자산관리의 기반이다]]
+- Index 업데이트:
+	- [[index]]
+- Key context captured:
+	- 세일즈/심리학 책은 요약보다 행동 실험으로 읽는다.
+	- 한 권에서 하나의 실험만 뽑고, 실제 대화·팀 운영·제품 설명·글쓰기·면접 답변에 적용한 뒤 결과를 기록한다.
+- Reuse axis: 독서/책/학습, 경제적 자유/FIRE/레버리지, 제품/창업
+
+## [2026-07-14] query | Yohan Koo LLM Wiki usage insights
+
+- Source query: 구요한 대표는 Obsidian LLM Wiki를 어떻게 사용하면 좋다고 말했는지, 강의 인사이트와 본인 활용 방식이 무엇인지에 대한 사용자 질문
+- Saved query result: [[2026-07-14-Q-yohan-koo-llm-wiki-usage-insights]]
+- Primary sources:
+	- [[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]
+	- [[LLM Wiki as Learning Base]]
+	- [[Mothership-Satellite Vault Pattern]]
+	- [[Agent-Readable Metadata]]
+	- [[Obsidian Tooling for LLM Wiki]]
+	- [[Human-AI Knowledge Boundary]]
+- Index 업데이트:
+	- [[index]]
+- Key context captured:
+	- LLM Wiki는 이미 아는 지식 보관소보다, 관심은 있지만 아직 설명할 수 없는 자료를 공부 가능한 형태로 만드는 학습 전초기지다.
+	- 구요한 대표는 메인 볼트와 LLM Wiki 볼트를 분리하고, Query 결과와 질문 자체를 `Queries` 폴더에 남기는 방식으로 활용한다.
+	- 메타데이터와 폴더 구조는 노트가 많아져도 필터링과 라우팅을 가능하게 하는 핵심 장치다.
+- Quality gaps:
+	- 강의 transcript의 STT 품질 때문에 인명과 일부 기술명이 흔들린다.
+	- 본 답변은 2026-07-07 강의 transcript와 기존 Wiki 컴파일 기준이며, 이후 운영 방식은 별도 확인 필요.
+- Reuse axis: Codex 개발 워크플로, 독서/책/학습, 에세이/블로그
+
 ## [2026-07-12] ingest | YouTube Inspiration Bundle For Economic Freedom North Star
 
 - Source: [[2026-07-12-YouTube-Inspiration-Bundle-User-Reflections]] plus 13 YouTube transcript raw sources

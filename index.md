@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-07-12
+date modified: 2026-07-14
 tags:
   - index
   - moc
@@ -29,13 +29,13 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 20 |
+| Raw Sources | 21 |
 | Wiki Pages | 37 |
 | Concepts | 18 |
 | Entities | 8 |
 | Guides | 7 |
 | MOCs | 4 |
-| Queries | 1 |
+| Queries | 4 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -103,6 +103,9 @@ status: active
 > 질의 결과가 wiki 에 역피드백된 합성 페이지. [[Ingest-Query-Lint Cycle|Karpathy 원문 권장]]: "good answers can be filed back into the wiki as new pages."
 
 - [[2026-07-07-Q-LLM-Wiki-vault-academic-value]] — LLM Wiki 볼트의 학술적 가치와 Zotero/Bookends 인용 연동 방향
+- [[2026-07-14-Q-sales-psychology-book-recommendations]] — 세일즈와 심리학을 상위 25% 보조 능력으로 쌓기 위한 책 추천 경로
+- [[2026-07-14-Q-how-to-read-sales-psychology-books]] — 세일즈와 심리학 책을 행동 실험으로 바꾸는 독서 방법
+- [[2026-07-14-Q-yohan-koo-llm-wiki-usage-insights]] — 구요한 대표의 Obsidian LLM Wiki 사용법, 팁, 강의 인사이트 정리
 
 ---
 
@@ -110,6 +113,7 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-07-13 | [[2026-07-13-YouTube-Shorts-몸값-높이는-독서법]] | 3 pages |
 | 2026-07-12 | [[2026-07-12-YouTube-Inspiration-Bundle-User-Reflections]] + 13 YouTube transcripts | 8 pages |
 | 2026-07-12 | [[2026-07-12-Velog-Leadership-Product-Hackathon-Bundle]] | 4 pages |
 | 2026-07-12 | [[2026-07-12-Kim-Gyutae-Leadership-Product-Context-v2]] | 6 pages |
