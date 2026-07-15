@@ -261,6 +261,47 @@ status: active
 	- 영상의 시장/능력주의 주장은 외부 관점이므로 검증된 사회과학 명제가 아니라 개인 운영 관점으로 보존한다
 - Reuse axis: 경제적 자유/FIRE/레버리지, 독서/책/학습
 
+## [2026-07-16] lint | LLM Wiki health check
+
+- Ran `/lint` health check across Wiki, Raw Sources, Queries, `index.md`, and `Core Context.md`.
+- Fixed index/MOC sync:
+	- Added missing `index.md` entries for [[Book Ingest Pattern]], [[Cohort Token Economy]], [[External Pre-processing Pattern]], [[Idea Generation Pipeline]], [[Track Classification and Research Gap Detection]], and [[LLM Wiki Token Optimization Strategies]].
+	- Added missing MOC coverage in [[MOC-Knowledge Management]] for the same pages.
+- Key findings:
+	- Raw Source `collectionPurpose` coverage is 19/21.
+	- Wiki `explored` coverage is 37/37, but 34 pages remain `explored: false`.
+	- Wiki `verificationStatus` coverage is 37/37; no disputed pages found.
+	- v5 `claimType` / `evidenceScope` coverage is 20/37.
+	- One contradiction callout remains in [[RAG vs Compiled Wiki]].
+	- Two pre-v2 Karpathy raw sources still need `collectionPurpose` backfill.
+- Reuse axis: Codex 개발 워크플로, 취업/포트폴리오, 독서/책/학습
+
+## [2026-07-16] query | How to use LLM Wiki well
+
+- Source query: `$query 이 llm-wiki를 어떻게 하면 가장잘활용할수있어? 잘쓰는방법을 알려주고 활용방안알려줘`
+- Saved query result: [[2026-07-16-Q-how-to-use-llm-wiki-well]]
+- Primary sources:
+	- [[Core Context]]
+	- [[index]]
+	- [[LLM Wiki Pattern]]
+	- [[3-Layer Architecture]]
+	- [[Ingest-Query-Lint Cycle]]
+	- [[LLM Wiki as Learning Base]]
+	- [[Human-AI Knowledge Boundary]]
+	- [[Obsidian Tooling for LLM Wiki]]
+	- [[MOC-LLM Wiki Guide]]
+	- [[MOC-Portfolio]]
+- Index 업데이트:
+	- [[index]]
+- Key context captured:
+	- 이 vault의 핵심 용도는 자료 저장소가 아니라 취업/프로젝트/학습 증거를 재사용 가능한 산출물로 컴파일하는 시스템이다.
+	- 프로젝트 자료는 "무엇을 만들었나"보다 "무엇을 판단했고 어떻게 검증했나" 중심으로 ingest해야 한다.
+	- Query는 단순 답변이 아니라 이력서 bullet, STAR 답변, 자기소개서 문단, 블로그 초안, evidence gap 분석 같은 재사용 산출물을 만드는 인터페이스다.
+- Quality gaps:
+	- 프로젝트별 Raw Source 근거와 AI boundary evidence가 아직 부족하다.
+	- `MOC-Portfolio`의 Query Result 템플릿 gap은 아직 별도 템플릿 파일로 해결되지 않았다.
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로, 독서/책/학습, 에세이/블로그
+
 ## [2026-07-14] query | Sales and psychology book recommendations
 
 - Source query: `Clippings/1등이 될 수 없다면 무기를 모아야 합니다 1.md`

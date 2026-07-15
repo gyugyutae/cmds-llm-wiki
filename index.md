@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-07-14
+date modified: 2026-07-16
 tags:
   - index
   - moc
@@ -35,7 +35,7 @@ status: active
 | Entities | 8 |
 | Guides | 7 |
 | MOCs | 4 |
-| Queries | 4 |
+| Queries | 5 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -62,6 +62,11 @@ status: active
 - [[자본 레버리지는 자유의 핵심 엔진이다]] — 1억 임계점, 현금 20%, 2배 ETF, DCA, 암호화폐 비중을 정리한 투자 운영 가설
 - [[AI 자동화는 개인 생산성 레버리지다]] — Codex, harness, Threads, 멀티 에이전트 workflow를 개인 생산성 레버리지로 보는 관점
 - [[독서는 판단력과 자산관리의 기반이다]] — 지식 복리, 자산관리 판단력, 논픽션/픽션 균형 독서 프레임
+- [[Book Ingest Pattern]] — 책과 장문 자료를 Raw Source와 Wiki로 나누어 단계적으로 컴파일하는 패턴
+- [[Cohort Token Economy]] — 강의·연구 cohort에서 LLM Wiki 운영 시 토큰 예산을 관리하는 관점
+- [[External Pre-processing Pattern]] — 긴 source를 외부 도구로 전처리한 뒤 Wiki 컴파일에 투입하는 패턴
+- [[Idea Generation Pipeline]] — 새 source ingest를 도메인 아이디어 생성 트리거로 확장하는 워크플로
+- [[Track Classification and Research Gap Detection]] — source를 thematic track으로 분류해 연구 gap을 찾는 패턴
 
 ### Entities
 
@@ -86,6 +91,7 @@ status: active
 - [[개발자 커리어로 경제적 자유에 가까워지기]] — 개발자 취업과 고소득 커리어를 경제적 자유의 1순위 수단으로 정리한 가이드
 - [[김규태 Career Narrative]] — 자기소개, 목표 도메인, 성장 과제, 면접용 내러티브 정리
 - [[김규태 Leadership and Teaching Evidence]] — 실리콘밸리 대표, 멋쟁이사자처럼 부대표, 백엔드 세션, 해커톤 템플릿 증거
+- [[LLM Wiki Token Optimization Strategies]] — 토큰 제약이 있는 환경에서 LLM Wiki를 지속 운영하기 위한 최적화 가이드
 
 ### Maps (MOC)
 
@@ -106,6 +112,7 @@ status: active
 - [[2026-07-14-Q-sales-psychology-book-recommendations]] — 세일즈와 심리학을 상위 25% 보조 능력으로 쌓기 위한 책 추천 경로
 - [[2026-07-14-Q-how-to-read-sales-psychology-books]] — 세일즈와 심리학 책을 행동 실험으로 바꾸는 독서 방법
 - [[2026-07-14-Q-yohan-koo-llm-wiki-usage-insights]] — 구요한 대표의 Obsidian LLM Wiki 사용법, 팁, 강의 인사이트 정리
+- [[2026-07-16-Q-how-to-use-llm-wiki-well]] — LLM Wiki를 취업 포트폴리오, 프로젝트 증거, 학습, Codex 워크플로 산출물 생성 시스템으로 활용하는 방법
 
 ---
 
