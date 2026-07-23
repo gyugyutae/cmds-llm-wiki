@@ -190,3 +190,45 @@ status: active
 	- [[MOC-Portfolio]]
 	- [[index]]
 - Reuse axis: 취업/포트폴리오, 강의/수업/교육, 제품/창업, 프로젝트 증거
+
+## [2026-07-23] ingest | 김규태 Personal Operating Manual and Self-Understanding Interview
+
+- Sources:
+	- [[2026-07-23-Kim-Gyutae-Personal-Operating-Manual-v1]]
+	- [[2026-07-23-Kim-Gyutae-Romantic-Self-Reflection-v1]]
+	- [[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]
+- Origin:
+	- 사용자가 약 한 달 동안 직접 작성한 `규태 사용설명서`
+	- 특정인을 좋아하며 작성한 `새로 태어나기`에서 제3자 정보를 제거한 자기관찰 발췌
+	- Codex 인제스트 목적·모호성 질문에 대한 사용자 직접 답변
+- Collection purpose: 자기이해와 메타인지를 심화하고, 미래의 AI 에이전트가 김규태에 관한 질문에 빈말보다 사실 기반 멘토링과 행동 개선안을 제공하도록 개인화 지식으로 재사용
+- Raw Source 저장: `10. Raw Sources/15. Clippings/`
+- Privacy handling:
+	- `규태 사용설명서` 원문 전체를 `## Original Content` 아래 보존
+	- MBTI 비하 문장은 Raw Source에만 보존하고 Wiki에는 승격하지 않음
+	- `새로 태어나기` 원본의 제3자 개인정보와 구체적인 성행위 지침은 저장소에 복사하지 않음
+	- 사용자 관련 문장 47개를 원문 그대로 발췌하고 `redacted: true`로 표시
+- Mode: A standalone — mothership search skipped, `mainVaultRelated` / `mainVaultCmds` left empty
+- Wiki 페이지 생성 (12):
+	- Concepts (6): [[김규태 Motivation and Execution Pattern]], [[김규태 Breadth-to-Depth Development Pattern]], [[김규태 Stress and Recovery Pattern]], [[김규태 Leadership Pattern]], [[김규태 Attachment and Romantic Pacing Pattern]], [[김규태 Taste and Intellectual Intimacy]]
+	- Guides (5): [[김규태 Personal Operating Manual]], [[김규태 Work and Learning Operating Guide]], [[김규태 Career Values and Success Vision]], [[김규태 Relationship Values]], [[김규태 AI Mentor Response Contract]]
+	- Maps (1): [[MOC-김규태 Self Knowledge]]
+- Wiki 페이지 업데이트 (3):
+	- [[김규태]]
+	- [[harness]]
+	- [[김규태 Leadership and Teaching Evidence]]
+- System pages updated:
+	- [[Core Context]]
+	- [[index]]
+- Key context captured:
+	- 빠르게 시작하는 실행력은 강하지만 깊이, 유지보수, 마감 관리가 보완 과제
+	- 성장, 돈, 인정, 가시적 사용자 반응이 강한 동기이며 지식 축적과 개발자 정체성도 독립 동기로 존재
+	- Threads 자동화는 포맷 실험, 사용자 반응 선택, 템플릿화, GitHub Actions 반복 운영으로 이어졌고 2026-07-23 사용자 자기보고 기준 팔로워 500명
+	- AI 에이전트 개발은 T자형 세로축 후보지만 아직 구체 분야가 확정되지 않음
+	- 비전·제품 방향·최종 결정은 선호하지만 일정·행정·타인 결과 관리는 보완 과제
+	- 관계에서는 솔직함, 자율성, 신뢰, 지적 친밀감을 중시하며 빠른 감정 속도와 장기 반추가 반복 패턴
+	- 동의는 자유로운 명시적 긍정과 지속적 확인을 기준으로 정규화
+	- AI는 사실, 자기보고, 해석, 본인 책임, 타인 영역, 재발 방지 행동을 분리하는 멘토 역할을 우선
+- Open question:
+	- T자형 개발 전문성의 세로축은 `AI 에이전트를 이용한 개발`로 탐색 중이며 세부 문제 영역은 미정
+- Reuse axis: 자기이해, AI 개인화, 취업/포트폴리오, Codex 개발 워크플로, 관계 메타인지

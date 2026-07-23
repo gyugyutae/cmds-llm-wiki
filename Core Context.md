@@ -7,7 +7,7 @@ description: The user's active standalone LLM Wiki context for portfolio evidenc
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-07-12
+date modified: 2026-07-23
 tags:
   - system
   - schema
@@ -17,8 +17,10 @@ source-vault: null
 source:
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-12-Kim-Gyutae-Leadership-Product-Context-v2]]"
-version: "1.2"
-snapshot_date: 2026-07-12
+  - "[[2026-07-23-Kim-Gyutae-Personal-Operating-Manual-v1]]"
+  - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
+version: "1.3"
+snapshot_date: 2026-07-23
 status: active
 ---
 
@@ -87,6 +89,7 @@ status: active
 5. 취업용 문장에서는 열정과 성장가능성을 살리되, 근거 없는 과장은 피한다.
 6. 모호한 개인 맥락은 추측하지 않고 Core Context에 확정된 내용만 승격한다.
 7. AI 의존 개발자가 아니라 AI를 개발 역량의 증폭기로 활용하는 개발자로 포지셔닝한다.
+8. 개인화 질문에서는 [[김규태 AI Mentor Response Contract]]를 우선해 사실, 자기보고, AI 해석을 분리하고 빈말보다 약점 지적과 행동 개선을 제시한다.
 
 ---
 
@@ -128,13 +131,22 @@ Mode A로 단독 운영한다. 별도 mothership vault는 연결하지 않는다
 2. `Graduation-elasticsearch`: 학부연구생/졸업 연구 맥락의 JavaParser 기반 Elasticsearch Java source-test traceability 분석 프로젝트. JavaParser AST, MethodCallExpr, Symbol Solver, source-test link CSV, parser output 검증을 보여주는 축.
 3. `cuee`: 경남권 창업동아리 대상작. 전신 `배우담`은 노인에게 앱 사용법을 학습시키려는 앱이었고, 실제 노인은 학습 과정 자체도 고통스럽다는 문제를 보고 현재 화면에서 다음 버튼을 안내하는 접근성 오버레이 앱 `cuee`로 전환했다. Kotlin Android 기반 사용자 문제 정의, 제품화, 접근성, 팀 리딩 경험을 보여주는 축.
 4. `harness`: 커서맛피아님의 harness를 참고해 앱 개발에 맞게 개인화한 개발 harness. Python 기반 Codex CLI workflow, stage/phase artifact, agent workflow, 생산성 개선을 보여주는 축.
-5. `Threads AI research automation`: Codex와 토큰 기반 자동화 흐름을 활용해 매일 18시에 AI agent 논문 활용 예시를 리서치하고 Threads에 업로드하는 자동화 워크플로. 사용자가 제공한 원본 맥락 기준으로 한 달 동안 팔로워 약 400명을 확보한 사례.
+5. `Threads AI research automation`: 여러 글 형식을 시험하고 반응이 좋았던 논문 작성 형식을 템플릿으로 고정해 GitHub Actions로 반복 발행한 자동화 워크플로. 사용자가 제공한 원본 맥락 기준으로 2026-07-23 팔로워 500명을 달성한 사례.
 6. `Leadership and teaching`: 2026년 `실리콘밸리` 취업동아리 대표(20명: 학부생 15명, 교수 5명), 경상국립대학교 멋쟁이사자처럼 14기 부대표. 영어 모의면접 운영, 백엔드 세션, 해커톤 템플릿 준비, 예산/지원금 관리, 회의록 작성, 책 수요조사 등을 통해 운영형/지원형 리더십을 보여주는 축.
 
 ### 프로젝트 역할 기준
 
 - 김규태는 프로젝트에서 설계, 성능, 개발을 맡았고 팀장 역할도 수행했다.
 - 포트폴리오 문장에서는 "팀장으로서 어떤 결정을 했는가", "성능을 어떻게 측정/개선했는가", "Codex를 어디까지 도구로 활용했고 본인이 검증한 부분은 무엇인가", "AI 없이도 설명할 수 있는 기본기는 무엇인가"를 분리해서 기록한다.
+
+### AI 개인화 응답 기준
+
+- 김규태는 무조건적인 공감이나 자기위로보다 사실 기반의 멘토링을 원한다.
+- 먼저 확인된 사실, 사용자 자기보고, AI 해석을 분리한다.
+- 장점은 구체적 증거와 함께 강화하고, 약점은 숨기지 말고 행동 개선과 검증 지표까지 제안한다.
+- 관계 질문에서는 상대의 마음을 추측으로 확정하지 않고 명시적 의사, 상호 행동, 자율성, 동의를 우선한다.
+- 사용자 신념이 안전·동의 원칙과 충돌하면 개인 취향으로 정당화하지 말고 교정한다.
+- 상세 규칙은 [[김규태 AI Mentor Response Contract]]와 [[MOC-김규태 Self Knowledge]]를 따른다.
 
 ### 목표 회사 / 도메인 탐색
 
