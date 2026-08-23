@@ -7,7 +7,7 @@ description: "Reusable career narrative for positioning Kim Gyutae's developer i
 author:
   - Codex
 date created: 2026-07-11
-date modified: 2026-07-11
+date modified: 2026-07-26
 tags:
   - career
   - portfolio
@@ -15,6 +15,7 @@ tags:
   - self-narrative
 source:
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
+  - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
   - "[[Core Context]]"
 related:
   - "[[김규태]]"
@@ -22,6 +23,10 @@ related:
   - "[[AI-Augmented Developer Positioning]]"
   - "[[financial-order-latency-lab]]"
   - "[[harness]]"
+  - "[[코딩테스트는 AI 시대의 문제해결력 훈련이다]]"
+  - "[[컴퓨팅 사고의 추상화와 분해]]"
+  - "[[AI 시대의 개발자 학습 전략]]"
+  - "[[일반 지식보다 도메인 지식이 중요해지는 이유]]"
 confidence: medium
 layer: guides
 explored: false
@@ -55,6 +60,7 @@ status: active
 - **Current role**: 경상국립대학교 소프트웨어공학과 3학년, SEALAB 학부연구생
 - **Exploring domains**: 백엔드, 금융, 드론, 반도체
 - **Desired image**: AI를 잘 활용하지만 AI 없이도 개발할 수 있는 T자형 개발자
+- **Problem-solving identity**: 현실 문제를 입력·출력·제약으로 추상화하고, 블랙박스 내부를 하위 문제와 의존성으로 분해해 구현·검증하는 개발자
 - **Long-term aspiration**: 대기업 개발자, 이후 글로벌 개발 환경으로 확장
 - **Growth gap**: AI 비의존 개발 역량, 코딩테스트, 개발 도메인 영어
 
@@ -66,6 +72,10 @@ status: active
 
 > 저는 AI를 단순히 코드를 대신 짜주는 도구로 쓰기보다, 제 개발 과정을 구조화하고 반복 가능한 워크플로로 만드는 데 관심이 많습니다. 다만 현재는 AI 활용 경험이 많아진 만큼, AI 없이도 문제를 분석하고 구현할 수 있는 기본기를 더 채우는 것이 제 다음 성장 과제라고 보고 있습니다.
 
+문제해결 중심 초안:
+
+> 저는 개발자의 핵심을 코드 작성량보다 현실 문제를 컴퓨터가 풀 수 있는 구조로 바꾸는 능력이라고 생각합니다. 먼저 사용자 문제를 입력·출력·제약으로 추상화하고, 블랙박스 내부를 검증 가능한 하위 문제로 분해한 뒤, AI를 포함한 도구로 구현하고 실제 결과를 테스트하는 개발자로 성장하고 있습니다.
+
 금융/백엔드 방향 초안:
 
 > 운영체제 수업에서 CPU latency를 배우며 금융 주문 처리에서는 tail latency가 어떻게 문제가 될지 궁금해졌고, 이를 바탕으로 `financial-order-latency-lab`을 기획하고 개발했습니다. 단순 구현보다 p99 latency를 측정하고 병목을 해석하는 경험을 통해 백엔드 성능 문제에 관심을 갖게 됐습니다.
@@ -75,10 +85,12 @@ status: active
 ## Evidence To Build Next
 
 - AI 없이 직접 구현한 작은 백엔드 프로젝트 또는 기능 단위 기록
-- 코딩테스트 학습 로그와 풀이 회고
+- [[코딩테스트는 AI 시대의 문제해결력 훈련이다|코딩테스트 학습 로그와 풀이 회고]]
 - Python 기본기, DB, 네트워크, 운영체제 개념을 프로젝트와 연결한 학습 증거
 - 금융/반도체/드론 중 한 도메인에 대한 기술 조사 기록
 - 개발 도메인 영어 학습 기록과 영어로 작성한 README/기술 설명
+- 프로젝트마다 문제의 입력·출력·제약·하위 문제·검증 결과를 연결한 사고 로그
+- 백엔드·금융·반도체·드론 중 한 축의 현장 제약을 다룬 도메인 학습 증거
 
 ---
 
@@ -97,3 +109,7 @@ status: active
 - [[AI-Augmented Developer Positioning]]
 - [[financial-order-latency-lab]]
 - [[harness]]
+- [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
+- [[컴퓨팅 사고의 추상화와 분해]]
+- [[AI 시대의 개발자 학습 전략]]
+- [[일반 지식보다 도메인 지식이 중요해지는 이유]]

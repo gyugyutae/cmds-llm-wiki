@@ -8,7 +8,7 @@ description: Comparison between RAG (retrieval-augmented generation) and the com
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-12
+date modified: 2026-07-16
 tags:
   - rag
   - llm-wiki
@@ -16,6 +16,7 @@ tags:
   - comparison
 source:
   - "[[2026-04-12-Karpathy-LLM-Wiki]]"
+  - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[Persistent Knowledge Base]]"
@@ -50,6 +51,8 @@ verificationStatus: unverified
 
 **한계**: LLM이 매번 처음부터 지식을 재발견(rediscover)한다. 5개 문서를 종합해야 하는 미묘한 질문에는 매번 조각을 찾아 맞춰야 한다. **축적(accumulation)이 없다.**
 
+학습용 비유로는 RAG는 "단리"에 가깝고, Compiled Wiki는 "복리"에 가깝다. RAG의 답변은 대화가 끝나면 사라지지만, Compiled Wiki의 좋은 답변과 연결은 다시 Wiki에 남아 다음 Query의 출발점이 된다.
+
 대표 시스템: NotebookLM, ChatGPT file uploads, 대부분의 RAG 시스템.
 
 ### Compiled Wiki 방식
@@ -63,15 +66,15 @@ verificationStatus: unverified
 
 ### 비교 표
 
-| 차원 | RAG | Compiled Wiki |
-|------|-----|---------------|
-| 지식 처리 시점 | Query time (매번) | Ingest time (한 번) |
-| 축적 | 없음 | 있음 (compounding) |
-| Cross-reference | 매번 재구성 | 사전 구축 |
-| 모순 감지 | 우연적 | 체계적 (lint) |
-| 인프라 | Embedding DB, retriever | Markdown 파일 + Git |
-| 탐색 가능성 | LLM 통해서만 | 직접 탐색 가능 (Obsidian) |
-| 확장성 | 대규모에 강점 | 중규모까지 index.md로 충분 |
+| 차원              | RAG                     | Compiled Wiki       |
+| --------------- | ----------------------- | ------------------- |
+| 지식 처리 시점        | Query time (매번)         | Ingest time (한 번)   |
+| 축적              | 없음                      | 있음 (compounding)    |
+| Cross-reference | 매번 재구성                  | 사전 구축               |
+| 모순 감지           | 우연적                     | 체계적 (lint)          |
+| 인프라             | Embedding DB, retriever | Markdown 파일 + Git   |
+| 탐색 가능성          | LLM 통해서만                | 직접 탐색 가능 (Obsidian) |
+| 확장성             | 대규모에 강점                 | 중규모까지 index.md로 충분  |
 
 ---
 
@@ -92,3 +95,4 @@ verificationStatus: unverified
 ## Sources
 
 - [[2026-04-12-Karpathy-LLM-Wiki]]
+- [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]

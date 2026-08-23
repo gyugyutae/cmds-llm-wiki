@@ -8,7 +8,7 @@ description: The LLM Wiki pattern proposed by Andrej Karpathy — LLMs increment
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-12
+date modified: 2026-07-16
 tags:
   - llm-wiki
   - knowledge-management
@@ -19,6 +19,7 @@ source:
   - "[[2026-04-02-Harnessing-Claudes-Intelligence-3-Patterns]]"
   - "[[2026-04-13-Changhyun-Ahn-Soverign-PKM]]"
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
+  - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
 related:
   - "[[RAG vs Compiled Wiki]]"
   - "[[Persistent Knowledge Base]]"
@@ -38,6 +39,7 @@ related:
   - "[[Mothership-Satellite Vault Pattern]]"
   - "[[Agent-Readable Metadata]]"
   - "[[Human-AI Knowledge Boundary]]"
+  - "[[Personal Context Layer for LLM Wiki]]"
 confidence: high
 layer: concepts
 status: active
@@ -126,11 +128,17 @@ Karpathy 본인의 deployment (2026-04-02 X 공개): **~100 articles, ~400K word
 
 위키 유지의 어려운 부분은 읽기나 사고가 아니라 **북키핑**이다 — cross-reference 업데이트, 요약 최신화, 모순 감지, 일관성 유지. 인간은 이 부담에 지쳐 위키를 포기하지만, LLM은 지루함을 모르고 한 번에 15개 파일을 업데이트할 수 있다. 유지보수 비용이 거의 0이므로 wiki가 살아남는다.
 
+2026-07-16 WikiDocs 해설은 이 지점을 학습용으로 더 쉽게 설명한다. RAG에서는 LLM이 질문할 때마다 "검색 엔진 + 요약기"처럼 작동하지만, LLM Wiki에서는 source가 들어오는 순간부터 "편집자 + 사서"처럼 작동한다. 따라서 LLM Wiki의 핵심은 답변 생성보다 **지식 유지보수의 비용을 낮추는 운영 패턴**에 있다.
+
 ### 학습 전초기지로서의 LLM Wiki
 
 이 vault에서는 LLM Wiki를 [[LLM Wiki as Learning Base|학습 전초기지]]로 사용한다. 사용자가 어떤 자료를 캡처했다는 것은 그 자료를 이미 아는 것이 아니라, 적어도 그 주제에 관심을 보였다는 신호다. LLM Wiki는 이 관심 신호를 source-backed 개념 페이지로 바꾸어, 나중에 사용자가 직접 읽고 검증할 수 있는 학습 지도로 만든다.
 
 이 관점에서는 [[Human-AI Knowledge Boundary]]가 중요하다. LLM이 쓴 Wiki page는 사용자가 이해한 지식과 동일하지 않다. `explored`, `verificationStatus`, `confidence` 같은 필드는 이 경계를 드러내기 위한 장치다.
+
+### 개인 맞춤형 context layer로서의 LLM Wiki
+
+이 vault에서는 LLM Wiki를 [[Personal Context Layer for LLM Wiki|개인 맞춤형 LLM 맥락층]]으로도 본다. 모델 성능이 상향 평준화될수록 차이는 "어떤 LLM을 쓰는가"보다 "LLM에게 나에 대한 어떤 맥락을 제공하는가"에서 생길 수 있다. [[Core Context]], owner entity, 프로젝트 page, Query result는 모두 다음 LLM 세션이 읽을 수 있는 개인 맥락 자산이다.
 
 ---
 
@@ -167,6 +175,7 @@ Changhyun Ahn의 [[2026-04-13-Changhyun-Ahn-Soverign-PKM|LinkedIn Pulse 에세�
 - [[Mothership-Satellite Vault Pattern]] — 메인 지식 볼트와 LLM Wiki 볼트의 역할 분리
 - [[Agent-Readable Metadata]] — 에이전트가 먼저 읽는 YAML metadata 설계
 - [[Human-AI Knowledge Boundary]] — AI가 생성한 지식과 사용자가 아는 지식의 경계
+- [[Personal Context Layer for LLM Wiki]] — 개인 맞춤형 LLM을 위한 사용자 맥락층 관점
 
 ---
 
@@ -177,6 +186,7 @@ Changhyun Ahn의 [[2026-04-13-Changhyun-Ahn-Soverign-PKM|LinkedIn Pulse 에세�
 - [[2026-04-02-Harnessing-Claudes-Intelligence-3-Patterns]] — Lance Martin의 agent harness 3 patterns
 - [[2026-04-13-Changhyun-Ahn-Soverign-PKM]] — 안창현의 Sovereign PKM 에세이
 - [[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]] — LLM Wiki 활용 강의 transcript
+- [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]] — RAG와 LLM Wiki의 차이를 한국어로 설명한 학습용 article
 
 ---
 

@@ -1,13 +1,40 @@
 ---
-title: "tobi/qmd: mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local"
-source: "https://github.com/tobi/qmd"
+type: raw-source
+aliases:
+  - qmd GitHub README
+  - Query Markup Documents README
+description: "Captured GitHub README for qmd, a local search engine combining full-text, vector, and reranked retrieval for markdown knowledge bases."
 author:
-published:
-created: 2026-07-14
-description: "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local - tobi/qmd"
+  - tobi/qmd contributors
+date created: 2026-07-26
+date modified: 2026-07-26
+date ingested: 2026-07-26
 tags:
-  - "clippings"
+  - raw-source
+  - clippings
+  - qmd
+  - local-search
+  - retrieval
+source: "https://github.com/tobi/qmd"
+clippedAt: 2026-07-14
+category: "Clippings"
+status: ingested
+collectionPurpose: "Codex 개발 워크플로 — LLM Wiki의 Wiki·Raw Sources·Queries를 로컬에서 BM25·벡터·하이브리드 검색하고 에이전트 검색 품질과 재색인 운영을 개선하기 위해 수집."
+mainVaultRelated: []
+mainVaultCmds: ""
 ---
+
+# qmd GitHub README
+
+## Source Notes
+
+- Capture method: Obsidian Web Clipper snapshot of the repository README.
+- Temporal boundary: this is a captured README snapshot; commands and model defaults may change in later qmd releases.
+- Compiled use: [[qmd]], [[Obsidian Tooling for LLM Wiki]], and [[Ingest-Query-Lint Cycle]].
+
+---
+
+## Original Content
 ## QMD - Query Markup Documents
 
 An on-device search engine for everything you need to remember. Index your markdown notes, meeting transcripts, documentation, and knowledge bases. Search with keywords or natural language. Ideal for your agentic flows.

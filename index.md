@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-07-16
+date modified: 2026-07-26
 tags:
   - index
   - moc
@@ -29,13 +29,13 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 21 |
-| Wiki Pages | 37 |
-| Concepts | 18 |
-| Entities | 8 |
+| Raw Sources | 34 |
+| Wiki Pages | 48 |
+| Concepts | 28 |
+| Entities | 9 |
 | Guides | 7 |
 | MOCs | 4 |
-| Queries | 5 |
+| Queries | 12 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -67,6 +67,16 @@ status: active
 - [[External Pre-processing Pattern]] — 긴 source를 외부 도구로 전처리한 뒤 Wiki 컴파일에 투입하는 패턴
 - [[Idea Generation Pipeline]] — 새 source ingest를 도메인 아이디어 생성 트리거로 확장하는 워크플로
 - [[Track Classification and Research Gap Detection]] — source를 thematic track으로 분류해 연구 gap을 찾는 패턴
+- [[Schema Engineering for LLM Wiki]] — agent가 일관되게 Wiki를 유지보수하도록 page type, metadata, workflow 규칙을 설계하는 기술 영역
+- [[Personal Context Layer for LLM Wiki]] — LLM에게 나에 대한 고품질 맥락을 제공해 개인 맞춤형 답변을 가능하게 하는 위키 관점
+- [[코딩테스트는 AI 시대의 문제해결력 훈련이다]] — 코딩테스트를 AI 시대의 문제해결력, 컴퓨팅 사고력, 비-AI 구현 기본기 증거로 해석하는 관점
+- [[컴퓨팅 사고의 추상화와 분해]] — 현실 문제를 입력·출력·제약으로 추상화하고 블랙박스 내부를 하위 문제·의존성·예외 상황으로 분해하는 개발자 사고 원칙
+- [[AI 시대의 개발자 학습 전략]] — 기초 CS, 문제 구조화, 도메인 지식, AI 협업, 검증, 메타인지를 결합한 개인 학습 프레임
+- [[메타인지 학습 루프]] — 모르는 지점과 오답 원인을 진단하고 직접 시도·수정·재검증하는 반복 학습 체계
+- [[일반 지식보다 도메인 지식이 중요해지는 이유]] — 일반 지식의 상품화 속에서 현장 제약과 구체 도메인 판단의 가치를 탐색하는 커리어 가설
+- [[능력 조합으로 희소성을 만드는 전략]] — 개발을 중심축으로 성능·도메인·AI·리더십·커뮤니케이션 능력을 증거 기반으로 결합하는 전략
+- [[겸손과 자기표현의 균형]] — 자기축소가 아니라 근거 있는 자기표현과 수정 가능성을 함께 유지하는 지적 겸손 프레임
+- [[AI 팩토리와 토큰 생산 인프라]] — AI를 전력·반도체·네트워크·모델·애플리케이션이 연결된 토큰 생산 시스템으로 보는 인프라 관점
 
 ### Entities
 
@@ -80,6 +90,7 @@ status: active
 - [[Graduation-elasticsearch]] — JavaParser 기반 Elasticsearch source-test traceability 분석 프로젝트
 - [[cuee]] — 노인 모빌리티 예약 길잡이 접근성 앱 프로젝트
 - [[harness]] — Codex CLI 기반 개인화 개발 workflow harness
+- [[qmd]] — LLM Wiki의 Wiki/Raw Sources/Queries를 로컬에서 검색하는 markdown 검색 엔진
 
 ### Guides
 
@@ -113,6 +124,13 @@ status: active
 - [[2026-07-14-Q-how-to-read-sales-psychology-books]] — 세일즈와 심리학 책을 행동 실험으로 바꾸는 독서 방법
 - [[2026-07-14-Q-yohan-koo-llm-wiki-usage-insights]] — 구요한 대표의 Obsidian LLM Wiki 사용법, 팁, 강의 인사이트 정리
 - [[2026-07-16-Q-how-to-use-llm-wiki-well]] — LLM Wiki를 취업 포트폴리오, 프로젝트 증거, 학습, Codex 워크플로 산출물 생성 시스템으로 활용하는 방법
+- [[2026-07-16-Q-llm-wiki-sharing-demo-strategy]] — LLM Wiki와 Obsidian 지식 그래프를 GitHub README, 배포 사이트, 시연 영상으로 공유하는 전략
+- [[2026-07-16-Q-obsidian-graph-demo-script]] — Obsidian graph 녹화, Web Clipper ingest, Query, explored 검토까지 보여주는 LLM Wiki 데모 시나리오
+- [[2026-07-16-Q-index-rag-agent-read-write-schema-engineering]] — index.md 작동 방식, RAG와 LLM Wiki의 상호보완, agent 읽기/쓰기와 schema engineering의 의미
+- [[2026-07-16-Q-personal-context-knowledge-compounding-query-feedback]] — 개인 맞춤형 LLM 맥락층, 지식 복리, Query result의 Graph View 반영과 Wiki 승격 기준
+- [[2026-07-16-Q-coding-test-ai-era-problem-solving]] — 코딩테스트가 AI 시대에 문제해결력, 컴퓨팅 사고력, 검증 능력, 비-AI 기본기 증거로 갖는 의미
+- [[2026-07-16-Q-ai-assisted-coding-test-learning-loop]] — 코딩테스트 풀이 중 막힘, 디버깅, 엣지케이스 실패 상황에서 AI를 학습 보조로 쓰는 루프
+- [[2026-07-20-Q-shin-jinseo-katago-opponent-model-strategy]] — 카타고의 상대 인식, 인간 오류 유도 전략, 블루스팟의 해석
 
 ---
 
@@ -120,6 +138,8 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-07-26 | [[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]] + 11 Clippings | 14 pages |
+| 2026-07-16 | [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]] | 7 pages |
 | 2026-07-13 | [[2026-07-13-YouTube-Shorts-몸값-높이는-독서법]] | 3 pages |
 | 2026-07-12 | [[2026-07-12-YouTube-Inspiration-Bundle-User-Reflections]] + 13 YouTube transcripts | 8 pages |
 | 2026-07-12 | [[2026-07-12-Velog-Leadership-Product-Hackathon-Bundle]] | 4 pages |

@@ -7,7 +7,7 @@ description: Practical guide to Obsidian plugins, extensions, and CLI tools reco
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-12
+date modified: 2026-07-26
 tags:
   - guide
   - obsidian
@@ -17,6 +17,8 @@ source:
   - "[[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]]"
   - "[[2026-04-12-Karpathy-LLM-Wiki]]"
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
+  - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
+  - "[[2026-07-14-GitHub-qmd-README]]"
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[3-Layer Architecture]]"
@@ -74,6 +76,7 @@ verificationStatus: unverified
 
 - **용도**: wiki의 형태를 시각적으로 파악 — 허브, 고립 노드, 클러스터
 - **활용**: Lint 작업 시 orphan 페이지 식별에 유용
+- **Query 반영**: `30. Queries/`에 저장된 query result도 wikilink가 있으면 graph node와 edge로 나타난다. Graph View 필터에서 `30. Queries/`를 제외하면 보이지 않을 수 있다.
 - Obsidian 기본 기능 (플러그인 불필요)
 
 ### Dataview
@@ -97,11 +100,16 @@ verificationStatus: unverified
 → 상세: [[qmd]] (별도 엔티티 페이지)
 
 - **용도**: markdown 파일 전용 로컬 검색 엔진
-- **특징**: Hybrid BM25/vector search + LLM re-ranking, 모두 온디바이스. **Ollama 불사용** — node-llama-cpp + GGUF 직접 임베드
+- **특징**: 캡처된 공식 README 기준 BM25/vector search + LLM re-ranking을 온디바이스에서 결합. node-llama-cpp와 GGUF 모델 사용
 - **인터페이스**: CLI (LLM이 shell out 가능) + MCP server (LLM native tool)
 - **시점**: wiki가 ~100 articles / ~400K words (Karpathy 본인 기준)를 넘어 index만으로 부족해질 때 도입
 - **이 볼트에서**: 2026-04-14부터 3 collections(wiki/raw_sources/queries) 인덱싱, Qwen3-Embedding-0.6B(CJK) 사용, PostToolUse hook 자동 재인덱싱
 - **실사용자**: [[Andrej Karpathy|Karpathy]], Beomsu (@BeromArtDev, 2026-04-03 X에서 공개 확인)
+
+학습용 ingest 관점에서는 qmd가 "기억 안 나는 페이지 찾기"에 특히 유용하다. 정확한 제목 대신 "RAG와 LLM Wiki 차이", "AI 활용 경계", "포트폴리오 약점"처럼 의미 중심으로 검색해도 Raw Source, Wiki, Query 결과를 함께 탐색할 수 있다.
+
+> [!warning] Version boundary
+> qmd 명령, 옵션, 기본 모델은 릴리스에 따라 바뀔 수 있다. [[2026-07-14-GitHub-qmd-README]]는 캡처 시점의 원문이므로 실행 전 현재 `qmd --help`와 upstream README를 확인한다.
 
 ---
 
@@ -130,3 +138,5 @@ verificationStatus: unverified
 - [[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]]
 - [[2026-04-12-Karpathy-LLM-Wiki]]
 - [[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]
+- [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]
+- [[2026-07-14-GitHub-qmd-README]]

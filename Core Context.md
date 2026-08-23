@@ -7,7 +7,7 @@ description: The user's active standalone LLM Wiki context for portfolio evidenc
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-07-12
+date modified: 2026-07-26
 tags:
   - system
   - schema
@@ -17,7 +17,8 @@ source-vault: null
 source:
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-12-Kim-Gyutae-Leadership-Product-Context-v2]]"
-version: "1.3"
+  - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
+version: "1.4"
 snapshot_date: 2026-07-12
 status: active
 ---
@@ -92,6 +93,8 @@ status: active
 6. 모호한 개인 맥락은 추측하지 않고 Core Context에 확정된 내용만 승격한다.
 7. AI 의존 개발자가 아니라 AI를 개발 역량의 증폭기로 활용하는 개발자로 포지셔닝한다.
 8. 투자, FIRE, 자산관리 내용은 개인 운영 가설과 외부 검증 필요 주장을 분리해 기록한다.
+9. LLM Wiki는 개인 맞춤형 LLM을 위한 고품질 사용자 맥락층으로 운영한다. 감명받은 source, 반복 질문, 프로젝트 판단, 자기 인식은 파일로 외부화해 다음 Query의 출발점을 높인다.
+10. AI 시대 개발자의 핵심은 단순 코드 작성이 아니라 현실 문제를 입력·출력·제약으로 추상화하고, 블랙박스 내부를 검증 가능한 하위 문제와 의존성으로 분해한 뒤 구현·검증하는 능력이라고 본다.
 
 ---
 
@@ -157,6 +160,7 @@ Mode A로 단독 운영한다. 별도 mothership vault는 연결하지 않는다
 ### 프로젝트 역할 기준
 
 - 김규태는 프로젝트에서 설계, 성능, 개발을 맡았고 팀장 역할도 수행했다.
+- 앞으로 프로젝트를 고민하고 설명할 때는 `현실 문제 → 입력·출력·제약 추상화 → 블랙박스 내부 분해 → 구현 → 검증` 흐름을 개발자 사고 원칙으로 사용한다.
 - 포트폴리오 문장에서는 "팀장으로서 어떤 결정을 했는가", "성능을 어떻게 측정/개선했는가", "Codex를 어디까지 도구로 활용했고 본인이 검증한 부분은 무엇인가", "AI 없이도 설명할 수 있는 기본기는 무엇인가"를 분리해서 기록한다.
 - `cuee`는 아직 0에서 1로 만든 경험이라고 보지 않는다. 현재는 0 to 1 후보 또는 초기 제품화 경험으로 기록한다.
 

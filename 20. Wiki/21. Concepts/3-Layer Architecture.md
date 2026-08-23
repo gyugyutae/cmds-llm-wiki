@@ -8,7 +8,7 @@ description: The 3-layer architecture of the LLM Wiki — Raw Sources (immutable
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-12
+date modified: 2026-07-16
 tags:
   - llm-wiki
   - architecture
@@ -16,6 +16,7 @@ tags:
 source:
   - "[[2026-04-12-Karpathy-LLM-Wiki]]"
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
+  - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[Ingest-Query-Lint Cycle]]"
@@ -99,6 +100,8 @@ Wiki ◀──── compile ──── Raw Sources
 - Wiki가 Raw Sources를 **역참조** (`source` 프로퍼티)
 - Raw Sources는 절대 수정되지 않음
 
+학습 관점에서 이 구조는 "원본과 해석을 분리한다"는 점이 가장 중요하다. Raw Source는 나중에 다시 확인할 수 있는 근거이고, Wiki는 LLM이 유지보수하는 학습 인터페이스이며, Schema는 그 LLM 편집자의 행동 규칙이다.
+
 ### 이 볼트에서의 구현
 
 | Layer | 경로 | 구현 |
@@ -139,3 +142,4 @@ Wiki ◀──── compile ──── Raw Sources
 
 - [[2026-04-12-Karpathy-LLM-Wiki]]
 - [[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]
+- [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]

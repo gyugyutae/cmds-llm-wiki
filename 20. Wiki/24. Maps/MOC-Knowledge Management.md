@@ -51,6 +51,8 @@ verificationStatus: unverified
 - [[External Pre-processing Pattern]] — 긴 source를 외부 도구로 전처리한 뒤 Wiki 컴파일에 투입하는 패턴
 - [[Idea Generation Pipeline]] — 새 source ingest를 도메인 아이디어 생성 트리거로 확장하는 워크플로
 - [[Track Classification and Research Gap Detection]] — thematic track 분류로 연구 gap을 찾는 패턴
+- [[Schema Engineering for LLM Wiki]] — agent가 일관되게 Wiki를 유지보수하도록 규칙과 metadata를 설계하는 기술 영역
+- [[Personal Context Layer for LLM Wiki]] — LLM에게 나에 대한 고품질 맥락을 제공해 개인 맞춤형 답변을 가능하게 하는 위키 관점
 
 ## People & History
 

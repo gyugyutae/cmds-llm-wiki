@@ -1,14 +1,41 @@
 ---
-title: "[장송의 프리렌]으로 배우는 AI 시대 공부법 | 라플위클리 딥다이브 ep.08 - AI 공부법 #궤도 #장송의프리렌 #인공지능  [LIFEPLUS]"
-source: "https://www.youtube.com/watch?v=FdMia-7e2JE"
+type: raw-source
+aliases:
+  - 장송의 프리렌으로 배우는 AI 시대 공부법
+  - AI 시대 공부법
+description: "YouTube lecture using Frieren to discuss why foundational knowledge, memory, questions, and active practice remain important when AI can retrieve answers."
 author:
-  - "[[LIFEPLUS TV]]"
-published: 2026-07-01
-created: 2026-07-13
-description: "궤도 X [장송의 프리렌]\"어차피 AI가 다 아는데, 공부할 필요가 있나요? \"AI 시대, '공부'를 정의해 드립니다.애니 좋아하는 사람도,공부가 막막한 사람도,AI가 무서운 사람도 환영!오늘의 강사 : 궤도사진 출처 : 게티이미지코리아🤿다이빙 포인트🤿00:00 하이라이트 ✨00:24 강의 주제: AI 시대, 공부란 무엇인가 �"
+  - LIFEPLUS TV
+date created: 2026-07-26
+date modified: 2026-07-26
+date ingested: 2026-07-26
 tags:
-  - "clippings"
+  - raw-source
+  - clippings
+  - ai
+  - learning
+  - foundational-knowledge
+source: "https://www.youtube.com/watch?v=FdMia-7e2JE"
+sourcePublished: 2026-07-01
+clippedAt: 2026-07-13
+category: "Clippings"
+status: ingested
+collectionPurpose: "독서/책/학습 — AI가 답을 제공하는 시대에도 질문을 만들고 결과를 판단하려면 머릿속 기초지식·경험·반복 학습이 필요하다는 관점을 개인 학습 시스템에 반영하기 위해 수집."
+mainVaultRelated: []
+mainVaultCmds: ""
 ---
+
+# AI 시대 공부법
+
+## Source Notes
+
+- Capture method: Obsidian Web Clipper YouTube transcript.
+- Evidence boundary: the lecture uses analogy and interpretation; learning claims should be tested through practice rather than treated as settled science.
+- Compiled use: [[AI 시대의 개발자 학습 전략]], [[메타인지 학습 루프]], and [[Human-AI Knowledge Boundary]].
+
+---
+
+## Original Content
 ![](https://www.youtube.com/watch?v=FdMia-7e2JE)
 
 궤도 X \[장송의 프리렌\]  

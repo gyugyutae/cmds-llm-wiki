@@ -7,7 +7,7 @@ description: "Positioning frame for presenting AI use as leverage for developer 
 author:
   - Codex
 date created: 2026-07-11
-date modified: 2026-07-11
+date modified: 2026-07-26
 tags:
   - ai
   - career
@@ -16,11 +16,16 @@ tags:
 source:
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[Human-AI Knowledge Boundary]]"
+  - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
+  - "[[2026-07-25-YouTube-AI시대-컴퓨터공학-교육]]"
 related:
   - "[[김규태]]"
   - "[[김규태 Career Narrative]]"
   - "[[harness]]"
   - "[[Human-AI Knowledge Boundary]]"
+  - "[[코딩테스트는 AI 시대의 문제해결력 훈련이다]]"
+  - "[[컴퓨팅 사고의 추상화와 분해]]"
+  - "[[AI 시대의 개발자 학습 전략]]"
 confidence: medium
 layer: concepts
 explored: false
@@ -34,7 +39,7 @@ status: active
 
 ## Definition
 
-AI-Augmented Developer Positioning은 AI를 개발 역량의 대체물이 아니라 증폭기로 설명하는 포트폴리오 프레임이다. 핵심은 "AI가 만들어줬다"가 아니라 "내가 문제를 정의하고, AI를 도구로 사용하고, 결과를 검증하고, 반복 가능한 워크플로로 만들었다"를 보여주는 것이다.
+AI-Augmented Developer Positioning은 AI를 개발 역량의 대체물이 아니라 증폭기로 설명하는 포트폴리오 프레임이다. 핵심은 "AI가 만들어줬다"가 아니라 "내가 현실 문제를 추상화하고, 블랙박스 내부를 분해하고, AI를 도구로 사용하고, 결과를 검증하고, 반복 가능한 워크플로로 만들었다"를 보여주는 것이다.
 
 ---
 
@@ -47,6 +52,8 @@ AI-Augmented Developer Positioning은 AI를 개발 역량의 대체물이 아니
 | Layer | What To Show |
 |-------|--------------|
 | Problem | 내가 어떤 문제를 정의했는가 |
+| Abstraction | 현실 문제를 어떤 입력·출력·제약·인터페이스로 바꾸었는가 |
+| Decomposition | 블랙박스를 어떤 하위 문제와 의존성으로 나누었는가 |
 | Judgment | 내가 어떤 선택지를 비교하고 결정했는가 |
 | AI Use | AI에게 어떤 작업을 맡겼는가 |
 | Verification | 내가 결과를 어떻게 검증했는가 |
@@ -72,10 +79,31 @@ AI-Augmented Developer Positioning은 AI를 개발 역량의 대체물이 아니
 ## Evidence Checklist
 
 - AI 없이 직접 구현한 작은 기능 기록
+- 코딩테스트 풀이 로그: 문제 정의, 알고리즘 선택, 복잡도, 엣지케이스, 오답 수정 과정을 AI 없이 기록
 - 에이전트에게 맡긴 작업과 본인 판단의 분리 표
 - 테스트 명령, 성능 수치, 재현 로그
 - 실패한 AI 출력과 본인이 수정한 내역
 - README에 "왜 이렇게 설계했는가"를 설명하는 문단
+- 코드 작성 전 입력·출력·제약·하위 문제를 적은 설계 로그
+
+---
+
+## Problem-Solving Ownership
+
+[[컴퓨팅 사고의 추상화와 분해]]는 AI 시대의 개발자 소유권을 코드 타이핑보다 앞단에 둔다. 생성형 AI가 구현 속도를 높여도 다음 질문은 개발자가 직접 답해야 한다.
+
+- 어떤 현실 문제를 풀고 있는가?
+- 성공을 어떤 출력과 지표로 판단하는가?
+- 어떤 제약과 실패를 블랙박스 경계 안에 포함하는가?
+- AI가 제안한 구현이 실제 목적을 만족하는지 어떻게 검증하는가?
+
+이 관점에서 강한 AI 활용 증거는 생성 코드의 양이 아니라, 문제 구조와 검증 기준을 본인이 소유한 기록이다.
+
+---
+
+## Coding Test Link
+
+[[코딩테스트는 AI 시대의 문제해결력 훈련이다]]는 이 포지셔닝의 기본기 증거 축이다. AI 활용 경험이 강할수록 코딩테스트 풀이 로그는 "AI 없이도 문제를 분해하고, 직접 구현하고, 복잡도와 엣지케이스를 검증할 수 있다"는 counter-evidence가 된다.
 
 ---
 
@@ -93,3 +121,6 @@ AI-Augmented Developer Positioning은 AI를 개발 역량의 대체물이 아니
 - [[김규태 Career Narrative]]
 - [[harness]]
 - [[Human-AI Knowledge Boundary]]
+- [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
+- [[컴퓨팅 사고의 추상화와 분해]]
+- [[AI 시대의 개발자 학습 전략]]

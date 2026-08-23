@@ -8,7 +8,7 @@ description: The three core operations of an LLM Wiki — Ingest (absorb new sou
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-12
+date modified: 2026-07-16
 tags:
   - llm-wiki
   - operations
@@ -18,6 +18,7 @@ source:
   - "[[2026-04-12-Karpathy-LLM-Wiki]]"
   - "[[2026-04-02-Harnessing-Claudes-Intelligence-3-Patterns]]"
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
+  - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[3-Layer Architecture]]"
@@ -27,6 +28,7 @@ related:
   - "[[Progressive Disclosure Pattern]]"
   - "[[Web Clipper to Inbox Workflow]]"
   - "[[Agent-Readable Metadata]]"
+  - "[[Personal Context Layer for LLM Wiki]]"
 confidence: high
 layer: concepts
 status: active
@@ -80,6 +82,10 @@ wiki에 대해 질문하고 답변을 받는 과정.
 
 **핵심 인사이트**: 좋은 답변은 wiki에 다시 저장할 수 있다. 비교 분석, 발견한 연결, 합성 결과 — 이것들은 chat history에서 사라지면 안 된다. Wiki에 저장하면 탐색도 source처럼 **compounding**된다.
 
+학습용으로 보면 Query는 "답변 받기"가 아니라 "질문 과정 자체를 지식으로 남기기"다. 따라서 중요한 질문은 `30. Queries/`에 저장해 이후 면접 답변, README 문장, 블로그 초안, 학습 복습 자료로 재사용한다.
+
+저장된 Query result는 `30. Queries/`의 markdown 파일이므로 wikilink를 포함하면 Obsidian Graph View에서도 하나의 노드와 edge로 나타날 수 있다. 단, 모든 Query가 새 Wiki 개념이 되는 것은 아니다. 일회성 산출물은 Query로만 보존하고, 여러 페이지를 연결하는 반복 가능한 insight만 [[Personal Context Layer for LLM Wiki|durable Wiki concept]]로 승격한다.
+
 ### 3. Lint (자가 정화)
 
 wiki의 건강 상태를 점검하는 과정.
@@ -120,6 +126,7 @@ wiki의 건강 상태를 점검하는 과정.
 - [[Progressive Disclosure Pattern]] — Query가 이 패턴으로 작동 (index.md → drill-down)
 - [[Web Clipper to Inbox Workflow]] — Web Clipper capture에서 ingest까지의 practical route
 - [[Agent-Readable Metadata]] — ingest가 metadata를 채우는 이유
+- [[Personal Context Layer for LLM Wiki]] — Query와 Wiki가 개인 맞춤형 LLM 맥락층을 만드는 방식
 
 ---
 
@@ -129,3 +136,4 @@ wiki의 건강 상태를 점검하는 과정.
 - [[2026-04-12-Karpathy-LLM-Wiki]]
 - [[2026-04-02-Harnessing-Claudes-Intelligence-3-Patterns]]
 - [[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]
+- [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]
