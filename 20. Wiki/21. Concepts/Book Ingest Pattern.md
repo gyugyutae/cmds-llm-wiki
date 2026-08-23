@@ -112,7 +112,7 @@ Book Ingest 가 도입한 신규 frontmatter 키 (camelCase 준수):
 | `chapterPrev` | wikilink\|null | 이전 챕터 |
 | `chapterNext` | wikilink\|null | 다음 챕터 |
 
-상세 정의: [[CLAUDE.md|Schema layer]] "Layer별 추가 프로퍼티 → Book Ingest 전용 키".
+상세 정의: [[CODEX|Schema layer]] "Layer별 추가 프로퍼티 → Book Ingest 전용 키".
 
 ---
 

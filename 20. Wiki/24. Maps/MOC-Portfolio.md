@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-07-12
+date modified: 2026-08-11
 tags:
   - moc
   - portfolio
@@ -30,7 +30,9 @@ related:
   - "[[Human-AI Knowledge Boundary]]"
   - "[[AI-Augmented Developer Positioning]]"
   - "[[김규태 Career Narrative]]"
+  - "[[김규태 금융 시스템 개발자 취업 로드맵]]"
   - "[[김규태 Leadership and Teaching Evidence]]"
+  - "[[개발자 롤모델을 GitHub에서 공부하는 법]]"
 status: active
 explored: false
 verificationStatus: unverified
@@ -72,6 +74,7 @@ verificationStatus: unverified
 ## Career Narrative Pages
 
 - [[김규태 Career Narrative]] — 자기소개, 목표 회사/도메인, 성장 과제, 면접용 내러티브
+- [[김규태 금융 시스템 개발자 취업 로드맵]] — 지방 국립대 소프트웨어공학과 3학년 관점의 Java 전환, 2027년 상반기 서울 증권사 주문 시스템 취업 준비
 - [[AI-Augmented Developer Positioning]] — AI 의존이 아니라 AI를 활용해 개발 역량을 증폭하는 사람으로 설명하는 프레임
 - [[김규태 Leadership and Teaching Evidence]] — 실리콘밸리 대표, 멋쟁이사자처럼 부대표, 백엔드 세션, 해커톤 템플릿 증거
 
@@ -162,6 +165,8 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 
 자주 쓸 query:
 
+- [[개발자 롤모델을 GitHub에서 공부하는 법]] — 유명세보다 공개된 개발 판단을 관찰하고 현재 프로젝트에 한 가지씩 이식하는 방법
+
 ```text
 /query 금융권 백엔드/시스템 직무에 맞게 내 프로젝트 3개를 STAR 형식으로 정리해줘
 ```
@@ -233,7 +238,7 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 > 이력서 bullet, STAR 답변, 자기소개서 문단을 저장할 Query Result 템플릿을 별도로 만들지 않았다.
 
 > [!question] Target role sharpening
-> 목표 직무는 아직 단일 직무로 확정하지 않았다. 백엔드 / 금융 / 드론 / 반도체 중 어느 축을 1순위로 밀지 정해야 이력서 문장이 강해진다.
+> 현재 현실적인 1차 목표는 서울 증권사의 백엔드·거래 인프라 IT 직군이며, 장기 탐색 방향은 퀀트/HFT 시스템 개발이다. 계정계, 주문 FEP, 주전산 인프라, 정보계 중 첫 지원 직무의 우선순위는 [[김규태 금융 시스템 개발자 취업 로드맵]]에서 계속 구체화한다.
 
 > [!question] Quantified results
 > 프로젝트별 성능 수치, 팀 규모, 기간, 수상 증빙, 사용자/테스트 결과가 아직 부족하다.
@@ -262,4 +267,5 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 - [[Human-AI Knowledge Boundary]]
 - [[AI-Augmented Developer Positioning]]
 - [[김규태 Career Narrative]]
+- [[김규태 금융 시스템 개발자 취업 로드맵]]
 - [[김규태 Leadership and Teaching Evidence]]

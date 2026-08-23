@@ -38,25 +38,25 @@ status: active
 
 ## 📋 17 Templates Overview
 
-| 템플릿 | 파일 | 대상 | Inbox 경로 | 트리거 도메인 |
-|--------|------|------|-----------|-----------|
-| **Web Article** | `clipper-web-article.json` | 일반 웹 기사 (기본값) | `01. Articles` | (any) |
-| **arXiv / Paper** | `clipper-arxiv-paper.json` | 학술 논문, 기술 보고서 | `02. Papers` | arxiv.org, papers.ssrn.com, ... |
-| **Tech Docs** | `clipper-tech-docs.json` | 공식 문서·API 레퍼런스 (reference) | `01. Articles` | docs.anthropic.com, platform.openai.com, MDN, 등 |
-| **Tech Blog** 🆕 | `clipper-tech-blog.json` | AI 랩·빅테크 엔지니어링 블로그 | `01. Articles` | openai.com/index/, anthropic.com/news/, deepmind, hf/blog, vercel, github blog 등 |
-| **GitHub** | `clipper-github.json` | GitHub 저장소·Gist | `01. Articles` | github.com |
-| **YouTube** ✨ | `clipper-youtube.json` | YouTube 영상 + 자막 | `03. Transcripts` | youtube.com, youtu.be |
-| **Podcast** 🆕 | `clipper-podcast.json` | Apple/Spotify/Overcast 팟캐스트 | `03. Transcripts` | podcasts.apple.com, open.spotify.com, pca.st |
-| **News** 🆕 | `clipper-news.json` | 뉴스 매체 (NYT, WSJ, 조선·한겨레 등) | `01. Articles` | 주요 뉴스 도메인 |
-| **Substack / Newsletter** 🆕 | `clipper-substack.json` | Substack, Beehiiv, Medium, Ghost | `01. Articles` | substack.com, medium.com, beehiiv, ghost |
-| **Reddit** 🆕 | `clipper-reddit.json` | Reddit 스레드 + 댓글 | `04. Clippings` | reddit.com |
-| **Hacker News** 🆕 | `clipper-hackernews.json` | HN 스토리 + 전문가 댓글 | `04. Clippings` | news.ycombinator.com |
-| **X (Twitter)** 🆕 | `clipper-x.json` | X 포스트·스레드·Articles·quote tweet | `04. Clippings` | x.com, twitter.com, mobile.twitter.com |
-| **Threads** | `clipper-threads.json` | Meta Threads 포스트 | `04. Clippings` | threads.net |
-| **LinkedIn Post** | `clipper-linkedin.json` | LinkedIn 단문 포스트·피드 | `01. Articles` | linkedin.com/feed/, /posts/, /in/ |
-| **LinkedIn Pulse** 🆕 | `clipper-linkedin-pulse.json` | LinkedIn Pulse 장문 아티클 | `01. Articles` | linkedin.com/pulse/ |
-| **Instagram** | `clipper-instagram.json` | Instagram 포스트 | `04. Clippings` | instagram.com |
-| **Selection** 🆕 | `clipper-selection.json` | 페이지 내 **하이라이트 발췌만** | `04. Clippings` | (모든 사이트, 선택 영역) |
+| 템플릿                          | 파일                            | 대상                               | Inbox 경로          | 트리거 도메인                                                                          |
+| ---------------------------- | ----------------------------- | -------------------------------- | ----------------- | -------------------------------------------------------------------------------- |
+| **Web Article**              | `clipper-web-article.json`    | 일반 웹 기사 (기본값)                    | `01. Articles`    | (any)                                                                            |
+| **arXiv / Paper**            | `clipper-arxiv-paper.json`    | 학술 논문, 기술 보고서                    | `02. Papers`      | arxiv.org, papers.ssrn.com, ...                                                  |
+| **Tech Docs**                | `clipper-tech-docs.json`      | 공식 문서·API 레퍼런스 (reference)       | `01. Articles`    | docs.anthropic.com, platform.openai.com, MDN, 등                                  |
+| **Tech Blog** 🆕             | `clipper-tech-blog.json`      | AI 랩·빅테크 엔지니어링 블로그               | `01. Articles`    | openai.com/index/, anthropic.com/news/, deepmind, hf/blog, vercel, github blog 등 |
+| **GitHub**                   | `clipper-github.json`         | GitHub 저장소·Gist                  | `01. Articles`    | github.com                                                                       |
+| **YouTube** ✨                | `clipper-youtube.json`        | YouTube 영상 + 자막                  | `03. Transcripts` | youtube.com, youtu.be                                                            |
+| **Podcast** 🆕               | `clipper-podcast.json`        | Apple/Spotify/Overcast 팟캐스트      | `03. Transcripts` | podcasts.apple.com, open.spotify.com, pca.st                                     |
+| **News** 🆕                  | `clipper-news.json`           | 뉴스 매체 (NYT, WSJ, 조선·한겨레 등)       | `01. Articles`    | 주요 뉴스 도메인                                                                        |
+| **Substack / Newsletter** 🆕 | `clipper-substack.json`       | Substack, Beehiiv, Medium, Ghost | `01. Articles`    | substack.com, medium.com, beehiiv, ghost                                         |
+| **Reddit** 🆕                | `clipper-reddit.json`         | Reddit 스레드 + 댓글                  | `04. Clippings`   | reddit.com                                                                       |
+| **Hacker News** 🆕           | `clipper-hackernews.json`     | HN 스토리 + 전문가 댓글                  | `04. Clippings`   | news.ycombinator.com                                                             |
+| **X (Twitter)** 🆕           | `clipper-x.json`              | X 포스트·스레드·Articles·quote tweet   | `04. Clippings`   | x.com, twitter.com, mobile.twitter.com                                           |
+| **Threads**                  | `clipper-threads.json`        | Meta Threads 포스트                 | `04. Clippings`   | threads.net                                                                      |
+| **LinkedIn Post**            | `clipper-linkedin.json`       | LinkedIn 단문 포스트·피드               | `01. Articles`    | linkedin.com/feed/, /posts/, /in/                                                |
+| **LinkedIn Pulse** 🆕        | `clipper-linkedin-pulse.json` | LinkedIn Pulse 장문 아티클            | `01. Articles`    | linkedin.com/pulse/                                                              |
+| **Instagram**                | `clipper-instagram.json`      | Instagram 포스트                    | `04. Clippings`   | instagram.com                                                                    |
+| **Selection** 🆕             | `clipper-selection.json`      | 페이지 내 **하이라이트 발췌만**              | `04. Clippings`   | (모든 사이트, 선택 영역)                                                                  |
 
 ✨ = 이번 세션에서 개선 / 🆕 = 이번 세션에서 신규
 
@@ -311,7 +311,7 @@ DOM 구조가 바뀌면 파손. schema/meta 변수를 우선 사용.
 
 ## Related
 
-- [[CLAUDE]] — 볼트 스키마 (frontmatter 규칙)
+- [[CODEX]] — 볼트 스키마 (frontmatter 규칙)
 - `.claude/commands/inbox.md` — `/inbox` 명령
 - `.claude/commands/ingest.md` — `/ingest` 명령
 - `90. Settings/Sharing/` — 14 JSON 템플릿 저장소

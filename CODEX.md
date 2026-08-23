@@ -101,11 +101,11 @@ mothership 이 없다면 이 LLM Wiki 단독으로 운영한다 — Core Context
 
 별도 PKM 볼트가 있다면 본 LLM Wiki 를 satellite 로 두고 cross-reference.
 
-| 항목 | 값 |
-|------|-----|
-| 메인 볼트 경로 | `{PATH_TO_YOUR_MOTHERSHIP_VAULT}` |
-| 이 볼트 경로 | `C:\Users\kym70\OneDrive\Desktop\cmds-llm-wiki-work\cmds-llm-wiki` |
-| Cross-reference | `source-vault` 프로퍼티로 메인 볼트 노트 참조 |
+| 항목              | 값                                                                  |
+| --------------- | ------------------------------------------------------------------ |
+| 메인 볼트 경로        | `{PATH_TO_YOUR_MOTHERSHIP_VAULT}`                                  |
+| 이 볼트 경로         | `C:\Users\kym70\OneDrive\Desktop\cmds-llm-wiki-work\cmds-llm-wiki` |
+| Cross-reference | `source-vault` 프로퍼티로 메인 볼트 노트 참조                                   |
 
 Mothership pattern 예시: [cmds-system-files](https://github.com/johnfkoo951/cmds-system-files) (Karpathy Wiki pattern 과 분리된 PKM harness).
 

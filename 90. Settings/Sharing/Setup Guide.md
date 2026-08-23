@@ -316,7 +316,7 @@ cat .claude/settings.json  # PostToolUse 블록 확인
 - 첫 `/ingest` 후 wiki 가 어떻게 자라는지 관찰
 - 10~20 회 ingest 누적되면 `/query` 의 답변 품질이 눈에 띄게 좋아짐
 - 한 달 후 `/refresh-context` 로 Core Context 재스냅샷 (philosophy drift 반영)
-- 100+ 페이지 도달하면 qmd 의 의미 검색 (`mcp__qmd__query` vec/hyde) 진가가 드러남
+- 100+ 페이지 도달x하면 qmd 의 의미 검색 (`mcp__qmd__query` vec/hyde) 진가가 드러남
 
 ---
 

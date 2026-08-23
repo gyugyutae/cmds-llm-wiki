@@ -8,7 +8,7 @@ description: Chronological log of all wiki operations — ingests, queries, lint
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-07-12
+date modified: 2026-08-04
 tags:
   - system
   - log
@@ -85,7 +85,7 @@ status: active
 
 ## [2026-07-10] update | Local setup placeholders filled
 
-- Updated: [[Core Context]], [[AGENTS]], [[CLAUDE]], [[index]], settings templates
+- Updated: [[Core Context]], [[AGENTS]], [[CODEX]], [[index]], settings templates
 - Replaced author placeholder with `김규태`
 - Replaced local vault path placeholders with `C:\Users\kym70\OneDrive\Desktop\cmds-llm-wiki-work\cmds-llm-wiki`
 - Copied qmd config to `C:\Users\kym70\.config\qmd\index.yml`
@@ -338,3 +338,97 @@ status: active
 	- 투자, FIRE, AI, 1인 유니콘, 파생상품 모델 관련 외부 주장은 `verificationStatus: unverified`로 보존
 	- 사용자 동기와 개인 운영 가설은 `user-original` 또는 `user-provided` 맥락으로 분리
 - Reuse axis: 경제적 자유/FIRE/레버리지, 독서/책/학습, Codex 개발 워크플로, 제품/창업, 취업/포트폴리오
+
+## [2026-08-04] query | Korean developer role model GitHub study map
+
+- Source query: 허예찬, 류기백, 김연규, 최준건, 최윤제, 전수열, 박상권, 김민준, 진유림, 이동욱의 개발·agent·commit·PR/issue·README·문서·유지보수 방식을 롤모델로 공부하는 법
+- Saved query result: [[2026-08-04-Q-korean-developer-role-model-github-study-map]]
+- Created Wiki guide: [[개발자 롤모델을 GitHub에서 공부하는 법]]
+- Updated Wiki page:
+	- [[MOC-Portfolio]]
+- Index 업데이트:
+	- [[index]]
+- Evidence boundary:
+	- 2026-08-04 GitHub API의 profile, owned non-fork repository stars, representative repository tree, recent commit, public issue/PR comment를 사용
+	- AI/agent 사용은 저장소 README, AGENTS, bot-signed maintainer comment로 공개된 허예찬·김연규 사례만 직접 서술
+	- 박상권은 동명인 식별 근거가 부족해 보류
+	- star와 follower는 변하는 스냅샷이며 코드 품질의 단일 지표가 아님
+- Reuse axis: Codex 개발 워크플로, 취업/포트폴리오, 독서/책/학습, 에세이/블로그
+
+## [2026-08-11] wiki | Securities backend career roadmap
+
+- Source discussion: 금융과 개발을 함께 다루는 서울 증권사 IT 취업 목표, 퀀트/HFT 장기 관심, AI 위임 경계, 리스크 및 리더십에 대한 사용자 답변
+- Current external evidence:
+	- KB증권 2025년 4급 신입직원 공개채용
+	- 미래에셋자산운용 2026년 주문관리시스템 개발·운영 신입 채용
+	- 교보증권 2026년 상반기 IT 채용연계형 인턴
+	- 2025년 하반기 KB증권 IT 지원자 면접 후기는 개인 경험 자료로 별도 표시
+- Created Wiki guide:
+	- [[김규태 금융 시스템 개발자 취업 로드맵]]
+- Updated Wiki page:
+	- [[MOC-Portfolio]]
+- Index 업데이트:
+	- [[index]]
+- Key context captured:
+	- 현실적인 1차 목표는 서울 증권사 백엔드·거래 인프라 IT 직군이며 장기 관심은 퀀트/HFT 시스템 개발
+	- 주문 정확성, 데이터 정합성, 장애 복구와 p99 latency를 하나의 대표 포트폴리오로 연결
+	- Java를 새 주언어로 결정하고 Python은 부하 테스트·분석·자동화 강점으로 유지
+	- 지방 국립대 소프트웨어공학과 3학년의 현재 조건에서 2027년 상반기 서울 증권사 IT 지원까지 이어지는 월별 계획을 핵심 논제로 설정
+	- 2026년 KB증권·LS증권·하나증권·넥스트증권 경력 공고는 신입 자격요건이 아니라 FEP·OMS·원장·전략매매의 실제 업무 구조를 파악하는 근거로 사용
+	- 김영한의 실전 자바 기본편에서 시작하고, 2019년 출간된 AWS 책은 당시 버전을 복제하지 않고 현재 Spring Boot 안정 버전에 맞춰 구조와 배포 흐름을 학습
+	- AI는 How 탐색과 구현을 도울 수 있지만 문제 정의, 이해관계, 검증 기준과 최종 책임은 인간이 담당
+- Evidence boundary:
+	- 공고에 직접 명시된 요구사항과 Codex가 제안한 학습·포트폴리오 전략을 분리
+	- 기술 요구는 실제 지원 전 최신 공고로 다시 검증
+- Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, Codex 개발 워크플로
+
+### Follow-up clarification
+
+- 2027년 8월 졸업예정, 주당 최소 20시간 학습 가능으로 확정
+- 현재 알고리즘은 프로그래머스 2단계, SQL은 용어 중심의 수업 경험만 있어 SQL 실습을 초기 핵심 격차로 지정
+- 2026년 하반기 인턴을 1차 목표, 2027년 상반기 인턴·신입을 2차 목표로 수정
+- 2026년 하반기 교보증권 채용연계형 인턴 사례를 통해 졸업예정일과 즉시 입사 가능 조건을 지원 전 먼저 확인하도록 보완
+- Java 주문 시스템은 기존 Python 저장소와 분리하고, 기존 저장소는 부하 생성·성능 비교 근거로 보존하기로 결정
+- 주 20시간 기본 배분을 Java 7, SQL·DB 5, 알고리즘·CS 4, 프로젝트 3, 인턴 탐색·회고 1시간으로 설정
+- 인턴 범위를 증권사뿐 아니라 은행·핀테크·거래소·금융 IT 솔루션 회사까지 확장하고, 좋은 인턴 합격 시 휴학 가능으로 확정
+- 평일 연구실 중심, 주말 집 보완 방식에 맞춰 평일 15시간·주말 5시간의 기본 시간표와 첫 8주 실행안을 추가
+- 첫 포트폴리오 범위를 국내주식 현물 주문으로 제한하고, Java 기본기의 첫 완료 기준을 AI 없이 주문 상태 모델·JUnit 테스트·설계 이유를 설명하는 것으로 확정
+- 이번 학기는 약 15학점이며 교양 비중이 높아 시험 기간에도 취업 준비 시간을 충분히 유지할 수 있다고 확인
+- 인턴 선택 기준은 실제 Java 개발·코드리뷰, 금융 도메인, 멘토, 전환 가능성, 회사 이름 순으로 설정
+- 제출 가능한 이력서가 없으므로 이번 주 1페이지 기본 이력서 작성을 0단계로 추가
+- 첫 이력서는 [[financial-order-latency-lab]], [[Graduation-elasticsearch]], [[cuee]] 순으로 구성하고 개인 기여와 AI 활용 경계를 확인한 뒤 bullet을 작성하기로 함
+- SQL 첫 완료 기준을 프로그래머스 3단계, 주문 스키마, JOIN·윈도 함수, 제약·인덱스, 트랜잭션 정합성 설명으로 확정
+- 졸업요건 130학점 중 105학점 이수, 두 학기 남음, 평점 3.7, 군필, TOEIC 730, 자격증 없음으로 이력서 기본 정보 보강
+- 방학 또는 한 학기 풀타임 인턴이 가능하고 좋은 인턴을 위해 휴학할 수 있다고 확인
+- [[financial-order-latency-lab]]은 개인 프로젝트, [[Graduation-elasticsearch]]는 선배 연구를 이어 JavaParser·AST 담당, [[cuee]]는 팀장으로 초기 콘셉트·핵심 역할·타깃·마스킹 기술 전략을 결정한 것으로 역할 구체화
+- [[financial-order-latency-lab]]의 수업 맥락이 기존 운영체제 기록과 현재 데이터베이스 수업 답변 사이에서 충돌해 확인 전까지 보류
+- 최신 신입 공고에서 자격증·영어는 우대, SQL·데이터 모델링·알고리즘·OOP는 필요한 역량으로 제시된 점을 근거로 첫 8주는 자격증보다 Java·SQL·이력서·지원에 집중
+- 평점은 3.7/4.5로 확인
+- [[financial-order-latency-lab]]은 데이터베이스 수업에서 아이디어·개념을 배운 뒤 학기말에 만든 개인 프로젝트이며 AI가 코드·실험 설계·그래프·결과 해석 전 영역을 도왔다고 확인
+- 좋은 금융 Java 인턴이라면 졸업을 2028년 2월로 늦추는 것도 허용
+- 남명학사 서울관은 수도권 소재 대학 재학생 대상이라 현재 조건에 맞지 않음을 확인하고, 회사 주거지원·학교 현장실습 지원·단기 임대 순으로 거주 전략을 추가
+- 공개 Git 이력 기준 프로젝트 기간을 [[financial-order-latency-lab]] 2026-05-12~05-18, [[Graduation-elasticsearch]] 2026-06-24~07-07, [[cuee]] 2026-05-01~08-04로 기록하고 실제 활동 기간은 별도 확인 대상으로 유지
+
+## [2026-08-13] wiki | Financial career roadmap AI contribution boundary
+
+- [[financial-order-latency-lab]]의 p99와 CPU·disk·GPU 조건은 AI가 제안했고 모든 코드는 AI가 생성했으며, 사용자는 현재 코드를 AI 없이 설명·수정·재현할 수 없다고 확인
+- 사용자는 금융 시스템에서 하위 1%의 느린 요청이 신뢰성을 해칠 수 있어 p99가 중요하다고 판단했고, AI·머신러닝의 GPU 사용이 주문 지연에 미치는 영향을 흥미로운 실험 문제로 채택
+- 해당 프로젝트를 개발 구현력의 대표 증거에서 제외하고 AI 활용 학습·문제의식으로 재분류
+- 첫 이력서 증거 순서를 [[Graduation-elasticsearch]], [[cuee]], 리더십 활동으로 수정하고 새 Java 주문 시스템 완성 후 1순위로 교체하기로 함
+- [[Graduation-elasticsearch]]는 2026년 5월, [[cuee]]는 2026년 4월부터 현재까지 진행 중으로 실제 기간 보완
+- 서울·판교 인턴 주거비 허용 범위를 월 40만~70만 원으로 확정
+- [[financial-order-latency-lab]], [[김규태 Career Narrative]]의 과장된 직접 개발 표현을 함께 정정
+- [[financial-order-latency-lab]]의 최초 사용자 문제는 CPU·GPU·disk 속도와 latency를 금융 관점에서 비교하는 것이었고, AI가 코드·실행·재실험을 모두 수행했으며 사용자는 검증만 했다고 확인
+- [[Graduation-elasticsearch]]의 JavaParser·AST 코드와 [[cuee]]의 실제 코드도 전부 AI가 작성한 것으로 확인
+- 직접 구현 증거가 없는 현재 상태에 맞춰 첫 이력서 순서를 [[cuee]] 제품·팀 리딩, 리더십 활동, [[Graduation-elasticsearch]] 연구 참여로 재조정
+- [[Graduation-elasticsearch]]의 직접 분석·구현 표현과 [[cuee]]의 Android·Kotlin 직접 구현 표현을 정정하고 [[Core Context]]의 포트폴리오 spine도 AI 기여 경계에 맞게 갱신
+- [[financial-order-latency-lab]] 실제 기간을 2026년 5~6월로 확정
+
+## [2026-08-16] wiki | Final AI boundary and cuee validation clarification
+
+- [[financial-order-latency-lab]]에서 사용자가 별도 검증을 하지 않았으며 AI가 코드·실행·재실험 전부를 수행했다고 최종 확인
+- 현재 AI 없이 작성한 코드는 없다고 확인
+- 앞으로 모든 학습·설계·코드·테스트 과정에서 AI 사용을 허용하되, 문제 정의·설명·수정·테스트·검증과 AI 기여 공개를 포트폴리오 기준으로 설정
+- [[Graduation-elasticsearch]]의 현재 사용자 산출물은 논문 정리로 확인
+- [[cuee]]는 실제 노인 인터뷰·관찰이 아니라 어머니의 문제 제안에서 시작한 미검증 가설로 정정
+- Roadmap, project entities, Career Narrative, Core Context의 AI 비사용 중심 표현을 이해·설명·수정·검증 중심으로 동기화

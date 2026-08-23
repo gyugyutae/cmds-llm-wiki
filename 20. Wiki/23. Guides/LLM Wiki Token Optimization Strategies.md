@@ -48,12 +48,12 @@ verificationStatus: unverified
 ### 1-1. 외부 전처리 도입
 무거운 변환은 외부 도구로. → 상세: [[External Pre-processing Pattern]].
 
-| 무거운 입력 | 외부 도구 | 결과 |
-|----------|---------|------|
-| 장편 논문 (40+ pages) | GPT 심층 리서치 (Deep Research) | 정제된 markdown 리포트 |
-| 외국어 영상·강의 | Whisper STT + GPT/Gemini 번역 | 모국어 정제 스크립트 |
-| 대용량 텍스트 다수 | Google AI Studio (long context) | 요약·재구성 |
-| 웹 페이지 다수 | 옵시디언 Web Clipper | Inbox 의 standardized markdown |
+| 무거운 입력            | 외부 도구                           | 결과                            |
+| ----------------- | ------------------------------- | ----------------------------- |
+| 장편 논문 (40+ pages) | GPT 심층 리서치 (Deep Research)      | 정제된 markdown 리포트              |
+| 외국어 영상·강의         | Whisper STT + GPT/Gemini 번역     | 모국어 정제 스크립트                   |
+| 대용량 텍스트 다수        | Google AI Studio (long context) | 요약·재구성                        |
+| 웹 페이지 다수          | 옵시디언 Web Clipper                | Inbox 의 standardized markdown |
 
 → Claude 의 토큰을 **wiki 컴파일·query·lint** 에만 집중.
 
@@ -63,13 +63,13 @@ verificationStatus: unverified
 
 ### 2-1. 모델 - 작업 매핑
 
-| 작업 | 권장 모델 | 이유 |
-|-----|---------|------|
-| 단순 분류·태깅·요약 | **Haiku** | 충분 + 토큰 저렴 |
-| 표준 wiki 컴파일 | **Sonnet** | 균형 |
-| 복잡 분석·창의 발산 | **Opus** | 차이 큼 |
-| Vision 작업 (디자인·이미지) | Opus (vision-capable) | vision 특화 |
-| 일상 chat | Pro · Free Sonnet | 별도 |
+| 작업                  | 권장 모델                 | 이유         |
+| ------------------- | --------------------- | ---------- |
+| 단순 분류·태깅·요약         | **Haiku**             | 충분 + 토큰 저렴 |
+| 표준 wiki 컴파일         | **Sonnet**            | 균형         |
+| 복잡 분석·창의 발산         | **Opus**              | 차이 큼       |
+| Vision 작업 (디자인·이미지) | Opus (vision-capable) | vision 특화  |
+| 일상 chat             | Pro · Free Sonnet     | 별도         |
 
 ### 2-2. Subagent 분할
 복잡 작업을 [[Orchestrator-Subagent Pattern]] 으로 분할 → 각 subagent 가 자기 작업에 적정 모델 사용.

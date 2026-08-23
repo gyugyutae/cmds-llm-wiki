@@ -7,7 +7,7 @@ description: The user's active standalone LLM Wiki context for portfolio evidenc
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-07-12
+date modified: 2026-08-16
 tags:
   - system
   - schema
@@ -18,7 +18,7 @@ source:
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-12-Kim-Gyutae-Leadership-Product-Context-v2]]"
 version: "1.3"
-snapshot_date: 2026-07-12
+snapshot_date: 2026-08-16
 status: active
 ---
 
@@ -90,7 +90,7 @@ status: active
 4. Codex가 만든 결과물과 김규태가 직접 판단·설계·검증한 내용을 분리한다.
 5. 취업용 문장에서는 열정과 성장가능성을 살리되, 근거 없는 과장은 피한다.
 6. 모호한 개인 맥락은 추측하지 않고 Core Context에 확정된 내용만 승격한다.
-7. AI 의존 개발자가 아니라 AI를 개발 역량의 증폭기로 활용하는 개발자로 포지셔닝한다.
+7. AI 사용을 제한하지 않되, 생성 결과를 이해·설명·수정·검증하고 최종 책임을 지는 개발자로 포지셔닝한다.
 8. 투자, FIRE, 자산관리 내용은 개인 운영 가설과 외부 검증 필요 주장을 분리해 기록한다.
 
 ---
@@ -122,16 +122,16 @@ Mode A로 단독 운영한다. 별도 mothership vault는 연결하지 않는다
 
 1. 이 vault는 취업 포트폴리오 Evidence Wiki로 사용한다.
 2. 프로젝트 자료를 ingest할 때는 "내가 한 판단", "에이전트에게 맡긴 것", "검증 방법", "수치/결과", "면접에서 말할 한 문장"을 분리한다.
-3. 현재 포트폴리오 spine은 `financial-order-latency-lab -> Graduation-elasticsearch -> cuee -> harness`로 유지한다. 다만 목표 직무는 아직 탐색 중이므로 백엔드/금융/드론/반도체 중 어느 방향을 강화하는 자료인지 함께 기록한다.
+3. 기존 `financial-order-latency-lab -> Graduation-elasticsearch -> cuee -> harness`는 관심과 활동 기록이지 AI 비의존 개발 증거가 아니다. 현재 세 대표 프로젝트의 코드는 AI가 작성했다. 새 Java 주문 시스템에서 직접 작성·설명·수정 가능한 구현 증거를 최우선으로 만든다.
 4. Raw Source에는 README, 설계 문서, 트러블슈팅 로그, 성능 측정, 회고, 발표자료, 자기소개서 초안, 면접 답변 초안을 증거로 보존한다.
 5. Query 결과는 이력서 bullet, STAR 답변, 프로젝트 2분 설명, 약한 증거 보강 목록처럼 바로 재사용 가능한 형태로 저장한다.
-6. AI 활용 프로젝트는 "내가 판단한 것", "AI가 도운 것", "AI 없이도 설명·수정 가능한 것"을 반드시 분리한다.
+6. AI 활용 프로젝트는 "내가 판단한 것", "AI가 도운 것", "내가 설명·수정·검증 가능한 것", "확인하지 못한 것"을 반드시 분리한다.
 
 ### 현재 대표 프로젝트
 
-1. `financial-order-latency-lab`: 운영체제/데이터베이스 수업 맥락의 금융 주문 latency 실험 프로젝트. Python 서버, TCP load test, PyTorch CUDA scoring server, Windows metric 수집, p99 latency 분석을 통해 백엔드 성능 실험 역량을 보여주는 축.
-2. `Graduation-elasticsearch`: 학부연구생/졸업 연구 맥락의 JavaParser 기반 Elasticsearch Java source-test traceability 분석 프로젝트. JavaParser AST, MethodCallExpr, Symbol Solver, source-test link CSV, parser output 검증을 보여주는 축.
-3. `cuee`: 경남권 창업동아리 대상작. 전신 `배우담`은 노인에게 앱 사용법을 학습시키려는 앱이었고, 실제 노인은 학습 과정 자체도 고통스럽다는 문제를 보고 현재 화면에서 다음 버튼을 안내하는 접근성 오버레이 앱 `cuee`로 전환했다. 현재 정해진 시나리오 안에서는 가이드가 가능한 수준이며, 경남권 창업동아리대회 대상, 교내 창업대회 최우수상, U300 전국 400개 팀 선정 이력이 있다. 창업대회 목표는 전국대회 입상이고, 가장 큰 blocker는 앱 위 오버레이 안내를 위해 필요한 Android accessibility 권한 심사다. 면접/포트폴리오에서는 제품화 경험으로 우선 설명한다. Kotlin Android 기반 사용자 문제 정의, 제품화, 접근성, 팀 리딩 경험을 보여주는 축.
+1. `financial-order-latency-lab`: 데이터베이스 수업 학기말의 금융 주문 latency 탐색 프로젝트. 사용자가 CPU·GPU·disk latency를 금융 관점에서 보고 싶다는 문제를 제시했고 AI가 p99·실험 방식·전체 코드·실행·재실험을 담당했다. 현재 구현력 증거가 아니라 문제의식과 AI 활용 한계의 기록으로 사용한다.
+2. `Graduation-elasticsearch`: 2026년 5월부터 선배의 Java source-test traceability 연구를 이어가는 학부연구 참여. JavaParser·AST 개념은 설명할 수 있으나 관련 코드는 AI가 작성했고 직접 사용해 구현한 경험은 아직 없다.
+3. `cuee`: 경남권 창업동아리 대상작. 실제 노인 인터뷰가 아니라 어머니의 문제 제안을 최초 신호로 `배우담`에서 접근성 오버레이 앱으로 전환했다. 사용자는 팀장으로 초기 콘셉트·핵심 역할·타깃·마스킹 기술 전략을 결정했다. 실제 코드는 AI가 작성했으므로 Kotlin Android 구현 경험이 아니라 미검증 제품 가설과 팀 리딩 경험으로 사용한다.
 4. `harness`: 커서맛피아님의 harness를 참고해 앱 개발에 맞게 개인화한 개발 harness. Python 기반 Codex CLI workflow, stage/phase artifact, agent workflow, 생산성 개선을 보여주는 축.
 5. `Threads AI research automation`: Codex와 토큰 기반 자동화 흐름을 활용해 매일 18시에 AI agent 논문 활용 예시를 리서치하고 Threads에 업로드하는 자동화 워크플로. 주제 선정, 리서치, 글 생성, 업로드, 반복 운영까지 이어지는 AI 자동화 레버리지로 만든 콘텐츠/브랜드 레버리지 사례이며, 사용자가 제공한 원본 맥락 기준으로 한 달 동안 팔로워 약 400명을 확보한 사례.
 6. `Leadership and teaching`: 2026년 `실리콘밸리` 취업동아리 대표(20명: 학부생 15명, 교수 5명), 경상국립대학교 멋쟁이사자처럼 14기 부대표. 영어 모의면접 운영, 백엔드 세션, 해커톤 템플릿 준비, 예산/지원금 관리, 회의록 작성, 책 수요조사 등을 통해 운영형/지원형 리더십을 보여주는 축.
@@ -157,7 +157,7 @@ Mode A로 단독 운영한다. 별도 mothership vault는 연결하지 않는다
 ### 프로젝트 역할 기준
 
 - 김규태는 프로젝트에서 설계, 성능, 개발을 맡았고 팀장 역할도 수행했다.
-- 포트폴리오 문장에서는 "팀장으로서 어떤 결정을 했는가", "성능을 어떻게 측정/개선했는가", "Codex를 어디까지 도구로 활용했고 본인이 검증한 부분은 무엇인가", "AI 없이도 설명할 수 있는 기본기는 무엇인가"를 분리해서 기록한다.
+- 포트폴리오 문장에서는 "팀장으로서 어떤 결정을 했는가", "성능을 어떻게 측정/개선했는가", "Codex가 만든 것은 무엇인가", "본인이 설명·수정·검증할 수 있는 것은 무엇인가", "검증하지 못한 것은 무엇인가"를 분리해서 기록한다.
 - `cuee`는 아직 0에서 1로 만든 경험이라고 보지 않는다. 현재는 0 to 1 후보 또는 초기 제품화 경험으로 기록한다.
 
 ### 목표 회사 / 도메인 탐색
@@ -208,7 +208,7 @@ Mode A로 단독 운영한다. 별도 mothership vault는 연결하지 않는다
 
 ## 8. Related
 
-- [[CLAUDE]] — LLM Wiki Schema
+- [[CODEX]] — LLM Wiki Schema
 - [[index]] — Master Index
 - [[log]] — Change Log
 - [[LLM-Wiki-Starter-Kit]] — 외부 공유용 간이 킷

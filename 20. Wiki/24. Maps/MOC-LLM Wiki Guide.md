@@ -17,7 +17,7 @@ topic:
   - knowledge-management
 related:
   - "[[index]]"
-  - "[[CLAUDE]]"
+  - "[[CODEX]]"
   - "[[log]]"
   - "[[MOC-Knowledge Management]]"
   - "[[LLM Wiki Pattern]]"
@@ -27,7 +27,7 @@ status: active
 explored: false
 verificationStatus: unverified
 operationMode: standalone
-source-vault: null
+source-vault:
 ---
 
 # MOC-LLM Wiki Guide

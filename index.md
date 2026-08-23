@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-07-14
+date modified: 2026-08-11
 tags:
   - index
   - moc
@@ -30,12 +30,12 @@ status: active
 | Metric | Count |
 |--------|-------|
 | Raw Sources | 21 |
-| Wiki Pages | 37 |
+| Wiki Pages | 39 |
 | Concepts | 18 |
 | Entities | 8 |
-| Guides | 7 |
+| Guides | 9 |
 | MOCs | 4 |
-| Queries | 4 |
+| Queries | 5 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -85,7 +85,9 @@ status: active
 - [[Citation Manager Integration for LLM Wiki]] — Zotero/Bookends 서지정보와 Raw Source/Wiki를 연결하기 위한 가이드 stub
 - [[개발자 커리어로 경제적 자유에 가까워지기]] — 개발자 취업과 고소득 커리어를 경제적 자유의 1순위 수단으로 정리한 가이드
 - [[김규태 Career Narrative]] — 자기소개, 목표 도메인, 성장 과제, 면접용 내러티브 정리
+- [[김규태 금융 시스템 개발자 취업 로드맵]] — 지방 국립대 소프트웨어공학과 3학년 관점의 2027년 상반기 서울 증권사 주문 시스템 개발 취업 계획
 - [[김규태 Leadership and Teaching Evidence]] — 실리콘밸리 대표, 멋쟁이사자처럼 부대표, 백엔드 세션, 해커톤 템플릿 증거
+- [[개발자 롤모델을 GitHub에서 공부하는 법]] — 공개 commit·issue·PR·README·agent gate를 자신의 프로젝트 습관으로 전환하는 관찰 가이드
 
 ### Maps (MOC)
 
@@ -106,6 +108,7 @@ status: active
 - [[2026-07-14-Q-sales-psychology-book-recommendations]] — 세일즈와 심리학을 상위 25% 보조 능력으로 쌓기 위한 책 추천 경로
 - [[2026-07-14-Q-how-to-read-sales-psychology-books]] — 세일즈와 심리학 책을 행동 실험으로 바꾸는 독서 방법
 - [[2026-07-14-Q-yohan-koo-llm-wiki-usage-insights]] — 구요한 대표의 Obsidian LLM Wiki 사용법, 팁, 강의 인사이트 정리
+- [[2026-08-04-Q-korean-developer-role-model-github-study-map]] — 한국 개발자 롤모델의 agent, commit, PR·issue, README·문서, 유지보수 패턴과 8주 적용 계획
 
 ---
 
@@ -128,7 +131,7 @@ status: active
 ## 🔗 Quick Links
 
 - [[log]] — 전체 변경 이력
-- [[CLAUDE]] — Schema (볼트 규칙서)
+- [[CODEX]] — Schema (볼트 규칙서)
 - [[Core Context]] — 사용자 맥락 (채워서 사용)
 
 ---
