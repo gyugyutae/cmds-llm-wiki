@@ -6,7 +6,7 @@ description: Python-based Codex CLI autonomous implementation harness customized
 author:
   - Codex
 date created: 2026-07-10
-date modified: 2026-07-12
+date modified: 2026-07-23
 tags:
   - project
   - codex
@@ -18,6 +18,7 @@ source:
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-12-YouTube-Inspiration-Bundle-User-Reflections]]"
   - "[[2026-07-12-YouTube-코딩몰라도-가능한-앱개발-클로드코드-하네스]]"
+  - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
 related:
   - "[[김규태]]"
   - "[[MOC-Portfolio]]"
@@ -61,8 +62,9 @@ status: active
 
 - **Account**: https://www.threads.com/@arxiv.ai?hl=koo
 - **Content concept**: 논문 작성에 AI agent를 어떻게 사용할 수 있는지 매일 설명하고, 좋은 예시와 나쁜 예시를 제시해 흥미를 유도
-- **Reported outcome**: 만든 지 한 달 동안 팔로워 약 400명 확보
-- **Verification status**: 사용자 제공 원문 기반. 실제 계정 지표, 코드, 스케줄러 설정, 실패 처리 로그는 추가 ingest 필요
+- **Reported outcome**: 2026-07-23 사용자 자기보고 기준 팔로워 500명 달성
+- **User decision evidence**: 여러 글 형식을 시험하고 논문 작성 방식의 반응이 좋자 템플릿으로 고정한 뒤 GitHub Actions 자동화와 반복 운영으로 연결
+- **Verification status**: 사용자 제공 원문 기반. 실제 계정 분석 화면, 코드, 스케줄러 설정, 실패 처리 로그는 추가 ingest 필요
 
 이 사례는 `harness`와 별개 프로젝트로 분리할 수도 있지만, 현재는 Codex 기반 자동화와 AI 활용 포지셔닝을 보여주는 보조 증거로 연결한다.
 
