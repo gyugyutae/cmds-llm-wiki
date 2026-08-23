@@ -7,7 +7,7 @@ description: Onboarding guide for the CMDS LLM Wiki vault. Explains the 3-layer 
 author:
   - Claude
 date created: 2026-04-10T21:30
-date modified: 2026-07-12
+date modified: 2026-07-16
 tags:
   - moc
   - guide
@@ -99,6 +99,7 @@ source-vault:
 
 - [[LLM Wiki Pattern]] — 전체 패턴
 - [[LLM Wiki as Learning Base]] — 앞으로 공부할 source를 다루는 관점
+- [[Personal Context Layer for LLM Wiki]] — 개인 맞춤형 LLM을 위한 사용자 맥락층 관점
 - [[Agent-Readable Metadata]] — 에이전트가 읽기 좋은 note 설계
 - [[Web Clipper to Inbox Workflow]] — 캡처부터 ingest까지
 - [[Citation Manager Integration for LLM Wiki]] — 학술 인용을 위한 Zotero/Bookends 연동 설계

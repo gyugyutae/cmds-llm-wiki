@@ -16,7 +16,7 @@ status: active
 version: "1.7.1"
 ---
 
-# CLAUDE.md — LLM Wiki Schema
+# CODEX.md — LLM Wiki Schema
 
 This file is the **Schema Layer** of the CMDS LLM Wiki. It governs how LLMs (Claude Code, Cursor, etc.) read, write, and maintain this vault.
 

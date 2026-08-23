@@ -8,7 +8,7 @@ description: Map of Content for knowledge management concepts — LLM Wiki patte
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-12
+date modified: 2026-07-16
 tags:
   - moc
   - knowledge-management
@@ -47,6 +47,12 @@ verificationStatus: unverified
 - [[Sovereign PKM]] — 원본 Markdown, 레거시 포맷은 출력 어댑터로 (안창현, 포맷 축)
 - [[Harness Literacy]] — 외부화 + 기계가독 + 실행 연결 역량 (안창현)
 - [[Synthetic Data Generation for Wiki]] — Wiki 기반 파인튜닝 확장 경로 (Karpathy)
+- [[Cohort Token Economy]] — 강의·연구 cohort에서 LLM Wiki 운영 시 토큰 예산을 관리하는 관점
+- [[External Pre-processing Pattern]] — 긴 source를 외부 도구로 전처리한 뒤 Wiki 컴파일에 투입하는 패턴
+- [[Idea Generation Pipeline]] — 새 source ingest를 도메인 아이디어 생성 트리거로 확장하는 워크플로
+- [[Track Classification and Research Gap Detection]] — thematic track 분류로 연구 gap을 찾는 패턴
+- [[Schema Engineering for LLM Wiki]] — agent가 일관되게 Wiki를 유지보수하도록 규칙과 metadata를 설계하는 기술 영역
+- [[Personal Context Layer for LLM Wiki]] — LLM에게 나에 대한 고품질 맥락을 제공해 개인 맞춤형 답변을 가능하게 하는 위키 관점
 
 ## People & History
 
@@ -64,6 +70,8 @@ verificationStatus: unverified
 - [[Obsidian Tooling for LLM Wiki]] — 실용 도구 가이드
 - [[Web Clipper to Inbox Workflow]] — Web Clipper capture에서 purpose-gated ingest까지
 - [[Citation Manager Integration for LLM Wiki]] — Zotero/Bookends 서지정보와 LLM Wiki source metadata 연결
+- [[Book Ingest Pattern]] — 책과 장문 자료를 단계적으로 컴파일하는 패턴
+- [[LLM Wiki Token Optimization Strategies]] — 토큰 제약 환경의 운영 최적화 가이드
 
 ---
 

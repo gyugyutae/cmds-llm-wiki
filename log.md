@@ -8,7 +8,7 @@ description: Chronological log of all wiki operations — ingests, queries, lint
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-08-04
+date modified: 2026-08-24
 tags:
   - system
   - log
@@ -261,6 +261,177 @@ status: active
 	- 영상의 시장/능력주의 주장은 외부 관점이므로 검증된 사회과학 명제가 아니라 개인 운영 관점으로 보존한다
 - Reuse axis: 경제적 자유/FIRE/레버리지, 독서/책/학습
 
+## [2026-07-16] query | Index, RAG, agent read/write, and schema engineering
+
+- Source query: 사용자가 LLM Wiki의 의미를 유지보수 비용 붕괴, 인간의 source 큐레이션/질문 역할, RAG와의 상호보완, agent 읽기/쓰기 능력, index.md routing, schema engineering 가능성 관점에서 정리해 달라고 요청
+- Saved query result: [[2026-07-16-Q-index-rag-agent-read-write-schema-engineering]]
+- Wiki 페이지 생성 (1):
+	- [[Schema Engineering for LLM Wiki]]
+- Primary sources:
+	- [[LLM Wiki Pattern]]
+	- [[RAG vs Compiled Wiki]]
+	- [[3-Layer Architecture]]
+	- [[Ingest-Query-Lint Cycle]]
+	- [[qmd]]
+	- [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]
+- Index 업데이트:
+	- [[index]]
+	- [[MOC-Knowledge Management]]
+- Key context captured:
+	- `index.md`는 agent가 전체 본문을 읽기 전에 관련 페이지를 찾는 routing table로 작동한다.
+	- RAG는 "넓게 찾기", LLM Wiki는 "깊게 축적하기"에 강하며 retrieval -> compilation -> reuse pipeline으로 상호보완할 수 있다.
+	- agent의 읽기/쓰기 능력은 embedding/vector DB를 완전히 대체한다기보다, 반복 synthesis와 유지보수를 파일 시스템 안에 externalize해 많은 개인/소규모 지식 워크플로에서 복잡한 인프라 필요를 줄인다.
+	- schema engineering은 장기적으로 agent가 일관되게 지식을 유지하도록 page type, metadata, 검증 경계, workflow를 설계하는 기술 영역으로 볼 수 있다.
+- Quality gaps:
+	- [[Schema Engineering for LLM Wiki]]는 현재 synthesis-only / unverified 페이지다.
+	- [[qmd]]는 single-source 기반이라 공식 source ingest 후 verification 강화가 필요하다.
+	- [[RAG vs Compiled Wiki]]의 contradiction callout은 아직 `/verify` 대상이다.
+- Reuse axis: 독서/책/학습, Codex 개발 워크플로, 에세이/블로그, 취업/포트폴리오
+
+## [2026-07-16] query | Personal context layer and query feedback loop
+
+- Source query: 사용자가 LLM Wiki의 가장 큰 장점을 "나에 대한 고품질 정보를 LLM에게 제공하는 개인 맞춤형 맥락층"으로 보고, 지식 복리, Query result의 Graph View 반영, Query에서 새 Wiki 개념을 만들지 판단하는 기준을 요청
+- Saved query result: [[2026-07-16-Q-personal-context-knowledge-compounding-query-feedback]]
+- Wiki 페이지 생성 (1):
+	- [[Personal Context Layer for LLM Wiki]]
+- Wiki 페이지 업데이트:
+	- [[LLM Wiki Pattern]]
+	- [[Ingest-Query-Lint Cycle]]
+	- [[Obsidian Tooling for LLM Wiki]]
+	- [[김규태]]
+	- [[MOC-Knowledge Management]]
+	- [[MOC-LLM Wiki Guide]]
+	- [[index]]
+	- [[Core Context]]
+- Primary sources:
+	- [[Core Context]]
+	- [[김규태]]
+	- [[LLM Wiki Pattern]]
+	- [[RAG vs Compiled Wiki]]
+	- [[Ingest-Query-Lint Cycle]]
+	- [[LLM Wiki as Learning Base]]
+	- [[Human-AI Knowledge Boundary]]
+	- [[Agent-Readable Metadata]]
+	- [[Obsidian Tooling for LLM Wiki]]
+	- [[Schema Engineering for LLM Wiki]]
+- Key context captured:
+	- LLM Wiki는 일반 지식 저장소가 아니라 개인 맞춤형 LLM을 위한 고품질 context layer로 볼 수 있다.
+	- 지식 복리는 source -> ingest -> wiki -> query -> saved query -> durable concept promotion 루프에서 생긴다.
+	- Query result는 `30. Queries/`에 저장되고 wikilink가 있으면 Obsidian Graph View의 노드와 edge로 나타날 수 있다.
+	- 모든 Query가 새 Wiki 개념이 되는 것은 아니며, 여러 페이지를 연결하고 반복 사용 가능한 insight만 Wiki page로 승격한다.
+- Quality gaps:
+	- [[Personal Context Layer for LLM Wiki]]는 synthesis-only / unverified 개념이다.
+	- Obsidian Graph View 표시 여부는 실제 필터 설정과 wikilink 수에 따라 달라진다.
+	- [[Persistent Knowledge Base]], [[Progressive Disclosure Pattern]], [[Context Engineering]]은 아직 독립 Wiki page가 없는 보강 후보다.
+- Reuse axis: Codex 개발 워크플로, 독서/책/학습, 에세이/블로그, 취업/포트폴리오
+
+## [2026-07-16] ingest | WikiDocs LLM Wiki RAG를 넘어서
+
+- Source: [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]
+- Origin: `00. Inbox/01. Articles/LLM Wiki RAG를 넘어서, LLM이 직접 지식을 쌓아가는 개인 위키 패턴.md`
+- Collection purpose: 독서/책/학습 - LLM Wiki가 RAG와 어떻게 다른지 직접 이해하고, 내 LLM Wiki 운영·데모·포트폴리오 설명의 학습 기반으로 재사용하기 위해 수집
+- Raw Source 저장:
+	- `10. Raw Sources/11. Articles/2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서.md`
+- Mode: A standalone — mothership search skipped, `mainVaultRelated` / `mainVaultCmds` left empty
+- Wiki 페이지 생성 (1):
+	- [[qmd]]
+- Wiki 페이지 업데이트 (6):
+	- [[LLM Wiki Pattern]]
+	- [[RAG vs Compiled Wiki]]
+	- [[3-Layer Architecture]]
+	- [[Ingest-Query-Lint Cycle]]
+	- [[Obsidian Tooling for LLM Wiki]]
+	- [[index]]
+- Key context captured:
+	- 이 글은 LLM Wiki를 학습용으로 이해하기 쉽게 RAG와 대비한다.
+	- RAG는 질문마다 조각을 다시 찾아 조립하지만, LLM Wiki는 한 번 컴파일한 결과를 계속 덧쌓는 구조다.
+	- 학습 관점에서는 Raw Source/Wiki/Schema 분리가 "원본과 해석을 분리하는 장치"로 중요하다.
+	- Query는 단순 답변이 아니라 질문 결과를 다시 지식으로 남기는 운영 단계다.
+	- qmd는 Wiki가 커졌을 때 `index.md` 기반 탐색을 보완하는 로컬 markdown 검색 엔진으로 정리했다.
+- Reuse axis: 독서/책/학습, Codex 개발 워크플로, 취업/포트폴리오
+
+## [2026-07-16] query | Obsidian graph demo script
+
+- Source query: Obsidian Publish 비용 여부, 비용이 들 경우 graph GIF/영상으로 보여주는 방법, Web Clipper -> Raw Source -> ingest -> Wiki -> Query -> explored까지 보여주는 데모 시나리오 요청
+- Saved query result: [[2026-07-16-Q-obsidian-graph-demo-script]]
+- Primary sources:
+	- [[Core Context]]
+	- [[MOC-Portfolio]]
+	- [[2026-07-16-Q-llm-wiki-sharing-demo-strategy]]
+	- [[Ingest-Query-Lint Cycle]]
+	- [[Human-AI Knowledge Boundary]]
+	- Obsidian pricing official page
+	- ScreenToGif GitHub
+	- OBS Studio official page
+- Index 업데이트:
+	- [[index]]
+- Key context captured:
+	- Obsidian Publish는 비용이 있으므로, 지금은 GitHub README와 Obsidian graph 녹화 GIF/MP4 조합이 현실적인 1차 제출 방식이다.
+	- 데모 메시지는 "Raw Source를 보존하고 LLM이 Wiki와 Query 결과로 컴파일해 포트폴리오와 학습 자산으로 재사용한다"로 잡는다.
+	- `explored: true`는 실제로 읽고 검토한 페이지에만 적용하고, 데모에서는 검토 전/후 경계를 보여주는 것이 신뢰를 준다.
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로, 에세이/블로그
+
+## [2026-07-16] query | LLM Wiki sharing and demo strategy
+
+- Source query: 이 LLM Wiki와 만든 것들을 URL 형식으로 공유해야 할 때 GitHub README를 제출할지, 배포해서 보여줄지, Obsidian 지식 그래프를 데모에서 어떻게 보여주는 것이 효과적인지에 대한 사용자 질문
+- Saved query result: [[2026-07-16-Q-llm-wiki-sharing-demo-strategy]]
+- Primary sources:
+	- [[Core Context]]
+	- [[MOC-Portfolio]]
+	- [[LLM Wiki Pattern]]
+	- [[Obsidian Tooling for LLM Wiki]]
+	- GitHub Pages official docs
+	- Obsidian Publish official page
+	- Quartz official docs
+- Index 업데이트:
+	- [[index]]
+- Key context captured:
+	- 가장 좋은 공유 방식은 GitHub README를 중심 허브로 두고, 공개 데모 사이트와 60-90초 그래프 시연 영상/GIF를 연결하는 조합이다.
+	- 전체 vault를 그대로 공개하지 말고 `public/` 또는 `docs/`용 subset을 만들어 민감한 개인 맥락과 미검증 주장을 제외해야 한다.
+	- 데모에서는 `Raw Sources -> Wiki -> Queries`, Obsidian graph, `MOC-Portfolio`, Query result, `explored`/`verificationStatus`/`confidence` 경계를 보여주는 흐름이 효과적이다.
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로, 에세이/블로그
+
+## [2026-07-16] lint | LLM Wiki health check
+
+- Ran `/lint` health check across Wiki, Raw Sources, Queries, `index.md`, and `Core Context.md`.
+- Fixed index/MOC sync:
+	- Added missing `index.md` entries for [[Book Ingest Pattern]], [[Cohort Token Economy]], [[External Pre-processing Pattern]], [[Idea Generation Pipeline]], [[Track Classification and Research Gap Detection]], and [[LLM Wiki Token Optimization Strategies]].
+	- Added missing MOC coverage in [[MOC-Knowledge Management]] for the same pages.
+- Key findings:
+	- Raw Source `collectionPurpose` coverage is 19/21.
+	- Wiki `explored` coverage is 37/37, but 34 pages remain `explored: false`.
+	- Wiki `verificationStatus` coverage is 37/37; no disputed pages found.
+	- v5 `claimType` / `evidenceScope` coverage is 20/37.
+	- One contradiction callout remains in [[RAG vs Compiled Wiki]].
+	- Two pre-v2 Karpathy raw sources still need `collectionPurpose` backfill.
+- Reuse axis: Codex 개발 워크플로, 취업/포트폴리오, 독서/책/학습
+
+## [2026-07-16] query | How to use LLM Wiki well
+
+- Source query: `$query 이 llm-wiki를 어떻게 하면 가장잘활용할수있어? 잘쓰는방법을 알려주고 활용방안알려줘`
+- Saved query result: [[2026-07-16-Q-how-to-use-llm-wiki-well]]
+- Primary sources:
+	- [[Core Context]]
+	- [[index]]
+	- [[LLM Wiki Pattern]]
+	- [[3-Layer Architecture]]
+	- [[Ingest-Query-Lint Cycle]]
+	- [[LLM Wiki as Learning Base]]
+	- [[Human-AI Knowledge Boundary]]
+	- [[Obsidian Tooling for LLM Wiki]]
+	- [[MOC-LLM Wiki Guide]]
+	- [[MOC-Portfolio]]
+- Index 업데이트:
+	- [[index]]
+- Key context captured:
+	- 이 vault의 핵심 용도는 자료 저장소가 아니라 취업/프로젝트/학습 증거를 재사용 가능한 산출물로 컴파일하는 시스템이다.
+	- 프로젝트 자료는 "무엇을 만들었나"보다 "무엇을 판단했고 어떻게 검증했나" 중심으로 ingest해야 한다.
+	- Query는 단순 답변이 아니라 이력서 bullet, STAR 답변, 자기소개서 문단, 블로그 초안, evidence gap 분석 같은 재사용 산출물을 만드는 인터페이스다.
+- Quality gaps:
+	- 프로젝트별 Raw Source 근거와 AI boundary evidence가 아직 부족하다.
+	- `MOC-Portfolio`의 Query Result 템플릿 gap은 아직 별도 템플릿 파일로 해결되지 않았다.
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로, 독서/책/학습, 에세이/블로그
+
 ## [2026-07-14] query | Sales and psychology book recommendations
 
 - Source query: `Clippings/1등이 될 수 없다면 무기를 모아야 합니다 1.md`
@@ -473,3 +644,126 @@ status: active
 - Open question:
 	- T자형 개발 전문성의 세로축은 `AI 에이전트를 이용한 개발`로 탐색 중이며 세부 문제 영역은 미정
 - Reuse axis: 자기이해, AI 개인화, 취업/포트폴리오, Codex 개발 워크플로, 관계 메타인지
+
+## [2026-07-16] query | Coding test as AI-era problem-solving training
+
+- Source query: 사용자가 AI 시대에도 문제해결력과 컴퓨팅 사고력이 변하지 않는 본질이라면 코딩테스트 준비가 중요한지, 코딩테스트를 통해 어떤 차별점을 기를 수 있는지 질문
+- Saved query result: [[2026-07-16-Q-coding-test-ai-era-problem-solving]]
+- Wiki 페이지 생성 (1):
+	- [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
+- Wiki 페이지 업데이트:
+	- [[AI-Augmented Developer Positioning]]
+	- [[김규태 Career Narrative]]
+	- [[개발자 커리어로 경제적 자유에 가까워지기]]
+	- [[MOC-Portfolio]]
+	- [[index]]
+- Primary sources:
+	- [[Core Context]]
+	- [[MOC-Portfolio]]
+	- [[김규태 Career Narrative]]
+	- [[AI-Augmented Developer Positioning]]
+	- [[개발자 커리어로 경제적 자유에 가까워지기]]
+	- Microsoft Careers technical interviewing guide
+	- NACE Career Readiness Competencies 2024
+	- Meta Careers hiring process
+- Key context captured:
+	- 코딩테스트는 단순 취업 필터가 아니라 AI 없이 문제를 분해하고 직접 구현·검증할 수 있음을 보여주는 기본기 증거다.
+	- AI 활용 경험이 강할수록 코딩테스트 풀이 로그는 AI 의존 리스크를 줄이는 counter-evidence가 된다.
+	- 공부 방식은 처음 풀이 AI 금지, 풀이 후 AI 리뷰, 복잡도/엣지케이스/오답 수정 로그, 프로젝트 연결이 핵심이다.
+- Quality gaps:
+	- 실제 코딩테스트 풀이 로그와 목표 회사별 최신 전형 Raw Source는 아직 없다.
+	- AI-assisted coding interview 변화는 별도 source ingest 후 강화할 수 있다.
+- Reuse axis: 취업/포트폴리오, 독서/책/학습, Codex 개발 워크플로, 에세이/블로그
+
+## [2026-07-20] query | Shin Jinseo vs KataGo opponent-model strategy
+
+- Source query: 사용자가 신진서와 KataGo의 최근 두 점 접바둑에서 KataGo가 상대를 신진서라는 개인으로 인식했는지, 블루스팟보다 약간 손해를 보더라도 전투를 유도해 인간 실수를 기대하는 편이 더 높은 승률이었는지 질문
+- Saved query result: [[2026-07-20-Q-shin-jinseo-katago-opponent-model-strategy]]
+- Wiki search: 관련 컴파일 Wiki, Raw Source, 기존 Query 검색 결과 없음
+- Primary sources:
+	- 한국경제 1국 보도·해설 칼럼
+	- KBC 광주방송 2국 결과 보도
+	- KataGo 공식 README 및 Analysis Engine 문서
+- Key context captured:
+	- 두 점 접바둑의 판 상태는 KataGo가 보지만, 신진서 개인을 인식하도록 설정됐다는 공개 근거는 없다.
+	- KataGo의 일반 인간 모델은 선택적으로 설정할 수 있으나, 특정 선수 식별 모델과는 구분해야 한다.
+	- 인간 실수 유도는 별도의 상대 모델과 목적함수에서만 합리화되며, 화면의 블루스팟은 그 설정 아래의 후보 평가다.
+- Quality gaps:
+	- 실제 대국의 KataGo 버전, 네트워크, GTP 설정, human 모델 사용 여부, SGF 분석 로그가 공개 확인되지 않았다.
+- Index 업데이트:
+	- [[index]]
+- Reuse axis: 독서/책/학습, 에세이/블로그, AI 전략
+
+## [2026-07-16] query | AI-assisted coding test learning loop
+
+- Source query: 사용자가 코딩테스트 문제 풀이 중 막히거나 디버깅하거나 엣지케이스에서 통과하지 못할 때 AI를 학습에 어떻게 활용할 수 있는지 질문
+- Saved query result: [[2026-07-16-Q-ai-assisted-coding-test-learning-loop]]
+- Wiki 페이지 업데이트:
+	- [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
+	- [[index]]
+- Primary sources:
+	- [[Core Context]]
+	- [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
+	- [[AI-Augmented Developer Positioning]]
+	- [[Human-AI Knowledge Boundary]]
+	- [[MOC-Portfolio]]
+	- [[2026-07-16-Q-coding-test-ai-era-problem-solving]]
+- Key context captured:
+	- AI는 정답 생성기가 아니라 힌트 제공자, 실행 추적자, 반례 생성기, 풀이 리뷰어로 제한해 사용한다.
+	- 막힘 단계별로 AI 사용 허용 범위를 나누면 학습 소유권을 유지할 수 있다.
+	- 풀이 로그에는 `AI gave`와 `I changed`를 분리해 AI 활용과 본인 판단 경계를 남긴다.
+- Quality gaps:
+	- 실제 풀이 로그가 아직 없으므로 2-4주 기록 후 루프 효과를 확인해야 한다.
+	- 실전 전형에서는 회사/플랫폼의 AI 사용 규칙을 별도 확인해야 한다.
+- Reuse axis: 취업/포트폴리오, 독서/책/학습, Codex 개발 워크플로, 에세이/블로그
+
+## [2026-07-26] ingest | AI-era developer learning and computational thinking clippings
+
+- Sources: 11 markdown clippings from the vault-root `Clippings/` folder plus [[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]
+- Collection purpose:
+	- AI·컴공·젠슨 황·도메인 전문성: AI 시대 개발자 역량과 커리어 방향 판단
+	- 공부법·프리렌·추상화·분해: 메타인지와 컴퓨팅 사고 기반 학습법 구축
+	- qmd: LLM Wiki 및 Codex 검색 시스템 개선
+	- 능력 조합: 개발자 커리어와 경제적 자유를 위한 역량 포트폴리오 설계
+	- 독서와 은유: 독서를 연결·아이디어 생성 능력으로 전환
+	- 겸손: 리더십과 자기표현에 관한 개인 판단 기준 정립
+- Raw Source 저장 (12): `10. Raw Sources/15. Clippings/`
+	- [[2026-07-25-Gemini-Computational-Thinking-Abstraction]]
+	- [[2026-07-25-Gemini-Computational-Thinking-Decomposition]]
+	- [[2026-07-25-YouTube-AI시대-컴퓨터공학-교육]]
+	- [[2026-07-26-YouTube-메타인지-공부법]]
+	- [[2026-07-13-YouTube-AI시대-공부법]]
+	- [[2026-07-13-YouTube-Shorts-AI시대-도메인-지식]]
+	- [[2026-07-26-YouTube-젠슨황-AI-인프라]]
+	- [[2026-07-14-GitHub-qmd-README]]
+	- [[2026-07-14-YouTube-능력-조합으로-희소성-만들기]]
+	- [[2026-07-13-YouTube-Shorts-독서-은유-연결]]
+	- [[2026-07-13-YouTube-겸손과-자기표현]]
+	- [[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]
+- Mode: A standalone — mothership search skipped; `mainVaultRelated` and `mainVaultCmds` left empty
+- Wiki 페이지 생성 (7):
+	- [[컴퓨팅 사고의 추상화와 분해]]
+	- [[AI 시대의 개발자 학습 전략]]
+	- [[메타인지 학습 루프]]
+	- [[일반 지식보다 도메인 지식이 중요해지는 이유]]
+	- [[능력 조합으로 희소성을 만드는 전략]]
+	- [[겸손과 자기표현의 균형]]
+	- [[AI 팩토리와 토큰 생산 인프라]]
+- Wiki 페이지 업데이트 (7):
+	- [[AI-Augmented Developer Positioning]]
+	- [[독서는 판단력과 자산관리의 기반이다]]
+	- [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
+	- [[qmd]]
+	- [[Obsidian Tooling for LLM Wiki]]
+	- [[김규태 Career Narrative]]
+	- [[MOC-Portfolio]]
+- User-original context promoted:
+	- 개발자는 단순한 코드 작성자가 아니라 현실 문제를 입력·출력·제약으로 추상화하고, 블랙박스 내부를 하위 문제와 의존성으로 분해해 구현·검증하는 사람이라는 개발자 사고 원칙
+	- Gemini 답변은 독립적으로 검증된 권위가 아니라 사용자에게 의미 있었던 AI 생성 조언으로 명시
+- Core Context 업데이트: [[Core Context]]
+- Verification boundary:
+	- 신규 Wiki 페이지는 `explored: false`
+	- AI 생성 조언, 짧은 영상, 개인 경험, 번역 인터뷰는 `verificationStatus: unverified` 또는 `partial`로 유지
+	- qmd README는 캡처 시점의 스냅샷으로 기록
+- Index 업데이트: [[index]]
+- Reuse axis: 취업/포트폴리오, 독서/책/학습, 강의/수업/교육, Codex 개발 워크플로, 경제적 자유/FIRE/레버리지, 제품/창업, 에세이/블로그
