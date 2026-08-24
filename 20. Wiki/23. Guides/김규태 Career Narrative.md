@@ -7,7 +7,7 @@ description: "Reusable career narrative for positioning Kim Gyutae's developer i
 author:
   - Codex
 date created: 2026-07-11
-date modified: 2026-08-16
+date modified: 2026-08-24
 tags:
   - career
   - portfolio
@@ -17,6 +17,7 @@ source:
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
   - "[[Core Context]]"
+  - "[[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]]"
 related:
   - "[[김규태]]"
   - "[[MOC-Portfolio]]"
@@ -27,6 +28,8 @@ related:
   - "[[컴퓨팅 사고의 추상화와 분해]]"
   - "[[AI 시대의 개발자 학습 전략]]"
   - "[[일반 지식보다 도메인 지식이 중요해지는 이유]]"
+  - "[[TMU Global Leadership Program]]"
+  - "[[김규태 개발 도메인 영어 성장 계획]]"
 confidence: medium
 layer: guides
 explored: false
@@ -80,6 +83,10 @@ status: active
 
 > 데이터베이스 수업의 학기말 프로젝트에서 CPU·GPU·disk latency를 금융 관점에서 비교하는 문제를 제시하고 AI로 실험을 진행했습니다. 당시 생성 코드와 결과를 검증하지 못했다는 한계를 확인했습니다. 다음 Java 주문 시스템에서는 AI를 계속 활용하되 주문 상태·테스트·성능 결과를 제가 설명하고 수정하며 검증할 수 있다는 증거를 남기려고 합니다.
 
+영어 성장 방향 초안:
+
+> 토론토 TMU English Language Institute의 4주·100시간 Global Leadership Program을 수료하며 영어 환경에서 먼저 말하고 일상적인 의사를 표현하는 자신감을 키웠습니다. 이 경험을 실무 영어 능력으로 과장하지 않고, 앞으로 Java·Spring 공식 문서 읽기와 영어 README·기술 설명을 통해 개발 도메인 영어 증거를 쌓겠습니다.
+
 ---
 
 ## Evidence To Build Next
@@ -91,6 +98,7 @@ status: active
 - 개발 도메인 영어 학습 기록과 영어로 작성한 README/기술 설명
 - 프로젝트마다 문제의 입력·출력·제약·하위 문제·검증 결과를 연결한 사고 로그
 - 백엔드·금융·반도체·드론 중 한 축의 현장 제약을 다룬 도메인 학습 증거
+- [[김규태 개발 도메인 영어 성장 계획]]에 따른 영어 README, 기술 설명 녹음, 실제 피드백 기록
 
 ---
 
@@ -113,3 +121,5 @@ status: active
 - [[컴퓨팅 사고의 추상화와 분해]]
 - [[AI 시대의 개발자 학습 전략]]
 - [[일반 지식보다 도메인 지식이 중요해지는 이유]]
+- [[TMU Global Leadership Program]]
+- [[김규태 개발 도메인 영어 성장 계획]]

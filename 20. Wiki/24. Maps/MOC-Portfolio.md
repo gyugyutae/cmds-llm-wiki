@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-08-11
+date modified: 2026-08-24
 tags:
   - moc
   - portfolio
@@ -38,6 +38,10 @@ related:
   - "[[AI 시대의 개발자 학습 전략]]"
   - "[[일반 지식보다 도메인 지식이 중요해지는 이유]]"
   - "[[능력 조합으로 희소성을 만드는 전략]]"
+  - "[[TMU Global Leadership Program]]"
+  - "[[김규태 개발 도메인 영어 성장 계획]]"
+  - "[[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]"
+  - "[[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]]"
 status: active
 explored: false
 verificationStatus: unverified
@@ -87,6 +91,10 @@ verificationStatus: unverified
 - [[일반 지식보다 도메인 지식이 중요해지는 이유]] — 백엔드·금융·반도체·드론의 구체 제약을 포트폴리오 차별점으로 만드는 가설
 - [[능력 조합으로 희소성을 만드는 전략]] — 개발 중심축에 성능·도메인·AI·리더십·커뮤니케이션 능력을 증거 기반으로 결합하는 전략
 - [[김규태 Leadership and Teaching Evidence]] — 실리콘밸리 대표, 멋쟁이사자처럼 부대표, 백엔드 세션, 해커톤 템플릿 증거
+- [[TMU Global Leadership Program]] — 4주·100시간 영어 몰입 과정과 SDG 학습의 증빙·표현 경계
+- [[김규태 개발 도메인 영어 성장 계획]] — 수료 경험을 영어 README·기술 문서·설명 증거로 전환하는 계획
+- [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]] — 장기 퀀트/HFT 관심을 가설·데이터·비용·검증 문제로 구체화하는 학습 지도
+- [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]] — AI 초안을 테스트·도메인 규칙·성능 검증으로 인수하는 개발 원칙
 
 ---
 
@@ -120,6 +128,8 @@ verificationStatus: unverified
 - GitHub README, 주요 commit, issue, PR, release note
 - [[코딩테스트는 AI 시대의 문제해결력 훈련이다|코딩테스트 풀이 로그]]와 AI 없이 구현한 작은 기능 기록
 - 개발 도메인 영어 학습 기록과 영어 README/기술 설명
+- [[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]] — TMU 수료·학습·영어 성장과 공개 증빙 경계
+- [[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]] — AI 보조 엔지니어링 독서 메모
 - 실리콘밸리 동아리 회의록, 예산/지원금 자료, 책 수요조사, 교수 피드백
 - 멋쟁이사자처럼 백엔드 세션 자료와 GNU 해커톤 템플릿 실제 사용 결과
 - Velog/GitHub 원문 근거 묶음: [[2026-07-12-Velog-Leadership-Product-Hackathon-Bundle]]
@@ -282,4 +292,8 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 - [[김규태 Career Narrative]]
 - [[김규태 금융 시스템 개발자 취업 로드맵]]
 - [[김규태 Leadership and Teaching Evidence]]
+- [[TMU Global Leadership Program]]
+- [[김규태 개발 도메인 영어 성장 계획]]
+- [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]
+- [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]]
 - [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]

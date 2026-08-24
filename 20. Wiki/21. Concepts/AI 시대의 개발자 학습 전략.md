@@ -7,7 +7,7 @@ description: "A personal learning strategy that combines foundations, abstractio
 author:
   - Codex
 date created: 2026-07-26
-date modified: 2026-07-26
+date modified: 2026-08-24
 tags:
   - ai
   - developer-learning
@@ -21,11 +21,13 @@ source:
   - "[[2026-07-25-Gemini-Computational-Thinking-Abstraction]]"
   - "[[2026-07-25-Gemini-Computational-Thinking-Decomposition]]"
   - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
+  - "[[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]]"
 related:
   - "[[컴퓨팅 사고의 추상화와 분해]]"
   - "[[메타인지 학습 루프]]"
   - "[[일반 지식보다 도메인 지식이 중요해지는 이유]]"
   - "[[AI-Augmented Developer Positioning]]"
+  - "[[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]"
 confidence: medium
 layer: concepts
 explored: false
@@ -82,6 +84,8 @@ AI 시대 공부를 “무엇을 외웠는가”만으로 평가할 수는 없�
 
 > 실제 프로젝트로 문제 정의와 운영 판단을 보여주고, 코딩테스트와 기초 구현으로 비-AI 기본기를 보여주며, AI 작업 경계와 검증 로그로 도구 활용 능력을 보여준다.
 
+[[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]는 이 학습 전략을 구현 단계로 연결한다. AI가 만든 초안을 작은 단위로 나누고 정상·경계·실패 테스트, 도메인 규칙, 성능과 운영 조건을 확인한 뒤 직접 설명·수정 가능한 상태로 인수한다.
+
 > [!note] Bias Check
 > Counter-argument: AI 도구의 발전으로 필요한 세부 기술은 계속 바뀔 수 있으며, 모든 개발 직무가 같은 학습 우선순위를 갖지는 않는다.
 > Data gap: 이 전략이 김규태의 코딩테스트 성과, 프로젝트 품질, 학습 유지율을 개선하는지는 아직 측정하지 않았다.
@@ -94,3 +98,4 @@ AI 시대 공부를 “무엇을 외웠는가”만으로 평가할 수는 없�
 - [[AI-Augmented Developer Positioning]]
 - [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
 - [[김규태 Career Narrative]]
+- [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]

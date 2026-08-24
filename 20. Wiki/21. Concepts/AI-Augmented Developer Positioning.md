@@ -7,7 +7,7 @@ description: "Positioning frame for presenting AI use as leverage for developer 
 author:
   - Codex
 date created: 2026-07-11
-date modified: 2026-07-26
+date modified: 2026-08-24
 tags:
   - ai
   - career
@@ -18,6 +18,7 @@ source:
   - "[[Human-AI Knowledge Boundary]]"
   - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
   - "[[2026-07-25-YouTube-AI시대-컴퓨터공학-교육]]"
+  - "[[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]]"
 related:
   - "[[김규태]]"
   - "[[김규태 Career Narrative]]"
@@ -26,6 +27,7 @@ related:
   - "[[코딩테스트는 AI 시대의 문제해결력 훈련이다]]"
   - "[[컴퓨팅 사고의 추상화와 분해]]"
   - "[[AI 시대의 개발자 학습 전략]]"
+  - "[[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]"
 confidence: medium
 layer: concepts
 explored: false
@@ -101,6 +103,12 @@ AI-Augmented Developer Positioning은 AI를 개발 역량의 대체물이 아니
 
 ---
 
+## From Generation To Engineering
+
+[[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]는 초기 CRUD나 반복 코드를 빠르게 만든 다음 반드시 엔지니어링 단계로 넘어가야 한다는 사용자 원칙을 보강한다. 엣지케이스, 참조 무결성, 도메인 규칙, 트래픽 증가, 성능과 운영 실패를 테스트하지 않은 생성물은 포트폴리오의 구현 증거로 승격하지 않는다.
+
+---
+
 ## Coding Test Link
 
 [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]는 이 포지셔닝의 기본기 증거 축이다. AI 활용 경험이 강할수록 코딩테스트 풀이 로그는 "AI 없이도 문제를 분해하고, 직접 구현하고, 복잡도와 엣지케이스를 검증할 수 있다"는 counter-evidence가 된다.
@@ -124,3 +132,4 @@ AI-Augmented Developer Positioning은 AI를 개발 역량의 대체물이 아니
 - [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
 - [[컴퓨팅 사고의 추상화와 분해]]
 - [[AI 시대의 개발자 학습 전략]]
+- [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]

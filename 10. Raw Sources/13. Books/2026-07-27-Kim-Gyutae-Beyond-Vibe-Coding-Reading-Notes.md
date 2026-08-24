@@ -1,3 +1,41 @@
+---
+type: raw-source
+aliases:
+  - 바이브 코딩 너머 개발자 생존법 독서 메모
+  - Beyond Vibe Coding Reading Notes
+description: "User-authored reading notes on moving from one-shot vibe coding toward testable, decomposed, and maintainable AI-assisted engineering."
+author:
+  - "[[김규태]]"
+date created: 2026-07-27
+date modified: 2026-07-27
+date ingested: 2026-08-24
+tags:
+  - raw-source
+  - books
+  - ai-assisted-engineering
+  - testing
+  - software-engineering
+source: "User-authored reading notes; book bibliographic details not recorded"
+category: "Books"
+status: ingested
+collectionPurpose: "Codex 개발 워크플로 및 취업/포트폴리오 — 빠른 AI 코드 생성을 테스트·엣지케이스·문제 분해·도메인 규칙·성능 검증이 있는 AI 보조 엔지니어링으로 전환하는 개인 개발 원칙에 재사용하기 위해 수집."
+mainVaultRelated: []
+mainVaultCmds: ""
+---
+
+# 바이브 코딩 너머 개발자 생존법 독서 메모
+
+## Source Notes
+
+- Capture method: 프로젝트 루트에 있던 사용자 작성 독서 메모.
+- Authorship boundary: 아래 내용은 [[김규태]]가 책을 읽고 중요하다고 판단한 요점이다.
+- Bibliographic gap: 책의 저자·출판사·판본·정확한 인용 페이지가 원문에 없어 추가하지 않았다.
+- Verification boundary: 구체적 기술 주장은 독립 검증 전까지 독서 메모 수준으로 유지한다.
+
+---
+
+## Original Content
+
 다음은 바이브코딩너머 개발자 생존법 이책을 일고나서 내가 중요하다고 생각한부분들을 정리한 글이다 
 중요하다고 생각한글과 collectionpurpose 가 함께 있다. 
 

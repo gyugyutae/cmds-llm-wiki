@@ -767,3 +767,53 @@ status: active
 	- qmd README는 캡처 시점의 스냅샷으로 기록
 - Index 업데이트: [[index]]
 - Reuse axis: 취업/포트폴리오, 독서/책/학습, 강의/수업/교육, Codex 개발 워크플로, 경제적 자유/FIRE/레버리지, 제품/창업, 에세이/블로그
+
+## [2026-08-24] ingest | Quant research, TMU SDG portfolio, and AI-assisted engineering notes
+
+- Sources selected from Inbox and project root:
+	- [[2026-08-17-Gemini-Quant-Research-Conversation]]
+	- [[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]]
+	- [[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]]
+- Collection purpose inferred with user approval:
+	- Gemini: 퀀트 연구·금융 시스템에서 알파, 가설, 백테스트 편향, 시장중립, 변동성, AI/ML 역할을 학습
+	- TMU: 수료·성적·출석·영어 사용·SDG 학습을 근거와 표현 한계까지 취업 자료로 보존
+	- 독서 메모: 빠른 코드 생성을 테스트·엣지케이스·분해·도메인 규칙·성능 검증으로 전환하는 개발 원칙 구축
+- Mode: A standalone — mothership search skipped; `mainVaultRelated` and `mainVaultCmds` left empty
+- Raw Source 저장 (3):
+	- Clippings (2): [[2026-08-17-Gemini-Quant-Research-Conversation]], [[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]]
+	- Books (1): [[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]]
+- Wiki 페이지 생성 (8):
+	- Concepts (6): [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]], [[백테스트 과적합과 편향]], [[시장중립은 무위험이 아니다]], [[변동성 트레이딩과 델타 헤징]], [[AI와 머신러닝 시대의 퀀트 리서치]], [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]
+	- Entities (1): [[TMU Global Leadership Program]]
+	- Guides (1): [[김규태 개발 도메인 영어 성장 계획]]
+- Wiki 페이지 업데이트 (6):
+	- [[AI 시대의 개발자 학습 전략]]
+	- [[컴퓨팅 사고의 추상화와 분해]]
+	- [[AI-Augmented Developer Positioning]]
+	- [[김규태 Career Narrative]]
+	- [[김규태 금융 시스템 개발자 취업 로드맵]]
+	- [[MOC-Portfolio]]
+- Verification boundary:
+	- Gemini의 금융·인물·도서·수익률 주장은 독립 검증 전까지 `unverified`로 유지
+	- `시장중립 ≠ 무위험`, `델타 중립 ≠ beta 0`, `백테스트 ≠ live proof` 경계를 명시
+	- TMU 수료·학습 기록과 Solutions Day 개인 기여 주장을 분리
+	- 독서 메모에는 누락된 저자·출판사·판본·페이지를 추정하지 않음
+- Preservation check:
+	- 세 source 본문은 보존됨; SDG는 byte-identical, Gemini와 독서 메모는 내용이 동일하고 파일 끝 개행만 정규화됨
+	- Inbox 원본은 Raw Source 저장 후 제거됨
+- System pages updated: [[index]], [[log]]
+- Reuse axis: 백엔드/성능/금융 시스템, 취업/포트폴리오, 강의/수업/교육, Codex 개발 워크플로, 독서/책/학습
+
+## [2026-08-24] update | TMU Global Leadership Program full schedule from guidebook PDF
+
+- Source document: `Session 2 (Korea) - Global Leadership Program - Summer 2026.pdf`
+- Updated: [[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]]
+- Schedule coverage:
+	- Program schedule pages 7~10: 2026-07-27~2026-08-21의 오전 수업, Group Conversation, 필수·선택 활동, 장소, 등록 필요 표시
+	- Toronto Happening Events page 11: 프로그램 외 도시 행사 8개를 별도 표로 분리
+- Verification:
+	- Poppler text extraction 후 PDF 7~11페이지 렌더링과 대조
+	- 프로그램 편성과 김규태의 실제 참여를 분리
+	- PDF 전체에는 Wi-Fi 접속 정보와 단체 채팅 QR이 포함되어 저장소에 원본 PDF를 복사하지 않음
+- System page updated: [[index]]
+- Reuse axis: 취업/포트폴리오, 강의/수업/교육, 개발 도메인 영어

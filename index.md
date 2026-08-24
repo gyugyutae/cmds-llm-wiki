@@ -29,11 +29,11 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 37 |
-| Wiki Pages | 62 |
-| Concepts | 34 |
-| Entities | 9 |
-| Guides | 14 |
+| Raw Sources | 40 |
+| Wiki Pages | 70 |
+| Concepts | 40 |
+| Entities | 10 |
+| Guides | 15 |
 | MOCs | 5 |
 | Queries | 13 |
 
@@ -83,6 +83,12 @@ status: active
 - [[능력 조합으로 희소성을 만드는 전략]] — 개발을 중심축으로 성능·도메인·AI·리더십·커뮤니케이션 능력을 증거 기반으로 결합하는 전략
 - [[겸손과 자기표현의 균형]] — 자기축소가 아니라 근거 있는 자기표현과 수정 가능성을 함께 유지하는 지적 겸손 프레임
 - [[AI 팩토리와 토큰 생산 인프라]] — AI를 전력·반도체·네트워크·모델·애플리케이션이 연결된 토큰 생산 시스템으로 보는 인프라 관점
+- [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]] — 시장 관찰을 반증 가능한 가설, 시점 보존 데이터, 비용 포함 백테스트와 미사용 구간 검증으로 연결하는 학습 지도
+- [[백테스트 과적합과 편향]] — 생존·룩어헤드·선택·다중 검정·비용·공매도 가능성 오류를 점검하는 체크리스트
+- [[시장중립은 무위험이 아니다]] — 측정 beta를 줄여도 factor·유동성·레버리지·모델·실행 위험이 남는다는 경계
+- [[변동성 트레이딩과 델타 헤징]] — 델타 중립과 beta 중립을 구분하고 gamma·theta·변동성·비용을 함께 보는 학습 지도
+- [[AI와 머신러닝 시대의 퀀트 리서치]] — 고차원 데이터·비선형 모델·신호 자동화·주문 실행과 모델 리스크의 변화
+- [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]] — AI 초안을 분해·테스트·도메인 규칙·성능 검증을 거쳐 직접 인수하는 개발 원칙
 
 ### Entities
 
@@ -97,6 +103,7 @@ status: active
 - [[cuee]] — 노인 모빌리티 예약 길잡이 접근성 앱 프로젝트
 - [[harness]] — Codex CLI 기반 개인화 개발 workflow harness
 - [[qmd]] — LLM Wiki의 Wiki/Raw Sources/Queries를 로컬에서 검색하는 markdown 검색 엔진
+- [[TMU Global Leadership Program]] — 2026년 TMU 영어 몰입·SDG 프로그램 참여 기록과 증빙·기여 표현 경계
 
 ### Guides
 
@@ -116,6 +123,7 @@ status: active
 - [[김규태 Career Values and Success Vision]] — 직업 우선순위, 보상 기준, 원하는 환경과 성공상
 - [[김규태 Relationship Values]] — 자율성, 신뢰, 애정 표현, 속도, 끌림, 동의에 관한 현재 가치
 - [[김규태 AI Mentor Response Contract]] — AI가 근거 기반 멘토로 답하기 위한 개인화 계약
+- [[김규태 개발 도메인 영어 성장 계획]] — 영어 몰입 경험을 기술 문서 읽기·영어 README·설명·협업 증거로 전환하는 계획
 
 ### Maps (MOC)
 
@@ -153,6 +161,7 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-08-24 | [[2026-08-17-Gemini-Quant-Research-Conversation]] + [[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]] + [[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]] | 14 pages + TMU PDF schedule |
 | 2026-07-26 | [[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]] + 11 Clippings | 14 pages |
 | 2026-07-23 | [[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]] | 15 pages |
 | 2026-07-23 | [[2026-07-23-Kim-Gyutae-Romantic-Self-Reflection-v1]] | 5 pages |

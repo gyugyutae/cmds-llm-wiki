@@ -1,13 +1,41 @@
 ---
-title: "‎Google Gemini"
-source: "https://gemini.google.com/u/1/app/13de228d86e87540"
+type: raw-source
+aliases:
+  - Gemini 퀀트 리서치 대화
+  - Google Gemini Quant Research Conversation
+description: "An AI-generated conversation about alpha research, market neutrality, backtest bias, volatility trading, quant careers, and foundational reading."
 author:
-published:
-created: 2026-08-17
-description: "Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI."
+  - Google Gemini (AI-generated)
+date created: 2026-08-17
+date modified: 2026-08-24
+date ingested: 2026-08-24
 tags:
-  - "clippings"
+  - raw-source
+  - clippings
+  - quant
+  - finance
+  - ai-generated
+source: "https://gemini.google.com/u/1/app/13de228d86e87540"
+category: "Clippings"
+status: ingested
+collectionPurpose: "백엔드/성능/금융 시스템 및 독서/책/학습 — 알파·시장중립·백테스트 편향·변동성 트레이딩·퀀트 직무를 탐색하고, 금융 거래 인프라에서 연구 가설과 검증이 어떤 역할을 하는지 학습하기 위해 수집."
+mainVaultRelated: []
+mainVaultCmds: ""
 ---
+
+# Gemini 퀀트 리서치 대화
+
+## Source Notes
+
+- Capture method: Obsidian Web Clipper로 저장한 Gemini 대화.
+- Authorship boundary: 질문은 [[김규태]]가 입력했고 답변은 Google Gemini가 생성했다.
+- Verification boundary: 금융·인물·도서·수익률 관련 설명은 독립 검증되지 않은 AI 생성 주장이다.
+- Compiled use: 퀀트 연구의 학습 지도로만 사용하며 투자 조언이나 확정 사실로 취급하지 않는다.
+
+---
+
+## Original Content
+
 ## Conversation with Gemini
 
 You said
