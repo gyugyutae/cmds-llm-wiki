@@ -817,3 +817,50 @@ status: active
 	- PDF 전체에는 Wi-Fi 접속 정보와 단체 채팅 QR이 포함되어 저장소에 원본 PDF를 복사하지 않음
 - System page updated: [[index]]
 - Reuse axis: 취업/포트폴리오, 강의/수업/교육, 개발 도메인 영어
+
+## [2026-08-31] query | 2026년 2학기 푸른등대 장학금 적합도
+
+- Query saved: [[2026-08-31-Q-pureundeungdae-scholarship-fit]]
+- Inputs: 경상국립대학교 진주캠퍼스 소프트웨어공학과 3학년, 8학기 중 7번째 학기, 평점 4.1, 학자금 지원구간 9구간
+- Sources: 사용자 제공 푸른등대 사업계획 PDF 2개, [[김규태]], 프로젝트 및 리더십 Wiki 페이지
+- Conclusion: NICE그룹 1순위, 김재영 2순위; LH는 현재 거주 요건과 3구간 이하 요건 모두 불충족
+- Verification boundary: 평점은 공식 백분위로 환산하지 않았고, 프로젝트의 AI 기여 경계와 Wiki verificationStatus를 반영
+- System page updated: [[index]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
+
+## [2026-08-31] query update | NICE와 김재영 최종 선택
+
+- Updated: [[2026-08-31-Q-pureundeungdae-scholarship-fit]]
+- New inputs: 누적 평점 약 3.7/4.5, 직전학기 4.1/4.5, NICE 교육·오프라인 행사 참여 가능
+- Decision: 누적 평점이 아니라 직전학기 백분위를 사용하는 평가 구조와 9구간의 소득점수 불리함을 함께 반영해 NICE그룹으로 최종 추천
+- Remaining gap: 대학이 등록한 직전학기 공식 백분위와 미공개 지원자 수·합격선
+
+## [2026-08-31] query update | NICE 신청 확정 및 자기소개서 사전 점검
+
+- Updated: [[2026-08-31-Q-pureundeungdae-scholarship-fit]]
+- Decision: NICE그룹 신청 확정
+- New academic facts: 2026년 1학기 신청·취득 22학점, 평점계 82, 평점평균 4.1/4.5, 석차 5/10
+- Ambiguity: 평점계 82와 22학점의 단순 나눗셈이 4.1과 일치하지 않아 P/F 과목 또는 평점 산입 학점 확인 필요
+- Drafting gate: 공식 백분위, 진로 정합성, 데이터 활동 수치·증빙, 실패 극복 행동, 학기별 장학금 사용 계획을 확정한 뒤 자기소개서 작성
+
+## [2026-08-31] query | NICE 자기소개서 증거 지도
+
+- Query saved: [[2026-08-31-Q-nice-scholarship-essay-evidence-map]]
+- Updated Wiki pages: [[김규태]], [[harness]], [[김규태 Motivation and Execution Pattern]]
+- New user-reported evidence: 2026-05-25 Threads 운영 시작, 매일 1개 자동 게시, 참여지표가 큰 글을 Excel로 비교해 형식 개선, 2026-08-31 팔로워 650명
+- Career direction under review: 기존 금융권 관심과 최근 빅데이터 관심을 연결한 금융 데이터 분석가
+- Verification boundary: Threads 활동은 기초 참여지표 분석으로 한정하고, 계정 분석 화면·Excel 구조·전후 수치가 없으므로 고급 통계 또는 빅데이터 분석으로 과장하지 않음
+- Evidence gap: 경남권 창업동아리 대상 공식 증빙, SEALAB 직접 수행 범위, 데이터 관련 교과목·성적, 학기별 장학금 예산, 공식 백분위
+- System page updated: [[index]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
+
+## [2026-08-31] query update | NICE 자기소개서 외부 증빙 검토
+
+- Updated: [[2026-08-31-Q-nice-scholarship-essay-evidence-map]], [[cuee]], [[harness]], [[Graduation-elasticsearch]]
+- Threads evidence: 공개 저장소와 52행 metrics CSV 확인; 51개 유효 조회수의 총합 131,868, 중앙값 1,147, 형식별 지표 feedback 구현 확인
+- Award evidence: 2026-06-16 경남권 창업역량강화 심화교육 대상, 2026-08-11 학생창업유망팀 300+ 연계 동아리 챌린지 우수상 확인
+- Research evidence: CoDoc·Neo4j·JavaParser/Symbol Solver·source/test CSV 분석 흐름을 담은 사용자 연구 노트 확인
+- Career decision: 장학금 진로는 금융 데이터 분석가, 퀀트 트레이더는 장기 확장 관심으로 분리
+- Score update: 사용자 확인 백분율 91.8 기준 NICE 1차 예상점수 88.04
+- Contradiction flagged: 8월 우수상 대회 피드백을 6월 대상에 반영했다는 시간 순서는 불가능해 별도 아이디어톤 확인 필요
+- Attribution correction: LLM Wiki 강연자는 `KIST 고요한`이 아니라 CMDSPACE `구요한`으로 보이며 불확실한 소속은 자기소개서에서 제외

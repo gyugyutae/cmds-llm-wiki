@@ -6,7 +6,7 @@ description: Python-based Codex CLI autonomous implementation harness customized
 author:
   - Codex
 date created: 2026-07-10
-date modified: 2026-07-23
+date modified: 2026-08-31
 tags:
   - project
   - codex
@@ -62,7 +62,11 @@ status: active
 
 - **Account**: https://www.threads.com/@arxiv.ai?hl=koo
 - **Content concept**: 논문 작성에 AI agent를 어떻게 사용할 수 있는지 매일 설명하고, 좋은 예시와 나쁜 예시를 제시해 흥미를 유도
-- **Reported outcome**: 2026-07-23 사용자 자기보고 기준 팔로워 500명 달성
+- **Reported outcome**: 2026-08-31 사용자 자기보고 기준 팔로워 650명 달성
+- **Operation period**: 2026-05-25부터 매일 1개 게시물이 자동 발행되도록 운영 중이라고 보고
+- **Data-informed iteration**: 좋아요·댓글·팔로워 유입이 큰 게시물을 Excel로 옮겨 반응이 좋은 글 형식을 참고해 개선했다고 보고
+- **Repository verification**: 공개 저장소의 2026-08-31 스냅샷에서 게시물 성과 CSV 52행과 `metrics_feedback()` 구현을 확인했다. 최근 engagement를 형식·콘텐츠축·게시시간·실험군별로 집계해 다음 생성의 약한 신호로 사용한다.
+- **Observed metrics**: 조회수가 있는 51행의 총 조회수 131,868회, 중앙값 1,147회. `tiny_source_case` 13개의 중앙 조회수는 4,033회, `research_checklist` 20개는 280.5회였으나 시기·주제 차이가 있어 인과 효과로 단정하지 않는다.
 - **User decision evidence**: 여러 글 형식을 시험하고 논문 작성 방식의 반응이 좋자 템플릿으로 고정한 뒤 GitHub Actions 자동화와 반복 운영으로 연결
 - **Verification status**: 사용자 제공 원문 기반. 실제 계정 분석 화면, 코드, 스케줄러 설정, 실패 처리 로그는 추가 ingest 필요
 
@@ -86,6 +90,8 @@ status: active
 - 앱 개발에 맞게 수정한 구체 지점
 - 개발 시간, 오류 감소, 문서화 품질 같은 효과
 - Threads 자동 리서치/업로드 workflow의 실제 코드 위치
+- 2026-05-25~06-22 게시 이력과 현재 650명 팔로워의 계정 분석 화면
+- 형식 차이에서 시기·주제·노출량을 통제한 추가 분석
 - 토큰 발급, 예약 실행, 업로드 실패 처리, 계정 성장 지표 증빙
 - AI agent 논문 활용 콘텐츠에서 본인이 직접 기획한 부분과 자동화가 처리한 부분의 분리
 

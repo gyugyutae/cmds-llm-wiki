@@ -7,7 +7,7 @@ description: "Self-reported pattern of rapid execution, external recognition, mo
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-31
 tags:
   - motivation
   - execution
@@ -46,7 +46,7 @@ status: active
 
 ## Strongest Evidence
 
-Threads 에이전트 워크플로에서는 여러 글 형식을 시험하고, 논문 작성 방식의 반응이 좋자 그 형식을 템플릿으로 만들었다. GitHub Actions로 매일 AI의 논문 활용법을 작성하는 흐름을 자동화하고, 사용자 반응을 보며 유지보수했다. 사용자는 2026-07-23 현재 팔로워 500명을 달성했다고 보고했다.
+Threads 에이전트 워크플로에서는 여러 글 형식을 시험하고, 논문 작성 방식의 반응이 좋자 그 형식을 템플릿으로 만들었다. GitHub Actions로 매일 AI의 논문 활용법을 작성하는 흐름을 자동화하고, 사용자 반응을 보며 유지보수했다. 사용자는 2026-05-25부터 매일 한 게시물이 자동 발행되도록 운영했으며, 좋아요·댓글·팔로워 유입이 큰 게시물을 Excel로 옮겨 형식을 개선했다고 보고했다. 2026-08-31 자기보고 기준 팔로워는 650명이다.
 
 이 사례의 강점은 AI가 글을 만들었다는 사실이 아니라 다음 판단을 사용자가 수행했다는 점이다.
 
@@ -68,7 +68,7 @@ Threads 에이전트 워크플로에서는 여러 글 형식을 시험하고, �
 
 > [!note] Bias Check
 > Counter-argument: 팔로워 증가에는 콘텐츠 품질 외에도 노출 알고리즘과 시장 타이밍이 영향을 준다.
-> Data gap: 계정 분석 화면, 자동화 저장소, 기간별 팔로워 변화, 사용자의 직접 판단과 AI 작업 비율을 확인해야 한다.
+> Data gap: 계정 분석 화면, 자동화 저장소, Excel 데이터 구조, 형식별 전후 반응, 기간별 팔로워 변화, 사용자의 직접 판단과 AI 작업 비율을 확인해야 한다.
 
 ## Related
 

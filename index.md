@@ -154,6 +154,8 @@ status: active
 - [[2026-07-16-Q-coding-test-ai-era-problem-solving]] — 코딩테스트가 AI 시대에 문제해결력, 컴퓨팅 사고력, 검증 능력, 비-AI 기본기 증거로 갖는 의미
 - [[2026-07-16-Q-ai-assisted-coding-test-learning-loop]] — 코딩테스트 풀이 중 막힘, 디버깅, 엣지케이스 실패 상황에서 AI를 학습 보조로 쓰는 루프
 - [[2026-07-20-Q-shin-jinseo-katago-opponent-model-strategy]] — 카타고의 상대 인식, 인간 오류 유도 전략, 블루스팟의 해석
+- [[2026-08-31-Q-pureundeungdae-scholarship-fit]] — 학업·소득구간·AI/데이터 프로젝트를 반영한 2026년 2학기 푸른등대 장학금 적합도
+- [[2026-08-31-Q-nice-scholarship-essay-evidence-map]] — NICE 장학금 자기소개서의 문항별 소재·평가기준·증빙 공백 지도
 
 ---
 

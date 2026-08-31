@@ -6,7 +6,7 @@ description: JavaParser-based source-test traceability analysis repository for E
 author:
   - Codex
 date created: 2026-07-10
-date modified: 2026-08-16
+date modified: 2026-08-31
 tags:
   - project
   - research
@@ -34,6 +34,8 @@ status: active
 `Graduation-elasticsearch`는 JavaParser 기반 source-test traceability 분석을 위한 연구/학습 저장소다. Elasticsearch Java Client source tree를 대상으로 test Java file에서 source Java file로 이어지는 strict `TEST FILE -> SOURCE FILE` link set을 추출한다.
 
 김규태는 선배가 남긴 연구를 이어 2026년 5월부터 참여하고 있다. JavaParser와 AST의 기능과 개념은 설명할 수 있지만 관련 코드는 AI가 작성했으며, 현재 JavaParser를 사용해 직접 구현하거나 분석한 경험은 없다. 현재 확인된 본인의 연구 산출물은 논문 정리다.
+
+2026-08-31 확인한 사용자 연구 노트에는 `A GraphDatabase–Based Approach to Measuring Traceability Coverage in Open-Source Software`의 CoDoc·Neo4j·trace link 구조와 JavaParser/Symbol Solver 알고리즘이 정리돼 있다. `알고리즘 2 자바파서 내파트`라는 자기 기록과 Elasticsearch Java의 source/test CSV, cosine similarity, LLM yes/no, revision history·code clone 검증 흐름이 포함돼 있다. 이는 연구 주제와 데이터 구조를 학습한 증거지만 직접 구현 또는 논문 작성 증거는 아니다.
 
 ---
 
