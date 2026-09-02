@@ -11,11 +11,21 @@
 secrets/
 credentials/
 
-# Obsidian — machine-local state (do NOT sync these)
-.obsidian/workspace*
-.obsidian/cache
-.obsidian/graph.json
-.obsidian/plugins/*/data.json
+# Obsidian — machine-local vault state
+.obsidian/
+.trash/
+
+# Obsidian Web Clipper staging area outside the Wiki architecture
+Clippings/
+
+# Local showcase/export artifacts
+showcase/
+
+# Loose root notes created by Obsidian; move durable material into the vault layers
+/2026-*.md
+/김규태.md
+/무제.md
+/무제.canvas
 
 # Claude Code — machine-local session state
 .claude/sessions/
