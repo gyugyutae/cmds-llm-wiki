@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-08-24
+date modified: 2026-09-04
 tags:
   - index
   - moc
@@ -35,7 +35,7 @@ status: active
 | Entities | 10 |
 | Guides | 15 |
 | MOCs | 5 |
-| Queries | 13 |
+| Queries | 16 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -156,6 +156,7 @@ status: active
 - [[2026-07-20-Q-shin-jinseo-katago-opponent-model-strategy]] — 카타고의 상대 인식, 인간 오류 유도 전략, 블루스팟의 해석
 - [[2026-08-31-Q-pureundeungdae-scholarship-fit]] — 학업·소득구간·AI/데이터 프로젝트를 반영한 2026년 2학기 푸른등대 장학금 적합도
 - [[2026-08-31-Q-nice-scholarship-essay-evidence-map]] — NICE 장학금 자기소개서의 문항별 소재·평가기준·증빙 공백 지도
+- [[2026-09-04-Q-finance-backend-ai-era-job-preparation]] — AI 시대 금융권·핀테크 Java 백엔드 취업을 위한 책, 자격증, 프로젝트, 코딩테스트, 지원 전략과 1년 실행 계획
 
 ---
 

@@ -7,7 +7,7 @@ description: The user's active standalone LLM Wiki context for portfolio evidenc
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-08-16
+date modified: 2026-09-04
 tags:
   - system
   - schema
@@ -21,7 +21,7 @@ source:
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
   - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
 version: "1.4"
-snapshot_date: 2026-08-16
+snapshot_date: 2026-09-04
 status: active
 ---
 
@@ -37,9 +37,9 @@ status: active
 ### 기본 정체성
 
 - **이름**: `김규태`
-- **현재 상태**: `개발자 취업을 준비하는 경상국립대학교 소프트웨어공학과 3학년 학부생 / SEALAB 학부연구생`
+- **현재 상태**: `개발자 취업을 준비하는 경상국립대학교 소프트웨어공학과 4학년 학부생 / SEALAB 학부연구생`
 - **기본 프로필**: `2003년생, 남성, 대한민국 경남 진주시 거주`
-- **목표 직무**: `아직 단일 직무로 확정하지 않았지만 개발자가 되고 싶고, 백엔드 / 금융 / 드론 / 반도체 도메인에 관심`
+- **목표 직무**: `1차 목표는 금융권·핀테크 Java 백엔드 및 거래 인프라 직무이며, 드론·반도체 도메인도 장기 관심사로 유지`
 - **직함 / 역할**: `학부연구생 / 개발자 취업준비생 / LLM Wiki 운영자`
 - **주 언어**: `Python`
 - **GitHub 기반 기술 경험**: `Python 서버/자동화, JavaParser·Elasticsearch 분석, Kotlin Android 앱, TypeScript/React 프로토타입, C 서버 MVP, Shell/PowerShell 자동화`

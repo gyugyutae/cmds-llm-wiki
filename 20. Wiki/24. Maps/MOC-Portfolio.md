@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-08-24
+date modified: 2026-09-04
 tags:
   - moc
   - portfolio
@@ -42,6 +42,7 @@ related:
   - "[[김규태 개발 도메인 영어 성장 계획]]"
   - "[[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]"
   - "[[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]]"
+  - "[[2026-09-04-Q-finance-backend-ai-era-job-preparation]]"
 status: active
 explored: false
 verificationStatus: unverified
@@ -56,8 +57,8 @@ verificationStatus: unverified
 ## Target Profile
 
 - **Owner**: [[김규태]]
-- **Current status**: 개발자 취업준비생, 경상국립대학교 소프트웨어공학과 3학년, SEALAB 학부연구생
-- **Portfolio objective**: 아직 단일 직무로 확정하지 않았지만 개발자 취업을 목표로 하며, 백엔드 / 금융 / 드론 / 반도체 도메인을 탐색
+- **Current status**: 개발자 취업준비생, 경상국립대학교 소프트웨어공학과 4학년, SEALAB 학부연구생
+- **Portfolio objective**: 금융권·핀테크 Java 백엔드·거래 인프라 취업을 1차 목표로 하며, 드론·반도체 도메인도 장기 관심사로 탐색
 - **Preferred tone**: 열정과 성장가능성이 드러나되, 성능·데이터 처리·설계·개발·팀 리딩·AI 활용 검증 근거가 있는 취업준비생 톤
 - **Primary language**: Python
 - **GitHub-based stack**: Python, Java, Kotlin, TypeScript/React, JavaScript, C, Shell/PowerShell, Dockerfile, PLpgSQL
@@ -95,6 +96,7 @@ verificationStatus: unverified
 - [[김규태 개발 도메인 영어 성장 계획]] — 수료 경험을 영어 README·기술 문서·설명 증거로 전환하는 계획
 - [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]] — 장기 퀀트/HFT 관심을 가설·데이터·비용·검증 문제로 구체화하는 학습 지도
 - [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]] — AI 초안을 테스트·도메인 규칙·성능 검증으로 인수하는 개발 원칙
+- [[2026-09-04-Q-finance-backend-ai-era-job-preparation]] — 책·자격증·금융 거래 프로젝트·AI 검증·코딩테스트·지원 전략을 통합한 2026–2027 실행안
 
 ---
 

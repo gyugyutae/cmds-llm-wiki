@@ -8,7 +8,7 @@ description: Chronological log of all wiki operations — ingests, queries, lint
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-08-24
+date modified: 2026-09-04
 tags:
   - system
   - log
@@ -864,3 +864,27 @@ status: active
 - Score update: 사용자 확인 백분율 91.8 기준 NICE 1차 예상점수 88.04
 - Contradiction flagged: 8월 우수상 대회 피드백을 6월 대상에 반영했다는 시간 순서는 불가능해 별도 아이디어톤 확인 필요
 - Attribution correction: LLM Wiki 강연자는 `KIST 고요한`이 아니라 CMDSPACE `구요한`으로 보이며 불확실한 소속은 자기소개서에서 제외
+
+## [2026-09-04] query | AI 시대 금융권·핀테크 백엔드 취업 준비
+
+- Source query: 금융권 백엔드 포트폴리오용 책, 18학점·다음 학기 캡스톤 3학점 조건의 1년 취업 준비, 자격증 로드맵 평가, AI로 어려워진 신입 채용에서 필요한 역량과 현실적인 지원 전략을 정리해 달라는 요청
+- Saved query result: [[2026-09-04-Q-finance-backend-ai-era-job-preparation]]
+- Wiki pages updated:
+	- [[Core Context]] — 최신 자기보고 기준 4학년, 금융권·핀테크 Java 백엔드 1차 목표 반영
+	- [[김규태 Career Narrative]] — 학년과 1차 목표 갱신
+	- [[김규태 금융 시스템 개발자 취업 로드맵]] — 18학점·다음 학기 캡스톤 3학점, 금융권·핀테크 지원 범위 반영
+	- [[MOC-Portfolio]] — 새 실행안 연결 및 최신 상태 반영
+	- [[index]] — Query 16건으로 갱신
+- Key context captured:
+	- AI 시대에는 단순 코드 생성보다 문제 정의, Java·Spring·DB 기본기, 금융 정합성, 테스트·장애·성능 검증과 설명 책임이 중요하다.
+	- 대표 포트폴리오는 계좌이체·거래원장 또는 국내주식 주문을 좁게 잡고 멱등성, 동시성, 대사, 복구와 p99를 증명한다.
+	- 자격증은 토익스피킹 → SQLD → 정보처리기사 순서를 유지하되 2027년 2월 지원 준비 완료를 더 높은 우선순위로 둔다.
+	- 지원 범위는 은행·대형 핀테크뿐 아니라 카드·증권·보험 IT, 금융 IT 자회사, PG·결제사, 금융 솔루션·SI와 인턴까지 넓힌다.
+- External evidence:
+	- 소프트웨어정책연구소의 생성형 AI와 SW 개발자 채용 전망
+	- 신한은행 2026 디지털/ICT 채용의 알고리즘·SQL 전형
+	- 토스뱅크 서버 개발 직무의 Java/Spring·정합성·금액 흐름 요구
+- Quality gaps:
+	- 현재 Java 직접 구현 수준, 프로젝트 최종 범위, 토익스피킹 목표 점수, 실제 코딩테스트·SQL 로그는 추가 확인이 필요하다.
+	- 2027년 채용과 자격시험 일정은 공식 발표 후 재검증해야 한다.
+- Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습, Codex 개발 워크플로
