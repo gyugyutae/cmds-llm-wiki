@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-09-04
+date modified: 2026-09-09
 tags:
   - moc
   - portfolio
@@ -43,6 +43,7 @@ related:
   - "[[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]"
   - "[[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]]"
   - "[[2026-09-04-Q-finance-backend-ai-era-job-preparation]]"
+  - "[[2026-09-09-Q-kb-securities-java-backend-starting-plan]]"
 status: active
 explored: false
 verificationStatus: unverified
@@ -72,12 +73,13 @@ verificationStatus: unverified
 
 | Priority | Project | Portfolio Role |
 |----------|---------|----------------|
-| 1 | [[financial-order-latency-lab]] | 백엔드 성능 실험, p99 latency, 부하 테스트, 병목 분석 |
-| 2 | [[Graduation-elasticsearch]] | 학부연구생/연구 경험, JavaParser, Elasticsearch Java source-test traceability |
-| 3 | [[cuee]] | 경남권 창업동아리 대상작, 노인 모빌리티 예약 길잡이 앱 |
-| 4 | [[harness]] | 커서맛피아님 harness를 참고해 앱 개발에 맞게 개인화한 Codex 개발 workflow |
+| 1 | Java 모의 증권 주문 시스템 | 새 대표 프로젝트 후보. 직접 설명·수정·검증 가능한 Java·SQL·Spring·정합성 증거를 새로 만든다 |
+| 2 | [[financial-order-latency-lab]] | 백엔드 성능 문제의식과 p99 latency 실험 기록. 기존 코드는 AI 작성 범위가 커 보조 증거로 둔다 |
+| 3 | [[Graduation-elasticsearch]] | 학부연구생/연구 경험, JavaParser, Elasticsearch Java source-test traceability |
+| 4 | [[cuee]] | 경남권 창업동아리 대상작, 노인 모빌리티 예약 길잡이 앱 |
+| 5 | [[harness]] | 커서맛피아님 harness를 참고해 앱 개발에 맞게 개인화한 Codex 개발 workflow |
 
-이 순서는 사용자가 명시적으로 바꾸기 전까지 유지한다. 새 자료를 ingest할 때는 이 세 프로젝트 중 어느 축을 강화하는지 먼저 판단한다.
+새 Java 주문 시스템은 기존 AI 작성 프로젝트의 구현 증거 공백을 채우는 최우선 후보로 관리한다. 저장소가 생성되기 전에는 계획이며, 실제 코드·테스트·설명 기록이 생긴 뒤 정식 Entity로 승격한다.
 
 ---
 
@@ -97,6 +99,7 @@ verificationStatus: unverified
 - [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]] — 장기 퀀트/HFT 관심을 가설·데이터·비용·검증 문제로 구체화하는 학습 지도
 - [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]] — AI 초안을 테스트·도메인 규칙·성능 검증으로 인수하는 개발 원칙
 - [[2026-09-04-Q-finance-backend-ai-era-job-preparation]] — 책·자격증·금융 거래 프로젝트·AI 검증·코딩테스트·지원 전략을 통합한 2026–2027 실행안
+- [[2026-09-09-Q-kb-securities-java-backend-starting-plan]] — Java·SQL이 시작 단계인 현재 기준선에서 모의 증권 주문 MVP까지 가는 첫 8주 계획
 
 ---
 

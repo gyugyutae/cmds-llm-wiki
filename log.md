@@ -888,3 +888,17 @@ status: active
 	- 현재 Java 직접 구현 수준, 프로젝트 최종 범위, 토익스피킹 목표 점수, 실제 코딩테스트·SQL 로그는 추가 확인이 필요하다.
 	- 2027년 채용과 자격시험 일정은 공식 발표 후 재검증해야 한다.
 - Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습, Codex 개발 워크플로
+
+## [2026-09-09] ingest | KB증권·금융권 Java 백엔드 취업 상담
+
+- Raw Source: [[2026-09-09-Codex-KB-Securities-Java-Backend-Career-Conversation]]
+- Collection purpose: 2027년 8월 졸업 전까지 인턴·취업을 마치기 위해 KB증권·금융권 Java 백엔드에 필요한 부족 역량과 프로젝트·학습·지원 계획을 지속적으로 관리
+- Saved query result: [[2026-09-09-Q-kb-securities-java-backend-starting-plan]]
+- Updated Wiki page: [[김규태 금융 시스템 개발자 취업 로드맵]] — 2026-09-09 현재 Java·SQL·포트폴리오 기준선과 첫 실행 순서 추가
+- Updated MOC: [[MOC-Portfolio]] — 새 Java 모의 증권 주문 시스템을 직접 설명·수정·검증 가능한 최우선 대표 프로젝트 후보로 배치
+- Key decision: 공모전 수상과 자격증 개수보다 Java·SQL·Spring으로 금융 정합성을 직접 구현하고 테스트한 증거를 우선
+- AI boundary: 사람·AI의 키 입력 비율이 아니라 요구사항 정의, 설명, 수정, 테스트, 검증과 기여 공개로 학습 소유권을 판정
+- Mothership links: standalone mode이므로 생략
+- Verification boundary: 현재 역량은 사용자 자기보고이며 실제 Java 진단, 8주 산출물과 2027년 채용 자격은 후속 검증 필요
+- System page updated: [[index]] — Raw Sources 41건, Queries 17건으로 갱신
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습

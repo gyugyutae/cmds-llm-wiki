@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-04
+date modified: 2026-09-09
 tags:
   - index
   - moc
@@ -29,13 +29,13 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 40 |
+| Raw Sources | 41 |
 | Wiki Pages | 70 |
 | Concepts | 40 |
 | Entities | 10 |
 | Guides | 15 |
 | MOCs | 5 |
-| Queries | 16 |
+| Queries | 17 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -157,6 +157,7 @@ status: active
 - [[2026-08-31-Q-pureundeungdae-scholarship-fit]] — 학업·소득구간·AI/데이터 프로젝트를 반영한 2026년 2학기 푸른등대 장학금 적합도
 - [[2026-08-31-Q-nice-scholarship-essay-evidence-map]] — NICE 장학금 자기소개서의 문항별 소재·평가기준·증빙 공백 지도
 - [[2026-09-04-Q-finance-backend-ai-era-job-preparation]] — AI 시대 금융권·핀테크 Java 백엔드 취업을 위한 책, 자격증, 프로젝트, 코딩테스트, 지원 전략과 1년 실행 계획
+- [[2026-09-09-Q-kb-securities-java-backend-starting-plan]] — Java·SQL 시작 단계에서 금융 주문 MVP와 설명 가능한 포트폴리오를 만드는 첫 8주 실행안
 
 ---
 
@@ -164,6 +165,7 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-09-09 | [[2026-09-09-Codex-KB-Securities-Java-Backend-Career-Conversation]] | 1 guide + 1 MOC + 1 query |
 | 2026-08-24 | [[2026-08-17-Gemini-Quant-Research-Conversation]] + [[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]] + [[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]] | 14 pages + TMU PDF schedule |
 | 2026-07-26 | [[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]] + 11 Clippings | 14 pages |
 | 2026-07-23 | [[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]] | 15 pages |
