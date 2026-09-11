@@ -1268,3 +1268,23 @@ status: active
 - Overclaim correction: 오래 플레이한 개인 경험을 전체 이용자 요구의 증거로 확대하지 않고, 이용자 의견과 행동 데이터를 함께 확인하는 태도로 조정
 - Technical correction: Python이 1초에 항상 1억 번 연산한다는 고정 가정을 사용하지 않고, 입력 크기·알고리즘 복잡도·실행 환경을 함께 판단하도록 기록
 - Evidence boundary: 학습 기록과 구현물은 독립 확인되지 않은 사용자 자기보고이며 게임 개발 구현력의 대체 증거가 아님
+
+## [2026-09-11] query update | 넥토리얼 7~26번 자가답변 진단
+
+- Query updated: [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Answer-Strategy]]
+- Strong areas: 모르는 범위를 인정하는 태도, CUEE 방향 전환, Threads 포맷 가설, 모르는 질문 대응
+- Critical misconceptions: stack/heap과 stack/queue 혼동, process/thread 정의 부족, TCP handshake와 DB 동시성·중복 거래 처리 혼동
+- AI evidence gaps: 실제 AI 오류 발견 사례, 직접 설명·재작성 가능한 함수, 생산성 전후 측정, fallback 테스트 29개의 구체 범위
+- Portfolio number boundary: 제출 포트폴리오의 fallback 테스트 29개와 현재 checkout 전체 테스트 71개를 구분
+- Immediate sequence: race condition → transaction/lock → idempotency, stack/heap → pointer/reference, 자물쇠와 열쇠 백지 재풀이, fallback 함수·테스트 인수
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로
+
+## [2026-09-12] query | 넥토리얼 모의면접 1차 학습 기록
+
+- Query saved: [[2026-09-12-Q-Nexon-Tutorial-Mock-Interview-Session-1]]
+- Passed: 동일 아이템 동시 구매, 응답 유실과 idempotency, transaction atomicity
+- Partial: stack/heap의 수명은 일부 이해했지만 heap 소유·해제, memory leak, dangling pointer, queue와의 구분을 추가 학습해야 함
+- Introduction assessment: 메이플스토리의 어린 시절 기억은 강한 동기지만 반복을 줄이고 왜 기획자가 아닌 프로그래머인지 보강해야 함
+- Remaining queue: 대표 프로젝트, AI 오류·검증, 협업, C++/C#, 자료구조, OOP/SOLID, 동시성, network, 게임 분석, 빠른 학습 경험
+- Resume point: 왜 게임 기획자가 아니라 게임 프로그래머인가
+- Reuse axis: 취업/포트폴리오, 독서/책/학습

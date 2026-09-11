@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-11
+date modified: 2026-09-12
 tags:
   - index
   - moc
@@ -35,7 +35,7 @@ status: active
 | Entities | 12 |
 | Guides | 15 |
 | MOCs | 5 |
-| Queries | 28 |
+| Queries | 29 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -168,9 +168,10 @@ status: active
 - [[2026-08-29-Q-vault-audit]] — 70개 전 페이지 검증 후 eligibility, consistency, confirmability 최종 감사와 조건부 재검증 큐
 - [[2026-09-10-Q-ai-hint-deep-problem-focus]] — AI를 정답 지름길이 아닌 단계별 힌트로 제한해 깊은 문제 몰입과 재풀이 능력을 훈련하는 2주 실험
 - [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Preparation]] — 2026 신규 넥토리얼 AI면접의 답변 구조, 예상 질문군, 장비 점검표
-- [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Answer-Strategy]] — 넥슨태그 영상과 제출 자료를 대조한 개인화 답변 스크립트와 코드 약점 대응
+- [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Answer-Strategy]] — 넥슨태그·제출 자료·자가답변을 대조한 문항별 진단, 오개념 교정, 학습 우선순위
 - [[2026-09-11-Q-Nexon-Tutorial-Motivation-and-Game-Answers]] — 넥슨 게임의 개인적 기억, 지원동기, 게임 포트폴리오 부재와 AI 학습 사례를 연결한 면접 답변
 - [[2026-09-11-Q-AI-Assessment-Problem-Solving-Template]] — 정의·정렬·분해·선택·실행·검증·제출을 위한 AI 평가 참고 템플릿
+- [[2026-09-12-Q-Nexon-Tutorial-Mock-Interview-Session-1]] — 동시성·멱등성·stack/heap 재시험과 1분 자기소개 평가를 포함한 넥토리얼 모의면접 1차 기록
 
 ---
 
