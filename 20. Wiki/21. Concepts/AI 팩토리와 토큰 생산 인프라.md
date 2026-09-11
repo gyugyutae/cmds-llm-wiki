@@ -7,7 +7,7 @@ description: "Jensen Huang's infrastructure framing of AI systems as factories t
 author:
   - Codex
 date created: 2026-07-26
-date modified: 2026-07-26
+date modified: 2026-08-29
 tags:
   - ai-infrastructure
   - accelerated-computing
@@ -15,16 +15,21 @@ tags:
   - semiconductors
 source:
   - "[[2026-07-26-YouTube-젠슨황-AI-인프라]]"
+  - https://www.nvidia.com/en-us/on-demand/session/computex24-keynote/
+  - https://blogs.nvidia.com/blog/computex-2025-jensen-huang/
 related:
   - "[[AI 시대의 개발자 학습 전략]]"
   - "[[일반 지식보다 도메인 지식이 중요해지는 이유]]"
   - "[[김규태 Career Narrative]]"
-confidence: low
+confidence: high
 layer: concepts
 explored: false
 claimType: mixed
-evidenceScope: single-source
-verificationStatus: unverified
+evidenceScope: mixed-source
+verificationStatus: verified
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 
@@ -64,7 +69,7 @@ status: active
 
 > [!note] Bias Check
 > Counter-argument: “factory”와 “token as intelligence”는 NVIDIA의 사업 전략을 반영한 강한 은유이며 AI의 사회적·인지적 성격을 모두 설명하지 않는다.
-> Data gap: 캡처본은 번역 영상이며 원 인터뷰의 전체 맥락, 수치, 시장 규모 주장을 독립적으로 확인하지 않았다.
+> Data gap: NVIDIA의 2024 keynote와 2025 공식 recap에서 전력·데이터센터 인프라가 token을 생산한다는 Huang의 표현을 확인했다. 다만 이는 NVIDIA의 사업·인프라 관점을 반영한 은유이며, 시장 규모나 "token = intelligence" 가치 판단까지 독립 검증한 것은 아니다.
 
 ## Related
 

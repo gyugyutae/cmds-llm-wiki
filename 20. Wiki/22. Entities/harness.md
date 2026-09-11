@@ -25,12 +25,15 @@ related:
   - "[[AI-Augmented Developer Positioning]]"
   - "[[AI 자동화는 개인 생산성 레버리지다]]"
   - "[[경제적 자유는 나의 북극성이다]]"
-confidence: high
+confidence: medium
 layer: entities
 explored: true
-claimType: project-evidence
+claimType: mixed
 evidenceScope: multi-source-mixed
 verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 
@@ -94,6 +97,7 @@ status: active
 - 형식 차이에서 시기·주제·노출량을 통제한 추가 분석
 - 토큰 발급, 예약 실행, 업로드 실패 처리, 계정 성장 지표 증빙
 - AI agent 논문 활용 콘텐츠에서 본인이 직접 기획한 부분과 자동화가 처리한 부분의 분리
+- 2026-08-29 현재 이 Mac에 local harness checkout이 없고 공개 GitHub/Raw README도 이번 검증에서 불러오지 못했으므로, 현재 코드 상태는 재확인하지 못함
 
 ---
 

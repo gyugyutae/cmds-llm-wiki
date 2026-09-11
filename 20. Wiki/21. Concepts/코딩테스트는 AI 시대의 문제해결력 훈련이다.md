@@ -7,7 +7,7 @@ description: "Concept page framing coding test preparation as evidence of AI-era
 author:
   - Codex
 date created: 2026-07-16
-date modified: 2026-07-26
+date modified: 2026-08-29
 tags:
   - coding-test
   - problem-solving
@@ -39,6 +39,9 @@ explored: false
 claimType: interpretive
 evidenceScope: mixed
 verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

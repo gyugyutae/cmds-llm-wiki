@@ -7,7 +7,7 @@ description: Andrej Karpathy — AI researcher, former Tesla AI Director, OpenAI
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-12
+date modified: 2026-08-29
 tags:
   - person
   - ai-researcher
@@ -15,19 +15,21 @@ tags:
 source:
   - "[[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]]"
   - "[[2026-04-12-Karpathy-LLM-Wiki]]"
-  - "[[2026-04-13-Changhyun-Ahn-Soverign-PKM]]"
+  - https://karpathy.ai/
+  - https://github.com/karpathy
 related:
   - "[[LLM Wiki Pattern]]"
-  - "[[Synthetic Data Generation for Wiki]]"
-  - "[[kepano (Steph Ango)]]"
   - "[[qmd]]"
-  - "[[Sovereign PKM]]"
-  - "Changhyun Ahn"
 confidence: high
 layer: entities
 status: active
 explored: false
-verificationStatus: unverified
+claimType: historical
+evidenceScope: multi-source-primary
+verificationStatus: verified
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # Andrej Karpathy
@@ -50,8 +52,8 @@ Andrej Karpathy는 슬로바키아 출신의 AI 연구자, 교육자, 엔지니�
 - **Stanford CS PhD**: Computer Vision, Fei-Fei Li 연구실
 - **OpenAI**: 창립 멤버 (2015)
 - **Tesla**: AI Director, Autopilot 리드 (2017-2022)
-- **OpenAI 복귀**: 2023, 이후 퇴사
-- **독립 활동**: 교육 콘텐츠, 오픈소스 프로젝트
+- **OpenAI 복귀**: 2023-2024, midtraining·synthetic data generation 팀 구축
+- **2024 이후**: 본인 공식 사이트 기준 AI 교육 영상과 오픈소스 활동
 
 ### LLM Wiki와의 관계
 
@@ -69,17 +71,13 @@ Andrej Karpathy는 슬로바키아 출신의 AI 연구자, 교육자, 엔지니�
 - LLM이 대화 기반으로 wiki를 편집하면 Obsidian에서 실시간 탐색
 - "Obsidian은 IDE, LLM은 프로그래머, Wiki는 코드베이스"
 - **개인 deployment 규모**: ~100 articles / ~400K words (자가 공개, 2026-04-02)
-- **확장 구상**: [[Synthetic Data Generation for Wiki|Wiki 기반 파인튜닝]]으로 지식을 가중치에 내장하는 방향
+- **확장 구상**: Wiki 기반 synthetic data와 fine-tuning을 향후 탐색 방향으로 언급
 
 ### 커뮤니티 반응
 
 X 스레드에서 주목할 답글:
-- [[kepano (Steph Ango)]] (Obsidian CEO): [[Contamination Mitigation]] 개념 제시
+- **kepano (Steph Ango)**: 원출처가 분명한 개인 vault와 agent playground를 분리하는 관점 제시
 - **Beomsu** (@BeromArtDev): [[qmd]] 실사용 확인
-
-**한국 PKM 커뮤니티의 reframing** (2026-04-13):
-
-Changhyun Ahn의 LinkedIn Pulse 에세이는 Karpathy의 LLM Wiki를 **"혁신의 출발점이 아니라, 이미 앞서 가던 흐름이 AI 본류의 입에서 재확인된 signal"** 로 해석한다. 이 관점은 Karpathy의 발화를 **도구의 정당성**보다 **구조적 정당성**의 확인으로 읽는다.
 
 ### 교육 기여
 
@@ -88,16 +86,15 @@ Changhyun Ahn의 LinkedIn Pulse 에세이는 Karpathy의 LLM Wiki를 **"혁신�
 - **micrograd**: 자동미분 교육 라이브러리
 - **cs231n**: Stanford Computer Vision 강의 (조교 → 교수)
 
+> [!note] Bias Check
+> 이 페이지의 경력 정보는 Karpathy 본인 사이트와 공개 저장소로 확인했지만, LLM Wiki의 효과와 영향력 평가는 그의 자기보고와 이 vault의 해석에 의존한다. `~100 articles / ~400K words`는 개인 사례이며 일반적 성능 보장이 아니다.
+
 ---
 
 ## Related
 
 - [[LLM Wiki Pattern]] — Karpathy가 제안한 핵심 패턴
-- [[Synthetic Data Generation for Wiki]] — Karpathy의 forward-looking 확장
-- [[kepano (Steph Ango)]] — X 스레드 대화 상대, 주요 해석자
 - [[qmd]] — Karpathy가 권장한 search tool
-- [[Sovereign PKM]] — Karpathy 패턴을 Korean PKM 관점에서 reframe
-- Changhyun Ahn — Sovereign PKM 관점의 에세이 저자
 
 ---
 
@@ -105,7 +102,8 @@ Changhyun Ahn의 LinkedIn Pulse 에세이는 Karpathy의 LLM Wiki를 **"혁신�
 
 - [[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]] — 원조 X 스레드
 - [[2026-04-12-Karpathy-LLM-Wiki]] — 확장된 Gist
-- [[2026-04-13-Changhyun-Ahn-Soverign-PKM]] — Korean PKM 관점의 reframing
+- [Andrej Karpathy official site](https://karpathy.ai/)
+- [Andrej Karpathy on GitHub](https://github.com/karpathy)
 
 ---
 

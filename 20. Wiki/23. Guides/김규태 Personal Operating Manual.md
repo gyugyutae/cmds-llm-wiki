@@ -7,7 +7,7 @@ description: "Compiled operating manual summarizing Kim Gyutae's identity, motiv
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - self-knowledge
   - operating-manual
@@ -21,12 +21,15 @@ related:
   - "[[김규태]]"
   - "[[MOC-김규태 Self Knowledge]]"
   - "[[김규태 AI Mentor Response Contract]]"
-confidence: high
+confidence: medium
 layer: guides
 explored: false
 claimType: mixed
 evidenceScope: multi-source-mixed
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

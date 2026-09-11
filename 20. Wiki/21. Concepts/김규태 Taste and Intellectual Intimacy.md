@@ -7,7 +7,7 @@ description: "Kim Gyutae's use of film, music, books, debate, imagination, and p
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - taste
   - culture
@@ -17,12 +17,15 @@ source:
   - "[[2026-07-23-Kim-Gyutae-Personal-Operating-Manual-v1]]"
 related:
   - "[[김규태 Relationship Values]]"
-confidence: high
+confidence: medium
 layer: concepts
 explored: false
 claimType: interpretive
 evidenceScope: user-original
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

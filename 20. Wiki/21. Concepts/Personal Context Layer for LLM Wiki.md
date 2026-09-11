@@ -9,7 +9,7 @@ description: The LLM Wiki can act as a high-quality personal context layer for L
 author:
   - Codex
 date created: 2026-07-16
-date modified: 2026-07-16
+date modified: 2026-08-29
 tags:
   - llm-wiki
   - personalization
@@ -36,8 +36,11 @@ layer: concepts
 status: active
 explored: false
 claimType: interpretive
-evidenceScope: synthesis-only
-verificationStatus: unverified
+evidenceScope: user-original
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 ---
 
 # Personal Context Layer for LLM Wiki
@@ -49,9 +52,9 @@ verificationStatus: unverified
 
 ## Overview
 
-**Personal Context Layer for LLM Wiki**는 LLM Wiki를 개인 맞춤형 LLM을 위한 맥락 공급층으로 보는 관점이다. 모델 성능이 상향 평준화될수록 차이는 일반 지식보다 사용자의 프로젝트, 목표, 취향, 질문, 판단 기준, 학습 이력 같은 개인 맥락에서 생긴다.
+**Personal Context Layer for LLM Wiki**는 LLM Wiki를 개인 맞춤형 LLM을 위한 맥락 공급층으로 보는 관점이다. 모델 간 일반 성능 차이가 줄어들수록 프로젝트, 목표, 취향, 질문, 판단 기준, 학습 이력 같은 개인 맥락의 가치가 커질 수 있다는 가설을 포함한다. 이 가설은 이 vault에서 비교 측정되지 않았다.
 
-이 vault에서 그 역할은 [[Core Context]], [[김규태]], 프로젝트 entity, 개념 page, Query result가 함께 수행한다. 사용자는 source를 큐레이션하고 질문을 던지며, agent는 그 맥락을 markdown 파일로 구조화한다.
+이 vault에서 그 역할은 [[Core Context]], [[김규태]], 프로젝트 entity, 개념 page, Query result가 함께 수행한다. 사용자는 source를 큐레이션하고 질문을 던지며, agent는 그 맥락을 markdown 파일로 구조화한다. 다만 파일이 존재하는 것만으로 모델이 자동으로 읽는 것은 아니며, 현재 작업에서 실제로 검색·선택된 내용만 컨텍스트가 된다.
 
 ## Why It Matters
 
@@ -78,7 +81,7 @@ LLM Wiki는 이 병목을 다음 방식으로 줄인다.
 
 LLM Wiki는 LLM을 더 잘 쓰기 위한 도구인 동시에 자기 이해 도구다. 머릿속에 흩어져 있던 생각을 Wiki page와 wikilink로 외부화하면, Obsidian Graph View에서 반복되는 관심사와 고립된 생각을 볼 수 있다.
 
-이 점에서 Graph View는 "지식의 양"보다 "생각의 구조"를 보여준다. 어떤 프로젝트가 어떤 개념과 연결되는지, 어떤 질문이 반복되는지, 어떤 클러스터가 커지는지 보면 사용자는 자기 관심과 판단 기준을 더 명확히 파악할 수 있다.
+Graph View는 기록된 wikilink의 구조를 보여준다. 어떤 프로젝트가 어떤 개념과 연결되어 기록됐는지, 어떤 클러스터가 커지는지 살펴보는 단서는 되지만, 사용자의 전체 생각 구조나 링크의 진실성·중요도를 직접 측정하지는 않는다.
 
 ## Operational Criteria
 
@@ -95,8 +98,8 @@ Query에서 나온 생각을 Wiki에 반영할지는 다음 기준으로 판단�
 이번 개념은 LLM Wiki의 personalization 가치를 설명하는 재사용 가능한 abstraction이므로 독립 Concept page로 둔다.
 
 > [!note] Bias Check
-> Counter-argument: 개인 맥락이 많아질수록 답변이 과도하게 자기확증적으로 변할 수 있다.
-> Data gap: 개인 Wiki 맥락이 실제 LLM 답변 품질을 얼마나 개선하는지는 이 vault에서 정량 평가하지 않았다.
+> Counter-argument: 개인 맥락이 많아질수록 답변이 과도하게 자기확증적으로 변하거나 과거의 정체성에 사용자를 고정할 수 있다. 오래된 정보와 민감한 개인정보도 별도 관리가 필요하다.
+> Data gap: 개인 Wiki 맥락이 실제 LLM 답변 품질을 얼마나 개선하는지는 이 vault에서 정량 평가하지 않았다. Graph View 역시 기록된 링크만 반영한다.
 
 ---
 

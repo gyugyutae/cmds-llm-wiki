@@ -7,7 +7,7 @@ description: "Self-reported stress cycle involving task frustration, withdrawal,
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - stress
   - recovery
@@ -17,12 +17,15 @@ source:
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
 related:
   - "[[김규태 Work and Learning Operating Guide]]"
-confidence: high
+confidence: medium
 layer: concepts
 explored: false
 claimType: interpretive
 evidenceScope: user-original
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

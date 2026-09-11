@@ -7,7 +7,7 @@ description: "A repeated self-reported pattern of long-lasting romantic focus, r
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - relationships
   - attachment
@@ -18,12 +18,15 @@ source:
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
 related:
   - "[[김규태 Relationship Values]]"
-confidence: high
+confidence: medium
 layer: concepts
 explored: false
 claimType: interpretive
 evidenceScope: user-original
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

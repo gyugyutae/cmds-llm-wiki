@@ -35,7 +35,10 @@ layer: guides
 explored: false
 claimType: interpretive
 evidenceScope: user-original
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

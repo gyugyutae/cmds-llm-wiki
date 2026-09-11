@@ -8,7 +8,7 @@ description: Chronological log of all wiki operations — ingests, queries, lint
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-04
+date modified: 2026-09-11
 tags:
   - system
   - log
@@ -864,7 +864,6 @@ status: active
 - Score update: 사용자 확인 백분율 91.8 기준 NICE 1차 예상점수 88.04
 - Contradiction flagged: 8월 우수상 대회 피드백을 6월 대상에 반영했다는 시간 순서는 불가능해 별도 아이디어톤 확인 필요
 - Attribution correction: LLM Wiki 강연자는 `KIST 고요한`이 아니라 CMDSPACE `구요한`으로 보이며 불확실한 소속은 자기소개서에서 제외
-
 ## [2026-09-04] query | AI 시대 금융권·핀테크 백엔드 취업 준비
 
 - Source query: 금융권 백엔드 포트폴리오용 책, 18학점·다음 학기 캡스톤 3학점 조건의 1년 취업 준비, 자격증 로드맵 평가, AI로 어려워진 신입 채용에서 필요한 역량과 현실적인 지원 전략을 정리해 달라는 요청
@@ -902,3 +901,318 @@ status: active
 - Verification boundary: 현재 역량은 사용자 자기보고이며 실제 Java 진단, 8주 산출물과 2027년 채용 자격은 후속 검증 필요
 - System page updated: [[index]] — Raw Sources 41건, Queries 17건으로 갱신
 - Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-08-25] query | Recent essential books for the AI era
+
+- Query saved: [[2026-08-25-Q-recent-ai-era-essential-books]]
+- Wiki pages consulted:
+	- [[독서는 판단력과 자산관리의 기반이다]]
+	- [[AI 시대의 개발자 학습 전략]]
+	- [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]
+	- [[일반 지식보다 도메인 지식이 중요해지는 이유]]
+- Current publication and recognition checks:
+	- `AI Snake Oil` (2024; Korean edition `AI 버블이 온다`, 2025)
+	- `Empire of AI` (2025; Korean edition `AI 제국`, 2026; 2025 NBCC nonfiction winner)
+	- `The Thinking Machine` (2025; 2025 FT and Schroders Business Book of the Year)
+	- `Supremacy` (2024; 2024 FT and Schroders Business Book of the Year)
+	- `Code Dependent` (2024; Women's Prize for Non-Fiction shortlist)
+- Durable feedback: linked the reading path from [[독서는 판단력과 자산관리의 기반이다]]
+- Quality boundary: recent books are described as acclaimed candidates with durable potential, not already established classics
+- Reuse axis: 독서/책/학습, 취업/포트폴리오, 백엔드/성능/금융 시스템, Codex 개발 워크플로
+
+## [2026-08-29] audit | Whole-vault knowledge integrity
+
+- Report saved: [[2026-08-29-Q-vault-audit]]
+- Scope: Wiki 70 pages, MOCs 5, Raw Sources 40, pre-audit Queries 14
+- Scores: eligibility 90, consistency 60, confirmability 73, composite health 74/100
+- Material conflicts: 2 MOC clusters (`MOC-Portfolio`, `MOC-LLM Wiki Guide`)
+- Clear high-confidence overclaims: 4 source-empty pages
+- Verification state: unverified 58, partial 12, verified 0, disputed 0
+- Audit orphans: 7 pages outside direct MOC membership
+- Write boundary: no Wiki page mutated; Top 10 follow-up targets queued for `/verify`
+
+## [2026-08-29] verify | Cohort Token Economy
+
+- Page verified: [[Cohort Token Economy]]
+- Eligibility: added `claimType: mixed`, `evidenceScope: synthesis-only`, verification metadata, and official source links
+- Consistency: preserved the cohort-operations concept but removed unsupported certainty from the related token-optimization narrative
+- Confirmability: no Raw Source or cohort log supports `80%+`, `1-2 weeks`, or "Pro is sufficient for hobby use"
+- Official boundary: Anthropic documents session/weekly limits and variable usage factors, not cohort incidence or timing
+- Confidence: `high` → `low`
+- Verification status: `unverified` → `partial`
+- `explored: false` preserved; `disputed: false`
+- Follow-up: `/verify LLM Wiki Token Optimization Strategies`, `/verify External Pre-processing Pattern`
+
+## [2026-08-29] verify | LLM Wiki Token Optimization Strategies
+
+- Page verified: [[LLM Wiki Token Optimization Strategies]]
+- Eligibility: added prescriptive claim type, primary-source scope, verification metadata, Sources, and Bias Check
+- Consistency: aligned the guide with the now-partial [[Cohort Token Economy]] hypothesis and standalone Raw Source preservation rules
+- Corrected current facts: `/effort low` replaces unsupported `minimal`; Claude plans use Max 5x/20x; Qwen3.6 official open weights are 27B and 35B-A3B; Gemma 4 31B targets large servers
+- Safety correction: removed `--dangerously-skip-permissions` as a general optimization and limited bypass permissions to isolated environments
+- OpenAI boundary: official Deep Research models target complex multi-source research and are not treated as a universal preprocessing default
+- Confidence: `high` → `medium`
+- Verification status: `unverified` → `partial`
+- `explored: false` preserved; `disputed: false`
+- Follow-up: `/verify External Pre-processing Pattern`
+
+## [2026-08-29] verify | External Pre-processing Pattern
+
+- Page verified: [[External Pre-processing Pattern]]
+- Eligibility: added prescriptive claim type, synthesis-only evidence scope, verification metadata, official sources, and Bias Check
+- Consistency: restored the vault boundary between preserved Raw Sources and tool-generated derivative material
+- Confirmability: no Raw Source or comparison log supports the prior `50-80%` token saving estimate or a universal cost, speed, or vendor-quality advantage
+- OpenAI boundary: Deep Research is documented for complex multi-source research; Whisper is documented for speech-to-text, not as proof that the resulting derivative can replace the original source
+- Workflow correction: direct ingest and external preprocessing must be compared on omissions, distortion, traceability, time, and actual cost before adoption
+- Confidence: `high` → `medium`
+- Verification status: `unverified` → `partial`
+- `explored: false` preserved; `disputed: false`
+- Follow-up: `/verify MOC-Portfolio`
+
+## [2026-08-29] verify | MOC-Portfolio
+
+- Page verified: [[MOC-Portfolio]]
+- Eligibility: added four linked Raw Sources, mixed claim type, mixed-source scope, confidence, verification metadata, and Bias Check
+- Consistency: corrected the four-project count and synchronized [[financial-order-latency-lab]] with [[Core Context]] and its entity page
+- Contribution boundary: the user proposed the financial latency question; AI selected the p99 setup and performed the code, execution, re-execution, and interpretation, which the user did not independently verify
+- Portfolio correction: replaced implementation-strength wording with a transparent plan to build directly explainable, modifiable, and reproducible Java backend evidence
+- Threads boundary: the latest linked user interview reports 500 followers on 2026-07-23, but independent API or screenshot proof remains missing
+- Confidence: unset → `medium`
+- Verification status: `unverified` → `partial`
+- `explored: false` preserved; `disputed: false`
+- Follow-up: `/verify MOC-LLM Wiki Guide`, `/verify financial-order-latency-lab`
+
+## [2026-08-29] verify | MOC-LLM Wiki Guide
+
+- Page verified: [[MOC-LLM Wiki Guide]]
+- Eligibility: added prescriptive claim type, primary repo-document scope, confidence, verification metadata, Sources, and Bias Check
+- Consistency: replaced the legacy Claude-first schema with the current `AGENTS.md` → `.agents/skills/` → `.codex/commands/` Codex priority
+- Ingest correction: removed the fixed `10-15 pages` update claim and documented the collection-purpose gate, Original Content preservation, targeted compilation, index/log sync, and final review
+- Operations: documented `$status`, `$lint`, `$audit`, `$verify`, `$reindex`, and `$refresh-context`; broken links are classified instead of automatically generating pages
+- Standalone mode: confirmed against [[Core Context]] with `source-vault: null`
+- Confidence: unset → `high`
+- Verification status: `unverified` → `verified`
+- `explored: false` preserved; `disputed: false`
+- Follow-up: `/verify Book Ingest Pattern`, `/verify LLM Wiki Pattern`
+
+## [2026-08-29] verify | Book Ingest Pattern
+
+- Page verified: [[Book Ingest Pattern]]
+- Eligibility: added the Karpathy Raw Source and current Codex command, hook, and changelog evidence with verification metadata and Bias Check
+- Attribution correction: Karpathy describes raw-to-Wiki incremental compilation and filing useful outputs back into the Wiki, but does not state a "compile when read, not when scraped" rule or chapter-stub workflow
+- Local-design boundary: classified Progressive Stubs as this repository's prescriptive harness design rather than an external principle
+- Hook correction: current Codex validation requires the Original Content heading, checks substantive bodies for normal sources, and explicitly exempts `status: stub` from the body-length gate
+- Confirmability: no completed Book Ingest case currently demonstrates lower token cost, less contamination, or better learning outcomes
+- Confidence: `high` → `medium`
+- Verification status: `unverified` → `partial`
+- `explored: false` preserved; `disputed: false`
+- Follow-up: `/verify LLM Wiki Pattern`, collect one real Book Ingest comparison
+
+## [2026-08-29] verify | LLM Wiki Pattern
+
+- Page verified: [[LLM Wiki Pattern]]
+- Eligibility: added mixed claim type, mixed-source scope, verification metadata, verification boundary, and Bias Check
+- Source integrity: removed two cited Raw Sources and multiple related concept links that do not exist in the current vault
+- Attribution: retained Karpathy's raw-to-Wiki compilation, query filing, health checks, use cases, and `~100 articles / ~400K words` personal deployment report
+- Generalization boundary: the disclosed scale is one case, not an embedding-search threshold; `10-15 pages` and near-zero maintenance are source claims, not independently demonstrated performance guarantees
+- Operational correction: cross-references, contradiction flags, and complete synthesis are maintenance goals, not automatic properties
+- Confidence: `high` → `medium`
+- Verification status: `unverified` → `partial`
+- `explored: false` preserved; `disputed: false`
+- Follow-up: `/verify MOC-Knowledge Management`, `/verify RAG vs Compiled Wiki`
+
+## [2026-08-29] verify | MOC-Knowledge Management
+
+- Page verified: [[MOC-Knowledge Management]]
+- Eligibility: added definition claim type, mixed-source scope, linked sources, confidence, verification metadata, and Bias Check
+- Link integrity: removed five direct Wiki links with no current target (`Persistent Knowledge Base`, `Contamination Mitigation`, `Sovereign PKM`, `Harness Literacy`, `Synthetic Data Generation for Wiki`)
+- Preservation: retained those names as unmaterialized candidates rather than inventing pages or silently discarding the knowledge gaps
+- Tool wording: changed qmd from a broad "Karpathy recommendation" to the local Markdown search tool used by this vault
+- Confidence: unset → `medium`
+- Verification status: `unverified` → `partial`
+- `explored: false` preserved; `disputed: false`
+- Follow-up: `/verify RAG vs Compiled Wiki`, decide candidate creation only when evidence and reuse justify it
+
+## [2026-08-29] verify | financial-order-latency-lab
+
+- Page verified: [[financial-order-latency-lab]]
+- Eligibility: changed the non-schema `project-evidence` claim type to `mixed`, added current verification metadata, Core Context evidence, Verification Boundary, and Bias Check
+- Repository check: the public GitHub repository currently contains the Python server/load generator, result directory, run commands, and README values baseline `25.60 ms`, gpu-scoring `45.11 ms`, combined `48.36 ms`, and disk-pressure proxy `10.95 → 1.49`
+- Reproduction boundary: this verification did not rerun the Windows 11/GTX 1060 experiment, so measurement reproducibility and causal bottleneck interpretation remain partial
+- Contribution boundary: repository artifacts do not establish personal implementation; the latest user-confirmed [[Core Context]] says AI performed the p99 setup, code, execution, and re-execution and the user did not independently verify them
+- Confidence: `high` → `medium`
+- Verification status: remains `partial`
+- `explored: true` preserved; `disputed: false`
+- Follow-up: directly reimplement and rerun a minimal Java/Linux experiment before portfolio promotion
+
+## [2026-08-29] verify | 시장중립은 무위험이 아니다
+
+- Page verified: [[시장중립은 무위험이 아니다]]
+- Eligibility: expanded the AI-only source into mixed evidence with a current SEC filing, Federal Reserve stability analysis, and OCC delta-neutral definition
+- Consistency: confirmed market neutrality targets measured general-market exposure but does not guarantee removal of style, industry, short-position, leverage, liquidity, or execution risk
+- Delta boundary: OCC defines delta neutrality around incremental underlying-price sensitivity; it is not identical to regression beta neutrality or a persistent risk-free state
+- Leverage boundary: the Federal Reserve documents how leveraged funds can be forced to sell into stressed liquidity, so low measured directionality does not make high leverage safe
+- Confidence: `low` → `high`
+- Verification status: `unverified` → `verified`
+- `explored: false` preserved; `disputed: false`
+- Follow-up: `/verify 변동성 트레이딩과 델타 헤징`, `/verify 백테스트 과적합과 편향`
+
+## [2026-08-29] verify | LLM Wiki core operations batch
+
+- Pages verified: [[3-Layer Architecture]], [[Ingest-Query-Lint Cycle]], [[RAG vs Compiled Wiki]], [[LLM Wiki as Learning Base]], [[Agent-Readable Metadata]], [[Human-AI Knowledge Boundary]], [[Mothership-Satellite Vault Pattern]], [[Schema Engineering for LLM Wiki]]
+- Current architecture: confirmed six Raw Source subfolders and the Codex priority `AGENTS.md` → `.agents/skills/` → `.codex/commands/`; Claude files remain legacy mirrors
+- Source preservation: replaced absolute immutability wording with Original Content preservation plus explicit ingest/source-update exception
+- Scale calibration: treated `10-15 pages` and `~100 articles / ~400K words` as Karpathy examples, not local targets or universal search thresholds
+- RAG boundary: clarified that retrieval systems can persist outputs and compiled Wikis can use retrieval; neither side automatically guarantees synthesis, contradiction detection, or scale
+- Human boundary: agent verification updates `verificationStatus` but never flips `explored: true` without explicit user confirmation
+- Standalone boundary: confirmed `operationMode: standalone` and `source-vault: null`; mothership behavior remains an inactive design
+- Verification results: [[3-Layer Architecture]] and [[Schema Engineering for LLM Wiki]] → `verified`; the other six → `partial`
+- Follow-up: verify tooling guides and entity/history pages against current primary sources
+
+## [2026-08-29] verify | LLM Wiki tooling and history batch
+
+- Pages verified: [[Andrej Karpathy]], [[Vannevar Bush]], [[Memex]], [[qmd]], [[Obsidian Tooling for LLM Wiki]], [[Web Clipper to Inbox Workflow]], [[Citation Manager Integration for LLM Wiki]]
+- Primary sources: added Karpathy's official site and GitHub, Bush's 1945 Atlantic essay, current qmd README, and official Obsidian Web Clipper/Graph documentation
+- Link integrity: removed nonexistent Sovereign PKM, contamination, synthetic-data, kepano, and persistent-knowledge page links while retaining supported ideas as attributed prose where useful
+- Historical boundary: separated Bush's Memex description from Karpathy's later interpretation that agent maintenance extends it; LLMs have not "solved" Wiki maintenance automatically
+- qmd runtime: upstream BM25/vector/reranking/CLI/MCP features are current, but `qmd` is absent on this Mac and repo hook/config still contain Windows path placeholders
+- Web Clipper: local JSON templates and Inbox routes exist; browser-extension installation/import state was not claimed
+- Citation manager: confirmed the page is an unimplemented proposal and found no current citation fields in Raw Sources or templates
+- Verification results: [[Andrej Karpathy]], [[Vannevar Bush]], [[Memex]], [[Web Clipper to Inbox Workflow]] → `verified`; qmd/tooling/citation pages → `partial`
+- Follow-up: install and configure qmd only if semantic retrieval is needed; test citation integration before schema adoption
+
+## [2026-08-29] verify | LLM Wiki proposal batch
+
+- Pages verified: [[Idea Generation Pipeline]], [[Track Classification and Research Gap Detection]], [[Personal Context Layer for LLM Wiki]]
+- Implementation boundary: confirmed that idea generation, `track` metadata, and `$idea`/`$track` skills are proposals rather than current ingest behavior
+- Evidence correction: removed the unsupported `3 sources → 7 ideas` cohort measurement and the claim that more context necessarily improves idea quality
+- Product boundary: replaced broad NotebookLM/RAG comparisons with a comparison between this vault's implemented workflow and an optional divergence stage
+- Research-gap boundary: low track coverage now means a collection-gap candidate, not an external literature gap or PRISMA/systematic-review result
+- Personal-context boundary: existing files influence an answer only when actually retrieved or selected; Graph View reflects recorded wikilinks, not the user's complete thought structure
+- Verification results: all three pages → `partial`; `explored: false` preserved; `disputed: false`
+- Follow-up: implement and test proposal skills before claiming automation, and externally validate important ideas or research gaps
+
+## [2026-08-29] verify | personal self-knowledge batch
+
+- Pages verified: [[MOC-김규태 Self Knowledge]], [[김규태 Personal Operating Manual]], [[김규태 Relationship Values]], [[김규태 Work and Learning Operating Guide]], [[김규태 Career Values and Success Vision]], [[김규태 Career Narrative]], and six linked behavior-pattern concepts
+- Source check: confirmed the cited 2026-07-23 personal manual, romantic reflection, and self-understanding interview Raw Sources and their Original Content
+- Evidence boundary: treated preferences, memories, and goals as user self-report; retained AI-organized patterns as interpretations rather than diagnoses or independently observed traits
+- Confidence: the twelve pages now use `medium` where interpretation extends beyond literal source wording
+- Leadership correction: aligned the page with the source's self-reported `우승` wording and explicitly left the result and teammate perspective independently unconfirmed
+- Verification results: all twelve pages → `partial`; `explored: false` preserved; `disputed: false`
+- Follow-up: update changing preferences through a new user-confirmed source and add external artifacts only where outcome claims matter
+
+## [2026-08-29] verify | quant research and leverage batch
+
+- Pages verified: [[AI와 머신러닝 시대의 퀀트 리서치]], [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]], [[백테스트 과적합과 편향]], [[변동성 트레이딩과 델타 헤징]], [[자본 레버리지는 자유의 핵심 엔진이다]]
+- Primary evidence: added the 2026 interagency model-risk guidance, Bailey et al.'s backtest-overfitting paper, the SEC hypothetical-performance rule, OCC/CME option materials, and SEC/ProShares leveraged-ETF disclosures
+- Model-risk boundary: validation, monitoring, limitations, and governance are supported for traditional statistical and non-generative AI models; the guidance excludes generative and agentic AI from its direct scope
+- Backtest boundary: overfitting and hindsight risk are supported, while the research sequence and checklist remain learning synthesis rather than a universal industry process
+- Option result: delta-hedging concepts were confirmed as local first-order exposure management with gamma, theta, jumps, discrete rebalancing, and cost residuals; page → `verified`
+- Personal-finance boundary: converted asset balances to a dated 2026-07-12 self-report snapshot; clarified that QLD/USD target daily multiples and that borrowing plus leveraged ETFs compounds risk
+- Verification results: option page → `verified`; the other four → `partial`; `explored: false` preserved; `disputed: false`
+- Follow-up: do not promote the personal investment hypothesis without current balances, cash-flow constraints, and a reproducible path-dependent backtest
+
+## [2026-08-29] verify | career, learning, and personal strategy batch
+
+- Pages verified: fourteen remaining career, learning, AI workflow, reading, leverage, and economic-freedom pages
+- User-source boundary: career goals, English confidence, reading preferences, mentor rules, and economic-freedom strategy remain user-original or prescriptive records rather than externally proven outcomes
+- Evidence correction: marked current career facts as a July-August 2026 snapshot and changed productivity, domain-value, and skill-stack language to hypotheses where no outcome measurement exists
+- Project boundary: linked project pages locate evidence but do not automatically certify the user's implementation depth, productivity gain, leadership quality, or skill level
+- AI factory result: Jensen Huang's energy/data-center-to-token framing was confirmed against NVIDIA's official 2024 keynote and 2025 recap; the page is `verified` as attribution, not as an independent endorsement of NVIDIA's market thesis
+- Safety boundary: people are not reduced to personal leverage, and investment, career, learning, and AI automation effects remain subject to their stated evidence gaps
+- Verification results: [[AI 팩토리와 토큰 생산 인프라]] → `verified`; the other thirteen → `partial`; `explored: false` preserved; `disputed: false`
+- Follow-up: measure actual learning retention, AI workflow net productivity, and portfolio outcomes before raising confidence
+
+## [2026-08-29] verify | legacy partial metadata and project boundary batch
+
+- Pages re-verified: eleven previously partial career, learning, project, program, and owner pages
+- Schema migration: replaced unsupported `project-evidence` and `identity` claim types with `mixed`; added `verifiedAt`, `verifiedBy`, and `disputed` to every legacy partial page
+- Repository evidence: confirmed the current public Graduation-elasticsearch README and its repository-reported `3460 / 114 / 5486 / 3479 / 2007 / 1 / 694` summary without rerunning the parser
+- CUEE boundary: confirmed a clean local `main` README with build/test commands, fixture E2E, demo artifacts, and payment safety stop; did not treat `mock-korail` as live Korail proof or AI-written Kotlin as user implementation
+- Harness boundary: retained the documented workflow and user intent but lowered confidence because no local checkout exists and the public README was unavailable during this verification
+- Owner correction: updated [[김규태]] toward financial Java backend/trading infrastructure and removed blanket project implementation claims; project artifacts, AI work, user decisions, and independent verification are now separated
+- Verification results: all eleven remain `partial`; existing `explored` values preserved; `disputed: false`
+- Follow-up: rerun project-specific builds/tests and ingest contribution artifacts before raising any project or personal-skill claim to verified
+
+## [2026-08-29] audit | post-verification whole-vault audit
+
+- Report updated: [[2026-08-29-Q-vault-audit]]
+- Scope: 70 Wiki pages; Concepts 40, Entities 10, Guides 15, MOCs 5
+- Status: `verified` 10, `partial` 60, `unverified` 0, `disputed` 0
+- Eligibility: 70/70 v5 metadata, H1, source, and Related surface; YAML errors 0; invalid claim types 0
+- Consistency: broken wikilinks 0, direct MOC orphans 0, deterministic material conflicts 0
+- Confirmability: all 10 high-confidence pages have Bias Check; partial pages retain explicit user-report, fixture, repository, implementation, and unimplemented-design boundaries
+- Vault Health: Eligibility 100, Consistency 98, Confirmability 94, Composite `97/100`
+- Resolved during final sweep: removed a code-example false wikilink, connected seven MOC orphans, refreshed MOC-Portfolio's Java/AI contribution boundary, and added explicit sources to [[MOC-LLM Wiki Guide]]
+- Remaining work is evidence-triggered re-verification, not an unprocessed page queue
+
+## [2026-09-10] ingest | 계약랩 프로젝트 작업 메모
+
+- Raw Source saved: [[2026-09-02-to-09-Kim-Gyutae-Contract-Lab-Work-Notes]]
+- Collection purpose: 프로젝트 증거 — ROS 2·MAVSDK·QGroundControl 환경 구축, 드론 구동 확인, 자율착륙 판단 구조, 협업 방식, 특허 비교 과업을 포트폴리오와 면접 근거로 재사용
+- Wiki page created: [[계약랩]]
+- Map updated: [[MOC-Portfolio]]
+- User contribution boundary: 원문에서 김규태의 명시적 개인 과업은 Figure 2 검토이며, 환경 구축·드론 구동·설계 판단의 개인 기여 주체는 추가 증거가 필요
+- Verification boundary: 환경 구축과 드론 구동은 사용자 작성 메모의 자기보고이며 저장소, 명령, 로그, 영상, 시험 조건은 미확인
+- Patent boundary: 유사도·차별성 비교 과업만 기록되어 있고 대상 문헌, 비교표, 신규성 판단, 출원 여부는 미확인
+- Standalone mode: mothership search skipped; `mainVaultRelated` and `mainVaultCmds` left empty
+
+## [2026-09-10] query | AI 힌트로 깊은 문제 몰입 회복
+
+- Query saved: [[2026-09-10-Q-ai-hint-deep-problem-focus]]
+- User self-report: 어려운 문제를 약 5분 이상 붙잡기 어렵고 AI로 빠르게 답을 찾는 습관 때문에 생각하는 힘이 약해진 것 같다고 느낌
+- Interpretation boundary: 인지 능력 저하로 진단하지 않고, 조기 정답 요청이 독립 탐색 시간을 줄였다는 검증 가능한 가설로 기록
+- Experiment: `12분 독립 시도 → 질문 힌트 → 8분 시도 → 제약·반례 힌트 → 10분 시도 → 방향 확인`을 2주간 측정
+- Evidence boundary: 프로그래밍 교육의 힌트 조건 연구는 참고 근거이며, 개인 효과는 풀이 로그와 다음 날 백지 재풀이로 별도 검증
+- Reuse axis: 독서/책/학습, 취업/포트폴리오, Codex 개발 워크플로
+
+## [2026-09-11] ingest + query | 2026 넥토리얼 서류 합격 및 AI면접 준비
+
+- Raw Source saved: [[2026-09-11-Nexon-Tutorial-AI-Interview-Preparation-Bundle]]
+- Application record created: [[2026 넥토리얼 지원]]
+- Query saved: [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Preparation]]
+- User self-report: 2026 넥토리얼 서류전형 합격; 합격 메일 또는 MY PAGE 증빙은 아직 미첨부
+- Official AI interview: 2026-09-12 오후, AI와 약 50분간 1:1 대화, 게임 프로그래머 기본기·공통역량 평가, 개인 장비 문제로 인한 재응시 불가
+- Historical boundary: 넥토리얼은 2021년 시작했지만 AI면접·AI활용 역량평가는 2026년 신규 도입이므로 전년도 동일 전형 합격 후기는 없음
+- Preparation focus: 제출 지원서 방어, CS·C++/C# 기본기, 게임 관점, AI 활용의 문제 정의·검증·책임, 장비 사전 점검
+- Collection purpose: 취업/포트폴리오 — 서류 합격 진행 기록과 AI면접·후속 면접 준비에 재사용
+- Standalone mode: mothership search skipped; `mainVaultRelated` and `mainVaultCmds` left empty
+
+## [2026-09-11] update + reindex | 넥토리얼 지원서 대조 및 qmd 설치
+
+- Submitted application answers added to [[2026-09-11-Nexon-Tutorial-AI-Interview-Preparation-Bundle]]; phone number, detailed address, and birth date were not duplicated
+- Portfolio reviewed: 4-page PDF at the user-provided Desktop path; Threads, LLM Wiki, and CUEE claims were compared with the application
+- Study plan updated: transaction/idempotency/concurrency, Threads evidence defense, C/C++·PX4 scope, data structures, and common competency stories
+- qmd installed from the official npm package: @tobilu/qmd 2.8.3
+- Collections configured: wiki, raw_sources, queries
+- Repository qmd template and auto-reindex hook changed from stale Windows paths to the current macOS vault and npm paths
+
+## [2026-09-11] query | 넥슨태그 기반 넥토리얼 AI면접 답변 전략
+
+- Query saved: [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Answer-Strategy]]
+- Video criteria: problem definition, structured solution process, verification, learning ability, fundamentals, communication, game motivation, and problem-solving over portfolio polish
+- User-reported strengths: Codex context management, Threads feedback automation, rapid AI-assisted learning, CUEE pivot communication, and long-term MapleStory memory
+- Critical weakness: no game portfolio, weak C++/C# and CS foundations, and inability to explain all AI-written code
+- Positioning: do not claim AI output as implementation skill; distinguish problem definition, user feedback, team judgment, test execution, current knowledge boundary, and concrete relearning
+- Repository check: current Threads checkout passed 71 unit tests, but test success was not treated as proof of user authorship or understanding
+- Immediate code scope: study and rewrite extract_json and fallback_provider_chain before claiming a code-ownership improvement
+
+## [2026-09-11] query | AI 활용 역량평가 문제 해결 템플릿
+
+- Query saved: [[2026-09-11-Q-AI-Assessment-Problem-Solving-Template]]
+- Reusable loop: 정의 → 정렬 → 분해 → 선택 → 실행 → 검증 → 제출
+- Alignment correction: ask AI for omissions, errors, ambiguity, and counterexamples instead of asking only for agreement
+- Ownership rule: the user selects or rejects AI suggestions using task conditions, supplied data, and test results
+- Efficiency rule: reduce meaningless turns through bundled constraints, fixed output formats, scoped edits, and smallest-risk-first verification
+- Scoring boundary: token count is not recorded as a confirmed direct scoring criterion
+
+## [2026-09-11] query | 넥토리얼 지원동기와 게임 답변 정리
+
+- Query saved: [[2026-09-11-Q-Nexon-Tutorial-Motivation-and-Game-Answers]]
+- Motivation axis: 겨울에 형제들과 메이플스토리를 즐긴 기억을 다른 이용자에게 오래 남는 경험을 돌려주고 싶다는 개발 동기로 연결
+- Skill boundary: 게임 프로젝트와 C++·C# 실전 숙련도 부족을 인정하고, C 자료구조 수업과 Python 알고리즘 학습을 출발점으로 설명
+- AI learning evidence: Gemini Gem을 정답 생성기가 아닌 단계별 힌트 교사로 사용한 자물쇠와 열쇠 사례를 `막힘 → 질문 → 직접 적용 → 검증`으로 구성
+- Overclaim correction: 오래 플레이한 개인 경험을 전체 이용자 요구의 증거로 확대하지 않고, 이용자 의견과 행동 데이터를 함께 확인하는 태도로 조정
+- Technical correction: Python이 1초에 항상 1억 번 연산한다는 고정 가정을 사용하지 않고, 입력 크기·알고리즘 복잡도·실행 환경을 함께 판단하도록 기록
+- Evidence boundary: 학습 기록과 구현물은 독립 확인되지 않은 사용자 자기보고이며 게임 개발 구현력의 대체 증거가 아님

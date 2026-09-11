@@ -8,7 +8,7 @@ description: A practical workflow for capturing web sources into 00. Inbox with 
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-07-07
+date modified: 2026-08-29
 tags:
   - guide
   - obsidian
@@ -16,16 +16,22 @@ tags:
   - ingest
 source:
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
+  - https://obsidian.md/help/web-clipper
+  - 90. Settings/Web Clipper Templates.md
+  - AGENTS.md
 related:
   - "[[Obsidian Tooling for LLM Wiki]]"
   - "[[Ingest-Query-Lint Cycle]]"
   - "[[Agent-Readable Metadata]]"
-confidence: medium
+confidence: high
 layer: guides
 explored: false
 claimType: prescriptive
-evidenceScope: single-source
-verificationStatus: unverified
+evidenceScope: multi-source-mixed
+verificationStatus: verified
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 status: active
 ---
 
@@ -41,8 +47,8 @@ status: active
 1. Obsidian Web Clipper에서 대상 vault를 지정한다.
 2. source 유형에 맞는 template을 import한다.
 3. 캡처 결과를 `00. Inbox/{category}/`에 저장한다.
-4. Codex에서 `/inbox` 또는 `inbox` 스킬로 pending source를 확인한다.
-5. `/ingest`가 `collectionPurpose`를 물으면 사용자가 왜 수집했는지 답한다.
+4. Codex에서 `$inbox`로 pending source를 확인한다.
+5. `$ingest`가 `collectionPurpose`를 물으면 사용자가 왜 수집했는지 답한다.
 6. Raw Source는 `10. Raw Sources/`로 보존되고, Wiki page는 `20. Wiki/`에 컴파일된다.
 
 ---
@@ -52,6 +58,8 @@ status: active
 Inbox는 임시 buffer다. capture 순간에는 source가 좋다고 느꼈지만, 아직 어떤 축에 재활용할지 명확하지 않을 수 있다. `/ingest` 전에 purpose gate를 거치면 단순 스크랩과 학습 가능한 지식 source를 구분할 수 있다.
 
 이 강의 transcript도 `00. Inbox/01. Articles/`에 있다가, "내가 앞으로 공부할거야"라는 목적을 받은 뒤 Raw Source와 Wiki page로 승격되었다.
+
+현재 저장소에는 category별 Web Clipper JSON template과 Inbox target path가 존재한다. 다만 이 검증은 사용자의 브라우저에 확장이 설치되어 있고 각 template이 import된 상태까지 확인한 것은 아니다.
 
 > [!note] Bias Check
 > Counter-argument: purpose gate가 너무 엄격하면 빠른 capture의 흐름을 방해할 수 있다.
@@ -70,3 +78,6 @@ Inbox는 임시 buffer다. capture 순간에는 source가 좋다고 느꼈지만
 ## Sources
 
 - [[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]
+- [Obsidian Web Clipper help](https://obsidian.md/help/web-clipper)
+- [Web Clipper Templates](../../90.%20Settings/Web%20Clipper%20Templates.md)
+- [AGENTS.md](../../AGENTS.md)

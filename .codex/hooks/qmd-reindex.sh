@@ -6,7 +6,7 @@
 
 set -euo pipefail
 
-VAULT="C:/Users/user/Desktop/cmds-llm-wiki"
+VAULT="/Users/gyuteoi/Desktop/cmds-llm-wiki"
 LOCK="/tmp/qmd-reindex-cmds-llm-wiki.lock"
 LOG="/tmp/qmd-reindex-cmds-llm-wiki.log"
 DEBOUNCE_SEC=8
@@ -73,8 +73,7 @@ fi
 		sleep "$DEBOUNCE_SEC"
 	done
 
-	export QMD_EMBED_MODEL="hf:Qwen/Qwen3-Embedding-0.6B-GGUF/Qwen3-Embedding-0.6B-Q8_0.gguf"
-	export PATH="/c/Users/user/AppData/Roaming/npm:$HOME/.bun/bin:/opt/homebrew/bin:/usr/bin:/bin:$PATH"
+	export PATH="/Users/gyuteoi/.npm-global/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 	{
 		echo "=== $(date -u +%FT%TZ) qmd auto-reindex ==="

@@ -4,11 +4,11 @@ aliases:
   - Three Layer Architecture
   - Raw Sources Wiki Schema
   - LLM Wiki Architecture
-description: The 3-layer architecture of the LLM Wiki — Raw Sources (immutable truth), Wiki (LLM-maintained knowledge), and Schema (LLM behavior rules via CLAUDE.md/AGENTS.md).
+description: The 3-layer architecture of this LLM Wiki — preserved Raw Sources, LLM-maintained Wiki pages, and Codex behavior rules led by AGENTS.md and repo-scoped skills.
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-16
+date modified: 2026-08-29
 tags:
   - llm-wiki
   - architecture
@@ -17,18 +17,22 @@ source:
   - "[[2026-04-12-Karpathy-LLM-Wiki]]"
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
   - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
+  - AGENTS.md
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[Ingest-Query-Lint Cycle]]"
-  - "[[Persistent Knowledge Base]]"
-  - "[[Contamination Mitigation]]"
   - "[[Mothership-Satellite Vault Pattern]]"
   - "[[Human-AI Knowledge Boundary]]"
 confidence: high
 layer: concepts
 status: active
 explored: false
-verificationStatus: unverified
+claimType: definition
+evidenceScope: multi-source-mixed
+verificationStatus: verified
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # 3-Layer Architecture
@@ -54,11 +58,12 @@ verificationStatus: unverified
 ├── 12. Papers/       # 학술 논문, 기술 보고서
 ├── 13. Books/        # 도서 노트, 챕터 요약
 ├── 14. Transcripts/  # 강연, 팟캐스트, 영상 전사
-└── 15. Clippings/    # 웹 클리핑, 스크랩
+├── 15. Clippings/    # 웹 클리핑, 스크랩
+└── 16. AI Research/  # AI-assisted research capture
 ```
 
 - **소유자**: 인간이 큐레이션
-- **규칙**: **불변(immutable)** — LLM은 읽기만 하고 절대 수정하지 않음
+- **규칙**: 원문을 `## Original Content` 아래 보존. 명시적인 ingest/source-update가 아닌 일반 Wiki 작업에서는 재작성하지 않음
 - **역할**: Source of truth. 모든 wiki 페이지의 근거
 - **Frontmatter**: `type: raw-source`, `date ingested`, `category`
 
@@ -79,7 +84,7 @@ verificationStatus: unverified
 
 ### Layer 3: The Schema (규칙층)
 
-- **파일**: `CLAUDE.md` (Claude Code), `AGENTS.md` (Codex) 등
+- **파일**: `AGENTS.md` → `.agents/skills/` → `.codex/commands/`가 현재 Codex 정본. `CLAUDE.md`는 legacy mirror
 - **소유자**: 인간과 LLM이 공동 진화(co-evolve)
 - **규칙**: LLM의 행동을 제어하는 핵심 설정 문서
 - **역할**: Wiki의 구조, 컨벤션, 워크플로를 정의. 이것이 LLM을 "규율 있는 wiki 관리자"로 만드는 핵심
@@ -87,7 +92,7 @@ verificationStatus: unverified
 ### 층 간 관계
 
 ```
-Schema (CLAUDE.md)
+Schema (AGENTS.md + repo skills)
     │ 제어
     ▼
 Wiki ◀──── compile ──── Raw Sources
@@ -98,7 +103,7 @@ Wiki ◀──── compile ──── Raw Sources
 - Schema가 LLM의 행동을 **제어**
 - Raw Sources를 LLM이 Wiki로 **컴파일**
 - Wiki가 Raw Sources를 **역참조** (`source` 프로퍼티)
-- Raw Sources는 절대 수정되지 않음
+- Raw Sources의 Original Content는 보존되며, 명시적 source-update만 예외
 
 학습 관점에서 이 구조는 "원본과 해석을 분리한다"는 점이 가장 중요하다. Raw Source는 나중에 다시 확인할 수 있는 근거이고, Wiki는 LLM이 유지보수하는 학습 인터페이스이며, Schema는 그 LLM 편집자의 행동 규칙이다.
 
@@ -106,9 +111,9 @@ Wiki ◀──── compile ──── Raw Sources
 
 | Layer | 경로 | 구현 |
 |-------|------|------|
-| Raw Sources | `10. Raw Sources/` | 5개 하위 폴더 (11.Articles, 12.Papers, 13.Books, 14.Transcripts, 15.Clippings) |
+| Raw Sources | `10. Raw Sources/` | 6개 하위 폴더 (11.Articles, 12.Papers, 13.Books, 14.Transcripts, 15.Clippings, 16.AI Research) |
 | Wiki | `20. Wiki/` | 4개 하위 폴더 (21.Concepts, 22.Entities, 23.Guides, 24.Maps) |
-| Schema | `CLAUDE.md` | Frontmatter 규격, 네이밍 컨벤션, Operations 정의 |
+| Schema | `AGENTS.md`, `.agents/skills/`, `.codex/commands/` | Frontmatter 규격, 안전 규칙, Operations 정의 |
 
 > [!note] 개념적 3층 vs 물리적 폴더
 > 이 볼트에는 `30. Queries/` 물리 폴더도 있다 (Query 산출물 위치). 하지만 이는 *4번째 구조 레이어가 아니라* [[Ingest-Query-Lint Cycle]] 의 *Query 단계 산출물*이다. **구조 축**은 Raw/Wiki/Schema 3층이 정본이고, `30. Queries` 는 그 위에서 작동하는 **운영 축**의 결과물.
@@ -119,22 +124,13 @@ Wiki ◀──── compile ──── Raw Sources
 
 - [[LLM Wiki Pattern]] — 이 아키텍처를 사용하는 전체 패턴
 - [[Ingest-Query-Lint Cycle]] — 이 아키텍처 위에서 작동하는 operations
-- [[Persistent Knowledge Base]] — Wiki 층이 compounding artifact인 이유
-- [[Contamination Mitigation]] — 한 단계 상위 분리 원리 (볼트 단위)
-
-### 계층 분리의 스케일
-
-| 단위 | 개념 |
-|------|------|
-| 볼트 간 | [[Contamination Mitigation]] — personal vs agent playground |
-| 볼트 내 (이 문서) | 3-Layer — Raw / Wiki / Schema |
-| 페이지 내 | frontmatter vs body, `source:` vs content |
-
-세 수준 모두 "누가 쓸 수 있는가"의 경계 설정이다.
 
 ### 볼트 단위 확장
 
 [[Mothership-Satellite Vault Pattern]]은 이 경계 설정을 vault 단위로 확장한다. 사용자가 직접 쓰고 설명할 수 있는 지식은 mothership에, LLM이 source를 읽어 컴파일한 학습용 지식은 satellite LLM Wiki에 둔다. 이는 Raw/Wiki/Schema의 내부 분리와 같은 원리를 더 큰 단위에 적용한 것이다.
+
+> [!note] Bias Check
+> 세 층은 원문과 해석의 provenance를 관리하기 위한 이 저장소의 운영 모델이다. 폴더 분리만으로 정확성·최신성·사용자 이해가 보장되지는 않으며 verify와 lint가 별도로 필요하다. `30. Queries/`와 attachments 같은 물리 경로가 추가되어도 역할 모델 자체를 자동으로 네 층 이상으로 재정의하지 않는다.
 
 ---
 

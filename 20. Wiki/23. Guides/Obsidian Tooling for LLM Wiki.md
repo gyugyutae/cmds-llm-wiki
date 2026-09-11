@@ -3,11 +3,11 @@ type: wiki-page
 aliases:
   - LLM Wiki Tools
   - Obsidian LLM Wiki Setup
-description: Practical guide to Obsidian plugins, extensions, and CLI tools recommended for running an LLM Wiki — Web Clipper, Dataview, Marp, qmd search, image handling, and graph view.
+description: Practical guide to optional Obsidian and CLI tooling for this LLM Wiki, with current capability claims separated from local installation state.
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-26
+date modified: 2026-08-29
 tags:
   - guide
   - obsidian
@@ -19,6 +19,9 @@ source:
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
   - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
   - "[[2026-07-14-GitHub-qmd-README]]"
+  - https://obsidian.md/help/web-clipper
+  - https://obsidian.md/help/plugins/graph
+  - https://github.com/tobi/qmd
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[3-Layer Architecture]]"
@@ -26,11 +29,16 @@ related:
   - "[[qmd]]"
   - "[[Web Clipper to Inbox Workflow]]"
   - "[[Agent-Readable Metadata]]"
-confidence: high
+confidence: medium
 layer: guides
 status: active
 explored: false
-verificationStatus: unverified
+claimType: prescriptive
+evidenceScope: multi-source-mixed
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # Obsidian Tooling for LLM Wiki
@@ -51,10 +59,10 @@ verificationStatus: unverified
 ### Obsidian Web Clipper
 
 - **용도**: 웹 기사를 markdown으로 변환하여 Raw Sources에 추가
-- **설치**: Obsidian Community Plugins → "Web Clipper" 또는 브라우저 확장
+- **설치**: Obsidian 공식 Web Clipper 브라우저 확장
 - **워크플로**: 브라우저에서 기사 발견 → 클리핑 → `00. Inbox/`에 저장 → LLM에게 ingest 요청
 
-이 vault에서는 Web Clipper가 곧바로 Wiki page를 만드는 도구가 아니다. 먼저 `00. Inbox/`에 capture하고, `/inbox`와 `/ingest`를 통해 목적 질문을 받은 뒤 Raw Source와 Wiki로 승격한다. 상세 절차는 [[Web Clipper to Inbox Workflow]]에 정리한다.
+이 vault에서는 Web Clipper가 곧바로 Wiki page를 만드는 도구가 아니다. 먼저 `00. Inbox/`에 capture하고, `$inbox`와 `$ingest`를 통해 목적 질문을 받은 뒤 Raw Source와 Wiki로 승격한다. 상세 절차는 [[Web Clipper to Inbox Workflow]]에 정리한다.
 
 ### 이미지 로컬 다운로드
 
@@ -65,8 +73,8 @@ verificationStatus: unverified
 2. Settings → Hotkeys → "Download attachments for current file" → 단축키 지정 (예: `Ctrl+Shift+D`)
 3. 기사 클리핑 후 단축키로 이미지 일괄 다운로드
 
-> [!note] Update
-> LLM은 markdown 내 inline 이미지를 한 번에 읽지 못한다. 텍스트를 먼저 읽고, 참조된 이미지를 별도로 확인하는 2단계 접근이 필요하다.
+> [!note] Image boundary
+> Markdown의 image link와 실제 image content는 다르다. 사용 가능한 vision/file 도구로 이미지를 별도 열어 확인하고, 링크 존재만으로 이미지 내용을 읽었다고 주장하지 않는다.
 
 ---
 
@@ -83,7 +91,7 @@ verificationStatus: unverified
 
 - **용도**: frontmatter를 기반으로 동적 테이블/리스트 생성
 - **활용 예**: 모든 wiki 페이지를 confidence별로 정렬, 최근 ingest 목록, tag별 그룹핑
-- **전제**: LLM이 YAML frontmatter를 체계적으로 작성해야 함 (이 볼트에서는 필수 7개 프로퍼티로 보장)
+- **전제**: YAML frontmatter가 일관되어야 함. 기본 note 필드와 operation별 verification 필드는 `AGENTS.md` 및 해당 skill을 따른다.
 
 ---
 
@@ -91,9 +99,9 @@ verificationStatus: unverified
 
 ### index.md (기본)
 
-- ~100 sources, ~수백 pages까지는 `index.md` 기반 탐색으로 충분
+- `index.md`는 작은 Wiki의 기본 탐색 표면
 - LLM이 query 시 index를 먼저 읽고 관련 페이지로 drill down
-- Embedding-based RAG 인프라가 불필요
+- 검색 품질이 충분한지는 실제 질의로 확인하며, 규모만으로 embedding 필요 여부를 결정하지 않음
 
 ### qmd (확장)
 
@@ -102,14 +110,17 @@ verificationStatus: unverified
 - **용도**: markdown 파일 전용 로컬 검색 엔진
 - **특징**: 캡처된 공식 README 기준 BM25/vector search + LLM re-ranking을 온디바이스에서 결합. node-llama-cpp와 GGUF 모델 사용
 - **인터페이스**: CLI (LLM이 shell out 가능) + MCP server (LLM native tool)
-- **시점**: wiki가 ~100 articles / ~400K words (Karpathy 본인 기준)를 넘어 index만으로 부족해질 때 도입
-- **이 볼트에서**: 2026-04-14부터 3 collections(wiki/raw_sources/queries) 인덱싱, Qwen3-Embedding-0.6B(CJK) 사용, PostToolUse hook 자동 재인덱싱
+- **시점**: 정확한 제목 검색과 `rg`만으로 근거 회수가 부족하다는 실제 평가가 있을 때 도입
+- **이 볼트의 현재 상태**: 세 collections와 Qwen3 embedding 설정이 template/skill에 기록되어 있지만, 2026-08-29 현재 이 Mac에는 `qmd` 실행 파일이 없고 hook에는 Windows path placeholder가 남아 있어 자동 재인덱싱은 검증되지 않음
 - **실사용자**: [[Andrej Karpathy|Karpathy]], Beomsu (@BeromArtDev, 2026-04-03 X에서 공개 확인)
 
 학습용 ingest 관점에서는 qmd가 "기억 안 나는 페이지 찾기"에 특히 유용하다. 정확한 제목 대신 "RAG와 LLM Wiki 차이", "AI 활용 경계", "포트폴리오 약점"처럼 의미 중심으로 검색해도 Raw Source, Wiki, Query 결과를 함께 탐색할 수 있다.
 
 > [!warning] Version boundary
 > qmd 명령, 옵션, 기본 모델은 릴리스에 따라 바뀔 수 있다. [[2026-07-14-GitHub-qmd-README]]는 캡처 시점의 원문이므로 실행 전 현재 `qmd --help`와 upstream README를 확인한다.
+
+> [!note] Bias Check
+> 도구가 설치되어 있거나 기능 목록이 존재한다는 사실은 이 vault의 검색 정확도·속도 향상을 증명하지 않는다. Graph View의 연결도 파일 내 wikilink 구조를 보여줄 뿐 claim의 진실성이나 사용자의 이해도를 검증하지 않는다.
 
 ---
 
@@ -140,3 +151,6 @@ verificationStatus: unverified
 - [[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]
 - [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]
 - [[2026-07-14-GitHub-qmd-README]]
+- [Obsidian Web Clipper help](https://obsidian.md/help/web-clipper)
+- [Obsidian Graph view help](https://obsidian.md/help/plugins/graph)
+- [tobi/qmd current README](https://github.com/tobi/qmd)

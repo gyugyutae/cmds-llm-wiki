@@ -3,7 +3,7 @@ type: wiki-page
 aliases:
   - CUEE
   - 배우담
-description: Kotlin Android accessibility overlay app helping users navigate KorailTalk booking flows.
+description: Kotlin Android accessibility-overlay MVP that guides user-operated KorailTalk-like booking flows while stopping before sensitive and payment steps.
 author:
   - Codex
 date created: 2026-07-10
@@ -29,9 +29,12 @@ related:
 confidence: medium
 layer: entities
 explored: false
-claimType: project-evidence
+claimType: mixed
 evidenceScope: multi-source-mixed
 verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 
@@ -61,6 +64,8 @@ status: active
 - 사용자 제공 상장 확인 결과, 김규태를 포함한 5인 팀 `큐`는 경상국립대학교 창업지원단 주최 `2026 경남권 대학생 창업동아리 창업역량강화 심화교육`에서 2026-06-16 대상을 받았다.
 - 사용자 제공 상장 확인 결과, 5인 팀 `CUEE`는 `2026 학생창업유망팀 300+ 연계 G-대학생 창업유망팀 동아리 챌린지`에서 2026-08-11 우수상을 받았다.
 - 사용자는 대상 대회에서 팀 리더·개발 담당으로 주요 아이디어와 콘셉트를 제안하고 발표했다고 보고했다. 이 개인 기여는 상장 자체가 아니라 사용자 자기보고 범위다.
+- 2026-08-29 local `main` README에는 JDK 17 빌드, JVM test, APK, accessibility overlay, 음성 명령, fixture E2E, 20초 데모, 결제 전 안전 종료 자료가 문서화되어 있다.
+- 재현 가능한 전체 E2E의 상대 앱은 실제 코레일톡이 아니라 같은 package name을 쓰는 `mock-korail` fixture다. 이는 CUEE APK·접근성 서비스·overlay 흐름의 증거이지 실서비스 좌석 조회·예매 성공의 증거가 아니다.
 
 ---
 
@@ -89,6 +94,9 @@ status: active
 - 발표자료와 심사 피드백
 - Play Store 출시 계획과 출시 전 검증 항목
 - Android accessibility 권한 심사 통과 가능성과 정책 검토
+
+> [!note] Verification Boundary
+> 저장소와 데모 artifact의 존재는 확인했지만 이번 Wiki 검증에서 build/E2E를 다시 실행하지 않았다. 저장소 구현은 AI가 작성했다는 사용자 경계를 유지하며, 사용자의 Kotlin 직접 구현 역량으로 귀속하지 않는다.
 
 ---
 

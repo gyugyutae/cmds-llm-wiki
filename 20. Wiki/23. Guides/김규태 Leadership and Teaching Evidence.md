@@ -34,6 +34,9 @@ explored: false
 claimType: mixed
 evidenceScope: multi-source-mixed
 verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

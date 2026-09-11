@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-09
+date modified: 2026-09-11
 tags:
   - index
   - moc
@@ -29,13 +29,13 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 41 |
-| Wiki Pages | 70 |
+| Raw Sources | 43 |
+| Wiki Pages | 72 |
 | Concepts | 40 |
-| Entities | 10 |
+| Entities | 12 |
 | Guides | 15 |
 | MOCs | 5 |
-| Queries | 17 |
+| Queries | 24 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -104,6 +104,8 @@ status: active
 - [[harness]] — Codex CLI 기반 개인화 개발 workflow harness
 - [[qmd]] — LLM Wiki의 Wiki/Raw Sources/Queries를 로컬에서 검색하는 markdown 검색 엔진
 - [[TMU Global Leadership Program]] — 2026년 TMU 영어 몰입·SDG 프로그램 참여 기록과 증빙·기여 표현 경계
+- [[계약랩]] — ROS 2 드론 환경, 자율착륙 판단 구조, 협업·특허 비교 과업의 사용자 작성 프로젝트 기록
+- [[2026 넥토리얼 지원]] — 2026 넥토리얼 서류 합격 자기보고와 신규 AI면접 준비 기록
 
 ### Guides
 
@@ -158,6 +160,13 @@ status: active
 - [[2026-08-31-Q-nice-scholarship-essay-evidence-map]] — NICE 장학금 자기소개서의 문항별 소재·평가기준·증빙 공백 지도
 - [[2026-09-04-Q-finance-backend-ai-era-job-preparation]] — AI 시대 금융권·핀테크 Java 백엔드 취업을 위한 책, 자격증, 프로젝트, 코딩테스트, 지원 전략과 1년 실행 계획
 - [[2026-09-09-Q-kb-securities-java-backend-starting-plan]] — Java·SQL 시작 단계에서 금융 주문 MVP와 설명 가능한 포트폴리오를 만드는 첫 8주 실행안
+- [[2026-08-25-Q-recent-ai-era-essential-books]] — 공동지능 이후 AI 판별력·산업 권력·반도체 인프라를 보완하는 최근 명저 독서 경로
+- [[2026-08-29-Q-vault-audit]] — 70개 전 페이지 검증 후 eligibility, consistency, confirmability 최종 감사와 조건부 재검증 큐
+- [[2026-09-10-Q-ai-hint-deep-problem-focus]] — AI를 정답 지름길이 아닌 단계별 힌트로 제한해 깊은 문제 몰입과 재풀이 능력을 훈련하는 2주 실험
+- [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Preparation]] — 2026 신규 넥토리얼 AI면접의 답변 구조, 예상 질문군, 장비 점검표
+- [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Answer-Strategy]] — 넥슨태그 영상과 제출 자료를 대조한 개인화 답변 스크립트와 코드 약점 대응
+- [[2026-09-11-Q-Nexon-Tutorial-Motivation-and-Game-Answers]] — 넥슨 게임의 개인적 기억, 지원동기, 게임 포트폴리오 부재와 AI 학습 사례를 연결한 면접 답변
+- [[2026-09-11-Q-AI-Assessment-Problem-Solving-Template]] — 정의·정렬·분해·선택·실행·검증·제출을 위한 AI 평가 참고 템플릿
 
 ---
 
@@ -165,6 +174,8 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-09-11 | [[2026-09-11-Nexon-Tutorial-AI-Interview-Preparation-Bundle]] | [[2026 넥토리얼 지원]], [[MOC-Portfolio]], [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Preparation]] |
+| 2026-09-10 | [[2026-09-02-to-09-Kim-Gyutae-Contract-Lab-Work-Notes]] | [[계약랩]], [[MOC-Portfolio]] |
 | 2026-09-09 | [[2026-09-09-Codex-KB-Securities-Java-Backend-Career-Conversation]] | 1 guide + 1 MOC + 1 query |
 | 2026-08-24 | [[2026-08-17-Gemini-Quant-Research-Conversation]] + [[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]] + [[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]] | 14 pages + TMU PDF schedule |
 | 2026-07-26 | [[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]] + 11 Clippings | 14 pages |

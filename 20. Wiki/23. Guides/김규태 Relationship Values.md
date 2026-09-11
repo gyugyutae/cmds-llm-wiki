@@ -7,7 +7,7 @@ description: "Kim Gyutae's current relationship values concerning maturity, auto
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - relationships
   - values
@@ -20,12 +20,15 @@ source:
 related:
   - "[[김규태 Attachment and Romantic Pacing Pattern]]"
   - "[[김규태 Taste and Intellectual Intimacy]]"
-confidence: high
+confidence: medium
 layer: guides
 explored: false
 claimType: mixed
 evidenceScope: multi-source-mixed
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

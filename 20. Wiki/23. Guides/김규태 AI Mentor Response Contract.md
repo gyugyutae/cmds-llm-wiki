@@ -7,7 +7,7 @@ description: "Response contract requiring AI agents to distinguish evidence from
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - ai-personalization
   - mentor
@@ -18,12 +18,15 @@ source:
 related:
   - "[[MOC-김규태 Self Knowledge]]"
   - "[[Human-AI Knowledge Boundary]]"
-confidence: high
+confidence: medium
 layer: guides
 explored: false
 claimType: prescriptive
 evidenceScope: user-original
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

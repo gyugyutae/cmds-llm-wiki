@@ -8,7 +8,7 @@ description: The LLM Wiki pattern proposed by Andrej Karpathy — LLMs increment
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-16
+date modified: 2026-08-29
 tags:
   - llm-wiki
   - knowledge-management
@@ -16,35 +16,30 @@ tags:
 source:
   - "[[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]]"
   - "[[2026-04-12-Karpathy-LLM-Wiki]]"
-  - "[[2026-04-02-Harnessing-Claudes-Intelligence-3-Patterns]]"
-  - "[[2026-04-13-Changhyun-Ahn-Soverign-PKM]]"
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
   - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
 related:
   - "[[RAG vs Compiled Wiki]]"
-  - "[[Persistent Knowledge Base]]"
   - "[[3-Layer Architecture]]"
   - "[[Ingest-Query-Lint Cycle]]"
   - "[[Andrej Karpathy]]"
   - "[[Memex]]"
-  - "[[Contamination Mitigation]]"
-  - "[[Synthetic Data Generation for Wiki]]"
   - "[[qmd]]"
-  - "[[Progressive Disclosure Pattern]]"
-  - "[[Context Engineering]]"
-  - "[[Agent Harness Design]]"
-  - "[[Sovereign PKM]]"
-  - "[[Harness Literacy]]"
   - "[[LLM Wiki as Learning Base]]"
   - "[[Mothership-Satellite Vault Pattern]]"
   - "[[Agent-Readable Metadata]]"
   - "[[Human-AI Knowledge Boundary]]"
   - "[[Personal Context Layer for LLM Wiki]]"
-confidence: high
+confidence: medium
 layer: concepts
 status: active
 explored: false
-verificationStatus: unverified
+claimType: mixed
+evidenceScope: multi-source-mixed
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # LLM Wiki Pattern
@@ -60,7 +55,14 @@ verificationStatus: unverified
 
 > LLM에게 raw source를 주면, LLM이 직접 structured markdown wiki를 작성하고 유지한다.
 
-기존 [[RAG vs Compiled Wiki|RAG 방식]]에서는 질문할 때마다 문서를 검색하고 합성한다. LLM Wiki에서는 source를 **한 번 컴파일**하여 wiki 페이지로 만들고, 새 source가 들어올 때마다 기존 페이지를 **incremental update**한다. 결과물은 cross-reference가 이미 연결되어 있고, 모순이 이미 플래그되어 있으며, 모든 source의 종합이 이미 반영된 [[Persistent Knowledge Base|persistent knowledge base]]이다.
+기존 [[RAG vs Compiled Wiki|RAG 방식]]에서는 질문 시점에 문서를 검색하고 합성한다. LLM Wiki에서는 source를 Wiki 페이지로 컴파일하고 새 source가 들어올 때 기존 페이지를 **incremental update**한다. Cross-reference, 모순 표시, 누적 synthesis는 자동으로 보장되는 결과가 아니라 ingest·verify·lint가 계속 유지해야 하는 목표 상태다.
+
+## 검증 경계
+
+- Karpathy의 X thread와 Gist는 raw-to-Wiki 점진 컴파일, Obsidian 기반 탐색, 질의 결과의 재파일링, health check를 실제 운영 아이디어와 개인 경험으로 설명한다.
+- `~100 articles / ~400K words`는 Karpathy가 공개한 한 사례이며 embedding search가 필요해지는 일반 임계값이 아니다.
+- `한 source가 10-15개 Wiki page를 건드릴 수 있다`, `maintenance cost가 near zero`는 Gist의 표현이다. 이 볼트의 보편적 성능이나 보장된 비용 절감으로 검증된 수치가 아니다.
+- 현재 감사에서 stale claim, broken link, 미검증 페이지가 발견된 사실은 LLM 유지보수도 별도 검증 절차와 사람의 감독이 필요함을 보여준다.
 
 ---
 
@@ -91,42 +93,27 @@ Karpathy의 비유: **Obsidian은 IDE, LLM은 프로그래머, Wiki는 코드베
 2. **Compounding**: source가 추가될수록 wiki가 더 풍부해진다
 3. **Pre-synthesized**: cross-reference와 모순 플래그가 이미 완료되어 있다
 4. **Human-readable**: Obsidian 등에서 직접 탐색 가능
-5. **Version-controlled**: Git으로 모든 변경 이력을 추적
+5. **Version-controllable**: Git 저장소로 운영할 경우 변경 이력을 추적 가능
 
-### 실증된 스케일
+### 공개된 한 운영 사례
 
 Karpathy 본인의 deployment (2026-04-02 X 공개): **~100 articles, ~400K words**. 이 규모에서:
 
-- 전통적 RAG 인프라(embedding DB, retriever) 불필요
-- `index.md` 기반 네비게이션만으로 충분
-- LLM이 관련 페이지를 수동 drill-down으로 탐색 가능
+- Karpathy는 이 규모에서 별도의 복잡한 RAG가 필요하지 않았다고 보고했다.
+- index와 짧은 summary를 에이전트가 유지하며 관련 자료를 읽는 방식이 잘 작동했다고 설명했다.
+- 이는 단일 사용자 사례이며 다른 문서 구조·모델·질의 유형에 그대로 일반화할 수 없다.
 
-이 수치는 "embedding search가 언제 필요해지는가"의 경계선을 암시한다 (→ [[Obsidian Tooling for LLM Wiki|qmd 도입 시점 논의]]).
+이 수치는 검색 전략을 비교할 출발점일 뿐 embedding search의 경계선을 확정하지 않는다(→ [[Obsidian Tooling for LLM Wiki|qmd 도입 시점 논의]]).
 
 ### 확장 방향
 
-- **[[Contamination Mitigation]]** ([[kepano (Steph Ango)|kepano]] 제안): agent playground vault와 personal vault 분리
-- **[[Synthetic Data Generation for Wiki]]** (Karpathy 제안): wiki 콘텐츠로 파인튜닝 → 지식을 가중치에 내장
-- **[[Sovereign PKM]]** (Changhyun Ahn 제안): 원본은 Markdown, 레거시 포맷(HWPX/DOCX/PPTX)은 출력 어댑터로 강등
-- **[[Harness Literacy]]** (Changhyun Ahn 제안): 사용자가 맥락을 외부화·기계가독화·실행 연결하는 역량
-
-### Agent Harness로서의 Wiki — Lance Martin 3 Patterns 연결
-
-[[Lance Martin]]의 [[Agent Harness Design|agent harness 설계 원칙]]을 LLM Wiki에 대입하면 구조적 동형성이 드러난다:
-
-| Lance Martin Pattern | LLM Wiki 대응 |
-|----------------------|---------------|
-| Use what Claude knows | Markdown + bash/text editor — LLM이 잘 아는 파일 기반 저장 |
-| Ask what you can stop doing | [[Ingest-Query-Lint Cycle\|Lint]] — wiki의 dead weight 제거 |
-| Set boundaries carefully | `CLAUDE.md` schema — YAML 규칙, wikilink 규칙, 층 분리 |
-
-[[Progressive Disclosure Pattern]]은 특히 직접 대응: Skill YAML frontmatter ↔ `index.md` 한 줄 요약, Skill body ↔ 개별 Wiki 페이지. Karpathy의 "~100 sources까지 index.md만으로 충분" 관찰은 progressive disclosure가 human-LLM 인터페이스에도 효과적임을 실증한다.
-
-[[Context Engineering|5-레버 context 관리]] 중 **Externalize (memory folder)** 가 LLM Wiki의 본질 — Claude가 스스로 선택한 knowledge를 파일로 외부화하여 세션 경계를 넘어 축적.
+- X thread의 kepano 답글은 agent-generated content와 원출처가 분명한 개인 vault를 분리하는 contamination 완화 관점을 제안한다.
+- Karpathy는 Wiki 콘텐츠를 synthetic data와 fine-tuning으로 확장하는 아이디어를 향후 탐색 항목으로 제시한다.
+- 이 저장소는 `AGENTS.md`와 repo-scoped skills를 schema/harness로 사용하지만, 이것은 Karpathy 패턴의 로컬 구현 선택이다.
 
 ### 왜 작동하는가
 
-위키 유지의 어려운 부분은 읽기나 사고가 아니라 **북키핑**이다 — cross-reference 업데이트, 요약 최신화, 모순 감지, 일관성 유지. 인간은 이 부담에 지쳐 위키를 포기하지만, LLM은 지루함을 모르고 한 번에 15개 파일을 업데이트할 수 있다. 유지보수 비용이 거의 0이므로 wiki가 살아남는다.
+Karpathy의 Gist는 위키 유지의 어려운 부분을 cross-reference 업데이트, 요약 최신화, 모순 감지 같은 **북키핑**으로 설명하고 LLM이 이를 낮은 비용으로 수행할 수 있다고 제안한다. 그러나 유지보수 비용이 거의 0이라는 표현은 운영 가설에 가깝다. 이 볼트에서도 audit·verify·lint와 사람의 판단이 계속 필요하다.
 
 2026-07-16 WikiDocs 해설은 이 지점을 학습용으로 더 쉽게 설명한다. RAG에서는 LLM이 질문할 때마다 "검색 엔진 + 요약기"처럼 작동하지만, LLM Wiki에서는 source가 들어오는 순간부터 "편집자 + 사서"처럼 작동한다. 따라서 LLM Wiki의 핵심은 답변 생성보다 **지식 유지보수의 비용을 낮추는 운영 패턴**에 있다.
 
@@ -146,31 +133,18 @@ Karpathy 본인의 deployment (2026-04-02 X 공개): **~100 articles, ~400K word
 
 이 패턴은 정신적으로 [[Vannevar Bush]]의 [[Memex]] (1945)와 연결된다. Bush는 문서 간 associative trail을 가진 개인 지식 저장소를 구상했지만, 유지보수 문제를 해결하지 못했다. 80년 후, LLM이 그 역할을 맡는다.
 
-### 한국 PKM 커뮤니티의 reframing
-
-Changhyun Ahn의 [[2026-04-13-Changhyun-Ahn-Soverign-PKM|LinkedIn Pulse 에세이]] (2026-04-13):
-
-> "Karpathy의 글은 혁신의 출발점이 아니라, 이미 앞서 가던 흐름이 이제 AI 본류의 입에서 다시 확인되었다는 signal에 가깝다."
-
-"Markdown Is All You Need" 슬로건 아래 한국 PKM 실천자들이 동일한 방향에 먼저 도달해 있었다는 주장이다. [[Sovereign PKM]] 관점에서 LLM Wiki는 **"원본 포맷 주권 + LLM 협업 자동화"** 의 교집합이다.
+> [!note] Bias Check
+> 이 페이지는 Karpathy가 공개한 설계와 개인 운영 사례를 중심으로 컴파일되어 있어, 장기 정확도·총 유지비용·RAG 대비 검색 품질을 독립 비교한 연구가 아니다. 원문이 제시한 장점과 이 저장소에서 실제로 확인된 동작을 구분한다. LLM 생성 Wiki는 원문 보존, claim-level 검증, 사람의 탐색 여부를 대체하지 않는다.
 
 ---
 
 ## Related
 
 - [[RAG vs Compiled Wiki]] — 두 접근의 차이와 trade-off
-- [[Persistent Knowledge Base]] — compounding artifact로서의 wiki
 - [[3-Layer Architecture]] — Raw Sources / Wiki / Schema 구조
 - [[Ingest-Query-Lint Cycle]] — wiki 운영의 세 가지 작업
 - [[Obsidian Tooling for LLM Wiki]] — 실용 도구 가이드
-- [[Contamination Mitigation]] — 에이전트 볼트 분리 (kepano)
-- [[Synthetic Data Generation for Wiki]] — 파인튜닝 확장 경로
 - [[qmd]] — 스케일업 시 권장 검색 도구
-- [[Progressive Disclosure Pattern]] — index.md ↔ Skills frontmatter 구조적 동형
-- [[Context Engineering]] — Wiki = "externalize" 레버의 구현
-- [[Agent Harness Design]] — Wiki 스키마도 곧 harness
-- [[Sovereign PKM]] — Korean PKM 관점의 원본 포맷 주권 확장
-- [[Harness Literacy]] — LLM Wiki가 훈련 도구이자 산출물인 사용자 역량
 - [[LLM Wiki as Learning Base]] — 아직 모르는 관심 개념을 공부 가능한 형태로 컴파일하는 사용법
 - [[Mothership-Satellite Vault Pattern]] — 메인 지식 볼트와 LLM Wiki 볼트의 역할 분리
 - [[Agent-Readable Metadata]] — 에이전트가 먼저 읽는 YAML metadata 설계
@@ -183,8 +157,6 @@ Changhyun Ahn의 [[2026-04-13-Changhyun-Ahn-Soverign-PKM|LinkedIn Pulse 에세�
 
 - [[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]] — 원조 X 스레드 (2026-04-02)
 - [[2026-04-12-Karpathy-LLM-Wiki]] — 확장된 Gist (2026-04-06)
-- [[2026-04-02-Harnessing-Claudes-Intelligence-3-Patterns]] — Lance Martin의 agent harness 3 patterns
-- [[2026-04-13-Changhyun-Ahn-Soverign-PKM]] — 안창현의 Sovereign PKM 에세이
 - [[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]] — LLM Wiki 활용 강의 transcript
 - [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]] — RAG와 LLM Wiki의 차이를 한국어로 설명한 학습용 article
 

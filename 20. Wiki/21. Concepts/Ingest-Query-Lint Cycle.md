@@ -8,7 +8,7 @@ description: The three core operations of an LLM Wiki — Ingest (absorb new sou
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-16
+date modified: 2026-08-29
 tags:
   - llm-wiki
   - operations
@@ -16,24 +16,25 @@ tags:
 source:
   - "[[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]]"
   - "[[2026-04-12-Karpathy-LLM-Wiki]]"
-  - "[[2026-04-02-Harnessing-Claudes-Intelligence-3-Patterns]]"
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
   - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[3-Layer Architecture]]"
-  - "[[Persistent Knowledge Base]]"
   - "[[qmd]]"
-  - "[[Agent Harness Design]]"
-  - "[[Progressive Disclosure Pattern]]"
   - "[[Web Clipper to Inbox Workflow]]"
   - "[[Agent-Readable Metadata]]"
   - "[[Personal Context Layer for LLM Wiki]]"
-confidence: high
+confidence: medium
 layer: concepts
 status: active
 explored: false
-verificationStatus: unverified
+claimType: mixed
+evidenceScope: multi-source-mixed
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # Ingest-Query-Lint Cycle
@@ -45,7 +46,7 @@ verificationStatus: unverified
 
 ## Overview
 
-[[LLM Wiki Pattern]]은 세 가지 핵심 operation으로 운영된다. 각 operation은 [[Persistent Knowledge Base|wiki를 성장시키는]] 방향으로 작동한다.
+[[LLM Wiki Pattern]]은 세 가지 핵심 operation으로 운영된다. Ingest와 Query는 지식을 추가할 수 있고, Lint는 오류·중복·낡은 내용을 표시하거나 줄여 무결성을 높인다.
 
 ---
 
@@ -59,13 +60,15 @@ verificationStatus: unverified
 1. 새 source가 `00. Inbox/`에 도착
 2. LLM이 source를 읽고 핵심 takeaway 추출
 3. `10. Raw Sources/`에 원본 저장 (불변)
-4. Wiki 페이지 10~15개를 incremental update:
+4. 근거가 실제로 영향을 주는 Wiki 페이지만 incremental update:
 	- 기존 페이지가 있으면 → 새 정보 추가/업데이트
 	- 새 개념이면 → 새 페이지 생성
 5. `index.md` 업데이트
 6. `log.md`에 기록
 
 **Karpathy의 선호**: source를 하나씩 ingest하면서 관여하기 (요약 확인, 방향 제시). 단, batch ingest도 가능.
+
+Karpathy Gist의 `10-15 pages`는 한 source가 여러 페이지를 건드릴 수 있다는 예시이지 이 저장소의 생성 목표나 품질 기준이 아니다.
 
 **Purpose gate**: 이 vault는 ingest 전에 "왜 수집했는가"를 묻는 절차를 강조한다. 이 질문은 단순한 확인이 아니라, source를 미래의 학습·연구·제품·에세이 맥락으로 재사용하기 위한 metadata 생성 단계다. 이 vault에서는 그 답을 `collectionPurpose`에 기록한다.
 
@@ -98,9 +101,6 @@ wiki의 건강 상태를 점검하는 과정.
 - **Missing cross-references**: 연결되어야 할 링크 누락
 - **Data gaps**: 웹 검색으로 채울 수 있는 정보 공백
 
-> [!tip] "What can I stop doing?" — Wiki edition
-> [[Lance Martin]]의 [[Agent Harness Design|agent harness 설계 원칙]]을 wiki에 적용: **Lint는 "무엇을 그만할 수 있을까?"의 문서 판본**. Wiki도 dead weight를 축적한다 — 한때 유효했으나 이제 모델이 발전해 필요 없어진 규칙, 중복 설명, 낡은 경고. 매 lint 사이클마다 "이것을 지워도 위키가 여전히 잘 작동하는가?"를 묻는 것이 건강한 규율.
-
 ### Indexing and Logging
 
 두 가지 시스템 파일이 wiki 네비게이션을 지원한다:
@@ -110,10 +110,13 @@ wiki의 건강 상태를 점검하는 과정.
 | `index.md` | 콘텐츠 카탈로그 | 페이지 목록 + 1줄 요약. Query 시 LLM이 먼저 읽음 |
 | `log.md` | 시간순 이력 | Append-only. 무엇이 언제 일어났는지 기록 |
 
-`index.md`는 ~100 sources, ~수백 pages 규모까지 embedding-based RAG 인프라 없이도 잘 작동한다.
+`index.md`는 작은 Wiki의 탐색 표면이지만, 충분한 규모와 검색 품질의 경계는 이 볼트에서 측정되지 않았다.
 
 > [!info] Scale Calibration
-> Karpathy 본인 deployment (2026-04-02 X 공개): **~100 articles, ~400K words**까지 `index.md`만으로 충분. 이 규모를 넘어서면 [[qmd]] 같은 로컬 검색 엔진 도입이 자연스러워진다.
+> Karpathy는 **~100 articles, ~400K words** 규모에서 별도의 복잡한 RAG 없이 index와 brief summary를 에이전트가 유지하는 방식이 잘 작동했다고 보고했다. 이는 qmd 도입의 보편적 임계값이 아니라 단일 운영 사례다.
+
+> [!note] Bias Check
+> 이 cycle은 원문의 운영 설계와 이 저장소의 로컬 절차를 합친 것이다. 세 명령을 실행했다는 사실만으로 원문 보존, 정확한 synthesis, 모순 해소가 보장되지 않는다. 각 operation의 최종 산출물과 diff를 별도로 검증해야 한다.
 
 ---
 
@@ -121,9 +124,6 @@ wiki의 건강 상태를 점검하는 과정.
 
 - [[LLM Wiki Pattern]] — 이 operations가 속한 전체 패턴
 - [[3-Layer Architecture]] — operations가 작동하는 구조
-- [[Persistent Knowledge Base]] — 세 operations가 wiki를 compounding하는 이유
-- [[Agent Harness Design]] — Lint의 철학적 뿌리 ("what can I stop doing?")
-- [[Progressive Disclosure Pattern]] — Query가 이 패턴으로 작동 (index.md → drill-down)
 - [[Web Clipper to Inbox Workflow]] — Web Clipper capture에서 ingest까지의 practical route
 - [[Agent-Readable Metadata]] — ingest가 metadata를 채우는 이유
 - [[Personal Context Layer for LLM Wiki]] — Query와 Wiki가 개인 맞춤형 LLM 맥락층을 만드는 방식
@@ -134,6 +134,5 @@ wiki의 건강 상태를 점검하는 과정.
 
 - [[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]]
 - [[2026-04-12-Karpathy-LLM-Wiki]]
-- [[2026-04-02-Harnessing-Claudes-Intelligence-3-Patterns]]
 - [[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]
 - [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]

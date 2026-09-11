@@ -3,11 +3,11 @@ type: wiki-page
 aliases:
   - qmd
   - Query Markup Documents
-description: qmd is a local markdown search engine used with LLM Wiki workflows for BM25/vector/hybrid search across Wiki, Raw Sources, and Query results.
+description: qmd is an on-device Markdown search engine that supports BM25, vector, and reranked hybrid retrieval; this vault contains configuration templates but the qmd executable is not currently available on this Mac.
 author:
   - Codex
 date created: 2026-07-16
-date modified: 2026-07-26
+date modified: 2026-08-29
 tags:
   - llm-wiki
   - search
@@ -15,6 +15,7 @@ tags:
 source:
   - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
   - "[[2026-07-14-GitHub-qmd-README]]"
+  - https://github.com/tobi/qmd
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[Obsidian Tooling for LLM Wiki]]"
@@ -24,8 +25,11 @@ layer: entities
 status: active
 explored: false
 claimType: mixed
-evidenceScope: single-source
-verificationStatus: unverified
+evidenceScope: multi-source-primary
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # qmd
@@ -54,7 +58,15 @@ qmd는 markdown 파일을 대상으로 하는 로컬 검색 도구다. [[LLM Wik
 | Context tree | collection과 경로에 맥락을 붙여 agent의 문서 선택을 돕는다 |
 | Local model runtime | node-llama-cpp와 GGUF 모델을 사용해 검색 계층을 로컬에서 운영한다 |
 
-이 vault에서는 `wiki`, `raw_sources`, `queries` 세 collection을 qmd로 인덱싱한다. 즉 `20. Wiki`, `10. Raw Sources`, `30. Queries`가 모두 검색 대상이다.
+이 vault의 reindex skill과 configuration template은 `wiki`, `raw_sources`, `queries` 세 collection, 즉 `20. Wiki`, `10. Raw Sources`, `30. Queries`를 검색 대상으로 정의한다.
+
+## Current Runtime Boundary
+
+2026-08-29 현재 이 Mac에서 `command -v qmd`와 `qmd --version`은 실행 파일을 찾지 못했다. 또한 `.codex/hooks/qmd-reindex.sh`와 `90. Settings/qmd-config-template.yml`에는 Windows 경로 placeholder가 남아 있다. 따라서 다음을 구분한다.
+
+- **Upstream capability verified**: BM25, vector search, LLM reranking, CLI, SDK, MCP server
+- **Repository configuration present**: 세 collection, Qwen3 embedding model, reindex skill/hook template
+- **Current local operation not verified**: qmd 설치, collection index, embeddings, automatic reindex
 
 ## When To Use
 
@@ -70,6 +82,8 @@ qmd search "LLM Wiki Pattern" -n 3
 qmd vsearch "포트폴리오에 쓸 AI 활용 경계" -n 3
 qmd query "RAG와 LLM Wiki의 차이를 설명하는 학습 자료" -n 3
 ```
+
+위 명령은 upstream 문법 예시다. 현재 Mac에서는 qmd를 설치하고 실제 경로로 configuration/hook을 수정한 뒤에만 실행할 수 있다.
 
 > [!note] Bias Check
 > Counter-argument: 작은 vault에서는 qmd 없이 `index.md`, `rg`, Obsidian 검색만으로 충분할 수 있다.
@@ -89,3 +103,4 @@ qmd query "RAG와 LLM Wiki의 차이를 설명하는 학습 자료" -n 3
 
 - [[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]
 - [[2026-07-14-GitHub-qmd-README]]
+- [tobi/qmd current README](https://github.com/tobi/qmd)

@@ -7,7 +7,7 @@ description: "Kim Gyutae's self-identified tension between broad curiosity, shal
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - learning
   - t-shaped
@@ -19,12 +19,15 @@ source:
 related:
   - "[[김규태 Career Narrative]]"
   - "[[AI-Augmented Developer Positioning]]"
-confidence: high
+confidence: medium
 layer: concepts
 explored: false
 claimType: interpretive
 evidenceScope: user-original
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

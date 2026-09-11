@@ -7,7 +7,7 @@ description: "Interpretation of Kim Gyutae's vision-led leadership, final-decisi
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - leadership
   - team
@@ -18,12 +18,15 @@ source:
 related:
   - "[[김규태 Leadership and Teaching Evidence]]"
   - "[[cuee]]"
-confidence: high
+confidence: medium
 layer: concepts
 explored: false
 claimType: interpretive
 evidenceScope: user-original
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 
@@ -44,7 +47,7 @@ status: active
 
 ## Failure Response Evidence
 
-`모두의 창업` 1차 탈락 뒤 팀원들에게 다음 학기 재도전과 U300·경남권 창업동아리 집중 방향을 제시했다. 이후 경남권 창업동아리에서 대상을 받았다고 보고했다. 실패를 숨기기보다 아쉬움과 부족한 점을 팀원에게 솔직히 말하고, 약한 모습을 보여야 팀원도 의견을 편하게 말할 수 있다고 본다.
+`모두의 창업` 1차 탈락 뒤 팀원들에게 다음 학기 재도전과 U300·경남권 창업동아리 집중 방향을 제시했다고 회고했다. 이후 경남권 창업동아리에서 우승했다고 자기보고했다. 실패를 숨기기보다 아쉬움과 부족한 점을 팀원에게 솔직히 말하고, 약한 모습을 보여야 팀원도 의견을 편하게 말할 수 있다고 본다. 대회 결과와 팀원의 경험은 이 인터뷰 원문만으로 독립 확인되지 않는다.
 
 ## Communication Model
 

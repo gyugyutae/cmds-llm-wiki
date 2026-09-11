@@ -8,7 +8,7 @@ description: The practice of writing concise YAML frontmatter so agents can quic
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-07-07
+date modified: 2026-08-29
 tags:
   - metadata
   - yaml
@@ -16,6 +16,7 @@ tags:
   - llm-wiki
 source:
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
+  - AGENTS.md
 related:
   - "[[3-Layer Architecture]]"
   - "[[Obsidian Tooling for LLM Wiki]]"
@@ -24,8 +25,11 @@ confidence: medium
 layer: concepts
 explored: false
 claimType: prescriptive
-evidenceScope: single-source
-verificationStatus: unverified
+evidenceScope: multi-source-mixed
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 status: active
 ---
 
@@ -38,7 +42,7 @@ status: active
 
 ## Overview
 
-이 vault는 Obsidian note의 상단 metadata를 컨텍스트 윈도우 관리와 연결한다. 에이전트는 모든 본문을 처음부터 다 읽기보다 title, description, source, category, related 같은 frontmatter를 먼저 읽고 관련성을 판단할 수 있다.
+이 vault는 Obsidian note의 상단 metadata를 컨텍스트 윈도우 관리와 연결한다. 에이전트는 title, description, source, category, related 같은 frontmatter를 후보 routing에 사용할 수 있다. 실제 도구가 metadata-first retrieval을 수행하는지는 harness와 검색 구현에 달려 있다.
 
 이것은 [[LLM Wiki Pattern]]의 progressive disclosure와 맞닿아 있다. 짧은 metadata가 note의 "빙산의 일각" 역할을 하고, 필요할 때만 본문으로 drill down한다.
 
@@ -59,7 +63,7 @@ status: active
 
 ## In This Vault
 
-이 vault의 [[AGENTS]]는 YAML frontmatter 7개 필수 필드와 layer별 필드를 강제한다. 이는 에이전트가 파일을 단순 텍스트 더미가 아니라 schema가 있는 지식 단위로 다루게 하기 위한 장치다.
+이 vault의 [[AGENTS]]는 normal note의 기본 frontmatter와 operation별 추가 필드를 정의한다. verify workflow는 `claimType`, `evidenceScope`, `verificationStatus`, `verifiedAt`, `verifiedBy`, `disputed`를 추가로 사용한다.
 
 > [!note] Bias Check
 > Counter-argument: metadata 작성 비용이 너무 크면 ingest 속도가 떨어질 수 있다.

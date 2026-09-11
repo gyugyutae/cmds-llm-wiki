@@ -28,6 +28,9 @@ explored: false
 claimType: interpretive
 evidenceScope: public-github-observation
 verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

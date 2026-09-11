@@ -7,7 +7,7 @@ description: "Navigation map for Kim Gyutae's durable self-knowledge, operating 
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - moc
   - self-knowledge
@@ -21,12 +21,15 @@ related:
   - "[[김규태]]"
   - "[[김규태 Personal Operating Manual]]"
   - "[[MOC-Portfolio]]"
-confidence: high
+confidence: medium
 layer: maps
 explored: false
 claimType: mixed
 evidenceScope: multi-source-mixed
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

@@ -8,7 +8,7 @@ description: The use of an LLM Wiki as a learning base for concepts that the use
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-07-10
+date modified: 2026-08-29
 tags:
   - llm-wiki
   - learning
@@ -24,7 +24,10 @@ layer: concepts
 explored: false
 claimType: interpretive
 evidenceScope: single-source
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 status: active
 ---
 
@@ -53,7 +56,7 @@ status: active
 
 LLM Wiki가 학습 전초기지로 작동하려면 source capture 시점에 "왜 수집했는가"를 남겨야 한다. 이 vault의 `/ingest`가 `collectionPurpose`를 요구하는 이유도 여기에 있다. 목적 없는 자료 더미가 아니라, 미래의 사용자가 다시 공부할 수 있는 큐레이션 흔적을 남기는 것이다.
 
-이 관점에서 LLM Wiki의 Wiki page는 최종 지식이 아니라 중간 학습 인터페이스다. 사용자는 직접 읽고, 질문하고, 검증하면서 `explored`와 `verificationStatus`를 올릴 수 있다.
+이 관점에서 LLM Wiki의 Wiki page는 최종 지식이 아니라 중간 학습 인터페이스다. 사용자는 직접 읽고 명시적으로 확인할 때 `explored`를 바꿀 수 있고, 에이전트의 근거 대조는 별도로 `verificationStatus`에 기록한다.
 
 > [!note] Bias Check
 > Counter-argument: 모든 관심 자료를 Wiki에 넣으면 학습 backlog가 비대해질 수 있다.

@@ -4,23 +4,33 @@ aliases:
   - 지식 관리
   - KM MOC
   - PKM MOC
-description: Map of Content for knowledge management concepts — LLM Wiki pattern, RAG vs compiled wiki, persistent knowledge bases, and historical precursors like Memex.
+description: Map of Content for the knowledge-management pages that currently exist in this vault, including the LLM Wiki pattern, RAG comparison, provenance boundaries, operational guides, and Memex history.
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-16
+date modified: 2026-08-29
 tags:
   - moc
   - knowledge-management
 topic:
   - knowledge-management
   - personal-knowledge-management
+source:
+  - "[[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]]"
+  - "[[2026-04-12-Karpathy-LLM-Wiki]]"
+  - AGENTS.md
 related:
   - "[[MOC-LLM Wiki Guide]]"
   - "[[index]]"
 status: active
 explored: false
-verificationStatus: unverified
+confidence: medium
+claimType: definition
+evidenceScope: multi-source-mixed
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # MOC-Knowledge Management
@@ -38,15 +48,10 @@ verificationStatus: unverified
 
 ## Key Concepts
 
-- [[Persistent Knowledge Base]] — Compounding artifact로서의 wiki
 - [[RAG vs Compiled Wiki]] — 매번 재검색 vs 한 번 컴파일의 차이
 - [[Mothership-Satellite Vault Pattern]] — 메인 지식 볼트와 LLM-managed Wiki 볼트의 역할 분리
 - [[Agent-Readable Metadata]] — LLM이 먼저 읽는 YAML metadata 설계
 - [[Human-AI Knowledge Boundary]] — AI가 쓴 지식과 사용자가 아는 지식의 경계
-- [[Contamination Mitigation]] — 에이전트 playground와 personal vault 분리 (kepano, 저자 축)
-- [[Sovereign PKM]] — 원본 Markdown, 레거시 포맷은 출력 어댑터로 (안창현, 포맷 축)
-- [[Harness Literacy]] — 외부화 + 기계가독 + 실행 연결 역량 (안창현)
-- [[Synthetic Data Generation for Wiki]] — Wiki 기반 파인튜닝 확장 경로 (Karpathy)
 - [[Cohort Token Economy]] — 강의·연구 cohort에서 LLM Wiki 운영 시 토큰 예산을 관리하는 관점
 - [[External Pre-processing Pattern]] — 긴 source를 외부 도구로 전처리한 뒤 Wiki 컴파일에 투입하는 패턴
 - [[Idea Generation Pipeline]] — 새 source ingest를 도메인 아이디어 생성 트리거로 확장하는 워크플로
@@ -63,7 +68,7 @@ verificationStatus: unverified
 
 ## Tools
 
-- [[qmd]] — 로컬 markdown 검색 엔진 (Karpathy 권장)
+- [[qmd]] — 이 볼트에서 사용하는 로컬 Markdown 검색 도구
 
 ## Practical Guides
 
@@ -78,3 +83,10 @@ verificationStatus: unverified
 ## Related MOCs
 
 - [[MOC-LLM Wiki Guide]] — 이 볼트 사용 온보딩 가이드
+
+## Unmaterialized Candidates
+
+이전 버전에는 `Persistent Knowledge Base`, `Contamination Mitigation`, `Sovereign PKM`, `Harness Literacy`, `Synthetic Data Generation for Wiki`를 직접 Wiki 링크로 나열했지만 현재 대응 파일이 없다. 필요성이 확인되기 전까지 broken link를 만들지 않고 생성 후보로만 유지한다.
+
+> [!note] Bias Check
+> 이 MOC는 현재 파일을 찾기 위한 탐색 지도이며, 항목 수나 링크 배치가 개념의 중요도 또는 사실 검증 수준을 뜻하지 않는다. 각 페이지의 `verificationStatus`, `confidence`, source를 별도로 확인해야 한다. 파일이 없는 후보 개념은 존재하는 지식 페이지처럼 표시하지 않는다.

@@ -4,11 +4,11 @@ aliases:
   - RAG vs Wiki
   - RAG vs LLM Wiki
   - Retrieval vs Compilation
-description: Comparison between RAG (retrieval-augmented generation) and the compiled wiki approach. RAG re-derives answers per query; the wiki pre-compiles knowledge into persistent, cross-referenced pages.
+description: Comparison between query-time retrieval and a maintained compiled Wiki, presented as complementary design choices rather than mutually exclusive systems.
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-16
+date modified: 2026-08-29
 tags:
   - rag
   - llm-wiki
@@ -19,12 +19,16 @@ source:
   - "[[2026-07-16-WikiDocs-LLM-Wiki-RAG를-넘어서]]"
 related:
   - "[[LLM Wiki Pattern]]"
-  - "[[Persistent Knowledge Base]]"
-confidence: high
+confidence: medium
 layer: concepts
 status: active
 explored: false
-verificationStatus: unverified
+claimType: mixed
+evidenceScope: multi-source-mixed
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # RAG vs Compiled Wiki
@@ -47,13 +51,11 @@ verificationStatus: unverified
 1. 문서 컬렉션을 chunk로 분할하여 인덱싱
 2. 질문이 들어오면 관련 chunk를 검색
 3. LLM이 검색된 chunk를 바탕으로 답변 생성
-4. 답변 후 — 아무것도 남지 않음
+4. 별도 저장 절차가 없다면 답변 자체는 지식 베이스에 반영되지 않음
 
-**한계**: LLM이 매번 처음부터 지식을 재발견(rediscover)한다. 5개 문서를 종합해야 하는 미묘한 질문에는 매번 조각을 찾아 맞춰야 한다. **축적(accumulation)이 없다.**
+**기본 한계**: 순수 query-time retrieval만 사용하면 복합 synthesis를 다시 수행할 수 있다. 다만 RAG 시스템도 답변 저장, cache, memory, curated summary를 추가할 수 있으므로 “축적이 본질적으로 불가능하다”는 뜻은 아니다.
 
 학습용 비유로는 RAG는 "단리"에 가깝고, Compiled Wiki는 "복리"에 가깝다. RAG의 답변은 대화가 끝나면 사라지지만, Compiled Wiki의 좋은 답변과 연결은 다시 Wiki에 남아 다음 Query의 출발점이 된다.
-
-대표 시스템: NotebookLM, ChatGPT file uploads, 대부분의 RAG 시스템.
 
 ### Compiled Wiki 방식
 
@@ -62,19 +64,19 @@ verificationStatus: unverified
 3. 질문이 오면 이미 컴파일된 wiki에서 답변
 4. 좋은 답변은 다시 wiki에 저장 — **지식이 축적**
 
-**장점**: cross-reference가 이미 완성되어 있고, 모순이 이미 감지되어 있으며, 종합이 모든 source를 반영한다. Source를 추가할수록, 질문을 할수록 wiki는 더 풍부해진다.
+**가능한 장점**: cross-reference와 synthesis를 재사용할 수 있다. 그러나 완전한 연결, 모순 감지, 모든 source 반영은 자동 보장이 아니라 ingest·verify·lint의 품질에 달려 있다.
 
 ### 비교 표
 
 | 차원              | RAG                     | Compiled Wiki       |
 | --------------- | ----------------------- | ------------------- |
 | 지식 처리 시점        | Query time (매번)         | Ingest time (한 번)   |
-| 축적              | 없음                      | 있음 (compounding)    |
+| 축적              | 기본 retrieval만으로는 없음 | 파일링 절차가 있으면 있음 |
 | Cross-reference | 매번 재구성                  | 사전 구축               |
-| 모순 감지           | 우연적                     | 체계적 (lint)          |
-| 인프라             | Embedding DB, retriever | Markdown 파일 + Git   |
-| 탐색 가능성          | LLM 통해서만                | 직접 탐색 가능 (Obsidian) |
-| 확장성             | 대규모에 강점                 | 중규모까지 index.md로 충분  |
+| 모순 감지           | 별도 파이프라인 필요 | lint/verify 절차 필요 |
+| 인프라             | 검색 인덱스·retriever가 흔함 | Markdown·검색 도구·버전관리 선택 가능 |
+| 탐색 가능성          | 구현 UI에 따라 다름 | Markdown 도구에서 직접 탐색 가능 |
+| 확장성             | 검색 품질·인덱스 설계에 의존 | navigation·search·schema 품질에 의존 |
 
 ---
 
@@ -83,12 +85,14 @@ verificationStatus: unverified
 > [!warning] Contradiction
 > RAG가 항상 열등한 것은 아니다. 대규모(수천 source)에서는 index.md 기반 네비게이션이 한계에 도달하며, embedding-based search가 필요해진다. 두 접근은 상호 보완적일 수 있다 — wiki 위에 RAG를 얹는 하이브리드 구조.
 
+> [!note] Bias Check
+> 이 비교는 compiled Wiki를 제안한 원문에서 출발하므로 RAG의 단순한 형태를 비교 대상으로 삼는 경향이 있다. 실제 RAG 시스템은 memory·cache·knowledge graph·human curation을 결합할 수 있고, compiled Wiki도 qmd 같은 retrieval을 사용한다. 품질·비용·지연시간 비교 데이터는 이 볼트에 없다.
+
 ---
 
 ## Related
 
 - [[LLM Wiki Pattern]] — compiled wiki의 전체 패턴
-- [[Persistent Knowledge Base]] — 왜 축적이 중요한가
 
 ---
 

@@ -18,12 +18,15 @@ source:
 related:
   - "[[김규태]]"
   - "[[MOC-Portfolio]]"
-confidence: high
+confidence: medium
 layer: entities
 explored: true
-claimType: project-evidence
+claimType: mixed
 evidenceScope: github-readme
 verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 
@@ -44,7 +47,7 @@ status: active
 - JavaParser AST 분석, `MethodCallExpr` 추출, Symbol Solver resolution을 사용한다.
 - parser는 Java로 구현되어 있으며, PowerShell runner가 JavaParser jar를 내려받고 `javac`로 컴파일해 실행한다.
 - output은 `source_list_generated.csv`, `test_list_generated.csv`, `source_test_generated.csv`, `method_call_edges.csv`, `unresolved_calls.csv`, `parser_summary.json` 등으로 나뉜다.
-- README 기준 verified summary는 source files `3460`, test files `114`, method calls `5486`, resolved calls `3479`, final test-source links `694`다.
+- 2026-08-29 공개 README 기준 repository-reported summary는 source files `3460`, test files `114`, method calls `5486`, resolved calls `3479`, unresolved calls `2007`, parse failure `1`, final test-source links `694`다. 이번 Wiki 검증에서는 parser를 재실행하지 않았다.
 
 ---
 

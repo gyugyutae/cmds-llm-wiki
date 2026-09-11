@@ -8,7 +8,7 @@ description: A guide stub for connecting LLM Wiki raw sources and wiki pages to 
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-07-07
+date modified: 2026-08-29
 tags:
   - guide
   - citation-management
@@ -25,21 +25,26 @@ confidence: low
 layer: guides
 explored: false
 claimType: prescriptive
-evidenceScope: synthesis-only
-verificationStatus: unverified
+evidenceScope: user-original
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 status: active
 ---
 
 # Citation Manager Integration for LLM Wiki
 
 > [!tip] Key Insight
-> LLM Wiki가 학술 글쓰기 도구가 되려면 Wiki의 `source` metadata가 Zotero나 Bookends의 citekey/deep link와 연결되어야 한다.
+> Citation-ready 학술 workflow가 필요하다면 Wiki의 `source` metadata와 Zotero·Bookends 식별자를 연결하는 방식을 검토할 수 있다. 현재는 구현되지 않은 설계안이다.
 
 ---
 
 ## Purpose
 
 이 페이지는 Zotero 또는 Bookends를 LLM Wiki와 연결하기 위한 guide stub이다. 현재 vault에는 Raw Source와 Wiki page의 source trace는 있지만, citation manager의 서지정보를 직접 여는 필드 표준은 아직 없다.
+
+2026-08-29 현재 `10. Raw Sources/`와 `90. Settings/`에서 아래 제안 필드를 검색했지만 실제 사용 사례를 찾지 못했다. 따라서 필드명, deep link 형식, 검증 workflow는 확정 schema가 아니다.
 
 ---
 
@@ -85,6 +90,9 @@ citationStatus: missing
 
 > [!question] Verification
 > `citationStatus: verified`를 누가, 어떤 기준으로 부여할지 정해야 한다. DOI 확인, title match, author/year match가 최소 기준 후보.
+
+> [!note] Bias Check
+> Citation manager 연결은 출처 추적 편의성을 높일 수 있지만 claim 정확성이나 원문 독해를 자동 보장하지 않는다. 실제 Zotero/Bookends link 형식과 cross-platform 동작을 확인하기 전에는 이 예시 필드를 template에 추가하지 않는다.
 
 ---
 

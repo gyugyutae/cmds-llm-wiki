@@ -8,13 +8,15 @@ description: The boundary between knowledge that an AI has generated and knowled
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-07-07
+date modified: 2026-08-29
 tags:
   - llm-wiki
   - epistemology
   - learning
 source:
   - "[[2026-07-07-에이전트를-위한-지식-베이스-LLM-Wiki-활용]]"
+  - AGENTS.md
+  - "[[Core Context]]"
 related:
   - "[[LLM Wiki as Learning Base]]"
   - "[[Mothership-Satellite Vault Pattern]]"
@@ -23,8 +25,11 @@ confidence: medium
 layer: concepts
 explored: false
 claimType: interpretive
-evidenceScope: single-source
-verificationStatus: unverified
+evidenceScope: multi-source-mixed
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 status: active
 ---
 
@@ -49,8 +54,10 @@ LLM Wiki 운영의 위험 중 하나는 "AI가 만든 결과물을 내가 이미
 |-------|---------|
 | `explored: false` | LLM이 컴파일했지만 사용자가 아직 충분히 읽거나 검증하지 않음 |
 | `verificationStatus: unverified` | claim이 source-backed 형태로 정리되었지만 별도 검증은 안 됨 |
-| `confidence: medium/low` | source 수나 검증 범위가 제한적임 |
-| `explored: true` | 사람 또는 별도 검증 루프가 읽고 확인함 |
+| `confidence: medium/low` | 현재 evidence에 맞춰 claim 강도를 낮춘 상태 |
+| `explored: true` | 사용자가 명시적으로 탐색 완료를 확인함 |
+
+`verificationStatus`는 claim과 source의 대조 상태이고, `explored`는 사용자의 학습·확인 상태다. 에이전트 검증만으로 `explored: true`로 바꾸지 않는다.
 
 이 경계를 명시하면 Wiki가 "아는 척하는 산출물"이 아니라 "공부해야 할 지도"가 된다.
 

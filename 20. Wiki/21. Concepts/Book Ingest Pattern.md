@@ -5,11 +5,11 @@ aliases:
   - Progressive Stub Ingest
   - Multi-Page Ingest Pattern
   - Book Ingest Mode
-description: Variant of the /ingest operation designed for multi-page books and documentation sites. Creates one Book Index raw source plus N chapter stubs (navigable scaffold with original URLs and TOC previews), then promotes each stub to a full raw source + wiki compilation when the user actually reads that chapter. Matches Karpathy's "knowledge compiles when read, not when scraped" principle.
+description: Locally designed variant of the ingest operation for multi-page books and documentation sites. Creates one Book Index plus chapter stubs, then promotes selected stubs to preserved Raw Sources and Wiki compilation as the user reads them; this progressive workflow is not a rule stated by Karpathy.
 author:
   - Claude
 date created: 2026-04-20
-date modified: 2026-07-12
+date modified: 2026-08-29
 tags:
   - concept
   - ingest
@@ -17,22 +17,31 @@ tags:
   - wiki-schema
   - progressive-disclosure
   - book-ingest
-source: []
+source:
+  - "[[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]]"
+  - .codex/commands/ingest.md
+  - .codex/hooks/validate-raw-source.sh
+  - CHANGELOG.md
 related:
   - "[[LLM Wiki Pattern]]"
   - "[[Ingest-Query-Lint Cycle]]"
   - "[[3-Layer Architecture]]"
-confidence: high
+confidence: medium
 layer: concepts
 status: active
 explored: false
-verificationStatus: unverified
+claimType: prescriptive
+evidenceScope: multi-source-mixed
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # Book Ingest Pattern
 
 > [!tip] Key Insight
-> **멀티 페이지 책을 한꺼번에 긁어오지 않는다.** TOC + preface 으로 **navigable scaffold** (1 Book Index + N stubs) 를 만들고, 사용자가 **실제로 읽는 장만** verbatim + Wiki 컴파일 로 승격. Karpathy 의 "지식은 스크랩이 아니라 독서 시점에 컴파일" 원칙의 구체화.
+> **멀티 페이지 책을 한꺼번에 컴파일하지 않는 로컬 운영 선택지**다. TOC와 서문으로 navigable scaffold(1 Book Index + N stubs)를 만들고, 사용자가 실제로 읽기로 선택한 장만 원문 보존과 Wiki 컴파일 단계로 승격한다.
 
 ---
 
@@ -40,11 +49,11 @@ verificationStatus: unverified
 
 **Book Ingest Pattern** 은 표준 `/ingest` 의 **변형 (variant)** 이다. 단일 URL/파일/텍스트용 표준 모드와 달리, 멀티 페이지 책·문서 사이트 (mdBook, VitePress, GitBook, Docusaurus, ReadTheDocs, Nextra — TOC 에 5+ 챕터) 를 대상으로 설계됨.
 
-문제: 30 장짜리 책을 표준 `/ingest` 로 처리하면 두 가지 실패가 있음:
+가설: 30장짜리 책을 표준 `/ingest`로 한 번에 처리하면 다음 문제가 생길 수 있다.
 1. **한 파일에 전부** — 100K+ words, 가독성 붕괴, `## Original Content` 이 비대화
-2. **30 파일 동시 ingest + 30 × Wiki 컴파일** — 읽지도 않은 내용이 Wiki 에 심어져 AI 요약이 human-curated knowledge 자리에 삽입되는 contamination 발생
+2. **30 파일 동시 ingest + 30 × Wiki 컴파일** — 아직 검토하지 않은 AI 요약이 Wiki에 대량 삽입되어 출처와 사용자 이해의 경계가 흐려질 수 있음
 
-해결: **Progressive Stubs** — navigable scaffold 만 지금 만들고, 독서 시점에 chapter-by-chapter 승격.
+후보 해법은 **Progressive Stubs**다. navigable scaffold만 먼저 만들고, 필요한 장을 chapter-by-chapter 승격한다. 실제 토큰 절감·독서 완주율·오류 감소 효과는 아직 이 저장소의 사용 사례로 검증되지 않았다.
 
 ---
 
@@ -70,7 +79,7 @@ verificationStatus: unverified
 
 **Book Index 내용**:
 - Preface verbatim in `## Original Content`
-- `## TOC` — N 장 `[[wikilink]]` 테이블 (편/파트로 그룹)
+- `## TOC` — N장 link table (편/파트로 그룹)
 - `## Reading Paths` — 저자가 제시한 경로 (있으면) verbatim
 - `## Progress Tracking` — `| Ch | Title | Status | Read on |` 테이블
 
@@ -112,7 +121,7 @@ Book Ingest 가 도입한 신규 frontmatter 키 (camelCase 준수):
 | `chapterPrev` | wikilink\|null | 이전 챕터 |
 | `chapterNext` | wikilink\|null | 다음 챕터 |
 
-상세 정의: [[CODEX|Schema layer]] "Layer별 추가 프로퍼티 → Book Ingest 전용 키".
+실행 기준은 `.codex/commands/ingest.md`의 `Book Ingest Mode`와 `.codex/hooks/validate-raw-source.sh`를 따른다.
 
 ---
 
@@ -120,14 +129,12 @@ Book Ingest 가 도입한 신규 frontmatter 키 (camelCase 준수):
 
 ```
 stub  →  reading  →  completed
- ↑                        ↓
- └────── ingested ←───────┘  (일반 ingest 는 stub 건너뛰고 바로 ingested)
 ```
 
 - **`stub`** — scaffold 생성 직후. `## Original Content` 에 placeholder. Wiki 에 이 장 전용 페이지 없음.
 - **`reading`** — 사용자가 장을 읽기 시작 (선택적 중간 상태). Reading Notes 에 메모 추가 중.
 - **`completed`** — 본문 verbatim + Wiki 컴파일 완료. Book Index Progress 에서 체크.
-- **`ingested`** — 표준 ingest 완료 상태 (Book Ingest 외 Raw Sources).
+- **`ingested`** — 위 lifecycle과 별개인 표준 ingest Raw Source의 완료 상태.
 
 ---
 
@@ -151,31 +158,34 @@ stub  →  reading  →  completed
 
 ## 관련 원칙
 
-### Progressive Disclosure 과의 유사성
+### Progressive Disclosure와의 유사성
 
-Claude Code 의 Skills 이 YAML preview → body on demand 로 작동하듯, Book Ingest 는 **TOC preview → full chapter on read**. 같은 정신.
+Book Ingest는 **TOC preview → selected full chapter** 순서로 정보를 늦게 확장한다는 점에서 progressive disclosure와 유사하다. 이는 이 저장소가 채택한 설계 비유이지 외부 원문의 명시적 요구사항은 아니다.
 
 ### Contamination Mitigation 과의 정렬
 
-LLM 이 읽지도 않은 장을 요약해서 Wiki 에 심으면 **human-curated knowledge 의 자리에 AI 요약이 삽입** 되는 contamination 이 발생. Stub 은 이를 차단 — 실제 독서 후에만 Wiki 생성.
+LLM이 사용자가 검토하지 않은 장을 요약해 Wiki에 대량 반영하면 **원문·AI 해석·사용자 이해의 경계**가 흐려질 수 있다. Stub은 장별 Wiki 생성을 보류하지만, 사용자가 실제로 이해했음을 자동 보장하지는 않는다.
 
-### [[LLM Wiki Pattern]] 의 "compile when read" 원칙 구체화
+### [[LLM Wiki Pattern]]의 로컬 확장
 
-Karpathy: "Good answers can be filed back into the wiki as new pages." Book Ingest 는 이를 **독서 단위** 로 적용.
+Karpathy 원문은 raw 자료를 모아 LLM이 Wiki로 점진 컴파일하고, 유용한 질의 결과를 다시 Wiki에 축적하는 패턴을 설명한다. 그러나 "스크랩할 때가 아니라 읽을 때 컴파일한다"거나 chapter stub 방식을 사용하라는 원칙은 원문에 없다. Book Ingest는 그 패턴 위에 이 저장소가 추가한 prescriptive workflow다.
 
 ---
 
 ## Hook Interaction
 
-- `validate-raw-source.sh` PostToolUse hook 은 `## Original Content` 섹션 존재를 강제.
-- Stub 파일은 **placeholder block 으로 섹션 보존** → hook 통과.
-- Hook 이 본문 substantiveness 까지 검사하도록 업그레이드되면 `status: stub` 를 예외 처리해야 함 (향후 hook 개선 과제).
+- `.codex/hooks/validate-raw-source.sh`는 모든 Markdown Raw Source에 `## Original Content` heading을 요구한다.
+- 일반 Raw Source는 20줄 이상의 non-empty body도 검사한다.
+- `status: stub`은 heading을 유지하되 body 길이 검사에서 명시적으로 제외된다. 승격 시 placeholder를 실제 원문으로 교체해야 한다.
+
+> [!note] Bias Check
+> 이 패턴은 실제 책 인제스트 결과에서 귀납한 표준이 아니라 저장소 유지자가 설계하고 harness에 구현한 운영 가설이다. Stub이 토큰 비용, 오염 위험, 독서 품질을 개선한다는 비교 데이터는 없다. 또한 원문 저작권·접근 권한·재배포 조건은 별도로 확인해야 하며, 공개 URL이 있다는 사실만으로 전문 저장이 허용되는 것은 아니다.
 
 ---
 
 ## Related
 
-- [[LLM Wiki Pattern]] — compile when read 원칙
+- [[LLM Wiki Pattern]] — raw-to-Wiki 점진 컴파일이라는 기반 패턴
 - [[Ingest-Query-Lint Cycle]] — Book Ingest 는 Ingest 의 variant
 - [[3-Layer Architecture]] — Raw Sources 레이어 내부 구조 다양화
 
@@ -191,3 +201,12 @@ Karpathy: "Good answers can be filed back into the wiki as new pages." Book Inge
 
 > [!question] Multi-language book 처리
 > 같은 책이 여러 언어 판을 가진 경우 (예: 중국어 원문 + 영어 번역) 같은 Book Index 에 두 언어 TOC 를 나란히? 별도 Book Index 2 개?
+
+---
+
+## Sources
+
+- [[2026-04-02-Karpathy-LLM-Knowledge-Bases-X-Thread]]
+- [.codex/commands/ingest.md](../../.codex/commands/ingest.md)
+- [.codex/hooks/validate-raw-source.sh](../../.codex/hooks/validate-raw-source.sh)
+- [CHANGELOG.md](../../CHANGELOG.md)

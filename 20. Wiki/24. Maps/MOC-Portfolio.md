@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-09-09
+date modified: 2026-09-11
 tags:
   - moc
   - portfolio
@@ -18,6 +18,12 @@ topic:
   - portfolio
   - career
   - project-evidence
+source:
+  - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
+  - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
+  - "[[2026-07-12-Velog-Leadership-Product-Hackathon-Bundle]]"
+  - "[[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]]"
+  - "[[2026-09-02-to-09-Kim-Gyutae-Contract-Lab-Work-Notes]]"
 related:
   - "[[Core Context]]"
   - "[[김규태]]"
@@ -44,9 +50,24 @@ related:
   - "[[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]]"
   - "[[2026-09-04-Q-finance-backend-ai-era-job-preparation]]"
   - "[[2026-09-09-Q-kb-securities-java-backend-starting-plan]]"
+  - "[[AI와 머신러닝 시대의 퀀트 리서치]]"
+  - "[[백테스트 과적합과 편향]]"
+  - "[[변동성 트레이딩과 델타 헤징]]"
+  - "[[시장중립은 무위험이 아니다]]"
+  - "[[AI 팩토리와 토큰 생산 인프라]]"
+  - "[[메타인지 학습 루프]]"
+  - "[[겸손과 자기표현의 균형]]"
+  - "[[계약랩]]"
+  - "[[2026 넥토리얼 지원]]"
 status: active
 explored: false
-verificationStatus: unverified
+confidence: medium
+claimType: mixed
+evidenceScope: multi-source-mixed
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # MOC-Portfolio
@@ -61,7 +82,7 @@ verificationStatus: unverified
 - **Current status**: 개발자 취업준비생, 경상국립대학교 소프트웨어공학과 4학년, SEALAB 학부연구생
 - **Portfolio objective**: 금융권·핀테크 Java 백엔드·거래 인프라 취업을 1차 목표로 하며, 드론·반도체 도메인도 장기 관심사로 탐색
 - **Preferred tone**: 열정과 성장가능성이 드러나되, 성능·데이터 처리·설계·개발·팀 리딩·AI 활용 검증 근거가 있는 취업준비생 톤
-- **Primary language**: Python
+- **Primary language direction**: Java를 새 주언어로 학습하고, Python은 부하 테스트·분석·자동화에 활용
 - **GitHub-based stack**: Python, Java, Kotlin, TypeScript/React, JavaScript, C, Shell/PowerShell, Dockerfile, PLpgSQL
 - **Public profiles**: [GitHub](https://github.com/gyutaetae), [Velog](https://velog.io/@gyutaetae/posts), [LinkedIn](https://www.linkedin.com/in/%EA%B7%9C%ED%83%9C-%EA%B9%80-90763b407/), [Instagram](https://www.instagram.com/kyu_tae_/)
 
@@ -85,6 +106,7 @@ verificationStatus: unverified
 
 ## Career Narrative Pages
 
+- [[2026 넥토리얼 지원]] — 2026-09-11 서류 합격 자기보고와 신규 AI면접 준비·증거 경계
 - [[김규태 Career Narrative]] — 자기소개, 목표 회사/도메인, 성장 과제, 면접용 내러티브
 - [[김규태 금융 시스템 개발자 취업 로드맵]] — 지방 국립대 소프트웨어공학과 3학년 관점의 Java 전환, 2027년 상반기 서울 증권사 주문 시스템 취업 준비
 - [[AI-Augmented Developer Positioning]] — AI 의존이 아니라 AI를 활용해 개발 역량을 증폭하는 사람으로 설명하는 프레임
@@ -97,6 +119,13 @@ verificationStatus: unverified
 - [[TMU Global Leadership Program]] — 4주·100시간 영어 몰입 과정과 SDG 학습의 증빙·표현 경계
 - [[김규태 개발 도메인 영어 성장 계획]] — 수료 경험을 영어 README·기술 문서·설명 증거로 전환하는 계획
 - [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]] — 장기 퀀트/HFT 관심을 가설·데이터·비용·검증 문제로 구체화하는 학습 지도
+- [[AI와 머신러닝 시대의 퀀트 리서치]] — AI 활용 가능성과 model-risk 책임을 함께 보는 탐색 지도
+- [[백테스트 과적합과 편향]] — 누수·선택·비용·다중 검정 위험을 점검하는 학습 체크리스트
+- [[시장중립은 무위험이 아니다]] — beta·delta 중립과 잔여 위험을 구분하는 검증 페이지
+- [[변동성 트레이딩과 델타 헤징]] — gamma·theta·비용을 포함한 옵션 학습 지도
+- [[AI 팩토리와 토큰 생산 인프라]] — 반도체·전력·네트워크·모델을 잇는 NVIDIA의 인프라 프레임
+- [[메타인지 학습 루프]] — 오류 원인과 재검증을 기록하는 개인 학습 실험
+- [[겸손과 자기표현의 균형]] — 기여 경계를 밝히면서 근거 있게 표현하는 포트폴리오 원칙
 - [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]] — AI 초안을 테스트·도메인 규칙·성능 검증으로 인수하는 개발 원칙
 - [[2026-09-04-Q-finance-backend-ai-era-job-preparation]] — 책·자격증·금융 거래 프로젝트·AI 검증·코딩테스트·지원 전략을 통합한 2026–2027 실행안
 - [[2026-09-09-Q-kb-securities-java-backend-starting-plan]] — Java·SQL이 시작 단계인 현재 기준선에서 모의 증권 주문 MVP까지 가는 첫 8주 계획
@@ -107,11 +136,12 @@ verificationStatus: unverified
 
 | Project | What To Prove | Missing Evidence |
 |---------|---------------|------------------|
-| [[financial-order-latency-lab]] | 금융 주문 서버의 p99 latency를 CPU 계산, sync log, GPU scoring 경합 조건에서 측정하고 완화 전략을 해석했다 | 수업 요구사항, 본인 담당 범위, 실험 설계 이유, 발표자료, 추가 Linux 재측정 여부 |
-| [[Graduation-elasticsearch]] | JavaParser AST/Symbol Solver로 Elasticsearch Java Client의 TEST FILE -> SOURCE FILE trace link를 추출·검증했다 | 연구실/졸업 연구 맥락, 논문 alignment, 본인 기여율, 실험 목적, 지도/피드백 |
-| [[cuee]] | `배우담`에서 `cuee`로 방향 전환하며 노인 사용자의 앱 학습 부담을 현재 화면 안내/마스킹으로 줄이려 했다 | 구현 화면, Android 코드 증거, 실제 사용자 테스트, 발표자료, 심사 피드백, Play Store 출시 계획 |
-| [[harness]] | 기존 harness를 그대로 쓰지 않고 앱 개발에 맞춰 개인화해 Codex 기반 개발 생산성을 높였다 | 원본 참고점, 수정한 구조, 자동화 흐름, 사용 예시, 실제 앱 개발에 준 효과, 한계와 개선 계획 |
-| [[harness]] / Threads automation | Codex와 토큰 기반 자동화 workflow를 이용해 매일 AI agent 논문 활용 예시를 리서치하고 Threads에 업로드했다 | 실제 코드/스크립트 위치, 토큰 발급 방식, 스케줄러 설정, 실패 처리, 팔로워 400명 증빙 |
+| [[financial-order-latency-lab]] | 사용자가 CPU·GPU·disk latency를 금융 관점에서 비교한다는 문제를 제시했고, AI가 p99 조건·전체 코드·실행·재실험·해석을 수행했다. 현재는 구현력 증거가 아니라 문제의식과 미검증 AI 활용의 한계 기록이다 | 수업 요구사항, 사용자 판단 범위, 직접 재현·설명·수정 가능한 구현, 발표자료, Linux 재측정 |
+| [[Graduation-elasticsearch]] | 공개 저장소에 JavaParser AST/Symbol Solver 기반 TEST FILE -> SOURCE FILE artifact가 존재한다. 사용자 직접 구현은 아직 증명되지 않았다 | 연구실/졸업 연구 맥락, 본인 기여율, 직접 작성·재실행한 parser, 지도/피드백 |
+| [[cuee]] | `배우담`에서 `cuee`로 전환한 사용자 판단과 접근성 overlay fixture demo가 존재한다 | 사용자 직접 구현 범위, 실제 사용자 테스트, live Korail 검증, 심사 피드백, Play Store 심사 |
+| [[harness]] | Codex workflow로 개인화했다는 사용자 기록과 구조 설명이 있다 | 현재 공개 코드, 원본 대비 diff, 실제 개발 시간·오류·품질 효과, 한계와 개선 계획 |
+| [[harness]] / Threads automation | Codex와 토큰 기반 자동화 workflow를 이용해 AI agent 논문 활용 예시를 Threads에 반복 발행했다. 팔로워 수는 2026-07-23 사용자 진술 기준 500명이다 | 실제 코드/스크립트 위치, 토큰 발급 방식, 스케줄러 설정, 실패 처리, API 또는 화면 기반 팔로워 증빙 |
+| [[계약랩]] | 사용자 메모에 ROS 2·MAVSDK·QGroundControl 환경 구축, 드론 구동 확인, 자율착륙 판단 분해, 특허 비교 과업이 기록되어 있다 | 공식 프로젝트 맥락, 본인 기여 범위, 저장소·명령·로그·영상, 알고리즘 상세, 선행특허 비교표와 출원 결과 |
 | [[김규태 Leadership and Teaching Evidence]] | 실리콘밸리 취업동아리 대표와 멋쟁이사자처럼 14기 부대표로 운영/교육/해커톤 준비를 수행했다 | 회의록, 예산/지원금 자료, 백엔드 세션 수업 자료, 팀원 피드백, GNU 해커톤 템플릿 실제 사용 결과 |
 
 ---
@@ -182,7 +212,7 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 
 백엔드 중심으로 다듬은 기본 포지셔닝:
 
-> Python을 주 언어로 성능 실험, 데이터 처리, 자동화 프로젝트를 쌓아온 개발자 취업준비생. 금융 주문 서버의 p99 latency 실험, JavaParser 기반 Elasticsearch traceability 분석, Android 앱 제품화, Codex 기반 자동화 경험을 통해 성능·데이터·사용자 문제·AI 활용 workflow를 함께 이해하는 개발자로 성장하고 있다.
+> 금융 latency, 데이터 처리, Android 접근성, Codex 자동화 문제를 탐색해 온 개발자 취업준비생. Java를 새 주언어로 학습하고 Python을 분석·자동화에 활용하며, 현재 프로젝트 상당 부분이 AI 생성 코드에 의존했다는 한계를 공개하고 직접 설명·수정·재현 가능한 Java 백엔드 증거를 보강하고 있다.
 
 이 문장은 아직 초안이다. 실제 이력서에는 지원 직무와 회사 유형에 맞춰 더 날카롭게 다듬는다.
 
@@ -254,6 +284,9 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 - AI가 만든 부분과 내가 직접 판단/검증한 부분이 분리되어 있는가?
 - AI 없이도 설명 가능한 최소 구현/기초 역량 증거가 있는가?
 - 현실 문제에서 코드 구조로 넘어가는 추상화·분해 과정이 기록되어 있는가?
+
+> [!note] Bias Check
+> 이 MOC는 취업 포트폴리오를 설계하는 운영 지도이므로 사용자 진술, 저장소 기록, AI가 정리한 해석이 함께 섞여 있다. 프로젝트 존재와 관심사를 실제 구현 기여·재현 능력·성과 증명으로 확대 해석하지 않는다. 특히 `financial-order-latency-lab`의 수치와 코드는 AI가 생성·실행했고 사용자가 별도 검증하지 못했으며, Threads 팔로워 500명도 현재는 사용자 진술로만 확인된다.
 
 ---
 

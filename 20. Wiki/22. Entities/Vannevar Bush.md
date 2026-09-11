@@ -3,32 +3,37 @@ type: wiki-page
 aliases:
   - Bush
   - 배너바 부시
-description: Vannevar Bush — American engineer and science administrator who proposed the Memex (1945), a conceptual precursor to personal knowledge management systems and the LLM Wiki pattern.
+description: Vannevar Bush — American engineer and science administrator who described the Memex in the 1945 essay As We May Think; later comparisons to LLM Wikis are interpretive.
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-07-12
+date modified: 2026-08-29
 tags:
   - person
   - knowledge-management
   - historical
 source:
   - "[[2026-04-12-Karpathy-LLM-Wiki]]"
+  - https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
 related:
   - "[[Memex]]"
   - "[[LLM Wiki Pattern]]"
-  - "[[Persistent Knowledge Base]]"
 confidence: high
 layer: entities
 status: active
 explored: false
-verificationStatus: unverified
+claimType: historical
+evidenceScope: multi-source-primary
+verificationStatus: verified
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # Vannevar Bush
 
 > [!tip] Key Insight
-> 1945년 "As We May Think"에서 [[Memex]]를 제안. 문서 간 연상적 연결을 가진 개인 지식 저장소를 구상했지만, 유지보수 문제를 해결하지 못했다.
+> 1945년 "As We May Think"에서 [[Memex]]를 설명하고 문서 간 associative trail을 가진 개인 지식 저장소를 구상했다.
 
 ---
 
@@ -50,7 +55,10 @@ Bush는 과학자가 폭증하는 정보를 관리하기 어렵다는 문제를 
 
 > Bush의 비전은 웹이 된 것보다 LLM Wiki에 더 가깝다: 사적이고, 능동적으로 큐레이션되며, 문서 간 연결이 문서 자체만큼 가치 있다. Bush가 해결하지 못한 부분은 누가 유지보수를 하느냐였다. LLM이 그것을 맡는다.
 
-80년의 시차를 두고, LLM이 Bush의 비전에서 빠져 있던 퍼즐 조각(자동 유지보수)을 채운 셈이다.
+이 비교는 Karpathy의 해석이다. LLM이 유지보수 비용을 낮출 가능성은 있지만 정확성·일관성 문제를 완전히 해결했다고 보지는 않는다.
+
+> [!note] Bias Check
+> Memex와 현대 hypertext·LLM Wiki의 연결은 영향사적 해석이다. Bush의 1945 원문은 LLM, Markdown, 자동 contradiction detection을 주장하지 않는다. 역사적 사실과 현대적 비유를 분리한다.
 
 ---
 
@@ -58,10 +66,10 @@ Bush는 과학자가 폭증하는 정보를 관리하기 어렵다는 문제를 
 
 - [[Memex]] — Bush가 제안한 지식 관리 시스템
 - [[LLM Wiki Pattern]] — Memex 비전의 현대적 구현
-- [[Persistent Knowledge Base]] — Bush의 "associative trail" 아이디어의 연장
 
 ---
 
 ## Sources
 
 - [[2026-04-12-Karpathy-LLM-Wiki]]
+- [Vannevar Bush, "As We May Think," The Atlantic, July 1945](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)

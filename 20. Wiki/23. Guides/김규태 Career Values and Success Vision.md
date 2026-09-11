@@ -7,7 +7,7 @@ description: "Kim Gyutae's self-reported career priorities, compensation thresho
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - career
   - values
@@ -18,12 +18,15 @@ source:
 related:
   - "[[김규태 Career Narrative]]"
   - "[[MOC-Portfolio]]"
-confidence: high
+confidence: medium
 layer: guides
 explored: false
 claimType: mixed
 evidenceScope: user-original
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

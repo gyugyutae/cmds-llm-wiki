@@ -26,6 +26,9 @@ explored: false
 claimType: mixed
 evidenceScope: user-original
 verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 

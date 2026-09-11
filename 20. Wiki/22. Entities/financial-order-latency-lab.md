@@ -6,7 +6,7 @@ description: Python-based backend performance experiment measuring p99 order lat
 author:
   - Codex
 date created: 2026-07-10
-date modified: 2026-08-16
+date modified: 2026-08-29
 tags:
   - project
   - backend
@@ -16,16 +16,20 @@ source:
   - https://github.com/gyutaetae/financial-order-latency-lab
   - https://raw.githubusercontent.com/gyutaetae/financial-order-latency-lab/main/README.md
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
+  - "[[Core Context]]"
 related:
   - "[[김규태]]"
   - "[[MOC-Portfolio]]"
   - "[[김규태 Career Narrative]]"
-confidence: high
+confidence: medium
 layer: entities
 explored: true
-claimType: project-evidence
+claimType: mixed
 evidenceScope: multi-source-mixed
 verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 status: active
 ---
 
@@ -43,8 +47,11 @@ status: active
 
 - Python 기반 Windows-local order server와 TCP load generator를 사용했다.
 - CPU risk check, sync log + fsync, PyTorch CUDA scoring server 호출을 각각 scenario로 분리했다.
-- 100 rps 기준 baseline p99 `25.60 ms`, gpu-scoring p99 `45.11 ms`, combined p99 `48.36 ms`를 기록했다.
-- mitigation은 disk pressure를 `10.95 -> 1.49`로 낮췄지만 p99 개선은 제한적이었고, GPU call과 Python request-per-connection overhead가 더 큰 병목으로 해석됐다.
+- 공개 저장소의 결과 파일과 README는 100 rps 기준 baseline p99 `25.60 ms`, gpu-scoring p99 `45.11 ms`, combined p99 `48.36 ms`를 기록한다.
+- 저장소 해석에 따르면 mitigation은 disk pressure proxy를 `10.95 -> 1.49`로 낮췄지만 p99 개선은 제한적이었고, GPU call과 Python request-per-connection overhead가 더 큰 병목 후보였다.
+
+> [!note] Verification Boundary
+> 2026-08-29 현재 공개 GitHub README와 저장소 구조에서 코드·실행 명령·결과 표의 존재와 위 수치를 확인했다. 이번 Wiki 검증은 Windows 11/GTX 1060 환경에서 실험을 재실행하지 않았으므로 측정의 재현성, proxy metric의 타당성, 병목 인과관계까지 독립 검증한 것은 아니다.
 
 ---
 
@@ -81,6 +88,9 @@ status: active
 - AI 결과를 검증하지 않았다는 회고
 - 새 Java 프로젝트에서 설명·수정·검증 가능한 형태로 다시 구현할 최소 실험
 
+> [!note] Bias Check
+> 공개 저장소에 코드와 결과가 존재한다는 사실은 김규태가 직접 구현·실행·검증했다는 증거가 아니다. 2026-07-11 원문에는 사용자가 기획과 개발을 했다는 초기 진술이 있지만, 이후 사용자 확인을 반영한 [[Core Context]]는 AI가 p99 조건·전체 코드·실행·재실험을 담당했고 사용자는 별도 검증하지 못했다고 명시한다. 이 페이지는 더 구체적이고 최신인 확인을 적용한다.
+
 ---
 
 ## Sources
@@ -88,3 +98,4 @@ status: active
 - https://github.com/gyutaetae/financial-order-latency-lab
 - https://raw.githubusercontent.com/gyutaetae/financial-order-latency-lab/main/README.md
 - [[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]
+- [[Core Context]]

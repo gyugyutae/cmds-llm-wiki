@@ -8,7 +8,7 @@ description: Schema engineering for LLM Wiki is the practice of designing durabl
 author:
   - Codex
 date created: 2026-07-16
-date modified: 2026-07-16
+date modified: 2026-08-29
 tags:
   - llm-wiki
   - schema
@@ -19,19 +19,24 @@ source:
   - "[[3-Layer Architecture]]"
   - "[[LLM Wiki Pattern]]"
   - "[[Ingest-Query-Lint Cycle]]"
+  - AGENTS.md
+  - .codex/commands/verify.md
 related:
   - "[[3-Layer Architecture]]"
   - "[[Agent-Readable Metadata]]"
   - "[[Human-AI Knowledge Boundary]]"
   - "[[Ingest-Query-Lint Cycle]]"
   - "[[RAG vs Compiled Wiki]]"
-confidence: medium
+confidence: high
 layer: concepts
 status: active
 explored: false
-claimType: interpretive
-evidenceScope: synthesis-only
-verificationStatus: unverified
+claimType: definition
+evidenceScope: user-original
+verificationStatus: verified
+verifiedAt: 2026-08-29
+verifiedBy: agent
+disputed: false
 ---
 
 # Schema Engineering for LLM Wiki
@@ -64,7 +69,7 @@ Schema engineering은 다음 질문에 답한다.
 
 ## Schema As Agent Interface
 
-스키마는 사람용 문서 형식이 아니라 agent용 인터페이스다. LLM은 `index.md`, YAML frontmatter, `source`, `related`, MOC 목록을 보고 어떤 파일을 읽고 수정할지 결정한다.
+스키마는 사람용 문서 형식이면서 agent용 인터페이스다. 이 저장소의 agent는 `AGENTS.md`와 operation skill을 우선 읽고, `index.md`, YAML frontmatter, `source`, `related`, MOC 목록을 탐색에 사용할 수 있다.
 
 따라서 좋은 schema는 다음 특성을 가진다.
 

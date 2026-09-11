@@ -7,7 +7,7 @@ description: "Practical guide for structuring Kim Gyutae's learning, deadlines, 
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-07-23
+date modified: 2026-08-29
 tags:
   - learning
   - work-style
@@ -19,12 +19,15 @@ source:
 related:
   - "[[김규태 Motivation and Execution Pattern]]"
   - "[[김규태 Stress and Recovery Pattern]]"
-confidence: high
+confidence: medium
 layer: guides
 explored: false
 claimType: prescriptive
 evidenceScope: user-original
-verificationStatus: unverified
+verificationStatus: partial
+verifiedAt: 2026-08-29
+verifiedBy: Codex
+disputed: false
 status: active
 ---
 
