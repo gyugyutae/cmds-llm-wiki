@@ -29,7 +29,7 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 43 |
+| Raw Sources | 44 |
 | Wiki Pages | 72 |
 | Concepts | 40 |
 | Entities | 12 |
@@ -179,6 +179,7 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-09-12 | [[2026-09-11-Gemini-Lauren-Tan-Agent-Lecture-Chat]] | Raw Source only; claims remain unverified |
 | 2026-09-11 | [[2026-09-11-Nexon-Tutorial-AI-Interview-Preparation-Bundle]] | [[2026 넥토리얼 지원]], [[MOC-Portfolio]], [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Preparation]] |
 | 2026-09-10 | [[2026-09-02-to-09-Kim-Gyutae-Contract-Lab-Work-Notes]] | [[계약랩]], [[MOC-Portfolio]] |
 | 2026-09-09 | [[2026-09-09-Codex-KB-Securities-Java-Backend-Career-Conversation]] | 1 guide + 1 MOC + 1 query |

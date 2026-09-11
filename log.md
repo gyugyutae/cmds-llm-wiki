@@ -1288,3 +1288,14 @@ status: active
 - Remaining queue: 대표 프로젝트, AI 오류·검증, 협업, C++/C#, 자료구조, OOP/SOLID, 동시성, network, 게임 분석, 빠른 학습 경험
 - Resume point: 왜 게임 기획자가 아니라 게임 프로그래머인가
 - Reuse axis: 취업/포트폴리오, 독서/책/학습
+
+## [2026-09-12] ingest | Gemini Lauren Tan 에이전트 강연 대화
+
+- Raw Source saved: [[2026-09-11-Gemini-Lauren-Tan-Agent-Lecture-Chat]]
+- Original file: `C:/Users/kym70/OneDrive/Desktop/New chat.md`
+- Collection purpose: 독서/책/학습 — 이후 AI agent 팀 구조, 검증 gate, memory/context 관리 주장을 공부하기 위한 원문 보존
+- Related pages: [[AI 자동화는 개인 생산성 레버리지다]], [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]], [[Human-AI Knowledge Boundary]]
+- Verification boundary: 직접 확인 가능한 강연 URL·발언 원문·소속 근거가 없고, `SpaceXAI`, agent 수, PR 수 등의 주장을 독립 확인하지 않음
+- Compilation decision: 사실성이 확인되지 않아 새 Wiki claim으로 승격하지 않고 Raw Source만 생성
+- Standalone mode: mothership search skipped; `mainVaultRelated` is empty and `mainVaultCmds` is null
+- Reuse axis: 독서/책/학습, Codex 개발 워크플로
