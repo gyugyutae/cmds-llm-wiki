@@ -35,7 +35,7 @@ status: active
 | Entities | 12 |
 | Guides | 15 |
 | MOCs | 5 |
-| Queries | 24 |
+| Queries | 28 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -159,6 +159,10 @@ status: active
 - [[2026-08-31-Q-pureundeungdae-scholarship-fit]] — 학업·소득구간·AI/데이터 프로젝트를 반영한 2026년 2학기 푸른등대 장학금 적합도
 - [[2026-08-31-Q-nice-scholarship-essay-evidence-map]] — NICE 장학금 자기소개서의 문항별 소재·평가기준·증빙 공백 지도
 - [[2026-09-04-Q-finance-backend-ai-era-job-preparation]] — AI 시대 금융권·핀테크 Java 백엔드 취업을 위한 책, 자격증, 프로젝트, 코딩테스트, 지원 전략과 1년 실행 계획
+- [[2026-09-05-Q-ai-era-developer-job-readiness-priority]] — AI 시대 금융권·핀테크 개발자 취업을 위한 Java·SQL·프로젝트·검증 역량의 현실적인 학습 우선순위
+- [[2026-09-05-Q-world-literature-for-love-career-and-city]] — 그리움, 진로 선택, 연애의 외로움, 서울 생활에 대한 바람을 위한 세계문학 네 권
+- [[2026-09-06-Q-output-first-personal-reading-priority]] — 보유한 구판 스프링 책의 현대화 실습, Java 프로젝트 output, 정서 회복을 위한 개인화 구매·독서 우선순위
+- [[2026-09-06-Q-personal-self-help-reading-priority]] — 진로 실험, 조급함 완화, output 중심 학습과 관계 대화를 위한 자기계발서 우선순위
 - [[2026-09-09-Q-kb-securities-java-backend-starting-plan]] — Java·SQL 시작 단계에서 금융 주문 MVP와 설명 가능한 포트폴리오를 만드는 첫 8주 실행안
 - [[2026-08-25-Q-recent-ai-era-essential-books]] — 공동지능 이후 AI 판별력·산업 권력·반도체 인프라를 보완하는 최근 명저 독서 경로
 - [[2026-08-29-Q-vault-audit]] — 70개 전 페이지 검증 후 eligibility, consistency, confirmability 최종 감사와 조건부 재검증 큐

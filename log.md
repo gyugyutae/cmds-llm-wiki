@@ -888,6 +888,58 @@ status: active
 	- 2027년 채용과 자격시험 일정은 공식 발표 후 재검증해야 한다.
 - Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습, Codex 개발 워크플로
 
+## [2026-09-05] query | AI 시대 개발자 취업 공부 우선순위
+
+- Source query: AI 시대에 좋은 개발 직장에 취업하기 위해 현실적으로 무엇을 공부하고 어떤 역량을 어떤 순서로 준비해야 하는지에 대한 개인화 요청
+- Saved query result: [[2026-09-05-Q-ai-era-developer-job-readiness-priority]]
+- Updated Wiki page: [[김규태 금융 시스템 개발자 취업 로드맵]] — 우리은행 2026년 하반기 TECH 전형의 알고리즘·SQL 코딩테스트와 포트폴리오 면접 근거 추가
+- Key decision: 현재 가장 큰 병목을 자격증이나 AI 도구가 아니라 직접 설명·수정·검증 가능한 Java·SQL 구현 증거의 부족으로 확정
+- Execution order: 2주 진단 → 8주 금융 주문 MVP → 2026년 12월 지원 가능한 v1 → 2027년 1~2월 동시성·장애·성능 심화 → 2027년 3월 지원 병행
+- Weekly floor: 18학점 학기에는 주 12시간을 최소선으로 유지하고 가능한 주에는 16~20시간으로 확장
+- Verification boundary: 계획은 Wiki의 partial·medium 자료와 일부 2025~2026 채용 공고를 바탕으로 하며, Java 진단 결과와 2027년 실제 채용 일정은 아직 확인되지 않음
+- System page updated: [[index]] — Query 17건으로 갱신
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-05] query | 네 가지 삶의 고민을 위한 세계문학
+
+- Saved query: [[2026-09-05-Q-world-literature-for-love-career-and-city]]
+- Recommendations: 《백야》, 《스토너》, 《전망 좋은 방》, 《브루클린》
+- Personalization: 관계·취향·진로 Wiki와 현재 대화를 함께 참고하고 현재 안정·워라밸 욕구를 과거 성장 우선순위보다 낮게 취급하지 않음
+- Quality boundary: 개인화 페이지는 unverified이며 작품의 적합성은 AI 해석. 상대의 의도나 관계 변화의 원인을 확정하지 않음
+- Feedback gap: 직업 가치 우선순위의 변화 가능성과 실제 독후 반응은 Query에 남기고 기존 성격·가치 페이지에는 확정 반영하지 않음
+- System page updated: [[index]] — Query 18건으로 갱신
+- Reuse axis: 독서/책/학습, 개인 삶의 의사결정
+
+## [2026-09-06] query | Output-first 개인 독서 우선순위
+
+- Saved query: [[2026-09-06-Q-output-first-personal-reading-priority]]
+- Cart reviewed: 선택된 8종 13권과 253,180원 결제 예정 금액을 확인하고 개인 소장용일 때 중복 수량을 줄이는 안을 제시
+- First queue: 《스프링 부트 4 개발자 되기 + AI: 자바 편》, 《4000주》, 《프로그래머의 뇌》, 《앨저넌에게 꽃을》, 《남아 있는 나날》, 《객체지향의 사실과 오해》
+- Bias diagnosis: 남성 저자·개인 성공·부·레버리지·실리콘밸리·AI 전망 편향을 지적하고 일 밖의 정체성, 사랑의 책임, 공동체, 사회적 정상성 관점의 보완 도서를 추가
+- Wiki feedback: [[독서는 판단력과 자산관리의 기반이다]]에 기술서·자기계발서·문학별 output 규칙과 동시 진행 3권 제한을 추가
+- Quality boundary: Java 진단, 자격시험 상태, 기존 완독 여부가 미확인이므로 일부 순위는 조건부이며 개인화 페이지의 unverified 상태를 유지
+- System page updated: [[index]] — Query 19건으로 갱신
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 독서/책/학습, 에세이/블로그
+
+## [2026-09-06] query update | 보유 도서와 재고 상태 반영
+
+- Updated query: [[2026-09-06-Q-output-first-personal-reading-priority]]
+- Ownership correction: 이미 보유한 《스프링 부트와 AWS로 혼자 구현하는 웹 서비스》를 첫 기술서로 사용하고 《스프링 부트 4 개발자 되기 + AI》는 조건부 구매로 변경
+- Reading method: 2019년판의 구조는 활용하되 새 프로젝트는 지원 중인 안정 버전으로 만들고 버전 차이를 마이그레이션 로그와 테스트로 증거화
+- Availability correction: 《4000주》 종이책 재고가 없을 때 eBook·도서관·타 서점을 이용하도록 구매안을 수정
+- Literature clarification: 민음사 세계문학전집의 삼각관계 소설을 《브람스를 좋아하세요…》로 확인하고, 《앨저넌에게 꽃을》 → 《남아 있는 나날》 → 《종의 기원담》 순서를 추가
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 독서/책/학습
+
+## [2026-09-06] query | 현재 상황에 맞춘 자기계발서
+
+- Saved query: [[2026-09-06-Q-personal-self-help-reading-priority]]
+- First queue: 《디자인 유어 라이프》 → 《4000주》 → 《메이크 잇 스틱》 → 《열정의 배신》 → 《비폭력대화》
+- Key decision: 추가 성공 동기보다 진로 프로토타입, 유한성 수용, 인출 연습, 커리어 자산, 관찰·감정·욕구·요청의 구분을 우선
+- Reading boundary: 동시에 자기계발서 한 권만 읽고 책마다 7일 행동 실험 하나를 완료한 뒤 다음 책을 구매
+- Deferred cluster: 부·레버리지·실리콘밸리·개인 성공 서적의 연속 독서는 현재 편향과 조급함을 강화할 수 있어 뒤로 배치
+- System page updated: [[index]] — Query 20건으로 갱신
+- Reuse axis: 독서/책/학습, 개인 삶의 의사결정, 취업/포트폴리오, 에세이/블로그
+
 ## [2026-09-09] ingest | KB증권·금융권 Java 백엔드 취업 상담
 
 - Raw Source: [[2026-09-09-Codex-KB-Securities-Java-Backend-Career-Conversation]]
@@ -899,7 +951,7 @@ status: active
 - AI boundary: 사람·AI의 키 입력 비율이 아니라 요구사항 정의, 설명, 수정, 테스트, 검증과 기여 공개로 학습 소유권을 판정
 - Mothership links: standalone mode이므로 생략
 - Verification boundary: 현재 역량은 사용자 자기보고이며 실제 Java 진단, 8주 산출물과 2027년 채용 자격은 후속 검증 필요
-- System page updated: [[index]] — Raw Sources 41건, Queries 17건으로 갱신
+- System page updated: [[index]] — Raw Sources 41건, Queries 21건으로 갱신
 - Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습
 
 ## [2026-08-25] query | Recent essential books for the AI era
