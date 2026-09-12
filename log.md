@@ -1299,3 +1299,12 @@ status: active
 - Compilation decision: 사실성이 확인되지 않아 새 Wiki claim으로 승격하지 않고 Raw Source만 생성
 - Standalone mode: mothership search skipped; `mainVaultRelated` is empty and `mainVaultCmds` is null
 - Reuse axis: 독서/책/학습, Codex 개발 워크플로
+
+## [2026-09-12] private ingest + query | 넥토리얼 AI면접 응시 복기
+
+- Application page updated: [[2026 넥토리얼 지원]] — AI면접 응시 완료·결과 대기
+- Public summary: 사용자 자기보고 기준 6개 주 질문, 답변별 최대 3개 꼬리질문, 질문당 약 5분 여유, 전체 40분 이내 종료
+- Broad learning gaps: C++·C# memory/container, 요구 연산 기반 자료구조 선택, 확장 가능한 damage rule, monster entity update, 2D spatial query, TCP와 거래 정합성 구분
+- Confidentiality boundary: GitHub repository를 private로 전환한 뒤 실제 문항·답변 원문과 상세 평가를 `90. Private/`에 분리해 함께 보관; 향후 public 전환 전 제거·검토 필요
+- Evidence boundary: 진행 방식과 기술 영역은 사용자 면접 직후 복기이며 공식 문항·채점 기준·결과는 미확인
+- Reuse axis: 취업/포트폴리오, 독서/책/학습

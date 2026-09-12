@@ -105,7 +105,7 @@ status: active
 - [[qmd]] — LLM Wiki의 Wiki/Raw Sources/Queries를 로컬에서 검색하는 markdown 검색 엔진
 - [[TMU Global Leadership Program]] — 2026년 TMU 영어 몰입·SDG 프로그램 참여 기록과 증빙·기여 표현 경계
 - [[계약랩]] — ROS 2 드론 환경, 자율착륙 판단 구조, 협업·특허 비교 과업의 사용자 작성 프로젝트 기록
-- [[2026 넥토리얼 지원]] — 2026 넥토리얼 서류 합격 자기보고와 신규 AI면접 준비 기록
+- [[2026 넥토리얼 지원]] — 2026 넥토리얼 서류 합격, AI면접 응시 완료, 결과 대기와 후속 학습 기록
 
 ### Guides
 
