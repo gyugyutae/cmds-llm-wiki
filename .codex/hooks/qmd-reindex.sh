@@ -6,7 +6,8 @@
 
 set -euo pipefail
 
-VAULT="/Users/gyuteoi/Desktop/cmds-llm-wiki"
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+VAULT=$(cd "$SCRIPT_DIR/../.." && pwd)
 LOCK="/tmp/qmd-reindex-cmds-llm-wiki.lock"
 LOG="/tmp/qmd-reindex-cmds-llm-wiki.log"
 DEBOUNCE_SEC=8

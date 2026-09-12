@@ -29,13 +29,13 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 44 |
+| Raw Sources | 45 |
 | Wiki Pages | 72 |
 | Concepts | 40 |
 | Entities | 12 |
 | Guides | 15 |
 | MOCs | 5 |
-| Queries | 29 |
+| Queries | 30 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -172,6 +172,7 @@ status: active
 - [[2026-09-11-Q-Nexon-Tutorial-Motivation-and-Game-Answers]] — 넥슨 게임의 개인적 기억, 지원동기, 게임 포트폴리오 부재와 AI 학습 사례를 연결한 면접 답변
 - [[2026-09-11-Q-AI-Assessment-Problem-Solving-Template]] — 정의·정렬·분해·선택·실행·검증·제출을 위한 AI 평가 참고 템플릿
 - [[2026-09-12-Q-Nexon-Tutorial-Mock-Interview-Session-1]] — 동시성·멱등성·stack/heap 재시험과 1분 자기소개 평가를 포함한 넥토리얼 모의면접 1차 기록
+- [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] — 실제 AI면접 복기 기반 문항별 교정, C++·자료구조·공간 탐색 학습 우선순위
 
 ---
 
@@ -179,6 +180,7 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-09-12 | [[2026-09-12-Nexon-Tutorial-AI-Interview-Recollection]] | [[2026 넥토리얼 지원]], [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] |
 | 2026-09-12 | [[2026-09-11-Gemini-Lauren-Tan-Agent-Lecture-Chat]] | Raw Source only; claims remain unverified |
 | 2026-09-11 | [[2026-09-11-Nexon-Tutorial-AI-Interview-Preparation-Bundle]] | [[2026 넥토리얼 지원]], [[MOC-Portfolio]], [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Preparation]] |
 | 2026-09-10 | [[2026-09-02-to-09-Kim-Gyutae-Contract-Lab-Work-Notes]] | [[계약랩]], [[MOC-Portfolio]] |

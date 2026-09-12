@@ -1,15 +1,14 @@
 ---
 type: query-result
 aliases:
-  - "2026 넥토리얼 AI면접 비공개 회고"
-description: "A private evidence-bounded retrospective evaluating six recalled NEXON Tutorial AI interview answers and converting their gaps into an implementation-first CS learning plan."
+  - "2026 넥토리얼 AI면접 회고"
+description: "An evidence-bounded retrospective evaluating six recalled NEXON Tutorial AI interview answers and converting their gaps into an implementation-first CS learning plan."
 author:
   - Codex
 date created: 2026-09-12
 date modified: 2026-09-12
 tags:
   - query
-  - private
   - career
   - interview
   - computer-science
@@ -28,10 +27,10 @@ reusableFor:
   - "직군면접 답변 개선"
 confidence: medium
 status: complete
-confidentiality: "Stored only in the private GitHub repository; review and remove before any future public visibility change."
+confidentiality: "The repository must remain private while this recalled interview analysis is tracked; review and remove before any future public visibility change."
 ---
 
-# 2026 넥토리얼 AI면접 비공개 회고
+# 2026 넥토리얼 AI면접 회고
 
 ## 결론
 
@@ -67,10 +66,19 @@ confidentiality: "Stored only in the private GitHub repository; review and remov
 - 빠진 부분: stack은 자동 수명 관리, heap은 `new/delete` 또는 RAII·smart pointer로 소유권 관리, memory leak·dangling pointer·double free 위험.
 - stack overflow 오답: 자료구조 stack에 `push`를 많이 하는 것과 call stack overflow를 혼동했다. stack 주소 밖 접근은 buffer overflow나 invalid memory access에 가깝다.
 - 대표 원인: 종료 조건 없는 recursion, 지나치게 깊은 recursion, 매우 큰 지역 배열.
+- 추가 복기: stack overflow 답변 뒤에 재귀 호출이 매우 깊어지면 어떻게 동작하는지 묻는 마지막 꼬리질문이 있었다.
 
 #### 개선 답변
 
 > stack에는 일반적으로 함수 호출 frame, 지역변수와 매개변수가 저장되고 scope가 끝나면 자동으로 수명이 종료됩니다. heap에는 실행 중 필요한 객체를 동적으로 할당하며 C++에서는 `new/delete` 또는 smart pointer와 RAII로 수명을 관리합니다. 잘못 관리하면 memory leak이나 dangling pointer가 생길 수 있습니다. stack overflow는 종료 조건이 잘못된 recursion이 계속 호출되거나, 매우 큰 지역 배열로 제한된 call stack을 소진할 때 발생할 수 있습니다.
+
+#### 깊은 recursion 꼬리질문 개선 답변
+
+> 재귀 함수가 호출될 때마다 반환 주소, 매개변수와 지역변수 등을 담는 새로운 stack frame이 call stack에 쌓입니다. base case에 도달하면 가장 최근 호출부터 LIFO 순서로 반환되며 frame이 제거됩니다. 하지만 recursion depth가 너무 깊으면 제한된 stack 공간을 모두 사용해 stack overflow가 발생하고 프로그램이 비정상 종료될 수 있습니다. 입력 깊이가 클 수 있다면 반복문과 명시적인 container로 바꾸거나 recursion depth를 제한하겠습니다. C++에서는 tail recursion optimization이 항상 보장된다고 가정하지 않겠습니다.
+
+#### 이 꼬리질문의 답변 구조
+
+`호출마다 stack frame 생성 → base case 이후 역순 반환 → 너무 깊으면 stack 고갈 → 반복문·명시적 stack·깊이 제한으로 완화`
 
 ### 3. C++ STL과 C# 관련 비교
 
@@ -231,6 +239,7 @@ damage 공식 자체가 monster마다 달라진다면 `DamageStrategy` interface
 
 - stack/heap, pointer/reference
 - object lifetime, dangling pointer
+- call stack frame, recursion unwinding, stack overflow
 - RAII, `unique_ptr`, `shared_ptr` 기본 선택
 - `vector`, `list`, `deque`, `map`, `unordered_map`, `set`
 - C# `List<T>`, `Dictionary<K,V>` 및 garbage collection과의 차이

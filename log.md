@@ -1305,6 +1305,18 @@ status: active
 - Application page updated: [[2026 넥토리얼 지원]] — AI면접 응시 완료·결과 대기
 - Public summary: 사용자 자기보고 기준 6개 주 질문, 답변별 최대 3개 꼬리질문, 질문당 약 5분 여유, 전체 40분 이내 종료
 - Broad learning gaps: C++·C# memory/container, 요구 연산 기반 자료구조 선택, 확장 가능한 damage rule, monster entity update, 2D spatial query, TCP와 거래 정합성 구분
-- Confidentiality boundary: GitHub repository를 private로 전환한 뒤 실제 문항·답변 원문과 상세 평가를 `90. Private/`에 분리해 함께 보관; 향후 public 전환 전 제거·검토 필요
+- Confidentiality boundary: GitHub repository를 private로 전환한 뒤 실제 문항·답변 원문은 `10. Raw Sources/`, 상세 평가는 `30. Queries/`의 표준 layer에 보관; 향후 public 전환 전 제거·검토 필요
 - Evidence boundary: 진행 방식과 기술 영역은 사용자 면접 직후 복기이며 공식 문항·채점 기준·결과는 미확인
+- Reuse axis: 취업/포트폴리오, 독서/책/학습
+
+## [2026-09-12] ingest update | AI면접 recursion 꼬리질문과 표준 layer 이동
+
+- Raw Source moved: `90. Private/10. Raw Sources/` → [[2026-09-12-Nexon-Tutorial-AI-Interview-Recollection]] in `10. Raw Sources/15. Clippings/`
+- Query moved: `90. Private/30. Queries/` → [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] in `30. Queries/`
+- Added recollection: 깊은 recursion이 이어질 때 call stack이 어떻게 동작하는지 묻는 추가 꼬리질문
+- Technical correction: 호출마다 stack frame이 쌓이고 base case 이후 역순으로 제거되지만, depth가 지나치면 stack exhaustion과 stack overflow가 발생할 수 있음
+- Mitigation: iterative conversion, explicit container, recursion-depth limit; C++ tail-call optimization은 보장으로 가정하지 않음
+- Repository boundary: GitHub visibility remains private; these files must be reviewed before any future public transition
+- Search maintenance: stale qmd collection paths and hard-coded macOS hook path were replaced with the current Windows collection paths and a repository-relative hook path
+- Qmd status: BM25 indexed 147 files successfully (Wiki 72, Raw Sources 45, Queries 30); first vector build was stopped after partial progress because CPU embedding was long-running, leaving 130 documents pending for a later `/reindex`
 - Reuse axis: 취업/포트폴리오, 독서/책/학습

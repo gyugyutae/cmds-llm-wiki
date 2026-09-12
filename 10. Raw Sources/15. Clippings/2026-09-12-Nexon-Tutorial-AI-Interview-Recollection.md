@@ -1,8 +1,8 @@
 ---
 type: raw-source
 aliases:
-  - "2026 넥토리얼 AI면접 비공개 복기"
-description: "A private verbatim recollection of the user's 2026 NEXON Tutorial AI interview questions, follow-ups, answers, timing, and immediate assessment."
+  - "2026 넥토리얼 AI면접 복기"
+description: "A verbatim recollection of the user's 2026 NEXON Tutorial AI interview questions, follow-ups, answers, timing, and immediate assessment."
 author:
   - "[[김규태]]"
 date created: 2026-09-12
@@ -10,27 +10,26 @@ date modified: 2026-09-12
 date ingested: 2026-09-12
 tags:
   - raw-source
-  - private
   - career
   - interview
   - nexon
 source: "2026-09-12 user recollection in Codex conversation"
-category: "AI Research"
-status: private-ingested
+category: "Clippings"
+status: ingested
 collectionPurpose: "취업/포트폴리오·독서/책/학습 — 실제 AI면접 답변을 평가하고 모르는 CS·C++·C#·자료구조·알고리즘·네트워크 영역을 찾아 후속 취업 준비에 재사용"
 mainVaultRelated: []
 mainVaultCmds: null
-confidentiality: "Stored only in the private GitHub repository; review and remove before any future public visibility change."
+confidentiality: "The repository must remain private while this recalled interview content is tracked; review and remove before any future public visibility change."
 ---
 
-# 2026 넥토리얼 AI면접 비공개 복기
+# 2026 넥토리얼 AI면접 복기
 
 ## Processing Notes
 
 - 사용자가 면접 직후 기억을 바탕으로 작성한 자기보고다.
 - 실제 질문의 정확한 문구, 평가 기준, 답변 시간은 녹화나 공식 자료로 독립 확인되지 않았다.
-- 실제 문항 유출 금지 경계를 지키기 위해 이 파일은 `90. Private/` 아래에 분리하며, 비공개 GitHub 저장소에서만 보관한다.
-- 공개 Wiki에는 응시 상태, 진행 방식과 넓은 학습 영역만 남긴다.
+- 실제 문항 유출 금지 경계를 지키기 위해 GitHub 저장소가 private인 동안에만 추적한다.
+- 저장소를 다시 public으로 전환하기 전에는 이 파일의 제거·별도 보관 여부를 먼저 검토한다.
 
 ## Original Content
 
@@ -71,3 +70,7 @@ confidentiality: "Stored only in the private GitHub repository; review and remov
 -모르겠다.  
 
 - 총평 코딩테스트를 안본다고했지만 실무에서 어떤자료구를 쓰고 어떻게 구현할지 그리고 c++ c# 에 관한 질문들이 많았다. 개인화된 질문은 잘안하는것같고 모두 다 같은 질문을하는것같고 내가 답변하는거에 따라서 꼬리질문이 바뀌고 계속해서 파고들어서 어디까지 아는지 물어본다. C++ C# 에 대한 깊은 이해를 요구하고 시뮬레이션이나 자료구조 알고리즘 시간복잡도 네트워크 측면에서 보완이 많이 필요할것같다. 질문을하고 5분가량 대답할시간을 준다. 나는 한 40분안쪽으로 끝냈다.
+
+## Original Content Addendum — 2026-09-12
+
+스택에서 질문에 또 꼬리질문마지막에 이거 재귀적으로 엄청깊게가면 어떻게 동작하냐 이런것도 물어봤었음

@@ -4,9 +4,9 @@
 #
 # Installation:
 #   npm install -g @tobilu/qmd
-#   qmd collection add "/Users/gyuteoi/Desktop/cmds-llm-wiki/20. Wiki" --name wiki --mask "**/*.md"
-#   qmd collection add "/Users/gyuteoi/Desktop/cmds-llm-wiki/10. Raw Sources" --name raw_sources --mask "**/*.md"
-#   qmd collection add "/Users/gyuteoi/Desktop/cmds-llm-wiki/30. Queries" --name queries --mask "**/*.md"
+#   qmd collection add "C:/Users/kym70/OneDrive/Desktop/cmds-llm-wiki-work/20. Wiki" --name wiki --mask "**/*.md"
+#   qmd collection add "C:/Users/kym70/OneDrive/Desktop/cmds-llm-wiki-work/10. Raw Sources" --name raw_sources --mask "**/*.md"
+#   qmd collection add "C:/Users/kym70/OneDrive/Desktop/cmds-llm-wiki-work/30. Queries" --name queries --mask "**/*.md"
 #   qmd update
 #   qmd embed
 
@@ -22,7 +22,7 @@ global_context: |
 
 collections:
   wiki:
-    path: /Users/gyuteoi/Desktop/cmds-llm-wiki/20. Wiki
+    path: C:/Users/kym70/OneDrive/Desktop/cmds-llm-wiki-work/20. Wiki
     pattern: "**/*.md"
     context:
       "/": "LLM-maintained wiki pages. The primary synthesized knowledge layer."
@@ -32,7 +32,7 @@ collections:
       "/24. Maps": "Map of Content (MOC) — topic-based indexes."
 
   raw_sources:
-    path: /Users/gyuteoi/Desktop/cmds-llm-wiki/10. Raw Sources
+    path: C:/Users/kym70/OneDrive/Desktop/cmds-llm-wiki-work/10. Raw Sources
     pattern: "**/*.md"
     context:
       "/": "Immutable source documents — Wiki references these via `source:` frontmatter."
@@ -43,7 +43,7 @@ collections:
       "/15. Clippings": "Short snippets and excerpts."
 
   queries:
-    path: /Users/gyuteoi/Desktop/cmds-llm-wiki/30. Queries
+    path: C:/Users/kym70/OneDrive/Desktop/cmds-llm-wiki-work/30. Queries
     pattern: "**/*.md"
     context:
       "/": "Synthesized query results — compounding wiki artifacts per Karpathy's pattern."
