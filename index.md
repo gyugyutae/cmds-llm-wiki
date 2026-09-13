@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-12
+date modified: 2026-09-13
 tags:
   - index
   - moc
@@ -29,13 +29,13 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 45 |
-| Wiki Pages | 72 |
+| Raw Sources | 46 |
+| Wiki Pages | 73 |
 | Concepts | 40 |
 | Entities | 12 |
-| Guides | 15 |
+| Guides | 16 |
 | MOCs | 5 |
-| Queries | 30 |
+| Queries | 32 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -117,7 +117,8 @@ status: active
 - [[개발자 커리어로 경제적 자유에 가까워지기]] — 개발자 취업과 고소득 커리어를 경제적 자유의 1순위 수단으로 정리한 가이드
 - [[LLM Wiki Token Optimization Strategies]] — LLM Wiki 운영에서 토큰을 절약하는 전략
 - [[김규태 Career Narrative]] — 자기소개, 목표 도메인, 성장 과제, 면접용 내러티브 정리
-- [[김규태 금융 시스템 개발자 취업 로드맵]] — 지방 국립대 소프트웨어공학과 3학년 관점의 2027년 상반기 서울 증권사 주문 시스템 개발 취업 계획
+- [[김규태 금융 시스템 개발자 취업 로드맵]] — 지방 국립대 소프트웨어공학과 4학년 관점의 금융권·핀테크 Java 주문 시스템 개발 취업 계획
+- [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]] — 두 Spring Boot 교재의 질문·오개념·재시험을 금융 주문 프로젝트 전의 Java·Spring Boot·AWS 기초로 누적하는 중심 학습 축
 - [[김규태 Leadership and Teaching Evidence]] — 실리콘밸리 대표, 멋쟁이사자처럼 부대표, 백엔드 세션, 해커톤 템플릿 증거
 - [[개발자 롤모델을 GitHub에서 공부하는 법]] — 공개 commit·issue·PR·README·agent gate를 자신의 프로젝트 습관으로 전환하는 관찰 가이드
 - [[김규태 Personal Operating Manual]] — 정체성, 동기, 일, 관계, 취향, 성장 위험을 통합한 사용설명서
@@ -173,6 +174,8 @@ status: active
 - [[2026-09-11-Q-AI-Assessment-Problem-Solving-Template]] — 정의·정렬·분해·선택·실행·검증·제출을 위한 AI 평가 참고 템플릿
 - [[2026-09-12-Q-Nexon-Tutorial-Mock-Interview-Session-1]] — 동시성·멱등성·stack/heap 재시험과 1분 자기소개 평가를 포함한 넥토리얼 모의면접 1차 기록
 - [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] — 실제 AI면접 복기 기반 문항별 교정, C++·자료구조·공간 탐색 학습 우선순위
+- [[2026-09-13-Q-bank-backend-entry-readiness-gap]] — 은행권 백엔드 인턴·신입 채용선, 공개 합격 사례와 김규태의 핵심 역량 격차 진단
+- [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]] — Java·Spring Boot로 동시성·멱등성·원장 정합성을 증명하는 은행 백엔드 대표 프로젝트 설계
 
 ---
 
@@ -180,6 +183,7 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-09-12 | [[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]] | [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]], [[김규태 금융 시스템 개발자 취업 로드맵]], [[MOC-Portfolio]], [[Core Context]] |
 | 2026-09-12 | [[2026-09-12-Nexon-Tutorial-AI-Interview-Recollection]] | [[2026 넥토리얼 지원]], [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] |
 | 2026-09-12 | [[2026-09-11-Gemini-Lauren-Tan-Agent-Lecture-Chat]] | Raw Source only; claims remain unverified |
 | 2026-09-11 | [[2026-09-11-Nexon-Tutorial-AI-Interview-Preparation-Bundle]] | [[2026 넥토리얼 지원]], [[MOC-Portfolio]], [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Preparation]] |

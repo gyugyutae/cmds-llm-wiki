@@ -7,7 +7,7 @@ description: The user's active standalone LLM Wiki context for portfolio evidenc
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-04
+date modified: 2026-09-12
 tags:
   - system
   - schema
@@ -20,8 +20,9 @@ source:
   - "[[2026-07-23-Kim-Gyutae-Personal-Operating-Manual-v1]]"
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
   - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
-version: "1.4"
-snapshot_date: 2026-09-04
+  - "[[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]]"
+version: "1.5"
+snapshot_date: 2026-09-12
 status: active
 ---
 
@@ -159,6 +160,10 @@ Mode A로 단독 운영한다. 별도 mothership vault는 연결하지 않는다
 - 독서는 자산관리와 커리어 판단력, 사고력을 키우기 위한 장기 학습 축이다.
 - 최근 감명 깊게 읽은 책은 롭 무어의 `레버리지`와 이선 몰릭의 `공동지능`이다. 이후 읽는 책은 독서/책/학습 축에 추가한다.
 - 논픽션 중심 독서 편향을 보완하기 위해 픽션도 섞어 읽는다. 후보는 `은하수를 여행하는 히치하이커를 위한 안내서`, `이방인`, `변신`이다.
+- 2026-09-12부터 《스프링 부트 4 개발자 되기 + AI: 자바 편》(신선영)과 《스프링 부트와 AWS로 혼자 구현하는 웹 서비스》를 병렬로 공부한다.
+- 이 병렬 독서는 금융 포트폴리오 프로젝트를 시작하기 전에 Java·Spring Boot·AWS 기초를 쌓는 현재의 중심 학습 트랙이다.
+- 이후 관련 질문과 공부 노트는 기존 질문 기록과 연결해 반복 약점을 찾고, `이해 → 직접 구현 → 테스트 → 자기 말로 설명 → 금융 주문 규칙에 적용`하는 증거로 누적한다.
+- 상세 운영 기준과 약점 추적표는 [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]]을 따른다.
 
 ### 프로젝트 역할 기준
 

@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-09-11
+date modified: 2026-09-13
 tags:
   - moc
   - portfolio
@@ -19,12 +19,14 @@ topic:
   - career
   - project-evidence
 source:
+  - "[[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]]"
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
   - "[[2026-07-12-Velog-Leadership-Product-Hackathon-Bundle]]"
   - "[[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]]"
   - "[[2026-09-02-to-09-Kim-Gyutae-Contract-Lab-Work-Notes]]"
 related:
+  - "[[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]]"
   - "[[Core Context]]"
   - "[[김규태]]"
   - "[[financial-order-latency-lab]]"
@@ -94,13 +96,15 @@ disputed: false
 
 | Priority | Project | Portfolio Role |
 |----------|---------|----------------|
-| 1 | Java 모의 증권 주문 시스템 | 새 대표 프로젝트 후보. 직접 설명·수정·검증 가능한 Java·SQL·Spring·정합성 증거를 새로 만든다 |
+| 1 | `Reliable Bank Transfer Ledger Lab` | 새 대표 프로젝트 후보. 동시·중복·장애 상황의 계좌이체와 거래원장을 통해 Java·SQL·Spring·정합성 증거를 직접 만든다 |
 | 2 | [[financial-order-latency-lab]] | 백엔드 성능 문제의식과 p99 latency 실험 기록. 기존 코드는 AI 작성 범위가 커 보조 증거로 둔다 |
 | 3 | [[Graduation-elasticsearch]] | 학부연구생/연구 경험, JavaParser, Elasticsearch Java source-test traceability |
 | 4 | [[cuee]] | 경남권 창업동아리 대상작, 노인 모빌리티 예약 길잡이 앱 |
 | 5 | [[harness]] | 커서맛피아님 harness를 참고해 앱 개발에 맞게 개인화한 Codex 개발 workflow |
 
-새 Java 주문 시스템은 기존 AI 작성 프로젝트의 구현 증거 공백을 채우는 최우선 후보로 관리한다. 저장소가 생성되기 전에는 계획이며, 실제 코드·테스트·설명 기록이 생긴 뒤 정식 Entity로 승격한다.
+새 Java 계좌이체·거래원장 시스템은 기존 AI 작성 프로젝트의 구현 증거 공백을 채우는 최우선 후보로 관리한다. 상세 범위와 완료 기준은 [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]]을 따른다. 저장소가 생성되기 전에는 계획이며, 실제 코드·테스트·설명 기록이 생긴 뒤 정식 Entity로 승격한다.
+
+그 전 단계의 공식 학습 spine은 [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]]이다. 두 권의 Spring Boot 교재를 병렬로 공부하며 생기는 질문, 오개념, 직접 구현과 테스트를 누적하고, 반복 약점을 우선 보완한 뒤 주문 시스템 증거로 연결한다.
 
 ---
 
@@ -108,7 +112,8 @@ disputed: false
 
 - [[2026 넥토리얼 지원]] — 2026-09-11 서류 합격 자기보고와 신규 AI면접 준비·증거 경계
 - [[김규태 Career Narrative]] — 자기소개, 목표 회사/도메인, 성장 과제, 면접용 내러티브
-- [[김규태 금융 시스템 개발자 취업 로드맵]] — 지방 국립대 소프트웨어공학과 3학년 관점의 Java 전환, 2027년 상반기 서울 증권사 주문 시스템 취업 준비
+- [[김규태 금융 시스템 개발자 취업 로드맵]] — 지방 국립대 소프트웨어공학과 4학년 관점의 Java 전환과 금융권·핀테크 주문 시스템 취업 준비
+- [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]] — 두 Spring Boot 교재의 질문·오개념·재시험을 Java 주문 시스템 전의 직접 구현 기초로 누적하는 중심 학습 축
 - [[AI-Augmented Developer Positioning]] — AI 의존이 아니라 AI를 활용해 개발 역량을 증폭하는 사람으로 설명하는 프레임
 - [[코딩테스트는 AI 시대의 문제해결력 훈련이다]] — AI 없이 문제를 분해하고 직접 구현·검증할 수 있음을 보여주는 기본기 증거 축
 - [[컴퓨팅 사고의 추상화와 분해]] — 현실 문제를 입력·출력·제약으로 바꾸고 블랙박스 내부를 하위 문제로 나누는 개발자 사고 원칙

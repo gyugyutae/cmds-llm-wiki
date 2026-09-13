@@ -8,7 +8,7 @@ description: Chronological log of all wiki operations — ingests, queries, lint
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-11
+date modified: 2026-09-13
 tags:
   - system
   - log
@@ -1289,6 +1289,19 @@ status: active
 - Resume point: 왜 게임 기획자가 아니라 게임 프로그래머인가
 - Reuse axis: 취업/포트폴리오, 독서/책/학습
 
+## [2026-09-12] ingest | Java·Spring Boot·AWS 금융 포트폴리오 기초 학습 선언
+
+- Raw Source saved: [[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]]
+- Collection purpose: 취업/포트폴리오·프로젝트 증거·백엔드/성능/금융 시스템·독서/책/학습 — 금융 포트폴리오 프로젝트를 시작하기 전에 Java·Spring Boot·AWS 기초를 쌓고, 이후 질문과 공부 노트에서 반복되는 약점을 추적해 직접 설명·수정·검증 가능한 구현력으로 전환
+- New guide: [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]]
+- Core Context update: 두 Spring Boot 교재의 병렬 학습을 현재 중심 학습 트랙으로 설정
+- Portfolio bridge: 책 예제 복제와 완독률은 구현력 증거로 보지 않고, 최소 예제 재작성·JUnit 실패 조건·로그 기반 오류 추적·자기 말 설명을 통과한 내용만 미래 Java 금융 주문 시스템 증거로 승격
+- Weakness tracking: 같은 원인이 두 번 나타나면 반복 약점 후보, 재시험에서도 실패하면 우선 보완 약점으로 기록
+- Initial verification boundary: 실제 질문·코드·테스트 로그가 아직 없으므로 Java·Spring Boot·AWS 세부 약점과 병렬 학습 속도는 미확정
+- Standalone mode: mothership search skipped; `mainVaultRelated` is empty and `mainVaultCmds` is null
+- Qmd status: Wiki 1 new·2 updated, Raw Sources 1 new, Queries unchanged; keyword index updated successfully, 149 unique hashes still need vector embedding
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습
+
 ## [2026-09-12] ingest | Gemini Lauren Tan 에이전트 강연 대화
 
 - Raw Source saved: [[2026-09-11-Gemini-Lauren-Tan-Agent-Lecture-Chat]]
@@ -1320,3 +1333,33 @@ status: active
 - Search maintenance: stale qmd collection paths and hard-coded macOS hook path were replaced with the current Windows collection paths and a repository-relative hook path
 - Qmd status: BM25 indexed 147 files successfully (Wiki 72, Raw Sources 45, Queries 30); first vector build was stopped after partial progress because CPU embedding was long-running, leaving 130 documents pending for a later `/reindex`
 - Reuse axis: 취업/포트폴리오, 독서/책/학습
+
+## [2026-09-13] query | 은행권 백엔드 인턴·신입 준비도 진단
+
+- Query saved: [[2026-09-13-Q-bank-backend-entry-readiness-gap]]
+- Current hiring evidence: 2026년 우리은행 TECH, 신한은행 디지털·ICT, 하나은행 체험형 AI·ICT 공고의 Java·SQL·CS·코딩테스트·배치·졸업요건 비교
+- Public pass cases: 2025년 KB국민은행 IT, 2025년 하나은행 디지털·ICT, 2026년 하나은행 AI·ICT 인턴 후기의 프로젝트·인턴·코딩테스트·자격증 조합을 편향 경계와 함께 정리
+- Primary gap: 학점이나 TOEIC보다 Java·Spring·SQL로 직접 구현하고 CS 원리·실패 조건을 설명·수정·테스트하는 독립 백엔드 증거가 부족함
+- Timeline correction: 2027년 8월 졸업예정자에게 맞지 않는 2026년 하반기 신입 목표를 2026년 동계~2027년 상반기 체험형 인턴과 2027년 자격 적합 신입·채용연계형 인턴으로 조정
+- Role boundary: 은행 IT가 입사 즉시 순수 백엔드 배치를 보장하지 않으므로 영업점 순환, OJT와 실제 배치 정책을 공고별로 확인
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-13] query | Java 은행 백엔드 대표 포트폴리오 설계
+
+- Query saved: [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]]
+- Selected project: `Reliable Bank Transfer Ledger Lab` — 동시 요청·중복 요청·중간 장애에도 출금·입금·원장 정합성을 보존하는 Java 계좌이체 시스템
+- Why this project: 은행 계정계·코어뱅킹과 직접 연결되며 현재 부족한 Java·Spring·SQL·transaction·concurrency·testing 증거를 한 저장소에서 만들 수 있음
+- Scope boundary: 로그인·프론트엔드·실제 은행 API와 초기 Kafka·Redis·Kubernetes·MSA를 제외하고 계좌·이체·원장·멱등성·대사에 집중
+- Verification spine: rollback, 동시 출금, 동일 멱등성 키 재시도, 인덱스 전후 `EXPLAIN`과 p95·p99 실험
+- Portfolio spine updated: 기존 증권 주문 중심 후보를 은행 계좌이체·거래원장 첫 버전으로 좁히고 증권 주문은 후속 확장으로 이동
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-13] query update | Spring Boot 4 교재 기반 탑다운 구현·학습 구조
+
+- Query updated: [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]]
+- Top-down path: 계좌이체 요청의 API→Controller→Service→domain→repository→MySQL transaction→응답 전체 흐름을 먼저 세우고 막힌 개념만 아래로 학습
+- Book mapping: 00~06장과 부록 A~C를 첫 MVP에 즉시 적용하고, 07장 Thymeleaf·08장 Spring AI·09~11장 인증은 연기, 12~13장 AWS·CI/CD는 로컬 정합성 완성 후 적용
+- First implementation: Spring 없이 `Account`, `TransferService`, `InsufficientBalanceException`과 JUnit으로 정상 이체·잔액 부족·잘못된 금액을 먼저 검증
+- Vertical stages: pure Java domain → Spring account API → MySQL/JPA → transfer happy path → rollback → concurrency → idempotency → reconciliation → index/performance → deployment
+- Learning ownership: 기능마다 완료 문장·불변조건·실패 테스트·최소 구현·SQL 확인·개념 보강·직접 설명·AI 경계 기록을 반복
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습
