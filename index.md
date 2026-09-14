@@ -35,7 +35,7 @@ status: active
 | Entities | 12 |
 | Guides | 18 |
 | MOCs | 6 |
-| Queries | 59 |
+| Queries | 60 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -179,6 +179,7 @@ status: active
 - [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] — 실제 AI면접 복기 기반 문항별 교정, C++·자료구조·공간 탐색 학습 우선순위
 - [[2026-09-13-Q-bank-backend-entry-readiness-gap]] — 은행권 백엔드 인턴·신입 채용선, 공개 합격 사례와 김규태의 핵심 역량 격차 진단
 - [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]] — Java·Spring Boot로 동시성·멱등성·원장 정합성을 증명하는 은행 백엔드 대표 프로젝트 설계
+- [[2026-09-14-Q-modoo-startup-second-cuee-application-draft]] — CUEE 모두의 창업 2차 지원을 위한 증거 경계형 문항 초안, 실행 일정과 이미지 구성
 - [[2026-09-01-Q-software-engineering-semester-project-selection]] — 소프트웨어개발론의 12주 범위에 맞춘 무인기 추적성과 Upbit 투자 시스템 후보 비교
 - [[2026-09-01-Q-emerging-traceability-technology-selection]] — 최신 논문·오픈소스와 12주 제약을 반영한 경량 GraphRAG형 추적 기술 선정
 - [[2026-09-01-Q-upbit-financial-decision-traceability-project]] — 사용자 의도부터 Upbit test order까지 재현하는 금융 AI Decision Receipt 프로젝트

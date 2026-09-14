@@ -1944,5 +1944,6 @@ status: active
 
 - 원격 `main`의 9개 커밋과 로컬 미커밋 Wiki 작업을 통합했다.
 - 충돌한 프로젝트·프로필·포트폴리오 문서는 최신 원격 구조와 로컬 증거를 함께 보존하도록 병합했다.
-- [[index]] 통계를 현재 파일 기준 Raw Sources 48, Wiki Pages 76, Queries 59로 갱신했다.
+- [[index]] 통계를 현재 파일 기준 Raw Sources 48, Wiki Pages 76, Queries 60으로 갱신했다.
+- 동기화 직후 생성된 [[2026-09-14-Q-modoo-startup-second-cuee-application-draft]]를 추가 반영했다.
 - 잘린 경로 문자열만 담긴 임시 파일 `30.`은 커밋 대상에서 제외했다.
