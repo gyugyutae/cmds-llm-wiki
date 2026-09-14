@@ -35,7 +35,7 @@ status: active
 | Entities | 12 |
 | Guides | 18 |
 | MOCs | 6 |
-| Queries | 60 |
+| Queries | 63 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -207,6 +207,9 @@ status: active
 - [[2026-09-07-Q-nextorial-self-introduction-final]] — 거래 검증 자동화 목표·매몰비용과 솔직한 피드백·간결한 개발 문서화 원칙을 반영한 네 문항 최종본
 - [[2026-09-08-Q-precision-landing-patent-fit-and-team-loop]] — 5번 의미 아이콘 기반 최소 장비 기준선과 재완·관호·규태 반복 실험 구조
 - [[2026-09-08-Q-linkedin-silicon-valley-student-strategy]] — 한국 학부생이 검색 적합성·프로젝트 증거·신뢰를 중심으로 실리콘밸리 기회를 준비하는 LinkedIn 전략
+- [[2026-09-14-Q-korea-backend-industry-finance-sector-comparison]] — 한국 백엔드 언어 범용성과 금융 세부 업권의 채용·보상·문화·워라밸 경향 비교
+- [[2026-09-14-Q-korea-non-finance-backend-employer-comparison]] — 금융 외 일반기업 백엔드 유형과 보상·워라밸·개발환경·회사 선택 기준 비교
+- [[2026-09-14-Q-korea-financial-java-employer-comparison]] — 주요 은행·인터넷은행·증권사의 Java 신입 채용 입구, 보상·워라밸 경향, 현직자 평가 신호와 근무 거점 비교
 
 ---
 

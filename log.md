@@ -1947,3 +1947,32 @@ status: active
 - [[index]] 통계를 현재 파일 기준 Raw Sources 48, Wiki Pages 76, Queries 60으로 갱신했다.
 - 동기화 직후 생성된 [[2026-09-14-Q-modoo-startup-second-cuee-application-draft]]를 추가 반영했다.
 - 잘린 경로 문자열만 담긴 임시 파일 `30.`은 커밋 대상에서 제외했다.
+
+## [2026-09-14] query | 한국 백엔드 업계와 금융권 업권 비교
+
+- Query saved: [[2026-09-14-Q-korea-backend-industry-finance-sector-comparison]]
+- Market boundary: 전국 백엔드 공고를 산업·언어별로 전수 집계한 공개 최신 통계가 없어 정확한 업계 1위와 언어 비율은 단정하지 않음
+- Language conclusion: 한국 일반 백엔드와 금융·기업 시스템 이동성을 함께 확보하는 첫 주언어는 Java·Spring, 필수 병행 축은 SQL·RDB·테스트·Linux·네트워크
+- Finance split: 전체 신입 단위는 은행이 상대적으로 크지만 순수 개발 배치가 불명확할 수 있고, 증권·핀테크·PG는 직무가 선명한 대신 소수·경력 수시채용 비중이 높음
+- Sector expansion: 은행·증권뿐 아니라 보험, 카드·캐피탈, 핀테크·PG, 금융공기업·시장 인프라, 금융 IT 계열사·솔루션, 저축은행·상호금융까지 지원 지도를 확장
+- Compensation boundary: 공개 평균급여는 개발자만 분리하지 않으므로 연봉·문화·워라밸은 업권 서열이 아니라 팀별 온콜·배치·시장시간·순환배치·상주·성과급 조건으로 재확인
+- Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-14] query | 한국 일반기업 백엔드 업계와 회사 선택 기준 비교
+
+- Query saved: [[2026-09-14-Q-korea-non-finance-backend-employer-comparison]]
+- Employer map: 대형 플랫폼·커머스, 대기업 IT서비스·제조 IT, B2B SaaS, 게임, 콘텐츠·교육·헬스케어, 초기 스타트업, SI/SM, 공공기관 전산으로 구분
+- Compensation boundary: 2026 소규모 개발자 설문의 0~3년차 중앙 구간 4천만~5천만 원은 참고 표본일 뿐 한국 신입 평균으로 일반화하지 않음
+- Selection criteria: 신입 멘토, 코드리뷰, 직접 배포·운영, 온콜 보상, 개발/운영 비율, 기술부채 개선 권한, 사업 안정성과 평가 투명성을 회사명보다 먼저 확인
+- Application expansion: 금융 프로젝트를 버리지 않고 결제·정합성·성능·운영 안정성으로 번역해 대기업 IT서비스, 제조 IT와 Java 제품기업까지 지원
+- Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-14] query | 주요 금융사 Java 개발자 채용 비교
+
+- Query saved: [[2026-09-14-Q-korea-financial-java-employer-comparison]]
+- Scope: KB·우리·NH·신한·하나·IBK·카카오·케이·토스 은행과 미래에셋·KB·메리츠·한국투자·삼성·하나·키움·토스증권
+- Hiring boundary: 회사별 연간 개발자 총원은 대부분 미공개이므로 2026 공개 공고의 신입 진입구, 공고상 인원, Java 직무를 분리
+- Entry conclusion: IBK와 대형은행 TECH/ICT·금융 IT 계열사를 1군, 인터넷은행 신입과 증권사 신입 IT를 2군, 토스·증권 세부 경력직을 중기 목표로 구성
+- Compensation boundary: 사업보고서 회사 평균급여를 신입 개발자 초봉으로 오인하지 않고 기본급·성과급·고용형태·온콜 보상 확인 항목으로 전환
+- Location boundary: 본점 또는 공고상 대표 개발 거점을 기록하고 실제 팀 배치는 지원 시 재확인
+- Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습
