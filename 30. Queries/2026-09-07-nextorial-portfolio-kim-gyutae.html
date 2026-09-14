@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>김규태 | 개발 포트폴리오</title>
+<style>
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; color: #172033; background: #eef2f7; }
+.page { width: 210mm; height: 297mm; padding: 18mm 17mm 15mm; background: #fff; page-break-after: always; position: relative; overflow: hidden; }
+.page:last-child { page-break-after: auto; }
+.eyebrow { color: #6157e8; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+h1 { margin: 14px 0 8px; font-size: 34px; line-height: 1.22; letter-spacing: -.04em; }
+h2 { margin: 8px 0 15px; font-size: 25px; line-height: 1.3; letter-spacing: -.035em; }
+h3 { margin: 0 0 7px; font-size: 14px; color: #202a44; }
+p { margin: 0 0 9px; font-size: 12px; line-height: 1.62; }
+.lead { font-size: 15px; line-height: 1.65; color: #34405a; max-width: 155mm; }
+.accent { color: #5046d8; }
+.rule { height: 4px; width: 38px; background: #6c63ff; margin: 15px 0 20px; border-radius: 3px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; }
+.card { border: 1px solid #dfe4ee; border-radius: 12px; padding: 13px; background: #fbfcff; }
+.card p:last-child { margin-bottom: 0; }
+.tag { display: inline-block; margin: 0 4px 5px 0; padding: 4px 7px; border-radius: 999px; background: #edf0ff; color: #4439bb; font-size: 9px; font-weight: 700; }
+.metric { font-size: 23px; font-weight: 800; color: #3329b8; margin-bottom: 2px; }
+.metric-label { font-size: 9px; color: #69738a; }
+.flow { display: flex; align-items: stretch; gap: 6px; margin: 14px 0; }
+.step { flex: 1; min-height: 62px; border-radius: 9px; background: #f1f3ff; padding: 10px 8px; font-size: 10px; line-height: 1.45; text-align: center; display: flex; align-items: center; justify-content: center; }
+.arrow { align-self: center; color: #6c63ff; font-weight: 800; }
+.boundary { border-left: 4px solid #f2a93b; background: #fff8eb; padding: 9px 11px; font-size: 10px; line-height: 1.55; margin-top: 10px; }
+.evidence { border-left: 4px solid #36a37d; background: #effaf6; padding: 9px 11px; font-size: 10px; line-height: 1.55; }
+.shot { width: 100%; max-height: 105mm; object-fit: contain; object-position: center top; border: 1px solid #d9deea; border-radius: 9px; background: #f4f5f8; }
+.shot.short { max-height: 74mm; }
+.link { color: #4036c5; text-decoration: none; word-break: break-all; }
+.footer { position: absolute; bottom: 9mm; left: 17mm; right: 17mm; display: flex; justify-content: space-between; color: #8891a4; font-size: 8px; }
+.hero { margin-top: 10mm; }
+.profile { margin-top: 12mm; padding: 16px; border: 1px solid #dfe4ee; border-radius: 14px; background: linear-gradient(135deg,#fbfcff,#f1f3ff); }
+.small { font-size: 10px; color: #667088; }
+ul { margin: 5px 0 8px; padding-left: 17px; }
+li { font-size: 11px; line-height: 1.55; margin: 3px 0; }
+.architecture { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin: 14px 0 10px; }
+.layer { padding: 13px 8px; border-radius: 10px; text-align: center; background: #f5f6fa; border-top: 4px solid #6c63ff; }
+.layer b { display:block; font-size: 12px; margin-bottom: 5px; }
+.layer span { font-size: 9px; line-height: 1.4; color: #657087; }
+.quote { margin: 14px 0; font-size: 17px; line-height: 1.55; font-weight: 700; letter-spacing: -.02em; }
+.check { color:#1a825f; font-weight:700; }
+.summary-table { width:100%; border-collapse:collapse; margin-top:14px; overflow:hidden; border-radius:12px; border:1px solid #dfe4ee; }
+.summary-table th { padding:10px; background:#f1f3ff; color:#4036c5; font-size:10px; text-align:left; }
+.summary-table td { padding:11px 10px; border-top:1px solid #e4e8f0; font-size:10px; line-height:1.5; vertical-align:top; }
+.project-meta { display:grid; grid-template-columns:1fr 1.25fr 1.7fr; gap:7px; margin:11px 0 13px; }
+.meta-item { padding:8px 9px; background:#f5f6fa; border-radius:8px; font-size:9px; line-height:1.45; }
+.meta-item b { display:block; color:#4439bb; margin-bottom:2px; }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <div class="eyebrow">PORTFOLIO · KIM GYUTAE</div>
+  <div class="hero">
+    <h1>김규태 포트폴리오</h1>
+    <div class="rule"></div>
+  </div>
+  <div class="profile">
+    <div class="grid2">
+      <div>
+        <h3>김규태</h3>
+        <p>경상국립대학교 소프트웨어공학과</p>
+        <p class="small">관심 영역 · AI 에이전트 워크플로 · 개발 자동화 도구</p>
+      </div>
+      <div>
+        <h3>기술 및 도구</h3>
+        <span class="tag">Python</span><span class="tag">C 기초</span><span class="tag">Git/GitHub</span>
+        <span class="tag">GitHub Actions</span><span class="tag">LLM API</span><span class="tag">Markdown/YAML</span>
+      </div>
+    </div>
+  </div>
+  <h3 style="margin-top:18px">프로젝트 한눈에 보기</h3>
+  <table class="summary-table">
+    <thead><tr><th>프로젝트</th><th>담당 역할·기여</th><th>기술 스택</th></tr></thead>
+    <tbody>
+      <tr><td><b>Threads AI 자동화</b><br>개인 프로젝트</td><td>콘텐츠 포맷 설계, 자동화 운영, 생성 결과·코드 검토</td><td>Python · GitHub Actions · LLM API · Threads API · JSON/CSV</td></tr>
+      <tr><td><b>LLM Wiki</b><br>개인 프로젝트</td><td>공개 패턴 개인화, 맥락 구조·운영 규칙 설계, 지속 유지보수</td><td>Markdown · YAML · Git/GitHub · Codex CLI · Shell</td></tr>
+      <tr><td><b>CUEE</b><br>5인 팀 프로젝트</td><td>팀장·개발 담당, 서비스 방향 결정, 경쟁사 분석·발표</td><td>Kotlin · Android · Accessibility Service · Git/GitHub</td></tr>
+    </tbody>
+  </table>
+  <div style="margin-top:13px" class="card"><p><b>GitHub</b> · <a class="link" href="https://github.com/gyutaetae">github.com/gyutaetae</a></p></div>
+  <div class="footer"><span>김규태 · Portfolio</span><span>01</span></div>
+</section>
+
+<section class="page">
+  <div class="eyebrow">PROJECT 01 · PERSONAL · 2026.05 — PRESENT</div>
+  <h2>Threads AI 콘텐츠 자동화</h2>
+  <p class="lead">논문 활용 콘텐츠의 후보 수집부터 초안 생성, 검토, 게시와 반응 기록까지 연결한 Python·GitHub Actions 기반 워크플로입니다.</p>
+  <div class="project-meta">
+    <div class="meta-item"><b>유형</b>개인 프로젝트</div>
+    <div class="meta-item"><b>역할·기여</b>포맷 설계 · 자동화 운영 · 결과 검토</div>
+    <div class="meta-item"><b>기술 스택</b>Python · GitHub Actions · LLM/Threads API · JSON/CSV</div>
+  </div>
+
+  <div class="flow">
+    <div class="step">자료 후보<br>수집</div><div class="arrow">→</div>
+    <div class="step">AI 초안<br>생성</div><div class="arrow">→</div>
+    <div class="step">의도·형식<br>검토</div><div class="arrow">→</div>
+    <div class="step">게시·지표<br>기록</div><div class="arrow">→</div>
+    <div class="step">규칙<br>개선</div>
+  </div>
+
+  <div class="grid3">
+    <div class="card"><div class="metric">2 → 63</div><div class="metric-label">대표 게시물 좋아요 변화</div></div>
+    <div class="card"><div class="metric">28 / 32</div><div class="metric-label">변경 직후 재게시 / 전송</div></div>
+    <div class="card"><div class="metric">650</div><div class="metric-label">2026.08 확인 팔로워</div></div>
+  </div>
+
+  <div class="grid2" style="margin-top:11px">
+    <div class="card">
+      <h3>제가 판단한 부분</h3>
+      <ul>
+        <li>낮은 반응의 원인을 정보량보다 전달 순서로 가정</li>
+        <li>‘자주 하는 실수 → 결과 → 나쁜 예시 → 좋은 예시’ 포맷 선택</li>
+        <li>생성 문장과 코드가 의도와 맞는지 실행·검토</li>
+        <li>fallback 단위 테스트 29개 통과를 직접 확인</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>AI와 자동화가 맡은 부분</h3>
+      <ul>
+        <li>자료 후보 조사, 초안과 반복 코드 제안</li>
+        <li>API 실패·잘못된 JSON에 대비한 provider fallback 후보 작성</li>
+        <li>반복 검증을 위한 단위 테스트 작성 보조</li>
+        <li>fallback의 운영 전환과 전체 자동 게시 장애는 아직 해결 중</li>
+      </ul>
+    </div>
+  </div>
+  <p style="margin-top:11px"><a class="link" href="https://github.com/gyutaetae/threads-agentic-editor-workflow">github.com/gyutaetae/threads-agentic-editor-workflow</a></p>
+  <div class="footer"><span>김규태 · Portfolio</span><span>02</span></div>
+</section>
+
+<section class="page">
+  <div class="eyebrow">PROJECT 02 · PERSONAL AI WORKFLOW · 2026.07 — PRESENT</div>
+  <h2>LLM Wiki — 에이전트가 공유하는 개인 맥락층</h2>
+  <p class="lead">AI 세션이 끝날 때마다 작업 맥락이 사라지고, 에이전트마다 판단이 달라지는 문제를 줄이기 위해 운영하는 Git 기반 지식 시스템입니다.</p>
+  <div class="project-meta">
+    <div class="meta-item"><b>유형</b>개인 프로젝트</div>
+    <div class="meta-item"><b>역할·기여</b>구조 개인화 · 운영 규칙 설계 · 유지보수</div>
+    <div class="meta-item"><b>기술 스택</b>Markdown · YAML · Git/GitHub · Codex CLI · Shell</div>
+  </div>
+
+  <div class="architecture">
+    <div class="layer"><b>Raw Sources</b><span>원문·로그·증거를<br>손상 없이 보존</span></div>
+    <div class="layer"><b>Wiki</b><span>반복 사용할 개념과<br>프로젝트 맥락</span></div>
+    <div class="layer"><b>Queries</b><span>지원서·면접 등<br>재사용 가능한 결과</span></div>
+  </div>
+  <div class="flow">
+    <div class="step">경험·생각<br>기록</div><div class="arrow">→</div>
+    <div class="step">증거와 해석<br>분리</div><div class="arrow">→</div>
+    <div class="step">Core Context<br>압축</div><div class="arrow">→</div>
+    <div class="step">Codex가<br>공통 맥락 참조</div><div class="arrow">→</div>
+    <div class="step">개발·질의<br>결과 환류</div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>문제를 해결한 방식</h3>
+      <ul>
+        <li><b>AGENTS.md</b>: 에이전트가 따라야 할 읽기·쓰기·검증 규칙</li>
+        <li><b>Core Context</b>: 목표, 프로젝트, 판단 기준의 압축본</li>
+        <li><b>source/confidence/verification</b>: 사실과 AI 해석의 경계</li>
+        <li><b>ingest/query/lint</b>: 수집·재사용·품질 점검의 반복 절차</li>
+        <li>구요환(Yohan Koo/CMDSPACE)의 공개 패턴을 제 목적에 맞게 개인화</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>실제 활용</h3>
+      <ul>
+        <li>CUEE 개발 세션이 바뀌어도 진행 상태와 결정 이력을 다시 제공</li>
+        <li>코드가 어떻게 바뀌었는지와 사용자 반응을 함께 기록</li>
+        <li>이번 지원서에서도 실제 코드·수치와 기억을 대조해 과장을 제거</li>
+        <li>지속적인 유지보수로 다음 작업의 출발점을 높임</li>
+        <li>Codex 중심 운영 규칙과 프로젝트 검증 경계를 직접 관리</li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="quote">“AI에 일회성 답을 받는 대신, 에이전트가 같은 맥락에서 일할 수 있는 외부화된 두 번째 뇌를 만든다.”</p>
+  <p style="margin-top:12px"><a class="link" href="https://github.com/gyutaetae/cmds-llm-wiki">github.com/gyutaetae/cmds-llm-wiki</a></p>
+  <div class="footer"><span>김규태 · Portfolio</span><span>03</span></div>
+</section>
+
+<section class="page">
+  <div class="eyebrow">PROJECT 03 · TEAM OF 5 · 2026.04 — PRESENT</div>
+  <h2>CUEE — 코레일톡 KTX 예매 보조 앱</h2>
+  <p class="lead">복잡한 모바일 거래 과정에서 다음에 눌러야 할 위치를 접근성 오버레이로 안내해 사용자가 직접 예매를 이어가도록 돕는 Android 앱입니다.</p>
+  <div class="project-meta">
+    <div class="meta-item"><b>유형</b>5인 팀 프로젝트</div>
+    <div class="meta-item"><b>역할·기여</b>팀장·개발 담당 · 방향 결정 · 발표</div>
+    <div class="meta-item"><b>기술 스택</b>Kotlin · Android · Accessibility Service · Git/GitHub</div>
+  </div>
+
+  <img class="shot short" src="https://raw.githubusercontent.com/gyutaetae/cuee/main/artifacts/online-exhibition/CUEE_%EC%8B%A4%EC%A0%9C_MVP_%EB%8F%99%EC%9E%91%EC%A6%9D%EA%B1%B0.png" alt="CUEE MVP">
+
+  <div class="grid2" style="margin-top:10px">
+    <div class="card">
+      <h3>역할과 판단</h3>
+      <ul>
+        <li>5인 팀 팀장·개발 담당</li>
+        <li>학습 앱에서 실제 사용 순간을 돕는 오버레이 방식으로 방향 전환</li>
+        <li>경쟁 서비스 비교 기준과 발표 서사 정리</li>
+        <li>팀원들과 발표 대본을 반복 개선</li>
+        <li>Android 코드에는 AI 기여가 커 문제 정의·방향 전환·팀 리딩 중심으로 설명</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>피드백 이후 전환</h3>
+      <ul>
+        <li>초기: 사용자 대상 건별 결제</li>
+        <li>문제: “돈을 내면서까지 사용할 것인가?”</li>
+        <li>전환: 개인 무료 제공 → 시장 가능성 확인 → 기업 제휴</li>
+        <li>수익: 예약 성공 건당 CPS 모델</li>
+        <li>이탈률 50% 감소는 실측이 아닌 팀 목표이며 현재 Play Store 심사 중</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid3" style="margin-top:10px">
+    <div class="card"><div class="metric">최우수상</div><div class="metric-label">GNU 개척리더스 아이디어톤</div></div>
+    <div class="card"><div class="metric">대상</div><div class="metric-label">경남권 창업동아리 심화교육</div></div>
+    <div class="card"><div class="metric" style="font-size:18px">심사 중</div><div class="metric-label">Google Play Store · 2026.09</div></div>
+  </div>
+  <p style="margin-top:10px"><a class="link" href="https://github.com/gyutaetae/cuee">github.com/gyutaetae/cuee</a></p>
+  <div class="footer"><span>김규태 · Portfolio</span><span>04</span></div>
+</section>
+
+</body>
+</html>

@@ -24,6 +24,7 @@ source:
   - "[[2026-07-25-Gemini-Computational-Thinking-Abstraction]]"
   - "[[2026-07-25-Gemini-Computational-Thinking-Decomposition]]"
   - "[[2026-07-25-YouTube-AI시대-컴퓨터공학-교육]]"
+  - "[[2026-08-31-Q-nice-scholarship-essay-evidence-map]]"
 related:
   - "[[김규태]]"
   - "[[MOC-Portfolio]]"
@@ -127,6 +128,12 @@ Project transfer:
 ```
 
 이 루프의 핵심은 [[Human-AI Knowledge Boundary]]를 유지하는 것이다. AI가 제공한 것은 `hint`, `trace`, `edge-case`, `review`로 기록하고, 최종 판단과 수정은 본인이 한 것으로 분리한다.
+
+## Personal Example: 자물쇠와 열쇠
+
+김규태는 프로그래머스 `자물쇠와 열쇠` 문제에서 2차원 배열의 90도 회전과 열쇠가 배열 밖으로 나갈 때의 경계·예외처리에 막혔다고 보고했다. Gemini가 Python list comprehension으로 90도 회전을 표현하는 방식을 보여준 뒤 회전 로직을 훨씬 쉽게 적용할 수 있었다고 설명했다.
+
+이 사례의 핵심은 AI가 전체 정답을 대신 작성했다는 것이 아니라, `90도 회전` 과 `배열 경계처리`로 막힌 지점을 분해하고 그중 회전을 Pythonic한 패턴으로 학습한 것이다. 다만 경계처리의 최종 해결, AI 확인 전후 코드, 오답·재시도 기록은 아직 확인하지 못했다.
 
 ---
 
