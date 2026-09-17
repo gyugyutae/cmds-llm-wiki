@@ -35,7 +35,7 @@ status: active
 | Entities | 12 |
 | Guides | 16 |
 | MOCs | 5 |
-| Queries | 32 |
+| Queries | 33 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -176,6 +176,7 @@ status: active
 - [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] — 실제 AI면접 복기 기반 문항별 교정, C++·자료구조·공간 탐색 학습 우선순위
 - [[2026-09-13-Q-bank-backend-entry-readiness-gap]] — 은행권 백엔드 인턴·신입 채용선, 공개 합격 사례와 김규태의 핵심 역량 격차 진단
 - [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]] — Java·Spring Boot로 동시성·멱등성·원장 정합성을 증명하는 은행 백엔드 대표 프로젝트 설계
+- [[2026-09-18-Q-current-scholarship-global-hackathon-opportunity-map]] — 소득 9구간을 반영한 현재 장학금·해외·금융/개발·해커톤·일경험 후보와 지원 순서
 
 ---
 

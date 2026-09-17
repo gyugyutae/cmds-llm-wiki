@@ -1363,3 +1363,13 @@ status: active
 - Vertical stages: pure Java domain → Spring account API → MySQL/JPA → transfer happy path → rollback → concurrency → idempotency → reconciliation → index/performance → deployment
 - Learning ownership: 기능마다 완료 문장·불변조건·실패 테스트·최소 구현·SQL 확인·개념 보강·직접 설명·AI 경계 기록을 반복
 - Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-18] query | 현재 장학금·해외·금융/개발·해커톤 기회 지도
+
+- Query saved: [[2026-09-18-Q-current-scholarship-global-hackathon-opportunity-map]]
+- Eligibility filter: 한국장학재단 9구간을 중위소득 200% 초과~300% 이하로 적용하고, 3·6·8구간 이하 장학 및 국민취업지원 I유형 현금수당을 제외
+- Highest funded global option: GNU–UNLV 7주 AI·창업 프로그램의 883만원 지원, 약 594만원 개인부담, 학기 잔여 요건을 분리 기록
+- Active portfolio set: 핀테크 아이디어, 금융상품 포트폴리오, Data+AI, AI Championship, PAC, GovTech, Startup Water와 교내 협업 프로그램 정리
+- Work-experience set: 경남신용보증재단, 백엔드, 금융 QA, NC AI, 클라우드 보안 등 미래내일 일경험을 일정·직무 적합성 기준으로 비교
+- Timing boundary: 즉시 지원, 조건부, 소득 9구간 제외, 마감·졸업요건 제외, 다음 모집 감시 대상으로 분리
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 제품/창업, 경제적 자유/FIRE/레버리지
