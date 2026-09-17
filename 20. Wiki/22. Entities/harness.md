@@ -6,7 +6,7 @@ description: Python-based Codex CLI autonomous implementation harness customized
 author:
   - Codex
 date created: 2026-07-10
-date modified: 2026-08-31
+date modified: 2026-09-10
 tags:
   - project
   - codex
@@ -15,6 +15,7 @@ tags:
 source:
   - https://github.com/gyutaetae/harness
   - https://raw.githubusercontent.com/gyutaetae/harness/main/README.md
+  - https://github.com/gyutaetae/threads-agentic-editor-workflow
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-12-YouTube-Inspiration-Bundle-User-Reflections]]"
   - "[[2026-07-12-YouTube-코딩몰라도-가능한-앱개발-클로드코드-하네스]]"
@@ -73,6 +74,12 @@ status: active
 - **User decision evidence**: 여러 글 형식을 시험하고 논문 작성 방식의 반응이 좋자 템플릿으로 고정한 뒤 GitHub Actions 자동화와 반복 운영으로 연결
 - **Verification status**: 사용자 제공 원문 기반. 실제 계정 분석 화면, 코드, 스케줄러 설정, 실패 처리 로그는 추가 ingest 필요
 
+### 2026-09-10 Follow-up Format Experiment
+
+원격 `threads-agentic-editor-workflow`의 53개 지표 행 중 72시간 관측과 조회수 조건을 만족한 50개를 재분석했다. 공개 permalink 확인 override를 포함한 대비 형식 32개에서 초기 16개 중앙 독자 참여율은 1.0054%, 후기 16개는 0.3700%로 기존 결과가 재현됐다. 다만 시간·주제·노출 차이가 있어 형식 피로를 원인으로 확정하지 않는다.
+
+Codex는 대비 형식과 직접 체크리스트 형식을 같은 시간·관측창에서 비교하는 6쌍 준실험 코드, 계획표, 첫 비교 문안과 테스트를 작성했다. 현재 새 게시물은 0/12개이므로 상태는 `designed`, 결론은 `incomplete`다. 자세한 실행 기록은 [[2026-09-10-Q-threads-followup-experiment-and-nice-evidence-needs]]에 있다.
+
 이 사례는 `harness`와 별개 프로젝트로 분리할 수도 있지만, 현재는 Codex 기반 자동화와 AI 활용 포지셔닝을 보여주는 보조 증거로 연결한다.
 
 ---
@@ -92,9 +99,9 @@ status: active
 - 커서맛피아님 harness에서 어떤 구조를 참고했는지
 - 앱 개발에 맞게 수정한 구체 지점
 - 개발 시간, 오류 감소, 문서화 품질 같은 효과
-- Threads 자동 리서치/업로드 workflow의 실제 코드 위치
+- Threads 자동 리서치/업로드 workflow의 코드 위치는 확인했으나, 사용자가 직접 작성·설명 가능한 범위의 구분
 - 2026-05-25~06-22 게시 이력과 현재 650명 팔로워의 계정 분석 화면
-- 형식 차이에서 시기·주제·노출량을 통제한 추가 분석
+- 6쌍·12개 후속 교차 게시와 72시간 지표 수집 완료
 - 토큰 발급, 예약 실행, 업로드 실패 처리, 계정 성장 지표 증빙
 - AI agent 논문 활용 콘텐츠에서 본인이 직접 기획한 부분과 자동화가 처리한 부분의 분리
 - 2026-08-29 현재 이 Mac에 local harness checkout이 없고 공개 GitHub/Raw README도 이번 검증에서 불러오지 못했으므로, 현재 코드 상태는 재확인하지 못함
@@ -105,6 +112,8 @@ status: active
 
 - https://github.com/gyutaetae/harness
 - https://raw.githubusercontent.com/gyutaetae/harness/main/README.md
+- https://github.com/gyutaetae/threads-agentic-editor-workflow
+- [[2026-09-10-Q-threads-followup-experiment-and-nice-evidence-needs]]
 - [[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]
 - [[2026-07-12-YouTube-Inspiration-Bundle-User-Reflections]]
 - [[2026-07-12-YouTube-코딩몰라도-가능한-앱개발-클로드코드-하네스]]

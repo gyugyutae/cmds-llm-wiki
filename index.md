@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-13
+date modified: 2026-09-14
 tags:
   - index
   - moc
@@ -29,13 +29,13 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 46 |
-| Wiki Pages | 73 |
+| Raw Sources | 48 |
+| Wiki Pages | 76 |
 | Concepts | 40 |
 | Entities | 12 |
-| Guides | 16 |
-| MOCs | 5 |
-| Queries | 33 |
+| Guides | 18 |
+| MOCs | 6 |
+| Queries | 64 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -127,6 +127,8 @@ status: active
 - [[김규태 Relationship Values]] — 자율성, 신뢰, 애정 표현, 속도, 끌림, 동의에 관한 현재 가치
 - [[김규태 AI Mentor Response Contract]] — AI가 근거 기반 멘토로 답하기 위한 개인화 계약
 - [[김규태 개발 도메인 영어 성장 계획]] — 영어 몰입 경험을 기술 문서 읽기·영어 README·설명·협업 증거로 전환하는 계획
+- [[UAV 정밀착륙 특허 검색 가이드]] — KIPRIS·Google Patents·PATENTSCOPE·Espacenet을 이용한 반복 가능한 특허 검색·검증 절차
+- [[EvolvingTraceDB Neo4j 구축 및 검증 가이드]] — JavaParser 결과를 Neo4j 그래프로 적재하고 Browser에서 검증하는 재현 절차
 
 ### Maps (MOC)
 
@@ -137,6 +139,7 @@ status: active
 - [[MOC-Portfolio]] — 취업 포트폴리오 Evidence Wiki 운영 허브
 - [[경제적 자유는 나의 북극성이다]] — 개발자 커리어, 자본 레버리지, AI 자동화, 독서, 제품화를 경제적 자유로 연결하는 개인 MOC
 - [[MOC-김규태 Self Knowledge]] — 자기이해와 AI 개인화 페이지를 연결하는 허브
+- [[MOC-UAV 정밀착륙 연구]] — 영상·마커리스·의미 표식·제어·안전·특허를 연결하는 한 학기 정밀착륙 연구 중심축
 
 ---
 
@@ -176,6 +179,37 @@ status: active
 - [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] — 실제 AI면접 복기 기반 문항별 교정, C++·자료구조·공간 탐색 학습 우선순위
 - [[2026-09-13-Q-bank-backend-entry-readiness-gap]] — 은행권 백엔드 인턴·신입 채용선, 공개 합격 사례와 김규태의 핵심 역량 격차 진단
 - [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]] — Java·Spring Boot로 동시성·멱등성·원장 정합성을 증명하는 은행 백엔드 대표 프로젝트 설계
+- [[2026-09-14-Q-modoo-startup-second-cuee-application-draft]] — CUEE 모두의 창업 2차 지원을 위한 증거 경계형 문항 초안, 실행 일정과 이미지 구성
+- [[2026-09-01-Q-software-engineering-semester-project-selection]] — 소프트웨어개발론의 12주 범위에 맞춘 무인기 추적성과 Upbit 투자 시스템 후보 비교
+- [[2026-09-01-Q-emerging-traceability-technology-selection]] — 최신 논문·오픈소스와 12주 제약을 반영한 경량 GraphRAG형 추적 기술 선정
+- [[2026-09-01-Q-upbit-financial-decision-traceability-project]] — 사용자 의도부터 Upbit test order까지 재현하는 금융 AI Decision Receipt 프로젝트
+- [[2026-09-01-Q-team-meeting-two-project-proposals]] — Agentic UAV Digital Thread와 Upbit Decision Provenance를 같은 기준으로 비교한 팀 회의용 2안
+- [[2026-09-01-Q-whybuy-agentic-finance-technology-selection]] — Google AP2의 signed mandate를 투자 권한에 변형한 WhyBuy Agentic Finance 기술안
+- [[2026-09-02-Q-semester-project-concrete-team-brief]] — WhyBuy와 TracePilot을 사용자 시나리오·연구 질문·12주 범위·팀 설명문으로 구체화한 회의 자료
+- [[2026-09-02-Q-traceability-project-reselection-without-domain-data]] — 외부 도메인 데이터 없이 AI 작업·코드·테스트·빌드를 연결하는 TraceForge와 C2PA 대안 재선정
+- [[2026-09-02-Q-upbit-order-traceability-project-redesign]] — Upbit 호가·체결 기반 paper OMS에서 주문 장애를 추적·재현하고 MCP agent가 근거로 진단하는 OrderScope AI
+- [[2026-09-02-Q-three-person-upbit-drone-traceability-proposals]] — 3인 팀의 OrderScope 금융 주문 추적과 FlightProof 무인기 실행형 안전 증거 추적을 동일 기준으로 비교한 최종 회의안
+- [[2026-09-02-Q-graphify-fit-for-traceability-project]] — Graphify를 PX4 요구사항·ULog용 domain extension과 선택적 재시험에 적용한 FlightGraph 적합성·범위·baseline 판단
+- [[2026-09-03-Q-developer-job-preparation-starting-plan]] — Java·SQL·코딩테스트·주문 API를 병렬로 시작하는 김규태의 첫 4주 취업 공부 계획
+- [[2026-09-03-Q-from-coding-tests-to-software-development]] — 콘솔 주문 프로그램에서 API·DB·실패 처리로 확장하며 실제 개발 전체 주기를 익히는 방법
+- [[2026-09-03-Q-GNU-개척리더스-창업서포터즈-지원서-초안]] — CUEE 창업 경험과 창업지원단 활동을 연결한 개척리더스 창업서포터즈 지원서 초안
+- [[2026-09-01-Q-nice-scholarship-five-question-coherence-audit]] — NICE 자기소개서 1~5번의 평가기준 충족도·중복·일관성·증거 공백 감사
+- [[2026-09-01-Q-nice-scholarship-essay-draft-v1]] — 증거 경계와 문항별 글자 수를 반영한 NICE 자기소개서 5문항 1차 초안
+- [[2026-09-08-Q-nice-scholarship-selection-benchmark]] — 공식 1·2차 평가 구조와 성적·소득·자소서·스펙의 현실적 경쟁력 기준
+- [[2026-09-09-Q-nice-scholarship-essay-draft-v2]] — 제출 전 점검 완료: 학기 평점, 52개 중 72시간 완료 50개, 예상 예산과 모의 주문 실험을 명시한 NICE 자기소개서
+- [[2026-09-09-Q-nice-2025-winner-pattern-research]] — 공개 범위를 구분한 NICE 1기 합격자 특징·자소서 평가축 조사와 질문→축적→실험 연결성 진단
+- [[2026-09-09-Q-nice-no-certification-selection-readiness-audit]] — 데이터 분석 자격증·관련 수상 없이 NICE 최종 선발을 노리는 현재 5문항의 모의점수·증거 취약점·수정 우선순위
+- [[2026-09-10-Q-nice-five-criteria-readiness-rescore]] — 수정된 NICE 자기소개서를 다섯 선발 기준으로 재채점한 88점 평가와 직접 분석 증거 중심의 보완 순서
+- [[2026-09-10-Q-threads-followup-experiment-and-nice-evidence-needs]] — Threads 1.01%→0.37% 재현, 6쌍 후속 형식 실험 준비와 NICE 예산·시간축에 필요한 정보
+- [[2026-09-03-Q-gnu-scholarship-internship-opportunity-map]] — 경상국립대 재학생이 현재 노릴 장학금·지원금·현장실습·기술 활동 우선순위
+- [[2026-09-03-Q-the-jaram-and-2027-spring-internship-plan]] — 기존 활동의 The(더)자람 포인트 매핑과 2027년 1학기 개발 인턴 준비 일정
+- [[2026-09-07-Q-nextorial-game-programming-application-draft]] — 공식 지원요건 대조, A안 문항별 소재 재배치와 기술·동기·졸업요건 공백
+- [[2026-09-07-Q-nextorial-self-introduction-final]] — 거래 검증 자동화 목표·매몰비용과 솔직한 피드백·간결한 개발 문서화 원칙을 반영한 네 문항 최종본
+- [[2026-09-08-Q-precision-landing-patent-fit-and-team-loop]] — 5번 의미 아이콘 기반 최소 장비 기준선과 재완·관호·규태 반복 실험 구조
+- [[2026-09-08-Q-linkedin-silicon-valley-student-strategy]] — 한국 학부생이 검색 적합성·프로젝트 증거·신뢰를 중심으로 실리콘밸리 기회를 준비하는 LinkedIn 전략
+- [[2026-09-14-Q-korea-backend-industry-finance-sector-comparison]] — 한국 백엔드 언어 범용성과 금융 세부 업권의 채용·보상·문화·워라밸 경향 비교
+- [[2026-09-14-Q-korea-non-finance-backend-employer-comparison]] — 금융 외 일반기업 백엔드 유형과 보상·워라밸·개발환경·회사 선택 기준 비교
+- [[2026-09-14-Q-korea-financial-java-employer-comparison]] — 주요 은행·인터넷은행·증권사의 Java 신입 채용 입구, 보상·워라밸 경향, 현직자 평가 신호와 근무 거점 비교
 - [[2026-09-18-Q-current-scholarship-global-hackathon-opportunity-map]] — 소득 9구간을 반영한 현재 장학금·해외·금융/개발·해커톤·일경험 후보와 지원 순서
 
 ---
@@ -190,6 +224,8 @@ status: active
 | 2026-09-11 | [[2026-09-11-Nexon-Tutorial-AI-Interview-Preparation-Bundle]] | [[2026 넥토리얼 지원]], [[MOC-Portfolio]], [[2026-09-11-Q-Nexon-Tutorial-AI-Interview-Preparation]] |
 | 2026-09-10 | [[2026-09-02-to-09-Kim-Gyutae-Contract-Lab-Work-Notes]] | [[계약랩]], [[MOC-Portfolio]] |
 | 2026-09-09 | [[2026-09-09-Codex-KB-Securities-Java-Backend-Career-Conversation]] | 1 guide + 1 MOC + 1 query |
+| 2026-09-08 | [[2026-09-08-EvolvingTraceDB-Neo4j-local-build-record]] | [[EvolvingTraceDB Neo4j 구축 및 검증 가이드]], [[Graduation-elasticsearch]] |
+| 2026-09-08 | [[2026-09-08-UAV-precision-landing-patent-search-pilot]] | [[MOC-UAV 정밀착륙 연구]], [[UAV 정밀착륙 특허 검색 가이드]] |
 | 2026-08-24 | [[2026-08-17-Gemini-Quant-Research-Conversation]] + [[2026-08-24-Kim-Gyutae-TMU-SDG-Portfolio-Record]] + [[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]] | 14 pages + TMU PDF schedule |
 | 2026-07-26 | [[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]] + 11 Clippings | 14 pages |
 | 2026-07-23 | [[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]] | 15 pages |

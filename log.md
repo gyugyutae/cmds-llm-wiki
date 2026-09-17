@@ -8,7 +8,7 @@ description: Chronological log of all wiki operations — ingests, queries, lint
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-13
+date modified: 2026-09-14
 tags:
   - system
   - log
@@ -828,6 +828,23 @@ status: active
 - System page updated: [[index]]
 - Reuse axis: 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
 
+## [2026-09-01] query update | NICE 초안 전 최종 모호성 감사
+
+- Confirmed actual academic-term living cost: monthly commute 10만 원 plus campus meals 20 days × 1만~2만 원 = 30만~50만 원 per month, or 120만~200만 원 for four months.
+- The budgeted living costs, 133만 4,500원 for 2026-2 and 155만 2,000원 for 2027-1, fall within the confirmed range; the 2027-1 amount remains an assumption until the final-semester timetable is known.
+- User confirmed that an official GNU transcript can be issued; the current MyGNU grade-check PDF remains non-submittable.
+- Remaining non-blocking checks before final submission: user review of the Threads classification/formula/chart, official transcript issuance, and final 2027-1 timetable/actual course prices.
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
+
+## [2026-09-01] query correction | Threads 지표·NICE 일정·증빙 문서
+
+- Corrected 2026-07-15 Threads metrics from an incorrectly associated public-page payload to the user-provided screen and matching 72-hour CSV: likes 19, raw replies 3, author chain replies 3, audience replies 0, reposts 8; screen-only shares 2 are excluded from cross-post engagement comparisons.
+- Official NICE plan confirms 2026-2 200만 원, 2027-1 300만 원, with offline events split across 2026-11, 2026-12, 2027-01, and 2027-02; the 70만 원 travel estimate should therefore be split 35만 원 per semester.
+- NICE itself provides online Python, Pandas, and financial-data-analysis training, so outside courses should fill statistics, experiment design, and backtesting gaps instead of duplicating the program.
+- Git evidence confirms README update commit `be8a878` on 2026-07-14; the professor-feedback date remains unknown and must not be inferred as an exact date.
+- `report (2).pdf` was issued on 2026-09-01 and shows academic-record status `4학년`, but it is a MyGNU `성적확인표` explicitly marked as not valid supporting evidence; an official transcript is still required if course grades are submitted in the optional portfolio.
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
+
 ## [2026-08-31] query update | NICE와 김재영 최종 선택
 
 - Updated: [[2026-08-31-Q-pureundeungdae-scholarship-fit]]
@@ -1373,3 +1390,599 @@ status: active
 - Work-experience set: 경남신용보증재단, 백엔드, 금융 QA, NC AI, 클라우드 보안 등 미래내일 일경험을 일정·직무 적합성 기준으로 비교
 - Timing boundary: 즉시 지원, 조건부, 소득 9구간 제외, 마감·졸업요건 제외, 다음 모집 감시 대상으로 분리
 - Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 제품/창업, 경제적 자유/FIRE/레버리지
+
+## [2026-08-31] query update | NICE 문항 1~4 만점 대비 증거 점검
+
+- Updated: [[2026-08-31-Q-nice-scholarship-essay-evidence-map]]
+- Grade trend verified: 누적 3.68/4.5·전공 3.52·백분율 91.8, 최근 정규학기 3.82 → 3.42 → 3.59 → 4.10; `계속 상승`이 아니라 하락 뒤 두 학기 연속 회복으로 표현
+- Learning method added: 먼저 풀이, 정답 금지, 단계별 힌트, 시간복잡도·엣지케이스·데이터 흐름 검토, Pythonic 코드 비교를 수행하는 Gemini Gem 학습 루틴
+- Harness framing strengthened: Threads 자동화를 게시물 형식·주제·실험군별 반응을 다음 생성에 반영하는 self-evolving feedback loop로 정의
+- Startup chronology corrected: 2026-05-27 GNU 개척리더스 창업 아이디어톤 최우수상 → 2026-06-16 경남권 심화교육 대상 → 2026-08-11 G-대학생 창업유망팀 동아리 챌린지 우수상
+- Remaining critical gap: 5월 경쟁사 분석 지적 뒤 6월 대상 전까지 실제로 바꾼 슬라이드·분석·의사결정과 본인의 주도 행동
+- Source boundary: CMDSPACE 구요한 대표의 관련 공개 강연은 확인했으나 사용자가 말한 KIST 공식 유튜브 영상은 검색으로 확인하지 못해 채널 소속 표현은 보류
+
+## [2026-08-31] query update | NICE 사업목적·진로 정합성과 문항별 보강
+
+- Updated: [[2026-08-31-Q-nice-scholarship-essay-evidence-map]], [[김규태 Motivation and Execution Pattern]], [[cuee]]
+- LLM Wiki positioned as a sustainable learning and knowledge-connection habit for question 1, not as data-analysis experience
+- Career bridge established: AI system building → reaction-data feedback → interest in decisions based on evidence → financial data analyst
+- Eligibility framing: past Threads data action, software/database foundation, explicit financial-data career goal, and NICE-to-portfolio plan
+- Question 2: drafted a 2M/3M semester budget linked to attendance, credentials, education, Threads analysis, and an Upbit public-data project; free public API distinguished from cloud/storage costs
+- Question 3: added three 1:1 mentoring sessions, competitor matrix, real-time in-context assistance differentiation, and team-lead responsibilities; mentoring dates and missing competitor image remain unresolved
+- Question 4: repeated response patterns treated as stronger but still non-causal evidence
+- Algorithm example: Programmers `자물쇠와 열쇠` selected; actual sticking point, hint, and user-written resolution still require confirmation
+
+## [2026-08-31] query update | U300+ 진행 상태·경쟁사 비교·알고리즘 막힘 보강
+
+- Updated: [[2026-08-31-Q-nice-scholarship-essay-evidence-map]], [[cuee]], [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
+- Attachments preserved: [[2026-08-31-CUEE-competitor-analysis.jpg]], [[2026-08-31-U300-plus-mentoring-program.jpg]], [[2026-08-31-U300-plus-events-and-festival-review.jpg]]
+- Mentoring chronology: U300+ 첫 1:1 멘토링일은 사용자 확인 2026-06-25; 2026-06-16 경남권 대상 이후이므로 대상 수상의 원인으로 표현하지 않음
+- Competitor matrix: `실시간 실제 상황 보조 / 교육·학습 기반 접근 / 물리적 대면 거래 창구`로 동일 평가축을 적용한 발표자료 확인
+- U300+ status: 사용자는 전국 400팀 선정, 온라인 전시관 등록·전시, 2026-08-11 오프라인 네트워킹 데이 참여, 학생창업 페스티벌 최종 40팀 심사 대기를 보고; 화면 증거와 자기보고 범위를 분리
+- Algorithm evidence: `자물쇠와 열쇠`에서 90도 회전과 배열 경계 예외처리에 막혔고, Gemini의 Python list comprehension 회전 패턴을 보고 회전 로직을 쉽게 적용했다는 자기보고 추가
+- Verification boundary: 최종 40팀 선정은 미확정, 경쟁사표는 포지셔닝 자료이지 성능 우위 검증이 아님, 배열 경계처리 최종 해결·전후 코드는 미확인
+- System page updated: [[index]]
+- Reuse axis: 취업/포트폴리오, 제품/창업, 독서/책/학습
+
+## [2026-09-01] query | 소프트웨어개발론 학기 프로젝트 주제 선정
+
+- Query saved: [[2026-09-01-Q-software-engineering-semester-project-selection]]
+- Inputs: 2026 가을학기 소프트웨어개발론 강의계획서, [[Core Context]], [[Graduation-elasticsearch]], 퀀트 검증 Wiki 페이지
+- Decision: 1순위 무인기 임무 디지털 스레드·안전 추적성 플랫폼, 2순위 Upbit 공개 시세 기반 맞춤형 적립식 정책 시뮬레이터
+- Scope boundary: 실제 드론 비행과 자동 실거래를 MVP에서 제외하고, 8주차 시뮬레이션 데모와 12주차 검증 결과를 목표로 설정
+- Evidence boundary: AI 기여와 직접 구현·수정·검증 범위를 주별로 분리 기록
+- System page updated: [[index]]
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
+
+## [2026-09-01] query | 최신 추적성 기술 학기 프로젝트 선정
+
+- Query saved: [[2026-09-01-Q-emerging-traceability-technology-selection]]
+- Research: 2024~2026 LLM trace-link, GraphRAG requirements compliance, heterogeneous graph transformer 논문과 관련 GitHub 저장소 비교
+- GitHub observation: 2026-09-01 API 기준 GraphRAG 35,760, LangGraph 40,806, Neo4j 17,173, Qdrant 34,302 stars; stars는 변동하며 품질 근거가 아닌 관심도 신호로만 사용
+- Decision: 지식 그래프 + embedding 후보 검색 + LLM 근거 생성 + 사람 승인의 경량 GraphRAG형 trace-link 추천기
+- Scope boundary: GNN 학습, 완전 자율 agent, Microsoft GraphRAG 전체 pipeline, 실제 비행 제어, blockchain 제외
+- Feasibility gate: 8주차까지 수동 trace graph·embedding top-k·승인 UI 완성, 12주차 baseline 대비 precision/recall/F1와 검토시간 평가
+- Updated: [[2026-09-01-Q-software-engineering-semester-project-selection]], [[index]]
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
+## 2026-09-01
+
+- NICE 장학금 증거 지도에 Threads 공개 shortcode와 숫자형 API ID의 본문 대조 결과, 독자 참여율 정의, NICE 교육으로 이어지는 분석 간극을 추가했다.
+- `Graduation-elasticsearch`에서 직접 구현과 결과 해석을 분리하고, unresolved 원인과 개선안이 아직 재실행되지 않았다는 경계를 반영했다.
+## [2026-09-01] query | NICE 자기소개서 5문항 일관성 감사
+
+- Query saved: [[2026-09-01-Q-nice-scholarship-five-question-coherence-audit]]
+- Narrative spine: 질문·축적·실험의 학습 변화 → 데이터 분석 흥미 → 금융 데이터 분석가 → NICE 역량 보완 → 금융 서비스에 분석을 반영하는 금융 IT 인재
+- Major risks: 1번의 2024~2025 시간축 부족, 2번 예산 현실성, 4번 당시 결정과 사후 분석 혼동, 5번 직접 구현·개선 완료 과장
+- Duplication rule: Threads 활동은 1번에서 한 문장, 2번에서 미래 결과물, 4번에서 분석 과정, 5번에서 현재 수준으로 역할 분리
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
+## [2026-09-01] query update | NICE 증빙자료·3년 학습축·예산 확정
+
+- Created Desktop evidence bundle: `NICE_장학금_증빙자료_2026-09-01`
+- Threads: 72시간 독자 참여율 열, 확인 가능한 동일 패턴 초기·후기 비교표, SVG·PNG 차트, 미수집값·교란요인 목록 생성
+- Corrected Threads signal: 2026-09-01 사용자 제공 화면과 72시간 CSV가 일치하며 7월 15일 글은 좋아요 19, raw replies 3(작성자 체인 3, 독자 답글 0), 재게시 8이다. 화면에만 있는 공유 2는 과거 CSV 비교식에서 제외한다.
+- JavaParser: 1쪽 분석요약과 통합 증빙 작성; 교수의 높은 unresolved 비율 피드백 뒤 원인·개선 방향을 README에 정리했다는 사용자 확인 반영
+- Learning timeline: 2024~2025 전통 학습 → 2025-1 전공 5과목·3.42 → 2025-2 AI 활용 시작·3.59 → 2026-1 Gemini Gem 설명·재검증 루틴·4.10
+- Budget: NICE 일정에 따라 이동비를 학기당 35만 원으로 분리하고, 2026-09-01 표시가 기준 공공데이터 과정 66,000원, AB 테스트 49,500원, 금융 백테스트 Part1·2 각 99,000원, SQLD·ADsP 응시료 각 50,000원을 반영했다. 행사 개최지와 결제가는 추후 재확인한다.
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
+
+## [2026-09-01] query | NICE 자기소개서 5문항 1차 초안
+
+- Query saved: [[2026-09-01-Q-nice-scholarship-essay-draft-v1]]
+- Draft bundle: Desktop `NICE_장학금_증빙자료_2026-09-01`에 `10_Threads_직접검산_가이드.md`, `11_NICE_자기소개서_1차초안.md` 추가
+- Ambiguity decision: 행사 장소는 미확정이므로 특정 IDC센터·도시를 쓰지 않고 `NICE 행사`로 표현; 공식 성적증명서와 최신 일정·비용은 제출 전 확인
+- Direct verification: 7월 15일 게시물의 독자 참여율은 `(19+0+8+0)÷2,456×100=1.10%`; 작성자 체인 답글과 화면에만 존재하는 공유 수를 비교식에서 제외
+- Character limits: 1번 373/500자, 2번 약 794/1,000자, 3번 447/500자, 4번 448/500자, 5번 448/500자
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 학부연구생/학술
+
+## [2026-09-01] query | Upbit 금융 의사결정 추적성 프로젝트 재설계
+
+- Query saved: [[2026-09-01-Q-upbit-financial-decision-traceability-project]]
+- User correction: 수동 trace graph·embedding·LLM 승인 조합은 기존 기술 재구현처럼 보여 독창성이 부족하다는 지적 반영
+- Market boundary: Upbit가 Strategy Toolkit으로 자연어 전략 JSON과 백테스트를 이미 제공하므로 동일 기능을 핵심 차별점으로 삼지 않음
+- Decision: 사용자 의도 → 전략 버전 → point-in-time 시장 snapshot → AI/규칙 제안 → risk gate → 사람 승인 → test/paper order를 `Decision Receipt`로 연결
+- Emerging technology: OpenTelemetry GenAI agent observability, append-only hash-linked provenance, deterministic/counterfactual replay
+- Scope boundary: 실제 자금 자동매매, 수익 예측 모델, GraphRAG, vector DB, blockchain, multi-agent 제외
+- Feasibility gate: 8주차에 BUY/HOLD receipt와 한 가지 counterfactual replay 데모, 12주차에 결정 재현·중복 주문·hash 변조·미래 데이터 누수 테스트
+- Updated: [[2026-09-01-Q-emerging-traceability-technology-selection]], [[index]]
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 백엔드/성능/금융 시스템, 프로젝트 증거
+
+## [2026-09-01] query | 팀 회의용 학기 프로젝트 2안
+
+- Query saved: [[2026-09-01-Q-team-meeting-two-project-proposals]]
+- Proposal A: `TracePilot AI` — Agentic Digital Thread와 Temporal Knowledge Graph 기반 무인기 요구사항·시험 추적
+- Proposal B: `WhyBuy` — Decision Provenance, hash-linked receipt, counterfactual replay 기반 Upbit 적립식 결정 추적
+- Presentation rule: 각 안은 문제·사용자·headline 신기술·8주차 데모·범위 위험을 동일 형식으로 90초 설명
+- Decision rule: 사용자 접근성 30, 8주차 데모 25, 팀 흥미 20, 포트폴리오 15, 신기술 검증 10으로 익명 평가
+- Scope rule: headline 기술 1개와 stretch 기술 1개만 유지
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 프로젝트 증거
+
+## [2026-09-01] query | WhyBuy 최신 핀테크 기술 선정
+
+- Query saved: [[2026-09-01-Q-whybuy-agentic-finance-technology-selection]]
+- Trend: Google AP2, Visa Trusted Agent Protocol, Mastercard Agent Pay, x402의 agentic payments·agent authorization 흐름 비교
+- GitHub observation: 2026-09-01 API 기준 Google AP2 3,164, x402 6,562 stars; 관심도 신호로만 사용
+- Decision: AP2의 signed Mandate를 투자에 변형한 `Verifiable Investment Mandate`를 WhyBuy headline 신기술로 선정
+- Core chain: 사용자 서명 mandate → 시장 snapshot → strategy proposal → deterministic policy/risk gate → Decision Receipt → 사람 승인 → Upbit test/paper order
+- Scope boundary: AP2 전체 구현, x402/stablecoin, blockchain, 실제 자동 주문, 자체 암호 알고리즘, 가격 예측 제외
+- Stretch: OpenTelemetry GenAI observability, passkey UX, counterfactual replay, receipt hash chain
+- Updated: [[2026-09-01-Q-upbit-financial-decision-traceability-project]], [[index]]
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 백엔드/성능/금융 시스템, 프로젝트 증거
+
+## [2026-09-02] query | 학기 프로젝트 아이디어 구체화 및 팀 설명서
+
+- Query saved: [[2026-09-02-Q-semester-project-concrete-team-brief]]
+- Clarification: traceability를 `결과까지의 원인·권한·증거 연결`로 정의하고 WhyBuy와 TracePilot의 공통점과 차이를 초심자 관점에서 재설명
+- Recommended default: signed Investment Mandate, deterministic risk gate, Decision Receipt, replay를 핵심으로 하는 WhyBuy
+- Research design: 일반 JSON 설정·로그를 baseline으로 두고 위반 차단, 변조 탐지, 중복 주문, 결정 재현, 원인 탐색 시간을 평가
+- Scope gate: 실제 자동매매·가격 예측·blockchain 제외, 8주차 core flow 이후에만 LLM·counterfactual 기능 추가
+- Alternative gate: 실제 무인기 자료와 피드백 사용자 2명 이상을 확보할 수 있으면 TracePilot 재검토
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템
+
+## [2026-09-02] query | 외부 데이터 없는 추적성 프로젝트 재선정
+
+- Query saved: [[2026-09-02-Q-traceability-project-reselection-without-domain-data]]
+- Trigger: 무인기 데이터 부재와 WhyBuy 문제 이해·확신 부족으로 기존 양자택일을 보류
+- Recommended: issue/acceptance criteria → AI run → changed files → tests → human review → signed build를 연결하는 `TraceForge`
+- Emerging technology: development 단계의 OpenTelemetry GenAI agent conventions를 headline으로, SLSA/GitHub artifact attestation을 stretch로 선정
+- Data strategy: 외부 산업 데이터 대신 팀 자신의 GitHub issue, PR, commit, check run, AI trace를 학기 동안 축적
+- Research design: 일반 GitHub 화면·자유형 AI 로그를 baseline으로 원인 탐색 시간, 답변 정확도, gap 탐지 precision/recall, trace overhead 비교
+- Alternative: 시각적 일반 사용자 제품을 선호하면 C2PA Content Credentials 기반 `OriginLens`
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로
+
+## [2026-09-02] query | Upbit 주문 추적성 프로젝트 재설계
+
+- Query saved: [[2026-09-02-Q-upbit-order-traceability-project-redesign]]
+- User correction: AI 코드 변경 추적성은 기각하고 Upbit API와 추적성이 함께 핵심이 되는 금융 프로젝트로 재탐색
+- Recommended: signal → market snapshot → risk check → paper order state → execution → incident report를 연결하는 `OrderScope AI`
+- Emerging technology: read-only MCP forensic tools, evidence-event ID를 강제한 LLM structured diagnosis, OpenTelemetry형 end-to-end trace
+- Upbit verification: 2026-09-02 공개 API로 `KRW-BTC` 30단계 호가와 최근 체결 데이터를 인증 없이 수신 확인; 실제 주문은 제외
+- Evaluation: 다섯 장애를 각 10회 주입해 raw-log baseline 대비 macro-F1, evidence precision, 원인 파악 시간, replay 상태 일치율, p95 측정
+- Portfolio: 주문 상태 머신, idempotency, WebSocket gap, event sourcing/replay, 장애 대응과 금융 backend 설계 증거
+- Updated: [[2026-09-01-Q-upbit-financial-decision-traceability-project]], [[index]]
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 백엔드/성능/금융 시스템, 프로젝트 증거
+
+## [2026-09-02] query | 3인 팀 Upbit·무인기 추적성 최종 2안
+
+- Query saved: [[2026-09-02-Q-three-person-upbit-drone-traceability-proposals]]
+- Team constraint: 3명·12주·8주차 AI 비의존 end-to-end demo·실제 자금/기체 없음으로 공통 범위 설정
+- Proposal A: `OrderScope AI`를 KRW-BTC 한 페어, paper OMS, 장애 4종, MCP evidence diagnosis로 축소
+- Proposal B: `FlightProof Twin`을 PX4 SIH가 생성한 ULog와 failure injection 기반 Executable Digital Thread로 재설계
+- Drone data fallback: lightweight SIH를 기본으로 직접 생성하고, setup 지연 시 CC-BY PX4 public ULog를 fixture로 사용
+- Research: OrderScope는 raw log 대비 장애 진단 macro-F1·시간, FlightProof는 full regression 대비 selective retest recall·시간을 비교
+- Decision gate: 1주 spike로 Upbit 호가 저장/paper replay와 PX4 SIH ULog 고도 추출 중 완료도가 높은 안 선택
+- Updated: [[2026-09-01-Q-team-meeting-two-project-proposals]], [[index]]
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 백엔드/성능/금융 시스템, 학부연구생/학술
+
+## [2026-09-02] query | Graphify 기반 무인기 추적성 적합성 판단
+
+- Query saved: [[2026-09-02-Q-graphify-fit-for-traceability-project]]
+- Attribution: Karpathy는 더 넓은 LLM Wiki 패턴을 제안했고 Graphify는 그 문제의식에서 영감을 받은 별도 오픈소스 구현으로 구분
+- Decision: Graphify를 단순 시각화 도구가 아니라 PX4 requirement·contract·ULog evidence용 domain adapter의 기반 엔진으로 채택
+- Product rename: `FlightProof Twin`을 `FlightGraph — Graphify 기반 PX4 실행형 안전 추적성 플랫폼`으로 구체화
+- Original contribution: typed UAV nodes/edges, EXTRACTED/INFERRED/AMBIGUOUS 승인 정책, 변경 영향 기반 selective retest
+- Baselines: 수동 trace matrix와 vanilla Graphify를 함께 비교해 domain extension의 trace F1·impact recall·재시험 시간·검토 비용 측정
+- Scope boundary: 4개 안전 요구사항, 단일 SIH mission, 최대 40회 실행; real drone·ROS 2·GNN·Enterprise formal verification 제외
+- Updated: [[2026-09-02-Q-three-person-upbit-drone-traceability-proposals]], [[index]]
+- Reuse axis: 강의/수업/교육, 취업/포트폴리오, 학부연구생/학술, 프로젝트 증거
+
+## [2026-09-03] query | 개발자 취업 공부 첫 4주 계획
+
+- Query saved: [[2026-09-03-Q-developer-job-preparation-starting-plan]]
+- Priority: 자격증·광범위한 강의보다 Java 구현, SQL 실습, 코딩테스트, 검증 가능한 작은 주문 API를 먼저 수행
+- Four-week output: Java 문제 20개, SQL 문제 30개, 주문 생성·조회·취소 API와 자동 테스트, 공고 10개 요구역량 표
+- Decision gate: 4주 뒤 직접 재풀이·수정·설명 가능성과 공고 격차를 근거로 금융 백엔드 적합성을 다시 판단
+- Reuse axis: 취업/포트폴리오, 독서/책/학습, 백엔드/성능/금융 시스템
+
+## [2026-09-03] query | 코딩테스트에서 실제 개발로 넘어가는 법
+
+- Query saved: [[2026-09-03-Q-from-coding-tests-to-software-development]]
+- Diagnosis: 문법·함수 구현보다 요구사항, 구조, 상태, 데이터, 테스트, 변경의 전체 개발 주기 경험이 부족한 상태로 해석
+- Practice ladder: Java 콘솔 주문 프로그램 → Spring Boot API → DB 연결 → 중복·상태 전이·동시성 실패 처리
+- Learning unit: 기능 한 개마다 완료 조건 작성, 직접 구현, 정상·경계·실패 테스트, commit, 다음 날 변경까지 수행
+- First-week output: Order 모델·상태, 메모리 repository, 생성·조회·취소 service, JUnit 테스트, README와 2분 설명
+- Reuse axis: 취업/포트폴리오, 독서/책/학습, 백엔드/성능/금융 시스템, 프로젝트 증거
+
+## [2026-09-03] query | 경상국립대 장학금·인턴·지원기회 지도
+
+- Query saved: [[2026-09-03-Q-gnu-scholarship-internship-opportunity-map]]
+- Immediate priorities: The(더)자람 등록·포인트 확인, 푸른등대 NICE 제출, 희망사다리Ⅰ 의무종사 판단
+- Career priority: 다음 현장실습학기제에서 Java·금융 IT·반도체 데이터·우주항공 SW 기업을 우선 탐색
+- Project option: 국립공원 위성 모니터링 AI 챌린지는 범위를 제한할 때만 포트폴리오 후보
+- Excluded: 자격 불일치 장학금, 이미 마감된 공고, 전공 연결이 약한 지원금 중심 활동
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 학부연구생/학술
+
+## [2026-09-03] query | The(더)자람 활용과 2027년 1학기 인턴 계획
+
+- Query saved: [[2026-09-03-Q-the-jaram-and-2027-spring-internship-plan]]
+- Existing evidence: cuee 수상은 교외 공모전 50점 가능성이 높고, 취업동아리·연구·TMU·멋사 활동은 공식 주관·발표 여부에 따라 조건부
+- Strong point sources: 공인영어 150~300점, 기사 200점, 15주 인턴십 450점, 학회·세미나 발표 50점
+- Stage caveat: 2027년 8월 졸업예정자는 2027년 상반기 4단계 추가선발을 확인하고 변경될 최소 포인트 기준을 재검증해야 함
+- Internship plan: 학교 현장실습과 기업 직접지원을 병행하고 Java/Spring·금융 IT·드론 SW·반도체 데이터 직무를 우선
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 학부연구생/학술
+
+## [2026-09-07] query | 넥토리얼 게임 프로그래밍 지원서 1차 설계
+
+- Query saved: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Positioning: 게임 경력 과장 없이 문제 분해·프로젝트 실행·AI workflow를 게임 프로그래밍 성장 가능성으로 연결
+- Essay evidence: CUEE 방향 전환과 경쟁 분석, 실패 공개와 재도전, Python 기반 harness·Threads 자동화
+- Guardrail: AI 작성 코드를 본인 C/C++·C#·엔진 구현 경험으로 표현하지 않음
+- Required facts: 학력 월, 대학 입학 유형, 언어·엔진 실제 숙련도, 게임 지원동기, 직접 작성한 코드와 기술 문제
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로
+
+## [2026-09-07] query update | Actions 장애 검증과 자기소개서 1차 초안
+
+- Screenshot diagnosis: reserve chain 부재 → 게시 단계 미실행 → verify의 post_missing → daily objective failure
+- GitHub Actions audit: 2026-08-27~2026-09-06 최근 공개 run은 모두 failure; end-to-end 해결 주장 제외
+- Final material split: 2번은 Threads 포맷 실험과 반응 증가, 4번은 AI 코드 검토·provider fallback·단위 테스트·미해결 장애 경계
+- Drafted: 지원동기, 프로젝트 문제 해결, 솔직한 피드백, AI 활용 역량 4문항 1차 초안
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거
+
+## [2026-09-07] portfolio verification | 4페이지 PDF 재생성 및 시각 검수
+
+- Final: `C:\Users\user\Desktop\김규태_개발_포트폴리오.pdf` (4 pages, about 484KB)
+- Verified: 표지 통합 카드, Threads, LLM Wiki, CUEE 페이지의 잘림 없음과 원격 CUEE 이미지 로딩 확인
+- Compatibility: 기존 PDF 파일명도 동일한 최신 HTML로 다시 출력해 구버전 업로드 위험을 줄임
+- Reuse axis: 취업/포트폴리오
+
+## [2026-09-07] query update | fallback·CI 오류·비동기 주장 검증
+
+- Fallback precision: OpenRouter 실패 시 Groq provider의 `openai/gpt-oss-120b` 모델을 사용하는 코드와 테스트 확인
+- Boundary: 실제 운영 발동 없음, 29개 단위 테스트 통과, 현재 workflow의 `LLM_FALLBACK_PROVIDER`는 비활성 값
+- CI self-report: `Daily publication objective was not verified`, exit code 1 이후 Auto Publish workflow 수정·단위 테스트 시도; 현재 코드에서 과거 오류 문자열과 수정 diff는 미확인
+- Async boundary: 논문 크롤링 비동기화 자기보고와 달리 현재 Python 코드에서 asyncio/ThreadPool 구현을 찾지 못해 제출본 보류
+- Principle: 실패 조건을 먼저 묻고 fallback·재시도·예외처리를 설계하는 개발 태도를 중심 메시지로 채택
+- CUEE clarification: 팀은 위기의식에 동의, 한 명이 경쟁사 분석 담당, PPT 개선 뒤 후속 대회 성과
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로
+
+## [2026-09-07] query update | Threads 코드·fallback·성과 검증
+
+- User judgment: 일반 논문 팁에서 `실수→나쁜 결과→나쁜 예시→좋은 예시` 포맷으로 변경
+- AI collaboration: AI가 시작점·코드 완성을 제안하고 사용자가 의도 확인·선택·수정; 50:50은 사용자 자기평가
+- Repository evidence: OpenRouter→Groq provider fallback과 테스트 존재, `tests.test_generate_auto_thread` 29개 통과
+- Boundary: fallback 구간은 현재 미커밋이며 실제 운영 전환 여부·작성 주체 미확인; 비동기·동시성 구현은 검색에서 미확인
+- Metrics: 사용자 기억은 좋아요 100+·재게시 약 40; 현재 CSV 최대는 좋아요 67·재게시 26·조회 11,349로 불일치
+- Recommended allocation: 2번 Threads 운영 장애, 4번 Gemini Gem·AI 공동 코딩 원칙
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로
+
+## [2026-09-07] query update | 넥토리얼 포트폴리오·수상·서사 옵션
+
+- Recommended portfolio: Threads Agentic Editor Workflow, CUEE, Graduation-elasticsearch
+- Excluded: 직접 설명·재현이 어려운 financial-order-latency-lab; harness는 Threads workflow의 보조 근거로 결합
+- English level: TOEIC 730 L/R과 TMU 일상 영어 경험을 고려해 `의사소통 가능` 권장, 비즈니스 회화는 보류
+- Awards verified from images: 2026-05-27 GNU 개척리더스 창업 아이디어톤 최우수상, 2026-06-16 경남권 창업동아리 심화교육 대상
+- Essay options: AI-Augmented Developer, 사용자 경험·제품 전환, 시스템·성능 성장, 도구·파이프라인 개발
+- Recommended narrative: AI-Augmented Developer를 중심으로 CUEE 사용자·팀 경험을 보조
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로
+
+## [2026-09-07] query update | A안 공식 요건 대조와 문항 재배치
+
+- Official source: https://www.nexon-tutorial.com/
+- Correction: C++/C# 개발 가능은 기본요건이며 게임 포트폴리오는 선택; 2027-02 졸업요건과 사용자의 2027-08 기록 불일치로 지원 가능 단정 철회
+- Evidence map: 1번 학습법·직무 동기, 2번 Threads 운영 개선, 3번 CUEE 솔직한 피드백, 4번 harness·지식 공유
+- Gaps: 실제 게임 동기, 본인 코드 변경·검증 사례, 피드백 전달 내용과 상대 반응
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]], [[index]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거
+
+## [2026-09-07] query update | 자비스·메이플스토리·Threads·CUEE 상세 반영
+
+- JARVIS: 2025-2 팀 활동, Arduino 드론 자율주행 목표, AI 보조 PX4-Autopilot 수정, MAVLink·Pixhawk 모터 제어, 미테스트·현재 설명 곤란
+- Coding test: 프로그래머스 Level 2 어려운 문제와 Level 3 쉬운 문제에 도전; `자물쇠와 열쇠` 회전·경계처리에서 Gemini 힌트 활용
+- Game motivation: 메이플스토리 교환창·자유시장의 이용자 거래 경험에서 거래소·경매장·재화 흐름 개발 관심으로 연결
+- Threads assessment: 공식 AI 활용·구조적 사고·자동화와 정합성이 높아 4번 핵심역량 우선 소재, 문제 해결 문항에는 포맷 선택 근거·수치 추가 필요
+- CUEE: 모두의 창업 탈락 후 팀에 위기의식을 전달하고 수익구조·경쟁사 분석을 보완했다는 자기보고 추가
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로
+
+## [2026-09-07] query correction | 교내 드론 동아리 C 경험
+
+- Correction: NSquare 관련 경험은 지원서에서 제외
+- C evidence candidate: 교내 드론 동아리에서 C를 사용한 개발 경험
+- Required details: 동아리명·기간·드론/보드·직접 작성한 기능·AI 기여·실행 또는 시험 결과
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거
+
+## [2026-09-07] query update | 메이플스토리 동기와 NSquare C 경험 후보
+
+- Game motivation: 메이플스토리에서 유저 간 재화·아이템 거래로 생기는 상호작용에 흥미
+- Desired work: 유저 간 상호작용 시스템과 개발 생산성 자동화 도구
+- C evidence candidate: NSquare 관련 드론 활동에서 일부 사용했다고 자기보고했으나 Wiki·로컬 자료에서 미확인
+- Next verification: NSquare 활동명·기간·직접 작성한 C 기능·AI 기여·실행 결과
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거
+
+## [2026-09-07] query update | C·CS 학습 수준과 지원서 소재 정정
+
+- C experience: 컴퓨터프로그래밍·자료구조 수업에서 사용한 수준
+- Algorithms: 자료구조 수업 이후 Python 코딩테스트 준비를 통해 별도 학습 중
+- Removed: 학점 소재와 새 C++ 프로젝트 준비 서사
+- Current gaps: 게임 프로그래밍 지원동기, C 수업의 직접 구현 과제, 코딩테스트 풀이 수준
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거
+## [2026-09-07] query update | 넥토리얼 알고리즘·드론 증거와 지원 자격 재확인
+
+- Algorithm evidence: Gemini Gem의 단계별 힌트와 Python 컴프리헨션 회전 예시를 참고하되 직접 코드를 다시 작성해 Programmers `자물쇠와 열쇠` 통과
+- Threads metric linkage: 새 문제·예시 포맷의 게시물이 좋아요 67·재게시 26을 기록했다는 사용자 확인
+- Drone evidence: 공개 영상 `GNU campus autonomous flight with PPO algorithm #1`에서 PPO 자율비행 시뮬레이션 결과 확인; 코드 저장소가 없어 PX4 코드 기여는 자기보고 범위
+- Eligibility warning: 2027-08 졸업예정 상태에서 졸업유예는 공식 `2027-02 졸업예정` 요건을 충족시키지 않으므로 채용 담당자 확인 필요
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거
+## [2026-09-07] query update | Threads 전후 지표와 CUEE 수익모델 전환
+
+- Threads self-report: 포맷 변경 전 좋아요 2·댓글 7, 직후 좋아요 63·재게시 28·전송 32, 이후 좋아요 100 이상 게시물 3개
+- Verification boundary: 로컬 CSV 확인 범위와 사용자 자기보고 수치가 달라 제출 전 원본 화면 또는 내보낸 데이터 확인 필요
+- CUEE feedback: 심사위원의 지불의사 질문에 사용자도 동의하고, B2C 건별 결제에서 개인 무료·기업 제휴 CPS 구조로 전환 제안
+- Claim boundary: `이탈률 50% 감소`는 실제 사용자 검증 여부가 확인되기 전까지 목표 가설로 기록
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거
+## [2026-09-07] query update | LLM Wiki AI 활용 역량과 CUEE 출시 상태
+
+- Essay 4 pivot: Threads fallback 중심에서 여러 에이전트에 공통 맥락·증거·검증 규칙을 제공하는 LLM Wiki 운영 역량으로 교체
+- Wiki evidence: `AGENTS.md`, `Core Context`, Raw Sources/Wiki/Queries 구분과 지속적 사용자 맥락 갱신
+- Concrete use: 넥토리얼 지원서에서 저장된 근거와 실제 코드를 대조해 수치·기여 범위 과장을 제거
+- CUEE: 코레일톡 KTX 예매 보조 앱, 초기 건별 결제에서 개인 무료·기업 CPS 구조로 전환, 현재 Play Store 심사 중
+- Boundary: `이탈률 50% 감소`는 팀 목표치이며 사용자 실측 결과가 아님
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]], [[cuee]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로
+## [2026-09-07] portfolio | 넥토리얼 게임 프로그래밍 제출용 PDF 생성
+
+- Output: `C:\Users\user\Desktop\김규태_넥토리얼_게임프로그래밍_포트폴리오.pdf` (5 pages, about 505KB)
+- Projects: Threads AI automation, personalized LLM Wiki, CUEE; CS/PX4 growth evidence and public links included
+- AI boundary: user decisions, AI contributions, verified results, and unresolved limitations are separated
+- Survey recommendation: select only `툴·파이프라인 개발`; deselect `서버·백엔드` and `멀티스레드·병렬 프로그래밍` under current evidence
+- Source: `30. Queries/2026-09-07-nextorial-portfolio-kim-gyutae.html`
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, Codex 개발 워크플로
+## [2026-09-07] query correction | 넥토리얼 자기소개서 최종 사실성 점검
+
+- Essay 1: `자물쇠와 열쇠` 풀이에서 불필요하고 설명 위험이 있는 방문 여부 표현을 제거하고 배열 경계·회전 로직으로 한정
+- Essay 4: 복수의 일반 AI agent 표현을 실제 사용 범위인 서로 다른 Codex 세션으로 구체화하고 CUEE 맥락 재사용 사례 추가
+- Language correction: C# 실제 사용 경험 없음으로 정정
+- Attribution correction: GitHub fork 메타데이터가 없으므로 포트폴리오의 `fork` 표현을 제거하고 구요환/CMDSPACE 공개 패턴 기반 개인화로 표현
+- Remaining required facts: 고등학교 입학·졸업 월, 대학교 입학 연월·입학 유형
+- Updated: [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거
+## [2026-09-07] portfolio revision | 범용 포트폴리오 4페이지 압축과 자기소개서 Markdown 생성
+
+- Removed: 표지의 넥슨·넥토리얼·게임 프로그래밍 표기와 게임 지원동기, 별도 검증·경계·출처 박스, 마지막 FIT/GROWTH 페이지
+- Merged: CS 기본기·PX4 기존 코드 경험·Links를 표지에 통합
+- Project cards: Threads 검증/경계, LLM Wiki 출처/기여, CUEE 검증 경계를 기존 역할 카드에 병합
+- Added: [[2026-09-07-Q-nextorial-self-introduction-final]]
+- Updated: `30. Queries/2026-09-07-nextorial-portfolio-kim-gyutae.html`, [[index]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거
+## [2026-09-07] portfolio revision | 프로젝트 역할·기여·기술 스택 가독성 강화
+
+- Cover: 문구를 `김규태 포트폴리오`로 단순화하고 CS·PX4 경험 블록 제거
+- Added: Threads, LLM Wiki, CUEE의 프로젝트 유형·담당 역할·기여·기술 스택 요약표
+- Project pages: 각 페이지 상단에 유형·역할·기여·기술 스택 메타 바 추가
+- Reuse axis: 취업/포트폴리오
+
+## [2026-09-07] application revision | 거래 검증 자동화·솔직한 피드백·개발 문서화
+
+- 1번: 거래 등록·구매·취소 검증 및 오류 기록 수집 도구를 희망 기여로 명시하고 C/C++ 기반 PX4 기존 코드 수정 경험 반영.
+- 3번: CUEE를 노인의 앱 사용 길잡이로 설명하고 매몰비용에도 솔직하게 피드백해 방향을 수정하는 배움 반영.
+- 4번: 기술적 결정·제품 요구사항 문서의 중요성, 사실과 가정 구분, 최소한의 명확한 맥락 관리 원칙 반영.
+- Updated: [[2026-09-07-Q-nextorial-self-introduction-final]], [[2026-09-07-Q-nextorial-game-programming-application-draft]], [[index]]
+- Character counts: 1번 922자, 3번 460자, 4번 445자. 2번 유지.
+## [2026-09-07] application revision | 메이플스토리 실시간 거래 경험 구체화
+
+- 1번 도입을 교환창에서 메소·아이템이 실시간으로 정확히 이전되는 경험으로 수정.
+- 거래 중 연결 단절·중복 요청에서도 누락·중복 지급을 막는 관심을 거래 테스트·오류 기록 자동화 목표와 연결.
+- Updated: [[2026-09-07-Q-nextorial-self-introduction-final]], [[2026-09-07-Q-nextorial-game-programming-application-draft]]
+- Final character count: 1번 979자.
+## [2026-09-08] ingest | UAV 정밀착륙 특허 3건 파일럿과 연구 중심축
+
+- Purpose: 학부연구생/학술·프로젝트 증거 — 정밀착륙 관련 연구·특허 조사와 학기 프로젝트의 지속적 지식 축적
+- Source: [[2026-09-08-UAV-precision-landing-patent-search-pilot]]
+- Patent samples: `WO2019036361A1`, `US20170308100A1` / `US10423167B2`, `CN110221625A` / `CN110221625B`
+- Updated workbook: `C:\Users\user\Desktop\4. 관련연구조사 - AI_ML 활용 SW.xlsx` 특허 시트 5~7행
+- Backup: `C:\Users\user\Desktop\4. 관련연구조사 - AI_ML 활용 SW - backup-before-2026-09-08.xlsx`
+- Created: [[MOC-UAV 정밀착륙 연구]], [[UAV 정밀착륙 특허 검색 가이드]]
+- Mothership links: standalone mode, not applicable
+- Caution: Google Patents legal status is a discovery aid; jurisdictional registers remain authoritative
+- Reuse axis: 학부연구생/학술, 프로젝트 증거, 드론 도메인 탐색
+## [2026-09-08] ingest | EvolvingTraceDB Neo4j 로컬 그래프 구축 검증
+
+- Purpose: 학부연구생/학술·프로젝트 증거 — JavaParser 테스트-소스 추적 링크의 Neo4j 적재·재현 결과를 논문·랩미팅·포트폴리오에 재사용
+- Source: [[2026-09-08-EvolvingTraceDB-Neo4j-local-build-record]]
+- Created: [[EvolvingTraceDB Neo4j 구축 및 검증 가이드]]
+- Updated: [[Graduation-elasticsearch]], [[index]]
+- Evidence: Neo4j Browser 스크린샷 4장과 각 조회 Cypher를 `80. References/Attachments/`에 보존
+- Verified result: `CODE 4,215`, `ISSUE 547`, `API_DOCUMENT 97`, `TEST_FILE 92`, `SOURCE_FILE 245`, `MODIFIES 52`, `EXPLAINS 34`, `TESTS 693`
+- Gap: 694개 후보 중 `MultisearchBody.java` 1개 미매칭; path-contains-test 분류의 false positive 가능성 유지
+- Mothership links: standalone mode, not applicable
+- Reuse axis: 학부연구생/학술, 프로젝트 증거, 취업/포트폴리오
+
+## [2026-09-08] query | 정밀착륙 특허 적합성과 팀 실험 루프
+
+- Decision: 5번 의미 아이콘 방식을 단일 RGB 카메라·LANDING_TARGET 기반 기준선으로 선정
+- Expansion: 4번 학습 객체·장애물 판단을 결합하고 3번 자연 특징 방식을 후속 비교군으로 설정
+- Team boundary: 재완 `.plan`, 관호 인식 모델, 규태 SITL/Gazebo 통합·평가
+- Control ownership: QGC/MAVSDK는 미션, ROS는 표적 관측, PX4는 착륙 제어 담당
+- Added: [[2026-09-08-Q-precision-landing-patent-fit-and-team-loop]]
+- Updated: [[MOC-UAV 정밀착륙 연구]], [[index]]
+- Reuse axis: 학부연구생/학술, 프로젝트 증거, 실험 설계
+## [2026-09-08] query correction | LANDING_TARGET 신뢰도와 비교 계층 구분
+
+- Corrected: MAVLink `LANDING_TARGET`에는 별도 confidence 필드가 없으며 `position_valid`와 전송 중단으로 유효성을 표현
+- Internal contract: ROS에서 pose·confidence·variance·timestamp를 유지하고 임계값 통과 관측만 PX4에 전달
+- Comparison boundary: ArUco·semantic icon·YOLO·natural feature는 perception 비교, PX4·PID·RL은 controller 비교
+- Updated: [[2026-09-08-Q-precision-landing-patent-fit-and-team-loop]]
+- Reuse axis: 학부연구생/학술, 프로젝트 증거, 실험 설계
+
+## [2026-09-08] query | 실리콘밸리 기회를 위한 학부생 LinkedIn 전략
+
+- Finding: LinkedIn Recruiter의 직함·위치·학교·언어·skills·keyword 검색 구조를 기준으로 검색 적합성 우선
+- Positioning: `경험 없는 학생`이 아니라 학부연구·리더십·교육·프로젝트 판단을 가진 early-career developer로 표현
+- Evidence boundary: AI 생성 코드와 본인 판단·수정·검증 범위를 분리하고 GitHub·영어 README·측정 결과로 연결
+- Added: [[2026-09-08-Q-linkedin-silicon-valley-student-strategy]]
+- Updated: [[index]]
+- Reuse axis: 취업/포트폴리오, 개발 도메인 영어, 글로벌 인턴 준비
+
+## [2026-09-08] query edit | NICE 자기소개서 1번 AI 학습 표현 수정
+
+- Removed: `2학기부터 AI를 쓰기 시작했다`는 사용 시점 중심 표현
+- Revised: Gemini Gem을 정답 대신 단계별 힌트를 주는 튜터로 설정한 행동 중심 표현
+- Updated: [[2026-09-01-Q-nice-scholarship-essay-draft-v1]]
+- Verified: 1번 본문 공백 포함 342자, 500자 제한 충족
+- Reuse axis: 취업/포트폴리오, 장학금 자기소개서
+
+## [2026-09-08] query | NICE 장학생 선발 경쟁력 기준
+
+- Official structure: 1차 가계소득 20점+성적 80점으로 3배수, 2차 자기소개서 100점으로 10명 선발
+- Applicant estimate: 9구간에서 `91.8`이 직전학기 백분위일 때만 예상 88.04점
+- Correction: `91.8`이 누적성적 백분율인지 직전학기 백분위인지 기존 기록이 충돌해 조건부 점수로 수정
+- Added: [[2026-09-08-Q-nice-scholarship-selection-benchmark]]
+- Updated: [[2026-08-31-Q-nice-scholarship-essay-evidence-map]], [[index]]
+- Reuse axis: 취업/포트폴리오, 장학금 자기소개서
+
+## [2026-09-09] query | NICE 자기소개서 1~4번 재구성
+
+- 1번: 성적 상승 중심을 제거하고 Gemini Gem 질문, LLM Wiki 축적, Threads 실험의 세 키워드로 재구성
+- 2번: 교통·식비를 68만 4,500원·70만 2,000원으로 낮추고 현재 Upbit 주문 추적 프로젝트의 개발·분석·검증·배포 산출물에 예산 확대
+- 3번: `모두의 창업` 최종 심사의견과 사용자 자기보고를 바탕으로 개인 유료에서 개인 무료+B2B CPS로의 수익모델 전환 및 경남권 대상 연결
+- 4번: 독자 참여율 계산식을 제거하고 가설 설정·데이터 비교·행동 수정 구조로 변경
+- Evidence added: [[2026-09-08-CUEE-modoo-final-review.jpeg]]
+- Added: [[2026-09-09-Q-nice-scholarship-essay-draft-v2]]
+- Updated: [[cuee]], [[2026-09-01-Q-nice-scholarship-five-question-coherence-audit]], [[index]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 장학금 자기소개서
+
+## [2026-09-09] query edit | NICE 자기소개서 1·2·4번 2차 조정
+
+- 1번: Gemini Gem의 코딩테스트 알고리즘 학습, 3.42→4.10 회복, LLM Wiki 기록을 Upbit 주문 추적 프로젝트에 재사용한 사례 추가
+- 2번: 두 학기 모두 3개월 교통·식비 60만 원으로 통일하고 진로·프로젝트 배분을 140만 원·240만 원으로 확대
+- 4번: `Threads 자동화 워크플로를 개발하면서`로 개발 맥락을 명확히 표현
+- Updated: [[2026-09-09-Q-nice-scholarship-essay-draft-v2]], [[2026-09-01-Q-nice-scholarship-five-question-coherence-audit]], [[2026-08-31-Q-nice-scholarship-essay-evidence-map]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 장학금 자기소개서
+
+## [2026-09-09] query | NICE 1기 합격자 특징·자소서 조사와 1번 연결성 진단
+
+- Evidence boundary: 2025년 합격자 10명의 개인 스펙과 자기소개서 원문은 공개 자료에서 확인되지 않아 실제 공통점으로 단정하지 않음
+- Official 2025 structure: 1차 소득 30점+성적 70점, 2차 자기소개서 100점, 진솔성·논리성·성실성·성장가능성·목적부합성 각 20점
+- 2026 change: 1차 소득 20점+성적 80점으로 성적 비중 확대, 최종은 자기소개서 100점 유지
+- Q1 diagnosis: 세 키워드의 개별 증거는 강하지만 현재는 병렬 사례에 가까워 `질문→축적→가설 실험→다음 행동 수정`의 인과 연결을 보강할 필요
+- Added: [[2026-09-09-Q-nice-2025-winner-pattern-research]]
+- Updated: [[index]]
+- Reuse axis: 장학금 자기소개서, 취업/포트폴리오
+
+## [2026-09-09] query | NICE 무자격증·무데이터수상 선발 준비도 감사
+
+- Verdict: 경쟁력 있는 초안이지만 최종 10명 목표의 제출본으로는 미완성; 내부 모의점수 81/100(공식 합격점 아님)
+- Strongest: 현재 역량·부족한 역량의 솔직한 구분, 학기별 장학금과 결과물 연결
+- Weakest: 1번의 3년 증거와 세 키워드 인과, 4번의 분석 시점·효과값, 5번의 직접 분석 주체성
+- Priority: Threads 시간 경계와 수치 보정 → 직접 분석 산출물 강화 → 질문·축적·실험 연쇄화 → 학기당 대표 결과물 집중 → CUEE 다음 검증 행동 추가
+- Added: [[2026-09-09-Q-nice-no-certification-selection-readiness-audit]]
+- Updated: [[index]]
+- Reuse axis: 장학금 자기소개서, 취업/포트폴리오, 프로젝트 증거
+
+## [2026-09-09] query edit | NICE 자기소개서 1~4번 선발형 재구성
+
+- 1번: 질문→축적→실험→다음 행동 수정의 인과관계로 재작성
+- 2번: 대표 결과물을 2026-2 Threads 분석 보고서, 2027-1 Upbit 주문 장애 분석 결과물로 학기당 하나씩 고정
+- 3번: 개인 유료 이용 거부 이유, 개인 무료+B2B CPS 전환, Google Play 출시 후 실제 데이터 검증 추가
+- 4번: 초기 형식 채택과 사후 52개 분석을 분리하고 중앙 참여율 1.01%→0.37%, 교란요인, 통제된 다음 실험을 포함한 논의용 문안으로 수정
+- Updated: [[2026-09-09-Q-nice-scholarship-essay-draft-v2]], [[2026-09-01-Q-nice-scholarship-five-question-coherence-audit]]
+- Reuse axis: 장학금 자기소개서, 프로젝트 증거
+
+## [2026-09-09] query correction | NICE 5번 JavaParser 기여 경계와 교육 필요성
+
+- Database PBL: `jungsan`은 A0 이수 프로젝트지만 전체 코드가 AI 작성이라 직접 구현 증거에서 제외
+- Classification audit: 현재 Java 4,215개 중 실제 `src/test` 153개, `path contains test` 171개, `src/main` 소스 오분류 18개를 로컬 검증
+- User contribution: AI 보고의 153·171 불일치를 발견하고 기준 재검토를 요청한 판단, unresolved 비율의 원형 그래프 표현 요구
+- AI boundary: JavaParser 코드·재계수·README·도표는 AI 작성, `unresolved_calls.csv` 2,008개 행은 사용자 직접 미검토
+- Q5 rewrite: 자격증·관련 수상 부재, 교육 이수, 분류 이상 발견, 현재 한계, Python·Pandas 금융 데이터 분석과 금융 백엔드 진로를 444자에 연결
+- Updated: [[2026-09-09-Q-nice-scholarship-essay-draft-v2]], [[Graduation-elasticsearch]], [[2026-08-31-Q-nice-scholarship-essay-evidence-map]], [[2026-09-01-Q-nice-scholarship-five-question-coherence-audit]]
+- Reuse axis: 장학금 자기소개서, 프로젝트 증거, 학부연구생/학술
+
+## [2026-09-10] query | NICE 다섯 기준 최신 재채점
+
+- Verdict: 수정된 2차 초안은 사용자가 제시한 다섯 기준에서 내부 모의점수 `88/100`(공식 합격점 아님)
+- Improved: 질문→축적→실험 인과, 학기당 한 결과물, CUEE 후속 검증, Threads 1.01%→0.37%와 교란요인으로 이전 81점보다 개선
+- Strongest: 현재 역량과 부족한 역량의 솔직한 구분, 장학금과 학기별 결과물 연결
+- Remaining gap: 본인이 직접 재현한 Threads 분석물, 통제된 후속 실험, Upbit 최소 실행물, 예산 단가 근거
+- Added: [[2026-09-10-Q-nice-five-criteria-readiness-rescore]]
+- Updated: [[2026-09-09-Q-nice-no-certification-selection-readiness-audit]], [[index]]
+- Reuse axis: 장학금 자기소개서, 취업/포트폴리오, 프로젝트 증거
+
+## [2026-09-10] query edit | NICE 초안 직접 분석·CUEE 성과 반영
+
+- 1번: 3.42→4.10이 누적 평점이 아니라 학기 학점임을 명시
+- 3번: 큐를 시니어용 실시간 화면 안내 오버레이 비서 앱으로 설명하고 경남권 대상 뒤 U300+ 전국 400팀 선정을 추가
+- 4번: 52개 원자료를 Python·Pandas로 직접 정제해 동일한 72시간 관측기간으로 비교했다는 수행 주체와 방법을 명시
+- Consistency fix: 2번은 완료된 Threads 분석의 고도화로 수정하고, 5번은 기초 정제·비교 가능과 통계적 검정·금융 분석 부족을 구분
+- Evidence boundary: 후속 비교 실험, Upbit 최소 실행물, 예산 근거는 완료 자기보고 상태이며 세부 결과·산출물 확인 전
+- Updated: [[2026-09-09-Q-nice-scholarship-essay-draft-v2]], [[2026-09-10-Q-nice-five-criteria-readiness-rescore]]
+- Reuse axis: 장학금 자기소개서, 프로젝트 증거, 취업/포트폴리오
+
+## [2026-09-10] query + implementation | Threads 후속 형식 실험 준비
+
+- Repository: `gyutaetae/threads-agentic-editor-workflow` 원격 `master` 최신 커밋 `5cd9f61` 확인
+- Baseline reproduced: 53행 중 72시간·조회수 조건 50행, 대비 형식 32개의 초기 중앙 참여율 1.0054%·후기 0.3700%, -63.2%
+- Experiment prepared: 6쌍·12개 교차 게시 계획, 대비/직접 형식 첫 문안, 분석·검증 코드, 자동 결과 보고서
+- Verification: 첫 문안 총길이 차이 2.5%, 분석 테스트 `2 passed`; 새 72시간 완료 표본은 0개이므로 상태 `incomplete`
+- Essay correction: 4번의 후속 실험 표현을 `진행`에서 `설계`로 수정해 완료 과장을 제거
+- Added: [[2026-09-10-Q-threads-followup-experiment-and-nice-evidence-needs]]
+- Updated: [[harness]], [[2026-09-09-Q-nice-scholarship-essay-draft-v2]], [[2026-09-10-Q-nice-five-criteria-readiness-rescore]], [[index]]
+- Reuse axis: 장학금 자기소개서, 프로젝트 증거, 취업/포트폴리오
+
+## [2026-09-10] query edit | NICE 제출 직전 시간축·예산 확정
+
+- 1번: 2022-1 학기 학점 3.42, 2025-2 Gemini Gem 탑다운 질문 학습, 2026-1 학기 학점 4.10·LLM Wiki·Threads, 2026-2 Upbit 시작의 시간축 반영
+- 2번 2026-2: 인프런 강의 2개 28만 원, AWS 3개월 30만 원, 멘토링 4회 32만 원, 도구·대시보드·보고서 50만 원, 교통·식비 60만 원으로 200만 원 확정
+- 2번 2027-1: 인프런 금융분석·백테스트 강의 2개 28만 원, AWS 3개월 45만 원, 장애·부하환경 47만 원, 멘토링 4회 40만 원, 사용자 20명 검증 40만 원, 배포·포트폴리오 40만 원, 교통·식비 60만 원으로 300만 원 확정
+- Updated: [[2026-09-09-Q-nice-scholarship-essay-draft-v2]]
+- Reuse axis: 장학금 자기소개서, 프로젝트 증거
+
+## [2026-09-10] query correction | NICE 1번 학점 시점과 3년 범위
+
+- Corrected: 학기 학점 3.42는 2022-1이 아니라 2025-1이며, 2022-1 학기 학점은 3.61
+- 1번: `지난 3년간`의 변화 방향을 먼저 제시하고 2025-1 학점 3.42를 공부법 전환점, 2025-2 Gemini 질문 학습, 2026-1 학점 4.10·Wiki·Threads, 2026-2 Upbit 시작으로 연결
+- Boundary: 2022-1은 지난 3년 범위 밖이므로 자소서 본문에서 제외
+- Updated: [[2026-09-09-Q-nice-scholarship-essay-draft-v2]]
+- Reuse axis: 장학금 자기소개서
+
+## [2026-09-10] NICE 제출 전 최종 점검
+
+- 52개 원자료 중 72시간 완료 50개를 비교했음을 명시하고 후속 실험은 설계 상태 유지.
+- 예산은 확인된 견적이 아닌 예상 배분으로 명시, 주문 장애는 모의 환경임을 명시.
+- 학기 평점 표현과 Wiki·Threads 연결을 정리. 글자 수 461/786/471/461/430, 예산 합계 200/300만 원.
+- Updated: [[2026-09-09-Q-nice-scholarship-essay-draft-v2]], [[index]]
+
+## [2026-09-14] maintenance | 원격·로컬 Wiki 변경 통합
+
+- 원격 `main`의 9개 커밋과 로컬 미커밋 Wiki 작업을 통합했다.
+- 충돌한 프로젝트·프로필·포트폴리오 문서는 최신 원격 구조와 로컬 증거를 함께 보존하도록 병합했다.
+- [[index]] 통계를 현재 파일 기준 Raw Sources 48, Wiki Pages 76, Queries 60으로 갱신했다.
+- 동기화 직후 생성된 [[2026-09-14-Q-modoo-startup-second-cuee-application-draft]]를 추가 반영했다.
+- 잘린 경로 문자열만 담긴 임시 파일 `30.`은 커밋 대상에서 제외했다.
+
+## [2026-09-14] query | 한국 백엔드 업계와 금융권 업권 비교
+
+- Query saved: [[2026-09-14-Q-korea-backend-industry-finance-sector-comparison]]
+- Market boundary: 전국 백엔드 공고를 산업·언어별로 전수 집계한 공개 최신 통계가 없어 정확한 업계 1위와 언어 비율은 단정하지 않음
+- Language conclusion: 한국 일반 백엔드와 금융·기업 시스템 이동성을 함께 확보하는 첫 주언어는 Java·Spring, 필수 병행 축은 SQL·RDB·테스트·Linux·네트워크
+- Finance split: 전체 신입 단위는 은행이 상대적으로 크지만 순수 개발 배치가 불명확할 수 있고, 증권·핀테크·PG는 직무가 선명한 대신 소수·경력 수시채용 비중이 높음
+- Sector expansion: 은행·증권뿐 아니라 보험, 카드·캐피탈, 핀테크·PG, 금융공기업·시장 인프라, 금융 IT 계열사·솔루션, 저축은행·상호금융까지 지원 지도를 확장
+- Compensation boundary: 공개 평균급여는 개발자만 분리하지 않으므로 연봉·문화·워라밸은 업권 서열이 아니라 팀별 온콜·배치·시장시간·순환배치·상주·성과급 조건으로 재확인
+- Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-14] query | 한국 일반기업 백엔드 업계와 회사 선택 기준 비교
+
+- Query saved: [[2026-09-14-Q-korea-non-finance-backend-employer-comparison]]
+- Employer map: 대형 플랫폼·커머스, 대기업 IT서비스·제조 IT, B2B SaaS, 게임, 콘텐츠·교육·헬스케어, 초기 스타트업, SI/SM, 공공기관 전산으로 구분
+- Compensation boundary: 2026 소규모 개발자 설문의 0~3년차 중앙 구간 4천만~5천만 원은 참고 표본일 뿐 한국 신입 평균으로 일반화하지 않음
+- Selection criteria: 신입 멘토, 코드리뷰, 직접 배포·운영, 온콜 보상, 개발/운영 비율, 기술부채 개선 권한, 사업 안정성과 평가 투명성을 회사명보다 먼저 확인
+- Application expansion: 금융 프로젝트를 버리지 않고 결제·정합성·성능·운영 안정성으로 번역해 대기업 IT서비스, 제조 IT와 Java 제품기업까지 지원
+- Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-14] query | 주요 금융사 Java 개발자 채용 비교
+
+- Query saved: [[2026-09-14-Q-korea-financial-java-employer-comparison]]
+- Scope: KB·우리·NH·신한·하나·IBK·카카오·케이·토스 은행과 미래에셋·KB·메리츠·한국투자·삼성·하나·키움·토스증권
+- Hiring boundary: 회사별 연간 개발자 총원은 대부분 미공개이므로 2026 공개 공고의 신입 진입구, 공고상 인원, Java 직무를 분리
+- Entry conclusion: IBK와 대형은행 TECH/ICT·금융 IT 계열사를 1군, 인터넷은행 신입과 증권사 신입 IT를 2군, 토스·증권 세부 경력직을 중기 목표로 구성
+- Compensation boundary: 사업보고서 회사 평균급여를 신입 개발자 초봉으로 오인하지 않고 기본급·성과급·고용형태·온콜 보상 확인 항목으로 전환
+- Location boundary: 본점 또는 공고상 대표 개발 거점을 기록하고 실제 팀 배치는 지원 시 재확인
+- Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습

@@ -81,7 +81,7 @@ disputed: false
 ## Target Profile
 
 - **Owner**: [[김규태]]
-- **Current status**: 개발자 취업준비생, 경상국립대학교 소프트웨어공학과 4학년, SEALAB 학부연구생
+- **Current status**: 개발자 취업준비생, 경상국립대학교 소프트웨어공학과 학사원장상 4학년(2026-2학기 7번째 정규학기), SEALAB 학부연구생
 - **Portfolio objective**: 금융권·핀테크 Java 백엔드·거래 인프라 취업을 1차 목표로 하며, 드론·반도체 도메인도 장기 관심사로 탐색
 - **Preferred tone**: 열정과 성장가능성이 드러나되, 성능·데이터 처리·설계·개발·팀 리딩·AI 활용 검증 근거가 있는 취업준비생 톤
 - **Primary language direction**: Java를 새 주언어로 학습하고, Python은 부하 테스트·분석·자동화에 활용
@@ -142,9 +142,9 @@ disputed: false
 | Project | What To Prove | Missing Evidence |
 |---------|---------------|------------------|
 | [[financial-order-latency-lab]] | 사용자가 CPU·GPU·disk latency를 금융 관점에서 비교한다는 문제를 제시했고, AI가 p99 조건·전체 코드·실행·재실험·해석을 수행했다. 현재는 구현력 증거가 아니라 문제의식과 미검증 AI 활용의 한계 기록이다 | 수업 요구사항, 사용자 판단 범위, 직접 재현·설명·수정 가능한 구현, 발표자료, Linux 재측정 |
-| [[Graduation-elasticsearch]] | 공개 저장소에 JavaParser AST/Symbol Solver 기반 TEST FILE -> SOURCE FILE artifact가 존재한다. 사용자 직접 구현은 아직 증명되지 않았다 | 연구실/졸업 연구 맥락, 본인 기여율, 직접 작성·재실행한 parser, 지도/피드백 |
-| [[cuee]] | `배우담`에서 `cuee`로 전환한 사용자 판단과 접근성 overlay fixture demo가 존재한다 | 사용자 직접 구현 범위, 실제 사용자 테스트, live Korail 검증, 심사 피드백, Play Store 심사 |
-| [[harness]] | Codex workflow로 개인화했다는 사용자 기록과 구조 설명이 있다 | 현재 공개 코드, 원본 대비 diff, 실제 개발 시간·오류·품질 효과, 한계와 개선 계획 |
+| [[Graduation-elasticsearch]] | 공개 저장소에 JavaParser AST/Symbol Solver 기반 TEST FILE -> SOURCE FILE artifact가 있고, 사용자는 AI 생성 parser 결과의 분류 불일치를 발견해 개선 방향을 도출했다. 사용자 직접 구현은 아직 증명되지 않았다 | 연구실/졸업 연구 맥락, 본인 기여율, 직접 작성·재실행한 parser, 개선안 재실행, 교수 지도·피드백 증빙 |
+| [[cuee]] | `배우담`에서 `cuee`로 전환한 사용자 판단과 접근성 overlay fixture demo가 존재한다 | 사용자 직접 구현 범위, 실제 사용자 테스트, live Korail 검증, 발표자료·심사 피드백, Play Store 심사 |
+| [[harness]] | 기존 harness를 앱 개발에 맞는 Codex workflow로 개인화했다는 사용자 기록과 구조 설명이 있다 | 현재 공개 코드, 원본 대비 diff, 자동화 흐름과 사용 예시, 실제 개발 시간·오류·품질 효과, 한계와 개선 계획 |
 | [[harness]] / Threads automation | Codex와 토큰 기반 자동화 workflow를 이용해 AI agent 논문 활용 예시를 Threads에 반복 발행했다. 팔로워 수는 2026-07-23 사용자 진술 기준 500명이다 | 실제 코드/스크립트 위치, 토큰 발급 방식, 스케줄러 설정, 실패 처리, API 또는 화면 기반 팔로워 증빙 |
 | [[계약랩]] | 사용자 메모에 ROS 2·MAVSDK·QGroundControl 환경 구축, 드론 구동 확인, 자율착륙 판단 분해, 특허 비교 과업이 기록되어 있다 | 공식 프로젝트 맥락, 본인 기여 범위, 저장소·명령·로그·영상, 알고리즘 상세, 선행특허 비교표와 출원 결과 |
 | [[김규태 Leadership and Teaching Evidence]] | 실리콘밸리 취업동아리 대표와 멋쟁이사자처럼 14기 부대표로 운영/교육/해커톤 준비를 수행했다 | 회의록, 예산/지원금 자료, 백엔드 세션 수업 자료, 팀원 피드백, GNU 해커톤 템플릿 실제 사용 결과 |
