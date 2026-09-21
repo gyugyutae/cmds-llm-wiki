@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-14
+date modified: 2026-09-21
 tags:
   - index
   - moc
@@ -29,10 +29,10 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 48 |
-| Wiki Pages | 76 |
+| Raw Sources | 50 |
+| Wiki Pages | 78 |
 | Concepts | 40 |
-| Entities | 12 |
+| Entities | 14 |
 | Guides | 18 |
 | MOCs | 6 |
 | Queries | 64 |
@@ -104,6 +104,8 @@ status: active
 - [[harness]] — Codex CLI 기반 개인화 개발 workflow harness
 - [[qmd]] — LLM Wiki의 Wiki/Raw Sources/Queries를 로컬에서 검색하는 markdown 검색 엔진
 - [[TMU Global Leadership Program]] — 2026년 TMU 영어 몰입·SDG 프로그램 참여 기록과 증빙·기여 표현 경계
+- [[FPT Vietnam Global Big Data AI Program]] — 다낭 FPT에서 다국적 팀을 이끌고 금융·반도체 위험 GraphRAG을 진행한 4주 PBL 기록
+- [[GNU Buddy]] — 2026-1학기 외국인 유학생의 학업·생활·문화 적응을 지원한 44.23시간 활동
 - [[계약랩]] — ROS 2 드론 환경, 자율착륙 판단 구조, 협업·특허 비교 과업의 사용자 작성 프로젝트 기록
 - [[2026 넥토리얼 지원]] — 2026 넥토리얼 서류 합격, AI면접 응시 완료, 결과 대기와 후속 학습 기록
 
@@ -211,6 +213,10 @@ status: active
 - [[2026-09-14-Q-korea-non-finance-backend-employer-comparison]] — 금융 외 일반기업 백엔드 유형과 보상·워라밸·개발환경·회사 선택 기준 비교
 - [[2026-09-14-Q-korea-financial-java-employer-comparison]] — 주요 은행·인터넷은행·증권사의 Java 신입 채용 입구, 보상·워라밸 경향, 현직자 평가 신호와 근무 거점 비교
 - [[2026-09-18-Q-current-scholarship-global-hackathon-opportunity-map]] — 소득 9구간을 반영한 현재 장학금·해외·금융/개발·해커톤·일경험 후보와 지원 순서
+- [[2026-09-21-Q-GNU-UNLV-application-draft-v1]] — FPT GraphRAG·Threads workflow·CUEE 피벗과 수상·해외 수학 증거를 연결한 GNU-UNLV 세 문항 1차 초안
+- [[2026-09-21-Q-GNU-UNLV-application-draft-v2]] — Docker·CUEE를 문제해결 철학으로 연결하고 Threads 10건 검증·고령 사용자 10명 관찰·네 단계 학업계획을 반영한 2차 초안
+- [[2026-09-21-Q-GNU-UNLV-selection-competitiveness-audit]] — 초안을 수정하지 않고 학적·이중 접수·사용자 관찰·AI 검증·영어 발표·단일 증빙 PDF의 보강 우선순위를 정리한 선발 준비 진단
+- [[2026-09-21-Q-GNU-UNLV-AI-startup-evidence-PDF-checklist]] — 선택 제출용 AI·창업 활동실적 PDF의 7쪽 구성, 확보 자료, 추가로 필요한 증빙을 정리한 제작 체크리스트
 
 ---
 
@@ -218,6 +224,8 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-09-21 | [[2026-09-21-GNU-FPT-Vietnam-GraphRAG-Program-Record]] | [[FPT Vietnam Global Big Data AI Program]], [[김규태]], [[MOC-Portfolio]] |
+| 2026-09-21 | [[2026-09-21-Kim-Gyutae-GNU-Buddy-2026-1-Record]] | [[GNU Buddy]], [[김규태]], [[MOC-Portfolio]] |
 | 2026-09-12 | [[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]] | [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]], [[김규태 금융 시스템 개발자 취업 로드맵]], [[MOC-Portfolio]], [[Core Context]] |
 | 2026-09-12 | [[2026-09-12-Nexon-Tutorial-AI-Interview-Recollection]] | [[2026 넥토리얼 지원]], [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] |
 | 2026-09-12 | [[2026-09-11-Gemini-Lauren-Tan-Agent-Lecture-Chat]] | Raw Source only; claims remain unverified |

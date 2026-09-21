@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-09-13
+date modified: 2026-09-21
 tags:
   - moc
   - portfolio
@@ -47,6 +47,8 @@ related:
   - "[[일반 지식보다 도메인 지식이 중요해지는 이유]]"
   - "[[능력 조합으로 희소성을 만드는 전략]]"
   - "[[TMU Global Leadership Program]]"
+  - "[[FPT Vietnam Global Big Data AI Program]]"
+  - "[[GNU Buddy]]"
   - "[[김규태 개발 도메인 영어 성장 계획]]"
   - "[[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]"
   - "[[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]]"
@@ -122,6 +124,8 @@ disputed: false
 - [[능력 조합으로 희소성을 만드는 전략]] — 개발 중심축에 성능·도메인·AI·리더십·커뮤니케이션 능력을 증거 기반으로 결합하는 전략
 - [[김규태 Leadership and Teaching Evidence]] — 실리콘밸리 대표, 멋쟁이사자처럼 부대표, 백엔드 세션, 해커톤 템플릿 증거
 - [[TMU Global Leadership Program]] — 4주·100시간 영어 몰입 과정과 SDG 학습의 증빙·표현 경계
+- [[FPT Vietnam Global Big Data AI Program]] — 다국적 팀 일정 조율, 반도체 위험 타깃 설정, 금융 GraphRAG 결과물과 개인 기여 경계
+- [[GNU Buddy]] — 외국인 유학생 적응 지원 44.23시간과 문화간 일정 조율 경험
 - [[김규태 개발 도메인 영어 성장 계획]] — 수료 경험을 영어 README·기술 문서·설명 증거로 전환하는 계획
 - [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]] — 장기 퀀트/HFT 관심을 가설·데이터·비용·검증 문제로 구체화하는 학습 지도
 - [[AI와 머신러닝 시대의 퀀트 리서치]] — AI 활용 가능성과 model-risk 책임을 함께 보는 탐색 지도

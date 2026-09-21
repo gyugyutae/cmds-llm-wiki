@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="90" y="105" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="48" font-weight="700" fill="#111827">개인은 무료, 기업이 얻는 가치에 따라 수익화</text>
+  <text x="90" y="160" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="24" fill="#6b7280">교통과 이커머스의 기업 가치를 구분한 B2B2C 모델</text>
+  <rect x="90" y="235" width="330" height="460" rx="30" fill="#1677e8"/>
+  <text x="255" y="345" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="34" font-weight="700" fill="#ffffff">65세 이상 사용자</text>
+  <text x="255" y="430" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="27" fill="#ffffff">큐(CUEE) 무료 이용</text>
+  <text x="255" y="485" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="24" fill="#dbeafe">음성·화면 안내</text>
+  <text x="255" y="530" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="24" fill="#dbeafe">사용자가 직접 선택·클릭</text>
+  <text x="255" y="620" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" fill="#ffffff">개인 이용료 0원</text>
+  <path d="M455 350 H560" stroke="#1677e8" stroke-width="8"/><path d="M545 330 L575 350 L545 370" fill="none" stroke="#1677e8" stroke-width="8"/>
+  <path d="M455 575 H560" stroke="#1677e8" stroke-width="8"/><path d="M545 555 L575 575 L545 595" fill="none" stroke="#1677e8" stroke-width="8"/>
+  <rect x="600" y="235" width="910" height="210" rx="28" fill="#eff6ff" stroke="#1677e8" stroke-width="3"/>
+  <text x="655" y="300" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="30" font-weight="700" fill="#1677e8">코레일</text>
+  <text x="655" y="355" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="25" fill="#111827">무료 실증 → 모바일 예매 성공·창구 업무 감소 가능성 확인</text>
+  <text x="655" y="405" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="25" font-weight="700" fill="#111827">효과 확인 후 연간 B2B 이용료 또는 기술 사용료 협의</text>
+  <rect x="600" y="485" width="910" height="210" rx="28" fill="#f3f4f6"/>
+  <text x="655" y="550" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="30" font-weight="700" fill="#1677e8">쿠팡 등 이커머스</text>
+  <text x="655" y="605" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="25" fill="#111827">제휴 링크·식별 코드·기업 연동 → 큐가 유도한 구매 귀속</text>
+  <text x="655" y="655" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="25" font-weight="700" fill="#111827">귀속 거래가 완료되면 협의된 CPS 수수료</text>
+  <rect x="90" y="755" width="1420" height="70" rx="18" fill="#111827"/>
+  <text x="800" y="800" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="24" fill="#ffffff">현재 계약·가격·전환 효과는 미확정이며 사용자 실험과 기업 협의로 검증할 사업 가설입니다</text>
+</svg>

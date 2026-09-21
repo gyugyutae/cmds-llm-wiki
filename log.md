@@ -8,7 +8,7 @@ description: Chronological log of all wiki operations — ingests, queries, lint
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-14
+date modified: 2026-09-21
 tags:
   - system
   - log
@@ -1986,3 +1986,159 @@ status: active
 - Compensation boundary: 사업보고서 회사 평균급여를 신입 개발자 초봉으로 오인하지 않고 기본급·성과급·고용형태·온콜 보상 확인 항목으로 전환
 - Location boundary: 본점 또는 공고상 대표 개발 거점을 기록하고 실제 팀 배치는 지원 시 재확인
 - Reuse axis: 취업/포트폴리오, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-14] query update | 모두의 창업 2차 CUEE 지원서 구체화
+
+- 목표 고객을 코레일톡 설치·자동 로그인을 마쳤지만 예매 중단 후 역 창구를 방문하는 65세 이상 Android 사용자로 좁혔다.
+- 수익모델을 코레일 무료 실증 후 B2B 이용료와 이커머스 거래 귀속 후 CPS로 분리했다.
+- 2026년 10월 전국 노선 입력 베타·65세 이상 5명 검증, 11월 Play 공개·코레일 제안, 12월 쿠팡 시제품 일정을 반영했다.
+- 대표 주 10시간, 디자이너 각 주 10시간, 팀 주 1회 회의와 역할별 실행계획을 기록했다.
+- AI 작성 코드를 실제 기기에서 검증한 범위와 Kotlin 독립 구현 역량의 한계를 분리했다.
+- 10장 이미지를 Q2·Q3·Q4-1의 주장에 배치하고, 기존 19쪽 PDF에서 그대로 쓸 6쪽 경쟁사 분석과 수치·모델 충돌로 제외할 페이지를 구분했다.
+- Updated: [[2026-09-14-Q-modoo-startup-second-cuee-application-draft]], [[cuee]]
+- Reuse axis: 제품/창업, 프로젝트 증거
+
+## [2026-09-15] query + implementation audit | 모두의 창업 성장성·우수성 보강
+
+- 내부 모의평가를 준비된 증거 기준 성실성 19·성장성 27·우수성 36, 합계 82점으로 갱신했다.
+- 제출 전 48시간 증거 확보안과 실제 코레일톡 45초 시연 영상 대본을 작성했다.
+- 65세 이상 5명 관찰 설계, 코레일 무료 실증안, 구현 증거표를 제출 보조자료로 정리했다.
+- `cuee-play-release`에서 앱 내 개인정보처리방침의 개발자 연락처와 정책 URL을 실제 정보로 수정했다.
+- 수정 후 Gradle `test lint`가 성공했고 앱 JVM 단위 테스트 94개가 실패 없이 통과했다.
+- 현재 제출 빌드와 소스는 `진주→서울·어른 2명·어린이 1명` 고정 데모이며 전국 노선·방언과 실제 사용자 효과는 미검증 상태로 유지했다.
+- Updated: [[2026-09-14-Q-modoo-startup-second-cuee-application-draft]], [[cuee]]
+- Added: `15-48-hour-score-sprint.md`, `16-modoo-demo-video-script.md`
+- Reuse axis: 제품/창업, 프로젝트 증거, 사용자 검증
+
+## [2026-09-15] evidence audit | 모두의 창업 PDF 원본 이미지 재선정
+
+- 생성 도식 대신 기존 PDF 원본을 선호한다는 사용자 의견을 반영해 이미지 배치안을 수정했다.
+- `.pdf` 19쪽 중 현재 지원서와 충돌 없이 그대로 쓸 페이지는 6쪽 경쟁사 분석으로 판단했다.
+- U300+ 연계 우수상, 창업교육 20시간 수료증, 7월 마스킹·음성·안전 중단·통합 테스트 결과보고서를 고해상도 PNG로 추출했다.
+- Q3-1에는 경쟁사 분석·마스킹·안전 중단, Q4-1에는 통합 테스트·우수상 원본을 우선 배치한다.
+- 기존 PDF의 불명확한 통계, CPS 10%, TAM·SAM·SOM, 버스 앱 화면, 이전 로드맵과 검증되지 않은 팀 경력 페이지는 제외했다.
+- Updated: [[2026-09-14-Q-modoo-startup-second-cuee-application-draft]]
+- Added: `20-PDF-U300-challenge-award.png`~`25-PDF-July-integration-test-report.png`
+- Reuse axis: 제품/창업, 수상·활동 증거
+
+## [2026-09-21] ingest | 베트남 FPT Financial GraphRAG·GNU Buddy 활동 기록
+
+- Sources: [[2026-09-21-GNU-FPT-Vietnam-GraphRAG-Program-Record]], [[2026-09-21-Kim-Gyutae-GNU-Buddy-2026-1-Record]]
+- Collection purpose: 취업/포트폴리오·자기소개서·AI 프로젝트 증거·해외 협업·리더십에 재사용
+- Added: [[FPT Vietnam Global Big Data AI Program]], [[GNU Buddy]]
+- Updated: [[김규태]], [[MOC-Portfolio]], [[index]]
+- Verified FPT facts: 공식 교육 2025-12-29~2026-01-23, FPT 수료증 2025-12-28~2026-01-24, 다낭 4주 PBL, GraphRAG 공식 프로젝트 범위, 공개 Finance GraphRAG 저장소
+- Verified Buddy facts: 2026-02-25~06-11, 44.23시간, 유학생의 학교생활·한국문화 적응 지원
+- Privacy: 학번·생년월일·성적 세부가 있는 GNU Buddy·TOEIC·TMU 원본은 git-ignore된 `80. References/Attachments/Private/`에 보존
+- Evidence boundary: FPT 팀 구성·팀장·스크럼·타깃 설정과 GNU Buddy 개별 활동은 사용자 자기보고; 개인 코드·AI 기여 범위는 추가 확인 필요
+- Mode: standalone — mothership search skipped
+
+## [2026-09-21] update + query | FPT 기여 확정·공개 첨부 통합·GNU-UNLV 1차 초안
+
+- FPT repository의 `gyugyu` 55개와 `kim gyutae` 1개 commit identity가 모두 김규태임을 사용자가 확인했다.
+- FPT 기여 범위를 문제 정의·설계·프롬프트·생성형 AI 코드 생성·실행·Docker 공통 환경으로, 인도인 팀원의 기여를 UI로 기록했다.
+- 사용자의 명시적 공개 허용에 따라 GNU Buddy, TOEIC 730, TMU Record of Study 증빙을 `80. References/Attachments/` 일반 폴더로 통합했다.
+- Added query: [[2026-09-21-Q-GNU-UNLV-application-draft-v1]]
+- Draft spine: FPT 국제 AI 실행 → 2026년 3월 Threads·CUEE 시작 → AI 검증·사용자 검증 격차 → UNLV 두 과목 통합 학습 → CUEE·동아리·Threads 확산
+- Updated: [[FPT Vietnam Global Big Data AI Program]], [[김규태]], [[index]]
+- Reuse axis: 해외 파견 지원서, AI·창업 자기소개서, 취업/포트폴리오
+
+## [2026-09-21] query | GNU-UNLV 선발경쟁력 보강 진단
+
+- 기존 자기소개·지원동기·학업계획서 초안은 수정하지 않았다.
+- 공식 공고의 국제협력과 자격심사, 단과대학 수학능력 심사 70점 기준, IT공과대학 최대 2명, 활동실적 선택 제출과 이중 접수 요건을 재확인했다.
+- Added: [[2026-09-21-Q-GNU-UNLV-selection-competitiveness-audit]]
+- Highest-impact gaps: CUEE 실제 사용자 관찰, AI 결과 정확성·출처·환각 검증표, 본인 영어 발표 증거
+- Immediate risks: 최종 학기 자격 해석, MY서비스·Google Form 이중 접수, 필수 서류 누락
+- Reuse axis: 해외 파견 지원서, 선발 전 증빙 점검, AI·창업 포트폴리오
+
+## [2026-09-21] update | GNU-UNLV 자기소개서 사실 보강
+
+- Threads workflow에서 빈 논문 링크와 원문 확인 없이 자의적으로 인용한 AI 결과를 사용자가 직접 링크 대조로 발견한 사례를 기록했다.
+- CUEE는 U300+ 도약과정 전국 400팀에 선정됐으나 학생창업 페스티벌 최종 40팀에는 선정되지 않은 것으로 충돌 기록을 정정했다.
+- 멋쟁이사자처럼 14기 부대표로 7~8명에게 CRUD·TypeScript·Codex 사용법을 포함한 백엔드 세션을 매주 진행한 사실을 보강했다.
+- Updated: [[김규태]], [[cuee]], [[김규태 Leadership and Teaching Evidence]]
+- Reuse axis: 해외 파견 지원서, AI 검증, 창업·리더십, 교육 확산
+
+## [2026-09-21] update | FPT Docker 결과·Threads 게시 후 오류 발견 확정
+
+- FPT 다국적 팀의 Windows·macOS 환경 차이로 빌드가 실패한 뒤 Docker를 구성해 전원이 같은 명령으로 빌드·실행한 결과를 보강했다.
+- Threads의 잘못된 논문 링크와 자의적 인용은 자동 게시 후 사용자가 원문 링크를 확인하며 발견한 것으로 확정했다.
+- UNLV 팀 프로젝트는 별도 팀 아이디어로 수행하고, CUEE는 수업 내용을 개인적으로 적용하는 병행 프로젝트로 구분한다.
+- Updated: [[FPT Vietnam Global Big Data AI Program]], [[김규태]]
+- Reuse axis: 해외 파견 지원서, AI 검증, 국제 팀 리더십
+
+## [2026-09-21] correction | Threads 근거 링크·후속 조치 정정
+
+- 기존 기록의 `논문 링크`를 `논문 활용 콘텐츠의 참고자료로 제시된 GitHub 링크`로 바로잡았다.
+- 게시 후 GitHub 링크의 404 오류와 저장소 존재 여부 미확인을 발견했고, 게시물을 삭제한 뒤 크롤링 과정을 점검하고 AI에 문제를 설명해 workflow를 수정한 것으로 기록했다.
+- 구체적인 코드 변경과 예방 절차는 추후 Threads 환각·출처 검증표를 만들 때 확인한다.
+- Updated: [[김규태]]
+- Reuse axis: AI 검증, 해외 파견 지원서, Codex 개발 워크플로
+
+## [2026-09-21] update | CUEE 피벗 순서·창업서포터즈 2기 보강
+
+- 첫 모두의 창업 지원은 배우담으로 시작했으나 지원 과정 중 `실제로 노인이 사용할 것인가?`라는 질문으로 CUEE로 전환한 뒤 심사를 받아 탈락한 순서로 정정했다.
+- 탈락 후 심사의견에 따라 제품개발계획, 초기 판로, 매출계획, 경쟁 서비스 분석과 사업모델을 보완한 후속 행동을 분리했다.
+- CUEE는 harness로 요구사항을 분할하고 AI 구현을 지시해 실행·테스트한 개발 workflow로 기록하되 Kotlin 독립 작성으로 확대하지 않았다.
+- GNU 개척리더스 창업서포터즈 2기 참여 사실을 추가하고, 실제 완료 활동 전에는 확산 채널로만 사용하도록 경계를 남겼다.
+- Updated: [[cuee]], [[김규태]], [[김규태 Leadership and Teaching Evidence]]
+- Reuse axis: 제품/창업, 해외 파견 지원서, 리더십·교육 확산
+
+## [2026-09-21] query | GNU-UNLV 지원서 2차 초안
+
+- 기존 1차 초안은 보존하고 문제해결 철학 중심 2차 초안을 별도 작성했다.
+- 자기소개는 FPT Docker 공통 환경과 배우담→CUEE 전환·탈락 후 사업모델 보완을 `해결책보다 문제를 끝까지 붙드는 예비 창업가`로 연결했다.
+- 지원동기는 Threads의 404 GitHub 근거 오류와 CUEE의 실제 고령 사용자 관찰 0명이라는 두 공백만 중심에 두었다.
+- 학업계획서는 7주 나열을 진단·검증 설계·workflow/프로토타입·영어 발표/귀국 후 검증의 네 단계로 재구성했다.
+- Planned outputs: Threads 10건 검증표, 고령 사용자 관찰표, 65세 이상 10명 예비 검증, CUEE 개선 프로토타입, 2027 창업중심대학 예비창업자 사업화 지원 자료
+- Added: [[2026-09-21-Q-GNU-UNLV-application-draft-v2]]
+- Reuse axis: 해외 파견 지원서, AI·창업 자기소개서, 창업중심대학 준비
+
+## [2026-09-21] query | GNU-UNLV AI·창업 활동실적 PDF 자료 점검
+
+- 공고의 선택 제출물 `AI·창업 등 관련 활동 실적 1부`를 7쪽 단일 PDF로 구성하는 안을 정리했다.
+- FPT 수료·GraphRAG, CUEE MVP·심사의견·3회 수상·U300+·Play Console, Threads workflow, 교내 확산 자료의 기존 파일을 확인했다.
+- 추가 필요 자료를 Threads 650명 프로필, 정확한 404 오류 근거, 모두의 창업 2차 제출완료, 테스트 모집 증거, 멋쟁이사자처럼·창업서포터즈 활동 증빙으로 좁혔다.
+- workflow에 기록된 GitHub URL이 현재 정상 접속되고 당시 README 수집 로그도 존재해, Threads 404 사건은 정확한 URL·화면을 받기 전까지 학습 사례로만 제한하도록 [[김규태]]의 증거 경계를 보강했다.
+- Added: [[2026-09-21-Q-GNU-UNLV-AI-startup-evidence-PDF-checklist]]
+- Reuse axis: 해외 파견 지원서, AI·창업 활동실적, 창업 포트폴리오
+
+## [2026-09-21] output | GNU-UNLV AI·창업 관련 활동실적 PDF
+
+- 사용자가 제공한 Threads 632명, 모두의 창업 2차, Play Console 화면을 기존 FPT·CUEE·수상·U300+·GNU Buddy·TMU 증빙과 결합했다.
+- 별도 설명문이나 표지 없이 원본 이미지 중심 10쪽 A4 PDF로 구성했다.
+- Play Console 화면에서는 불필요한 계정명·계정 ID 영역을 제외하고 앱 등록 상태만 남겼다.
+- 지원서의 Threads 수치는 제공된 현재 화면과 맞춰 650명에서 632명으로 정정했다.
+- Output: `/mnt/c/Users/user/Desktop/GNU-UNLV_AI-창업_관련활동실적_김규태.pdf`
+- Builder: `scripts/build_unlv_activity_evidence_pdf.py`
+- Reuse axis: 해외 파견 지원서, AI·창업 활동실적, 창업 포트폴리오
+
+## [2026-09-21] update | GNU-UNLV 활동실적 PDF 최종 재구성
+
+- 상장 3종을 `대상 → 최우수상 → 우수상` 순서로 문서 맨 앞에 배치했다.
+- GraphRAG GitHub 카드와 실제 코레일톡 위 CUEE MVP 화면, 기존 U300+ 활동 화면 2장을 제외했다.
+- U300+ 최종선발·팀장 화면으로 교체하고 FPT 수료증, CUEE 지원·Play Console, GNU Buddy 증빙을 유지했다.
+- TMU Record of Study와 Global Leadership 100 Hours, UN SDG Solutions Day 증명서까지 3종을 수록했다.
+- Threads 632명 화면을 마지막 쪽으로 옮겨 이미지 전용 11쪽 PDF로 다시 생성했다.
+- Output: `/mnt/c/Users/user/Desktop/GNU-UNLV_AI-창업_관련활동실적_김규태.pdf`
+- Builder: `scripts/build_unlv_activity_evidence_pdf.py`
+- Reuse axis: 해외 파견 지원서, AI·창업 활동실적, 창업 포트폴리오
+
+## [2026-09-21] update | GNU-UNLV 활동실적 PDF 창업교육 증빙 추가
+
+- 모두의 창업·Play Console 증빙 상단에 `모두의 창업 1차·2차 지원` 문구만 추가했다.
+- 창업진흥원 온라인 창업교육 20시간 수료증을 Threads 직전 페이지에 삽입했다.
+- 최종 문서는 이미지 기반 12쪽 PDF로 재생성하고 페이지별 이미지 포함 여부를 확인했다.
+- Output: `/mnt/c/Users/user/Desktop/GNU-UNLV_AI-창업_관련활동실적_김규태.pdf`
+- Builder: `scripts/build_unlv_activity_evidence_pdf.py`
+- Reuse axis: 해외 파견 지원서, AI·창업 활동실적, 창업교육 증빙
+
+## [2026-09-21] optimization | GNU-UNLV 활동실적 PDF 3MB 제한 대응
+
+- 제출 용량 제한에 맞춰 문서를 A4 180dpi 수준, JPEG 품질 78로 재생성했다.
+- 12쪽 구성과 페이지별 단일 이미지 구조를 유지하면서 최종 용량을 1,480,668바이트로 줄였다.
+- 상장, U300+ 화면, 창업교육 수료증의 작은 글자 가독성을 표본 확인했다.
+- Output: `/mnt/c/Users/user/Desktop/GNU-UNLV_AI-창업_관련활동실적_김규태.pdf`
+- Builder: `scripts/build_unlv_activity_evidence_pdf.py`
+- Reuse axis: 해외 파견 지원서, AI·창업 활동실적, 제출 파일 최적화

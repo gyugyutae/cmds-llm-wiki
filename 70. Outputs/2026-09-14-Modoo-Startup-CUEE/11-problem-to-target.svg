@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="90" y="105" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="48" font-weight="700" fill="#111827">한 번의 포기에서 발견한 문제</text>
+  <text x="90" y="160" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="24" fill="#6b7280">스마트폰을 쓸 수 있어도 처음 접한 거래 앱은 끝까지 사용하기 어렵습니다</text>
+  <rect x="90" y="240" width="400" height="390" rx="28" fill="#f3f4f6"/>
+  <circle cx="290" cy="330" r="64" fill="#dbeafe"/>
+  <text x="290" y="344" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="31" font-weight="700" fill="#1677e8">어머니</text>
+  <text x="290" y="450" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="27" font-weight="700" fill="#111827">나무증권에서</text>
+  <text x="290" y="495" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="27" font-weight="700" fill="#111827">삼성전자 매수를 시도</text>
+  <text x="290" y="555" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="24" fill="#dc2626">버튼과 절차를 찾지 못해 포기</text>
+  <path d="M525 435 H665" stroke="#1677e8" stroke-width="8"/>
+  <path d="M650 415 L680 435 L650 455" fill="none" stroke="#1677e8" stroke-width="8"/>
+  <rect x="700" y="240" width="350" height="390" rx="28" fill="#eff6ff" stroke="#1677e8" stroke-width="3"/>
+  <text x="875" y="325" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="28" font-weight="700" fill="#1677e8">문제 발견</text>
+  <text x="875" y="420" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="27" font-weight="700" fill="#111827">기기 보유·기본 터치</text>
+  <text x="875" y="468" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="34" font-weight="700" fill="#1677e8">≠</text>
+  <text x="875" y="522" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="27" font-weight="700" fill="#111827">낯선 거래 절차 완수</text>
+  <path d="M1085 435 H1190" stroke="#1677e8" stroke-width="8"/>
+  <path d="M1175 415 L1205 435 L1175 455" fill="none" stroke="#1677e8" stroke-width="8"/>
+  <rect x="1225" y="240" width="285" height="390" rx="28" fill="#111827"/>
+  <text x="1367" y="310" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="23" font-weight="700" fill="#93c5fd">초기 고객 가설</text>
+  <text x="1367" y="390" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="38" font-weight="700" fill="#ffffff">65세 이상</text>
+  <text x="1367" y="452" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" fill="#ffffff">코레일톡 설치·로그인 완료</text>
+  <text x="1367" y="500" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" fill="#ffffff">예매 중 다음 행동에서 막힘</text>
+  <text x="1367" y="548" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" fill="#ffffff">온라인 중단 후 역 창구 방문</text>
+  <rect x="90" y="705" width="1420" height="105" rx="22" fill="#1677e8"/>
+  <text x="800" y="772" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="31" font-weight="700" fill="#ffffff">큐(CUEE): 막힌 바로 그 화면에서 다음에 직접 누를 곳을 안내합니다</text>
+</svg>

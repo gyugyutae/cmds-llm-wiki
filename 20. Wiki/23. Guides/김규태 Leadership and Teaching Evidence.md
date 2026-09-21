@@ -7,7 +7,7 @@ description: "Reusable evidence page for Kim Gyutae's leadership, teaching, club
 author:
   - Codex
 date created: 2026-07-12
-date modified: 2026-07-23
+date modified: 2026-09-21
 tags:
   - leadership
   - teaching
@@ -111,7 +111,8 @@ Velog 기록 기준으로 실리콘밸리 활동에서는 영어 인터뷰 질�
 - **Role**: 부대표
 - **Term**: 2026년 1년
 - **Teaching activities**:
-	- 백엔드 세션에서 매주 수업
+	- 7~8명을 대상으로 백엔드 세션에서 매주 수업
+	- CRUD, TypeScript, Codex 사용법 교육
 	- 저녁에 만나 서로 한 일을 공유하고 평가하는 1시간 세션 운영
 	- Codex 사용법 공유
 	- 각자 공부하거나 조사한 내용 공유
@@ -151,6 +152,17 @@ Velog 기록 기준으로 실리콘밸리 활동에서는 영어 인터뷰 질�
 > 저는 팀이 반복적인 설정과 운영 문제에 시간을 쓰지 않고 핵심 학습과 구현에 집중하도록 환경을 정리하는 리더십을 지향합니다. 실리콘밸리 동아리에서는 영어 모의면접과 운영을 맡았고, 멋쟁이사자처럼에서는 백엔드 세션과 해커톤 템플릿을 준비해 팀의 실행 비용을 줄였습니다.
 
 ---
+
+사용자는 관련 수업 과정을 Velog에 기록했다고 확인했다. UNLV 지원 맥락에서는 미국 현지에서 얻은 생성형 AI·창업 학습을 이 구성원들에게 다시 공유할 수 있는 기존 교육 채널로 활용한다.
+
+## GNU Pioneer Leaders Startup Supporters
+
+- **Role**: GNU 개척리더스 창업서포터즈 2기
+- **Status**: 2026-09-21 사용자 자기보고 기준 참여 중
+- **Application preference**: 미래메이커 특강 운영 1순위, 경진대회 운영 2순위
+- **UNLV reuse**: 현지에서 배운 생성형 AI 검증과 기업가적 문제정의·관찰 방법을 교내 창업 프로그램 참가자에게 공유할 수 있는 채널
+
+선발 이후 실제로 완료한 활동과 산출물은 아직 확인하지 않았으므로 지원서에서는 구체적인 운영 성과로 확대하지 않는다.
 
 ## Evidence Gaps
 

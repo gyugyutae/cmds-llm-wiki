@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="90" y="105" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="48" font-weight="700" fill="#111827">기기는 보급됐지만 앱 활용 격차는 남아 있습니다</text>
+  <text x="90" y="160" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="24" fill="#6b7280">전국 65세 이상 고객을 목표로 삼은 공공 통계 근거</text>
+  <rect x="90" y="245" width="430" height="400" rx="28" fill="#111827"/>
+  <text x="305" y="335" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="25" fill="#93c5fd">2025년 65세 이상 인구</text>
+  <text x="305" y="445" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="68" font-weight="700" fill="#ffffff">1,051.4만 명</text>
+  <text x="305" y="525" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="37" font-weight="700" fill="#ffffff">전체 인구의 20.3%</text>
+  <text x="305" y="600" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="20" fill="#d1d5db">국가데이터처 「2025 고령자 통계」</text>
+  <rect x="585" y="245" width="925" height="400" rx="28" fill="#f3f4f6"/>
+  <text x="645" y="320" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="27" font-weight="700" fill="#111827">필요한 앱을 설치하고 이용할 수 있는 역량</text>
+  <text x="645" y="390" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="28" font-weight="700" fill="#374151">60대</text>
+  <rect x="760" y="355" width="620" height="52" rx="26" fill="#d1d5db"/>
+  <rect x="760" y="355" width="368" height="52" rx="26" fill="#1677e8"/>
+  <text x="1415" y="393" text-anchor="end" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="31" font-weight="700" fill="#1677e8">59.3%</text>
+  <text x="645" y="495" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="28" font-weight="700" fill="#374151">70대 이상</text>
+  <rect x="760" y="460" width="620" height="52" rx="26" fill="#d1d5db"/>
+  <rect x="760" y="460" width="164" height="52" rx="26" fill="#1677e8"/>
+  <text x="1415" y="498" text-anchor="end" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="31" font-weight="700" fill="#1677e8">26.5%</text>
+  <text x="645" y="585" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" fill="#6b7280">참고: NIA 정의 고령층 스마트폰 보유율 94.4%</text>
+  <text x="645" y="620" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="20" fill="#6b7280">과학기술정보통신부·NIA 「2025 디지털정보격차 실태조사」</text>
+  <rect x="90" y="710" width="1420" height="100" rx="22" fill="#eff6ff" stroke="#1677e8" stroke-width="3"/>
+  <text x="800" y="772" text-anchor="middle" font-family="Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="30" font-weight="700" fill="#111827">큐는 스마트폰 보유와 실제 거래 앱 완수 사이의 간격을 줄이고자 합니다</text>
+</svg>
