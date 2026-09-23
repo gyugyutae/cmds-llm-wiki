@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-21
+date modified: 2026-09-23
 tags:
   - index
   - moc
@@ -251,6 +251,10 @@ status: active
 → [[log]] 참조
 
 ---
+
+## 📦 Shared Project Proposals
+
+- [항공우주 제조 AI 에이전트 아이디어 제안서](70.%20Outputs/2026-09-23-Propeller-Evidence-Agent/idea-proposal.md) — 프로펠러 실측 데이터 기반 후보 검토 에이전트의 팀 논의용 초안
 
 ## 🔗 Quick Links
 

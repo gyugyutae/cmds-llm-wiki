@@ -8,7 +8,7 @@ description: Chronological log of all wiki operations — ingests, queries, lint
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-21
+date modified: 2026-09-23
 tags:
   - system
   - log
@@ -2142,3 +2142,9 @@ status: active
 - Output: `/mnt/c/Users/user/Desktop/GNU-UNLV_AI-창업_관련활동실적_김규태.pdf`
 - Builder: `scripts/build_unlv_activity_evidence_pdf.py`
 - Reuse axis: 해외 파견 지원서, AI·창업 활동실적, 제출 파일 최적화
+
+## [2026-09-23] create | Propeller Evidence Agent team proposal
+
+- 실제 공개 프로펠러 시험 데이터 기반 후보 검토 에이전트의 팀 논의용 제안서를 추가했다.
+- 데이터 한계, H200 지원 조건 미확인, 비교 불가 시 선정 보류, 비즈니스 가설과 검증 과제를 분리해 기록했다.
+- Output: `70. Outputs/2026-09-23-Propeller-Evidence-Agent/idea-proposal.md`
