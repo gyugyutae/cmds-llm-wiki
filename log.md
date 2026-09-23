@@ -2148,3 +2148,36 @@ status: active
 - 실제 공개 프로펠러 시험 데이터 기반 후보 검토 에이전트의 팀 논의용 제안서를 추가했다.
 - 데이터 한계, H200 지원 조건 미확인, 비교 불가 시 선정 보류, 비즈니스 가설과 검증 과제를 분리해 기록했다.
 - Output: `70. Outputs/2026-09-23-Propeller-Evidence-Agent/idea-proposal.md`
+
+## [2026-09-23] create | GNU international student tutoring application draft
+
+- 지원동기와 활동목표, CLIL 기반 10~12월 진단·개선·재측정 활동계획을 복사하기 쉬운 문장형으로 정리했다.
+- 진단 기준을 표 대신 문장으로 바꾸고 월별 핵심 결과물을 각 2개로 유지했다.
+- Output: `70. Outputs/2026-09-23-GNU-International-Tutoring/application-plan.md`
+
+## [2026-09-23] update | Propeller Evidence Agent 평가축 및 E2E 제안 수정
+
+- 제조현장 문제, 해결 적합성, 에이전트 배치와 E2E 자동화, 도입 경제성, 사용자 채택, 사업 가치, 대회 적합성, 심사 매력도의 8개 판단 기준을 제안서 앞부분에 추가했다.
+- 전체 흐름도와 실제 측정값 예시 흐름도를 넣고, 문서 해석·오케스트레이션·검토 보고 에이전트와 Python 검증 도구의 역할을 나눴다.
+- H200은 언어·비전 모델 추론과 시험문서 해석에 활용하도록 수정하고 데모 계획만 6번에 남겼으며, 기존 7~11번 내용을 삭제했다.
+- Output: `70. Outputs/2026-09-23-Propeller-Evidence-Agent/Propeller Evidence Agent.md`
+
+## [2026-09-23] update | 추출 신뢰성 검증 기준 보강
+
+- 모델의 자체 확신도나 에이전트 간 합의만으로 자동 승인하지 않도록 명시했다.
+- 사람 검수 표본으로 문서 필드 추출과 조건충돌 탐지 성능을 측정하고, 검증한 형식·조건 범위 밖은 담당자 검토로 넘기도록 추가했다.
+- Output: `70. Outputs/2026-09-23-Propeller-Evidence-Agent/Propeller Evidence Agent.md`
+
+## [2026-09-23] update | 사용 장면의 에이전트 개입과 예외 처리 구체화
+
+- 담당자의 요청부터 오케스트레이션, 문서 조건 추출, Python 분석, 근거 보고서, 사람의 최종 확인까지 각 단계가 줄이는 일을 사용 장면 표와 흐름도에 추가했다.
+- MVP의 수동 파일 업로드와 현장 데이터 연동 후의 시험번호 선택을 구분하고, 파일이 없거나 일부만 있을 때 분석 중지·부분 보고 원칙을 기록했다.
+- TXT와 HDF5 형식의 역할, 오케스트레이터의 체크리스트 범위, 미확인 상황의 중단·사람 검토 절차를 설명했다.
+- Output: `70. Outputs/2026-09-23-Propeller-Evidence-Agent/Propeller Evidence Agent.md`
+
+## [2026-09-23] update | Propeller Evidence Agent LangGraph 선택 및 현재 평가 반영
+
+- E2E 워크플로우 프레임워크를 LangGraph로 결정하고, 에이전트 추론과 고정된 그래프 제어·Python 계산·사람 승인의 책임을 분리했다.
+- 입력 누락 확인, 문서·측정파일 병렬 처리, 조건 비교 가능성 분기, 사람 확인 후 재개, 실행 근거 보존을 적용안으로 정리했다.
+- 현장 문제의 구체성, 해결 적합성, 비용·효용, 사용자 채택, 사업 가치, 에이전트 배치, 대회 취지, 심사 매력도의 8개 축으로 현재 평가를 추가했다.
+- `Propeller Evidence Agent 1.md`를 이후 프로젝트 작업의 기준 문서로 지정하고 index 링크를 갱신했다.

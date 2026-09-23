@@ -254,7 +254,11 @@ status: active
 
 ## 📦 Shared Project Proposals
 
-- [항공우주 제조 AI 에이전트 아이디어 제안서](70.%20Outputs/2026-09-23-Propeller-Evidence-Agent/idea-proposal.md) — 프로펠러 실측 데이터 기반 후보 검토 에이전트의 팀 논의용 초안
+- [항공우주 제조 AI 에이전트 아이디어 제안서](Propeller%20Evidence%20Agent%201.md) — 현재 작업 기준 문서: LangGraph 기반 프로펠러 시험자료 검토 E2E 제안
+
+## 📝 Application Drafts
+
+- [GNU 유학생 튜터링 신청서 문안](70.%20Outputs/2026-09-23-GNU-International-Tutoring/application-plan.md) — 지원동기, 활동목표, CLIL 기반 10~12월 진단·개선·재측정 계획
 
 ## 🔗 Quick Links
 
