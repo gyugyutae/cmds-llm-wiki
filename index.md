@@ -254,7 +254,8 @@ status: active
 
 ## 📦 Shared Project Proposals
 
-- [항공우주 제조 AI 에이전트 아이디어 제안서](Propeller%20Evidence%20Agent%201.md) — 현재 작업 기준 문서: LangGraph 기반 프로펠러 시험자료 검토 E2E 제안
+- [Rotor Engineering Knowledge Agent 제안서](Propeller%20Evidence%20Agent%201.md) — 전문가 검토 절차·과거 증거 재사용·승인형 프로펠러 해석 데모를 통합하는 팀 기준안
+- [Rotor Engineering Knowledge Agent PRD](70.%20Outputs/2026-09-23-Propeller-Evidence-Agent/Propeller%20Evidence%20Agent%20PRD.md) — 자연어 요청부터 시각적 점검·승인형 Fluent 실행·근거 보고서까지의 MVP 요구사항
 
 ## 📝 Application Drafts
 
