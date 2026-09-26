@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-09-21
+date modified: 2026-09-26
 tags:
   - moc
   - portfolio
@@ -30,6 +30,10 @@ related:
   - "[[Core Context]]"
   - "[[김규태]]"
   - "[[financial-order-latency-lab]]"
+  - "[[financial-lab]]"
+  - "[[경제적 자유는 나의 북극성이다]]"
+  - "[[MOC-김규태 Self Knowledge]]"
+  - "[[MOC-UAV 정밀착륙 연구]]"
   - "[[Graduation-elasticsearch]]"
   - "[[cuee]]"
   - "[[harness]]"
@@ -63,6 +67,7 @@ related:
   - "[[겸손과 자기표현의 균형]]"
   - "[[계약랩]]"
   - "[[2026 넥토리얼 지원]]"
+  - "[[2026-09-18-Q-worldjob-overseas-entry-level-developer-resume-strategy]]"
 status: active
 explored: false
 confidence: medium
@@ -84,6 +89,9 @@ disputed: false
 
 - **Owner**: [[김규태]]
 - **Current status**: 개발자 취업준비생, 경상국립대학교 소프트웨어공학과 학사원장상 4학년(2026-2학기 7번째 정규학기), SEALAB 학부연구생
+- **Expected graduation**: 2027년 8월 예정, 졸업 후 출국 시점 제약 없음(사용자 자기보고)
+- **Overseas role range**: Backend를 중심축으로 QA Automation과 Data 직무까지 지원 가능
+- **English baseline**: TOEIC 730점 사용자 자기보고, TMU 4주·100시간 영어 몰입 과정, 베트남 1개월 AI 프로그램 GraphRAG 팀 프로젝트 경험
 - **Portfolio objective**: 금융권·핀테크 Java 백엔드·거래 인프라 취업을 1차 목표로 하며, 드론·반도체 도메인도 장기 관심사로 탐색
 - **Preferred tone**: 열정과 성장가능성이 드러나되, 성능·데이터 처리·설계·개발·팀 리딩·AI 활용 검증 근거가 있는 취업준비생 톤
 - **Primary language direction**: Java를 새 주언어로 학습하고, Python은 부하 테스트·분석·자동화에 활용
@@ -98,13 +106,13 @@ disputed: false
 
 | Priority | Project | Portfolio Role |
 |----------|---------|----------------|
-| 1 | `Reliable Bank Transfer Ledger Lab` | 새 대표 프로젝트 후보. 동시·중복·장애 상황의 계좌이체와 거래원장을 통해 Java·SQL·Spring·정합성 증거를 직접 만든다 |
+| 1 | [[financial-lab]] (`Reliable Bank Transfer Ledger Lab`) | 구현을 시작한 대표 학습 프로젝트. 메모리 기반 계좌 API와 이체를 만들었으며, 이후 DB 트랜잭션·원장·동시성·멱등성을 직접 검증한다 |
 | 2 | [[financial-order-latency-lab]] | 백엔드 성능 문제의식과 p99 latency 실험 기록. 기존 코드는 AI 작성 범위가 커 보조 증거로 둔다 |
 | 3 | [[Graduation-elasticsearch]] | 학부연구생/연구 경험, JavaParser, Elasticsearch Java source-test traceability |
 | 4 | [[cuee]] | 경남권 창업동아리 대상작, 노인 모빌리티 예약 길잡이 앱 |
 | 5 | [[harness]] | 커서맛피아님 harness를 참고해 앱 개발에 맞게 개인화한 Codex 개발 workflow |
 
-새 Java 계좌이체·거래원장 시스템은 기존 AI 작성 프로젝트의 구현 증거 공백을 채우는 최우선 후보로 관리한다. 상세 범위와 완료 기준은 [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]]을 따른다. 저장소가 생성되기 전에는 계획이며, 실제 코드·테스트·설명 기록이 생긴 뒤 정식 Entity로 승격한다.
+새 Java 계좌이체·거래원장 시스템은 기존 프로젝트의 직접 구현 증거 공백을 채우는 최우선 프로젝트로 진행 중이다. 코드 저장소는 `C:\Users\kym70\financial-lab`이며 현재는 메모리 기반 API와 이체 테스트 단계다. 진행 상태와 기여 경계는 [[financial-lab]], 원래 목표와 확장 순서는 [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]]을 따른다. 아직 대표 포트폴리오 완성본은 아니다.
 
 그 전 단계의 공식 학습 spine은 [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]]이다. 두 권의 Spring Boot 교재를 병렬로 공부하며 생기는 질문, 오개념, 직접 구현과 테스트를 누적하고, 반복 약점을 우선 보완한 뒤 주문 시스템 증거로 연결한다.
 
@@ -145,8 +153,9 @@ disputed: false
 
 | Project | What To Prove | Missing Evidence |
 |---------|---------------|------------------|
+| [[financial-lab]] | 사용자가 Java/Spring Boot 계좌 API와 메모리 기반 이체 흐름을 직접 구현하고, 정상·잔액 부족 이체 테스트를 작성했다. 현재 코드와 최근 Gradle 테스트 결과를 확인했다 | 존재하지 않는 수취 계좌·동일 계좌 실패 테스트, DB/JPA 영속성, rollback, 거래 원장, 동시성·멱등성, 성능·운영 증거 |
 | [[financial-order-latency-lab]] | 사용자가 CPU·GPU·disk latency를 금융 관점에서 비교한다는 문제를 제시했고, AI가 p99 조건·전체 코드·실행·재실험·해석을 수행했다. 현재는 구현력 증거가 아니라 문제의식과 미검증 AI 활용의 한계 기록이다 | 수업 요구사항, 사용자 판단 범위, 직접 재현·설명·수정 가능한 구현, 발표자료, Linux 재측정 |
-| [[Graduation-elasticsearch]] | 공개 저장소에 JavaParser AST/Symbol Solver 기반 TEST FILE -> SOURCE FILE artifact가 있고, 사용자는 AI 생성 parser 결과의 분류 불일치를 발견해 개선 방향을 도출했다. 사용자 직접 구현은 아직 증명되지 않았다 | 연구실/졸업 연구 맥락, 본인 기여율, 직접 작성·재실행한 parser, 개선안 재실행, 교수 지도·피드백 증빙 |
+| [[Graduation-elasticsearch]] | 공개 저장소에 JavaParser AST/Symbol Solver 기반 TEST FILE -> SOURCE FILE artifact가 있고, 사용자는 AI 생성 parser 결과의 분류 불일치를 발견해 개선 방향을 도출했다. [[EvolvingTraceDB Neo4j 구축 및 검증 가이드]]에는 그래프 적재·검증 기록이 있다. 사용자 직접 구현은 아직 증명되지 않았다 | 연구실/졸업 연구 맥락, 본인 기여율, 직접 작성·재실행한 parser, 개선안 재실행, 교수 지도·피드백 증빙 |
 | [[cuee]] | `배우담`에서 `cuee`로 전환한 사용자 판단과 접근성 overlay fixture demo가 존재한다 | 사용자 직접 구현 범위, 실제 사용자 테스트, live Korail 검증, 발표자료·심사 피드백, Play Store 심사 |
 | [[harness]] | 기존 harness를 앱 개발에 맞는 Codex workflow로 개인화했다는 사용자 기록과 구조 설명이 있다 | 현재 공개 코드, 원본 대비 diff, 자동화 흐름과 사용 예시, 실제 개발 시간·오류·품질 효과, 한계와 개선 계획 |
 | [[harness]] / Threads automation | Codex와 토큰 기반 자동화 workflow를 이용해 AI agent 논문 활용 예시를 Threads에 반복 발행했다. 팔로워 수는 2026-07-23 사용자 진술 기준 500명이다 | 실제 코드/스크립트 위치, 토큰 발급 방식, 스케줄러 설정, 실패 처리, API 또는 화면 기반 팔로워 증빙 |
@@ -224,6 +233,10 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 > 금융 latency, 데이터 처리, Android 접근성, Codex 자동화 문제를 탐색해 온 개발자 취업준비생. Java를 새 주언어로 학습하고 Python을 분석·자동화에 활용하며, 현재 프로젝트 상당 부분이 AI 생성 코드에 의존했다는 한계를 공개하고 직접 설명·수정·재현 가능한 Java 백엔드 증거를 보강하고 있다.
 
 이 문장은 아직 초안이다. 실제 이력서에는 지원 직무와 회사 유형에 맞춰 더 날카롭게 다듬는다.
+
+### Overseas Entry-Level Route
+
+해외 신입 지원은 선호 국가와 실제 진입 경로를 분리한다. 장기 선호는 미국 → 캐나다 → 유럽이지만, 2027년 8월 졸업예정을 기준으로 캐나다 IEC, 미국 J-1/WEST의 졸업 전후 12개월 창구, 독일 기회카드·신규 졸업자 EU Blue Card 요건을 각각 확인한다. 상위 직무 정체성은 `신뢰할 수 있는 데이터 시스템을 만드는 신입 소프트웨어 엔지니어`로 두고 Backend·QA Automation·Data 지원본을 분리한다. 월드잡 공개 이력서는 국가 중립형으로 유지하고 지원 공고마다 미국·캐나다·독일 버전을 별도로 사용한다. 상세 조사와 5축 100점 준비도 기준은 [[2026-09-18-Q-worldjob-overseas-entry-level-developer-resume-strategy]]를 따른다.
 
 ---
 
@@ -344,3 +357,4 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 - [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]
 - [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]]
 - [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
+- [[2026-09-18-Q-worldjob-overseas-entry-level-developer-resume-strategy]]

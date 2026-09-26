@@ -2181,3 +2181,60 @@ status: active
 - 입력 누락 확인, 문서·측정파일 병렬 처리, 조건 비교 가능성 분기, 사람 확인 후 재개, 실행 근거 보존을 적용안으로 정리했다.
 - 현장 문제의 구체성, 해결 적합성, 비용·효용, 사용자 채택, 사업 가치, 에이전트 배치, 대회 취지, 심사 매력도의 8개 축으로 현재 평가를 추가했다.
 - `Propeller Evidence Agent 1.md`를 이후 프로젝트 작업의 기준 문서로 지정하고 index 링크를 갱신했다.
+
+## [2026-09-18] query | 월드잡 해외 신입 개발자 이력서 전략
+
+- Query saved: [[2026-09-18-Q-worldjob-overseas-entry-level-developer-resume-strategy]]
+- Case-study boundary: 미국 성공사례는 현지 STEM 학위·OPT, 캐나다 개발자 사례는 BCIT 과정, 독일 사례는 기존 경력이 있어 한국 학부 졸업 직행의 일반 사례로 보지 않음
+- Route conclusion: 장기 선호는 미국 → 캐나다 → 유럽이지만 현재 실행 가능성은 캐나다 IEC → 미국 J-1/WEST → 독일 기회카드·직접 지원 순으로 판단
+- Resume strategy: 국가 중립 공개본과 미국·캐나다·독일 지원본을 분리하고, 비자 경로·직무 증거·업무 영어·AI 검증 경계를 전면에 배치
+- Updated: [[MOC-Portfolio]], [[index]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 개발 도메인 영어
+
+## [2026-09-18] query update | 해외취업 5축 100점 준비도 설계
+
+- Confirmed inputs: 2027년 8월 졸업예정, 졸업 후 즉시 출국 가능, TOEIC 730, Backend·QA·Data 지원 가능
+- Added experience boundary: 베트남 1개월 AI 프로그램의 GraphRAG 팀 프로젝트와 갈등 회고는 확인했으나 프로그램명·기술·본인 구현·영어 사용·정량 결과는 미확인
+- Current evidence-readiness estimate: 비자 4, 포트폴리오 9, 실무 적용 8, 직무 영어 11, 네트워크 7로 총 39/100
+- Target design: Reliable Transaction System, Reliability Test Suite, Vietnam GraphRAG case study를 Backend·QA·Data 증거로 연결
+- Updated: [[2026-09-18-Q-worldjob-overseas-entry-level-developer-resume-strategy]], [[MOC-Portfolio]], [[김규태 개발 도메인 영어 성장 계획]]
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 개발 도메인 영어
+
+## [2026-09-26] project hub | 금융권 Java 백엔드 포트폴리오 진척 기준 수립
+
+- Added [[financial-lab]] as the active project hub for the `financial-lab` repository and the `Reliable Bank Transfer Ledger Lab` portfolio objective.
+- Recorded the inspected implementation boundary: in-memory account storage and transfer API/tests are underway; JPA persistence, database rollback, ledger, concurrency, and idempotency remain future work.
+- Set the collaboration contract: the user writes implementation and test code; Codex teaches, decomposes tasks, diagnoses errors, and reviews submitted work.
+- Updated [[MOC-Portfolio]] from a pre-repository candidate to an active early-stage project, marked the design Query in progress, and refreshed [[index]] counts.
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 독서/책/학습
+
+## [2026-09-26] project milestone | 수취 계좌 미존재 이체 테스트
+
+- Added by the user: a service test for a missing recipient account; it checks `AccountNotFoundException` and that the sender balance remains 27,000.
+- Verification: `.\gradlew.bat test` completed successfully during review.
+- Next: test rejection of a transfer where sender and recipient IDs are equal, including unchanged balance.
+- Updated: [[financial-lab]], [[index]]
+- Reuse axis: 프로젝트 증거, 백엔드/성능/금융 시스템, 취업/포트폴리오
+
+## [2026-09-26] lint | index statistics reconciled after pull
+
+- Reconciled [[index]] with the current inventory: 50 Raw Sources, 79 Wiki pages, and 69 Queries.
+- Confirmed all Wiki pages and Query pages are listed in the index and no Wiki page is orphaned.
+- Recorded remaining review backlog: two pre-v2 Raw Sources without `collectionPurpose`, four Wiki pages without MOC coverage, and one guide missing a Bias Check.
+- Reuse axis: CMDS 시스템
+
+## [2026-09-26] lint follow-up | purpose, MOC coverage, and Bias Check
+
+- Backfilled `collectionPurpose` for the two April Karpathy LLM Wiki Raw Sources; set standalone-mode `mainVaultRelated` and `mainVaultCmds` to empty values without changing either `## Original Content` section.
+- Connected the Neo4j verification guide and the UAV, Self Knowledge, and economic-freedom maps from [[MOC-Portfolio]].
+- Added a Bias Check to [[개발자 커리어로 경제적 자유에 가까워지기]], identifying the trade-off between financial goals and broader career well-being and the outcome evidence still missing.
+- Reuse axis: Codex 개발 워크플로, 취업/포트폴리오, 경제적 자유/FIRE/레버리지
+
+## [2026-09-26] project milestone | 동일 계좌 이체 거부 테스트
+
+- Added by the user: a test that transfers from an account to itself, expects `IllegalArgumentException`, and verifies the 10,000 balance remains unchanged.
+- Learning recorded at the user's request: checking only the expected exception type (and, if relevant, its message) is insufficient; after a failed operation, re-query the original sender account by ID and verify its balance is unchanged. The same invariant check matters for failures such as `AccountNotFoundException` when the sender account already exists.
+- Verification: the full `.\gradlew.bat test` suite passed during review.
+- Next: move in-memory storage responsibility from `AccountService` behind a Repository boundary before introducing JPA.
+- Updated: [[financial-lab]], [[index]]
+- Reuse axis: 프로젝트 증거, 백엔드/성능/금융 시스템, 취업/포트폴리오

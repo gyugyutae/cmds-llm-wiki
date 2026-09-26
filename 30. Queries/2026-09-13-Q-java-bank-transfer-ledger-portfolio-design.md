@@ -7,7 +7,7 @@ description: "A scoped Java and Spring Boot portfolio design for proving transac
 author:
   - Codex
 date created: 2026-09-13
-date modified: 2026-09-13
+date modified: 2026-09-26
 tags:
   - query-result
   - java
@@ -30,7 +30,7 @@ reusableFor:
   - 독서/책/학습
 confidence: high
 verificationStatus: unverified
-status: planned
+status: in-progress
 ---
 
 # Java 은행 백엔드 대표 포트폴리오 설계

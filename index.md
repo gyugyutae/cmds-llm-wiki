@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-23
+date modified: 2026-09-26
 tags:
   - index
   - moc
@@ -30,12 +30,12 @@ status: active
 | Metric | Count |
 |--------|-------|
 | Raw Sources | 50 |
-| Wiki Pages | 78 |
+| Wiki Pages | 79 |
 | Concepts | 40 |
-| Entities | 14 |
+| Entities | 15 |
 | Guides | 18 |
 | MOCs | 6 |
-| Queries | 64 |
+| Queries | 69 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -99,6 +99,7 @@ status: active
 - [[Memex]] — 문서 간 associative trail 을 가진 개인 지식 저장소 구상
 - [[김규태]] — 이 standalone LLM Wiki의 소유자이자 운영자
 - [[financial-order-latency-lab]] — 금융 주문 서버 p99 latency 성능 실험 프로젝트
+- [[financial-lab]] — 금융권 Java 백엔드 취업용 계좌이체 프로젝트 허브. 현재 이체 예외 테스트를 통과하고 Repository 분리를 준비 중
 - [[Graduation-elasticsearch]] — JavaParser 기반 Elasticsearch source-test traceability 분석 프로젝트
 - [[cuee]] — 노인 모빌리티 예약 길잡이 접근성 앱 프로젝트
 - [[harness]] — Codex CLI 기반 개인화 개발 workflow harness
@@ -213,6 +214,7 @@ status: active
 - [[2026-09-14-Q-korea-non-finance-backend-employer-comparison]] — 금융 외 일반기업 백엔드 유형과 보상·워라밸·개발환경·회사 선택 기준 비교
 - [[2026-09-14-Q-korea-financial-java-employer-comparison]] — 주요 은행·인터넷은행·증권사의 Java 신입 채용 입구, 보상·워라밸 경향, 현직자 평가 신호와 근무 거점 비교
 - [[2026-09-18-Q-current-scholarship-global-hackathon-opportunity-map]] — 소득 9구간을 반영한 현재 장학금·해외·금융/개발·해커톤·일경험 후보와 지원 순서
+- [[2026-09-18-Q-worldjob-overseas-entry-level-developer-resume-strategy]] — 미국·캐나다·독일의 신입 진입 경로와 성공사례의 숨은 조건을 반영한 월드잡 이력서 작성 전략
 - [[2026-09-21-Q-GNU-UNLV-application-draft-v1]] — FPT GraphRAG·Threads workflow·CUEE 피벗과 수상·해외 수학 증거를 연결한 GNU-UNLV 세 문항 1차 초안
 - [[2026-09-21-Q-GNU-UNLV-application-draft-v2]] — Docker·CUEE를 문제해결 철학으로 연결하고 Threads 10건 검증·고령 사용자 10명 관찰·네 단계 학업계획을 반영한 2차 초안
 - [[2026-09-21-Q-GNU-UNLV-selection-competitiveness-audit]] — 초안을 수정하지 않고 학적·이중 접수·사용자 관찰·AI 검증·영어 발표·단일 증빙 PDF의 보강 우선순위를 정리한 선발 준비 진단

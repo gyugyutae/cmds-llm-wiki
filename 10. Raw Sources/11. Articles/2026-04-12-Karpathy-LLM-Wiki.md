@@ -7,7 +7,7 @@ description: Andrej Karpathy's original gist describing the LLM Wiki pattern —
 author:
   - Andrej Karpathy
 date created: 2026-04-12T00:00
-date modified: 2026-04-12T00:00
+date modified: 2026-09-26
 date ingested: 2026-04-12T00:00
 tags:
   - raw-source
@@ -17,6 +17,9 @@ tags:
 source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 category: Articles
 status: ingested
+collectionPurpose: "Codex 개발 워크플로: LLM Wiki의 Raw Sources·Wiki·Schema 구조와 ingest·query·lint 운영 방식을 내 지식관리 시스템과 agent harness 설계에 재사용."
+mainVaultRelated: []
+mainVaultCmds: ""
 ---
 
 # Karpathy LLM Wiki

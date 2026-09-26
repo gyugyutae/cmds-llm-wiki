@@ -11,7 +11,7 @@ author:
   - kepano
   - Beomsu
 date created: 2026-04-14T14:00
-date modified: 2026-04-14T14:00
+date modified: 2026-09-26
 date ingested: 2026-04-14T14:00
 tags:
   - raw-source
@@ -24,6 +24,9 @@ tags:
 source: "https://x.com/karpathy/status/2039805659525644595"
 category: Articles
 status: ingested
+collectionPurpose: "Codex 개발 워크플로: LLM이 원문을 Wiki로 컴파일하고 Raw Sources·Wiki·Query·Lint를 누적하는 지식관리 시스템을 설계·개선할 때 재사용."
+mainVaultRelated: []
+mainVaultCmds: ""
 ---
 
 # Karpathy — LLM Knowledge Bases (X Thread)
