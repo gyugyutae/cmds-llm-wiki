@@ -7,7 +7,7 @@ description: "Navigation map for Kim Gyutae's durable self-knowledge, operating 
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-08-29
+date modified: 2026-10-02
 tags:
   - moc
   - self-knowledge
@@ -57,6 +57,7 @@ status: active
 - [[김규태 Breadth-to-Depth Development Pattern]] — 넓은 관심과 깊이 부족, T자형 성장 과제
 - [[김규태 Work and Learning Operating Guide]] — 마감, 알고리즘 학습, 계획·기록 운영
 - [[김규태 Stress and Recovery Pattern]] — 좌절 후 회피와 회복 방식
+- [[변화는 새 시도와 불편한 경험의 재시도에서 온다]] — 낯선 시도와 부담스러운 경험의 작은 재시도를 통한 개인 성장 관점
 
 ### Career And Leadership
 
@@ -78,6 +79,7 @@ status: active
 ## Durable Tensions
 
 - 빠르게 시작하지만 유지보수와 깊게 파고드는 일은 약하다.
+- 익숙하지 않거나 싫은 경험을 피할 때는 이유를 살피고, 다시 시도할 가치가 있는 일을 작은 행동으로 시험해 성장의 근거를 만들 수 있다.
 - 인정과 돈이 강한 동력이지만 지식 축적과 개발자 정체성이라는 내적 동기도 있다.
 - 최종 결정과 비전 제시는 좋아하지만 일정·행정·타인 결과 관리는 싫어한다.
 - 연애에서는 솔직함을 중시하지만 빠른 감정 속도로 실패한 뒤 전략적 속도 조절을 탐색한다.

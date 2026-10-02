@@ -7,7 +7,7 @@ description: "Practical guide for structuring Kim Gyutae's learning, deadlines, 
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-08-29
+date modified: 2026-10-02
 tags:
   - learning
   - work-style
@@ -55,6 +55,7 @@ status: active
 1. 문제를 작게 분해하고 현재 막힌 지점을 한 문장으로 기록한다.
 2. AI에게 맡긴 일, 본인이 판단한 일, 직접 검증한 일을 분리한다.
 3. 사용자 반응이 없는 학습에서는 시간·정답률·재풀이 성공률을 가시적 지표로 만든다.
+4. 불편하거나 싫어서 피하는 일은 원인을 살핀 뒤, 다시 해볼 가치가 있으면 실패 비용이 낮은 한 단계로 재시도하고 결과를 기록한다. 관련 관점은 [[변화는 새 시도와 불편한 경험의 재시도에서 온다]]를 참고한다.
 
 ### After Completion
 
@@ -78,6 +79,7 @@ status: active
 > [!note] Bias Check
 > Counter-argument: 사용자가 아직 이 운영 루프를 실제로 지속했다고 확인하지 않았으므로 현재 습관이 아니라 권장 실험이다.
 > Data gap: 주간 계획 준수율, 알고리즘 재풀이율, 수면 변화, 마감 전 첫 버전 완료율을 측정해야 한다.
+> Scope: 싫어하는 모든 일을 다시 하라는 뜻은 아니다. 건강·안전·경계에 반하는 일은 중단하거나 환경을 바꾸는 판단이 우선이다.
 
 ## Related
 

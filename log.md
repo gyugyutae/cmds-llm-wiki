@@ -8,7 +8,7 @@ description: Chronological log of all wiki operations — ingests, queries, lint
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-23
+date modified: 2026-10-02
 tags:
   - system
   - log
@@ -2238,3 +2238,221 @@ status: active
 - Next: move in-memory storage responsibility from `AccountService` behind a Repository boundary before introducing JPA.
 - Updated: [[financial-lab]], [[index]]
 - Reuse axis: 프로젝트 증거, 백엔드/성능/금융 시스템, 취업/포트폴리오
+- [2026-10-02] query | 제4회 자랑스러운 개척인상 경쟁력 진단
+  - Reviewed compiled portfolio evidence for CUEE team awards, leadership, GNU Buddy service, FPT collaboration, and eligibility context.
+  - Conclusion: strong qualitative fit and worth applying; only the 44.23-hour volunteer component can currently be scored with confidence (estimated 4/5 within the activity rubric). Prize-money thresholds, certifications, and two-year leadership tenure remain unconfirmed or unqualified in available records.
+  - Saved [[2026-10-02-Q-GNU-pioneering-award-competitiveness]] and updated [[index]].
+  - Reuse axis: 취업/포트폴리오, 학부 리더십·공동체 활동, 교내 포상 지원서
+- [2026-10-02] verification follow-up | CUEE 수상금 및 정량점수 조정
+  - Downloaded the official GNU idea-thon plan and confirmed the 2026 GNU Pioneer Leaders Idea-thon best-excellence award is a team award with 500,000 KRW, meeting the 500,000 KRW student-activity threshold.
+  - GNU's press release confirms CUEE won the regional startup club grand prize, but does not state a prize amount; the available G-300+ notice and certificate also do not establish a cash prize.
+  - Flagged a mismatch between the user's expected volunteer total under 35 hours and the archived GNU Buddy activity confirmation of 44.23 hours; score it as 4 only if Student Affairs accepts the confirmation as qualifying volunteer evidence, otherwise use the user's under-35 estimate of 1.
+  - Updated [[cuee]] and [[2026-10-02-Q-GNU-pioneering-award-competitiveness]].
+  - Reuse axis: 취업/포트폴리오, 교내 포상 지원서, 리더십·공동체 활동
+- [2026-10-02] query | 자랑스러운 개척인상 자기소개서 주도성·윤리 소재
+  - Pulled `main` with `git pull --ff-only`; repository was already up to date and existing uncommitted work was preserved.
+  - Added the user's LikeLion account of beginner coding barriers, Codex-based weekly idea-to-app lessons, seven of eight learners attending through the term, and one business student building an app in two weeks. Recorded the outcomes as user-reported, not independently verified.
+  - Clarification: the student showed a shopping-related app on their own phone during the weekly pre-session sharing; the exact idea/features are not remembered, so no launch or usage outcome is claimed.
+  - Found a CUEE integrity candidate in the Nexon interview-preparation recollection: the user told teammates his paid-use assumption was weak and proposed reconsidering the direction after a judge's question. Qualified it as honesty/accountability rather than a proven rule-violation dilemma.
+  - Follow-up: recorded the user's fear of failure and sunk-cost concern during a pivot, while flagging that CUEE has two distinct pivots and the exact event/scope must be confirmed before essay use.
+  - Further follow-up: assigned Q1 to the first-stage rejection, review-based improvements, and later awards; Q3 to Buddy/TMU/FPT with evidence boundaries; Q4 to CUEE product direction. Added provisional category ranges and calculated the present evidence-only total ceiling as 87 or 90 depending on volunteer-hour acceptance.
+  - Saved [[2026-10-02-Q-GNU-award-essay-evidence-map]], updated [[김규태 Leadership and Teaching Evidence]], [[2026-10-02-Q-GNU-pioneering-award-competitiveness]], and [[index]].
+  - Reuse axis: 교내 포상 자기소개서, 리더십·교육 경험, 윤리·책임 경험 점검
+## [2026-10-02] ingest | 한기용 27년차 실리콘밸리 개발자 인생 이야기 1부
+
+- Preserved the 80-line YouTube transcript verbatim under `## Original Content`; exact text comparison passed.
+- Recorded the user's stated resonance with the principle that change comes from trying something new and trying again what one dislikes. The purpose is to use senior industry experience when choosing a post-graduation career and job, reducing avoidable trial and error and regret.
+- Added [[변화는 새 시도와 불편한 경험의 재시도에서 온다]] with the quote treated as the user's remembered wording because ASR text is noisy; added a Bias Check and linked the idea to learning/recovery guidance.
+- Updated [[김규태 Work and Learning Operating Guide]], [[MOC-김규태 Self Knowledge]], and [[index]]. Standalone mode: no mothership links.
+- Reuse axis: 취업/포트폴리오, 독서/책/학습
+
+## [2026-10-02] ingest | 교수 버튜버 진로 transcript 및 개인 활동·학습 메모
+
+- Ingested four selected files into Raw Sources and confirmed each `## Original Content` ends with the exact source text.
+- Added the professor VTuber transcript and the user's stated coding preference to [[AI 시대의 개발자 학습 전략]]: direct hand coding and AI tab completion at roughly a 50/50 split is a current user-reported practice, not a universal or measured optimum.
+- Added the activity-report preparation record to [[김규태 Leadership and Teaching Evidence]], retaining its status as a working record that requires source-level confirmation before portfolio claims.
+- Connected the user's flirting brainstorm to [[김규태 Attachment and Romantic Pacing Pattern]] and [[김규태 Relationship Values]], explicitly separating planned ideas from actual behavior and requiring consent before physical contact.
+- Preserved the software development course notes as Raw Source only. The user deferred the AI-era student transcript and Peter Thiel career transcript; CUEE RISE and drone notes were excluded from this batch and their originals were left in place.
+- Updated [[index]]. Standalone mode: no mothership links.
+- Reuse axes: 취업/포트폴리오, 독서/책/학습, Codex 개발 워크플로, 제품/창업, 강의/수업/교육, 개인 삶의 운영 지식·관계 및 자기이해
+
+## [2026-10-02] query follow-up | 자랑스러운 개척인상 지원동기와 동아리 활동 증거
+
+- Reviewed [[cuee]] and [[김규태 Leadership and Teaching Evidence]] for the first-stage review feedback and subsequent changes before asking the user; the Wiki already records the three review gaps and some follow-up work, but not a complete one-to-one mapping for every gap.
+- Added the user's Silicon Valley Employment Club activities to [[김규태 Leadership and Teaching Evidence]]: English LinkedIn resume, three-company research presentation, and an English mock interview using three actual questions from a chosen Silicon Valley company. Outcomes and the student need that prompted the design remain to be confirmed.
+- Updated [[2026-10-02-Q-GNU-award-essay-evidence-map]] with an evidence-based motivation frame and the more specific Q6 activity sequence; no essay draft was written.
+- The specified local PDF path `C:\Users\kym70\OneDrive\Desktop\1.pdf` was not present in the current workspace environment; exact item 2/7 wording still needs checking against the user's application form.
+- Reuse axis: 교내 포상 자기소개서, 리더십·공동체·진로지원 활동
+
+## [2026-10-02] query | 제조 AI 데이터 분석 교육 사전 준비
+
+- Interpreted the user-provided two-day curriculum as 16 hours: manufacturing AI context, Python/VS Code setup, data preparation, preprocessing, visualization, prediction/classification, and a team or individual project.
+- Personalized preparation to the user's existing Python experience, Java/Spring learning track, and financial data-analysis interest. Prioritized Pandas, basic visualization/statistics, classification metrics, train/test separation, and data leakage.
+- Saved [[2026-10-02-Q-manufacturing-ai-data-course-preparation]] and updated [[index]]. The course's exact libraries, dataset, and grading criteria remain unknown from the image.
+- Reuse axis: 독서/책/학습, 취업/포트폴리오
+
+## [2026-10-02] query follow-up | 공식 자랑스러운 개척인상 서식과 문항 재배치
+
+- Retrieved the 2026 official GNU selection notice attachment from the university page and extracted its full text/tables in a temporary directory. The attachment confirms the exact seven essay prompts and the quantitative scoring table; the linked desktop `1.pdf` is absent in this environment, so the official HWP is the primary prompt source.
+- Confirmed prompt order: (1) growth background, values, adversity; (2) award motivation and fit; (3) post-award academic/career plan; (4) social contribution after career success; (5) strongest non-academic achievement; (6) school problem and solution; (7) ethical conduct despite disadvantage/sacrifice.
+- Re-mapped the essay plan in [[2026-10-02-Q-GNU-award-essay-evidence-map]]. Added academic self-directed recovery as a Q1 candidate, LikeLion teaching as Q5, Silicon Valley club as Q6, and marked Q7 CUEE pivot as an unconfirmed fit rather than a proven ethical dilemma.
+- Refined the quantitative assessment in [[2026-10-02-Q-GNU-pioneering-award-competitiveness]] using the official table. The Buddy 44.23-hour record is an International Office program certificate; it does not itself satisfy the notice's volunteer-portal certificate requirement. Baseline estimate is 2/15, with up to 2 additional contest points if the remaining team-award prize amounts meet the 500,000 KRW threshold. Current evidence-only arithmetic ceiling is 87 or 89, not a selection-probability prediction.
+- GPA records (3.68 cumulative and 4.10 previous term) appear to meet the official 3.5 academic gate; disciplinary and duplicate-benefit eligibility still need user confirmation.
+- No essay prose was drafted. The plan remains pending the user's confirmation and missing first-person details.
+- Reuse axis: 교내 포상 자기소개서, 학업 회복, 창업·교육·진로 기여
+
+## [2026-10-02] query follow-up | 학생활동 정량점수 상금·봉사 근거 재확인
+
+- Downloaded and extracted the attached HWP from GNU's 2026-08-07 G-대학생 창업유망팀 동아리 챌린지 re-notice. The award table specifies 500,000 KRW per team for 최우수상 and 300,000 KRW per team for 우수상; the user's recorded U300+ linked 우수상 therefore does not meet this rubric's 500,000 KRW team-prize threshold.
+- The 2026-09-03 GNU startup-supporters application draft records a 1365 total of 75 hours 30 minutes but does not break it down by the award's 2024-03 onward window. It includes an example from 2022, so the full total cannot be assigned to the current period. A period-specific portal record is still needed.
+- Corrected [[2026-10-02-Q-GNU-pioneering-award-competitiveness]]: confirmed quantitative baseline remains 2/15; only the regional startup-club Grand Prize amount can add a known potential contest point. Arithmetic ceiling is 88 with the current volunteering assumption, or 91/92 if qualifying portal hours raise the volunteering tier and the regional prize qualifies.
+- Updated [[2026-10-02-Q-GNU-award-essay-evidence-map]] and [[index]]. No essay prose was drafted; user confirmation and first-person details are still pending.
+- Re-read the earlier GNU startup-supporters application and found a prior self-authored motivation about returning help received to aspiring teams. Kept it as a candidate for the award-motivation discussion only; the user has not confirmed that it is their reason for applying to this award.
+- Reuse axis: 교내 포상 자기소개서, 봉사·수상 정량평가 증빙
+## [2026-10-02] query | 금융권 취업을 위한 AI·데이터 대회 선택
+
+- Read Core Context, finance career roadmap, portfolio map, recent bank-backend readiness review, and September opportunity map before comparing current contests.
+- Verified current schedules for SNU Croche, KISTI DATA·AI, Data+AI data-safe-zone challenge, MOEL/KEIS Employment24 online hackathon, and KASA Space Hackathon. The supplied AI-idea contest closes 2026-10-02.
+- Confirmed the data-safe-zone prize benefit applies only to 우수상 이상 winners applying to NICE지니데이타's 2027 entry-level hiring; the user still needs to verify center access and required team visits because the contest requires an in-person data-zone visit.
+- Compared the conditional NICE hiring advantage with the user's higher-priority Java/Spring/SQL implementation gap. Saved [[2026-10-02-Q-hackathon-choice-for-finance-career]] and updated [[index]].
+- No personal portfolio or career Wiki claims were changed; current contest-specific location and 2027 NICE role details remain to be confirmed.
+- Reuse axis: 취업/포트폴리오, 프로젝트 증거, 백엔드/성능/금융 시스템, 제품/창업
+## [2026-10-02] query follow-up | 데이터문제해결 vs 고용24 해커톤
+
+- 팀원이 추천한 데이터문제해결은 데이터안심구역과 별도 부문이며, KDATA 데이터/분석 도구로 레시피 또는 문제해결 분석 결과를 제출하는 온라인 트랙으로 확인.
+- NICE지니데이타 2027 채용 서류면제는 데이터안심구역 부문의 우수상 이상 조건으로 한정되고, 데이터문제해결 부문에는 적용 근거를 확인하지 못함.
+- 사용자 목표의 직접 구현 격차에는 고용24 MVP가 더 직접적이나, 분석 강점 팀원이 있고 금융/사업 관련 데이터 주제와 사용자의 명확한 SQL·분석 기여가 확보되면 데이터문제해결도 팀 핏과 완주 측면에서 합리적이라는 조건부 판단을 추가.
+- [[2026-10-02-Q-hackathon-choice-for-finance-career]] 및 [[index]]를 보완. 공식 근거 링크와 세부 일정 차이를 기록함.
+- 재사용 축: 취업/포트폴리오, 데이터 분석, 백엔드/금융 시스템
+## [2026-10-02] query follow-up | AI 코딩 전제 반영한 대회 추천 재평가
+
+- 사용자가 Java 구현 경험은 financial-lab에서 쌓고, 대회 구현 코드는 AI로 작성할 계획이라고 명시해 선택 기준을 업데이트.
+- 구현 산출물 자체보다 금융 데이터 주제의 적합성, 팀 분석 강점, 본인의 문제정의·결과 해석·검증 기여를 중심으로 재평가. 적합한 금융/사업 데이터 주제와 역할이 있으면 데이터문제해결 부문 우선, 제품 MVP 팀 핏이 더 강하면 고용24를 선택하는 조건부 권고.
+- 데이터문제해결 부문 NICE 서류면제 제외, AI 생성 코드의 동작을 설명하고 활용 범위를 투명하게 밝힐 필요를 기록.
+- [[2026-10-02-Q-hackathon-choice-for-finance-career]]의 결론과 후속 비교를 수정.
+- 재사용 축: 취업/포트폴리오, 프로젝트 증거, 백엔드/금융 시스템
+## [2026-10-02] query follow-up | 데이터문제해결 수상 역량·배점 확인
+
+- 데이터 레시피와 문제해결은행 분석도구 활용 부문의 예선 배점, 공통 본선 발표 배점, 생성형 AI 공개 의무를 공개된 상세 모집요강에서 확인.
+- 수상 준비 우선순위를 문제 정의 → 데이터 출처/분석 설계 → 정확한 결과 해석·검증 → 실효성 → 의사결정 발표/Q&A로 정리.
+- [[2026-10-02-Q-hackathon-choice-for-finance-career]]에 평가표, AI 공개 조건, 사용자 기여 전략을 추가.
+- 근거는 공개 세부 모집요강이며, 제출 직전 KDATA 포털 최신 양식과 대조 권고.
+- 재사용 축: 취업/포트폴리오, 프로젝트 증거, 데이터 분석
+
+## [2026-10-02] query follow-up | 개척인상 지원동기·윤리 후보·정량 경계 재확인
+
+- 공식 공고의 선발 취지는 우수인재 발굴·시상을 통해 학생 상호간 동기를 높이고 미래 인재 육성에 대한 학내 관심을 제고하는 것임을 확인했다. [[2026-10-02-Q-GNU-award-essay-evidence-map]]의 2번 계획에 반영하되, 사용자의 실제 지원동기는 아직 확인하지 않았다.
+- 자기성찰 기록에서 성장·가시적인 사용자 반응·인정 동기를 다시 확인했다. 이전 창업서포터즈 지원서의 `받은 도움을 돌려주기`도 이번 상의 동기와 동일시하지 않고 후보로 남겼다.
+- UNLV 지원서 초안은 Threads의 404 GitHub 링크 게시물을 삭제하고 크롤링 과정을 수정했다고 적지만, 정확한 URL·수정 방법·실제 불이익은 미확인이라 7번 윤리 사례로 확정하지 않았다.
+- 봉사 기준 계산을 바로잡았다: 35시간 미만은 1점, 정확히 35시간은 4점. 사용자가 보고한 `35시간 이하`만으로 정량점수를 단정할 수 없어 [[2026-10-02-Q-GNU-pioneering-award-competitiveness]]의 현 추정과 상한을 조건부로 정리했다.
+- Q6의 영어 LinkedIn 이력서·관심 기업 3곳 발표·실제 질문 3개의 영어 모의면접을 [[2026-10-02-Q-GNU-award-essay-evidence-map]]에 반영했다. 학생의 구체적 준비 공백과 참여 규모·효과는 여전히 확인이 필요하다.
+- 문화적 감성은 Buddy의 유학생 적응 지원·약속시간 기대 조율과 FPT 다국적 팀 협업을 주요 근거로 정리했다. TMU 팀은 한국인 구성이므로 직접 교류 장면을 확인하기 전에는 다국적 팀 경험으로 쓰지 않도록 한계를 기록했다.
+- `모두의 창업` 심사평의 세 보완점과 후속 자료를 연결했다: CUEE MVP·로드맵(제품계획), 코레일 실증/기업 제휴 및 이커머스 경로(초기 판로 가설), B2B 수수료와 CPS(수익 가설). 실제 판매·계약·고령 사용자 검증은 없으며, 5/27 아이디어톤 수상과 결과 예정 시점 사이의 연대기는 사용자 확인이 남았다.
+- 21:06 KST에 GNU 공지를 다시 검색했지만 접수 연장이나 선발 결과 공지는 확인되지 않았다. 제출 여부는 사용자에게 확인되지 않았으며, 지정된 `Desktop\\1.pdf`도 여전히 없고 `0557720161.pdf`는 공고 양식으로 확인된다.
+- 제출 증빙 경로를 다시 조사하고 `20-PDF-U300-challenge-award.png`에서 CUEE 5인 팀의 우수상과 2026-08-11 날짜를 시각 확인했다. Buddy·TMU·FPT 수료/활동 문서는 저장돼 있지만, 5/27 GNU 아이디어톤과 6/16 경남권 대상 상장 원본 및 기간 지정 1365/VMS 확인서는 현재 Desktop/Wiki attachment 경로에서 찾지 못해 [[2026-10-02-Q-GNU-award-essay-evidence-map]]에 분리 기록했다.
+- GNU 공식 사이트에서 해당 두 수상의 팀명별 결과 공지도 검색했으나 찾지 못했다. 결과 공지가 없다고 단정하지 않고, 개인 제출 증빙 파일이 필요하다고 기록했다.
+- 21:13 KST에 GNU 공고를 다시 확인했으며 여전히 9/29 모집 공고만 보이고 연장 또는 결과 공지는 검색되지 않았다. 이는 현재 공개 상태 확인일 뿐, 사용자의 제출 여부를 증명하지 않는다.
+- GNU 본 공고 일정 메타데이터는 10월 2일 14:36까지, 첨부 양식과 학과 게시 안내는 18:00까지로 표시되어 있어 접수 마감 시각 표기가 일치하지 않는다. 접수 여부와 학생과의 안내는 사용자 확인 대기 상태다.
+- 자기소개서 초안은 작성하지 않았다. 사용자의 제출 상태·모두의 창업 결과 연대기·개척인상 지원동기 확인을 기다린다.
+- 재사용 축: 교내 포상 자기소개서, 리더십·공동체 활동, 윤리적 책임
+
+## [2026-10-02] query follow-up | GNU 개척인상 공고 페이지 현재 표시 재확인
+
+- 공식 GNU 공고 페이지를 21:16 KST에 열어 모집 일정이 2026-09-29 14:36~2026-10-02 14:36으로 표시되고, 첨부파일 다운로드 수가 400회임을 확인했다. 이전 사용자 관찰값 6회와 다르지만 어느 쪽도 지원자 수를 나타내지는 않는다.
+- 공고 페이지의 14:36 마감과 첨부 양식·학과 공지의 18:00 마감 표기가 다르며 두 시각 모두 확인 시점에는 경과했다. 제출 상태는 추정하지 않고 사용자에게 확인하도록 소재 지도와 경쟁력 진단에 기록했다.
+- 재사용 축: 교내 포상 자기소개서, 지원자 수와 다운로드 수 구분
+
+## [2026-10-02] query follow-up | 경남권 창업동아리 CUEE 대상 1차 출처 보강
+
+- GNU 공식 보도자료(2026-06-01)가 경남권 창업동아리 교육·경진대회 날짜(5/28~29), 참가 규모(24팀·85명), CUEE 대상 수상을 확인하는 것을 찾았다. 앞서 `팀명별 공식 결과 공지를 찾지 못함`이라고 한 기록을 수정했다.
+- 보도자료에는 개인별 팀원 명단이나 대상 상금이 없다. Wiki의 6/16 상장 날짜와 5/28~29 대회 시점을 구분하고, 원본 상장 확인 전까지 정량 상금점수는 적용하지 않는다고 `cuee`, 소재 지도, 경쟁력 진단에 반영했다.
+- 이 상의 공식 결과는 6/1 보도자료로 확인되므로, 모두의 창업 1차 선정 결과(6월 중순 예정) 이후 성과라고 단정할 수 없다. 정확한 탈락 통보일·심사의견 수령일은 사용자 확인을 요청한다.
+- 재사용 축: 교내 포상 자기소개서, 수상 연대기, 팀 성과 증빙
+
+## [2026-10-02] query follow-up | 경남권 대상 상금·지원금 구분 확인
+
+- GNU의 [2026 경남권 대학생 창업동아리 모집 공고](https://map.gnu.ac.kr/main/na/ntt/selectNttInfo.do?mi=1126&nttSn=6793182)에 첨부된 공식 프로그램 PDF를 내려받아 확인했다. 프로그램은 별도 3단계로 MVP 제작비를 20팀에 팀당 최대 200만원 지원하고, RISE 마일리지는 참여시간을 기준으로 지급한다고 명시한다.
+- PDF와 공식 결과 보도자료에서는 CUEE의 대상 수상 상금 액수를 찾지 못했다. MVP 제작비·참여 마일리지는 경진대회 상금과 다른 사업 지원이므로 정량 공모전 점수로 환산하지 않는다. 별도 대상 상금이 지급됐는지는 사용자 보유 상장·지급 증빙으로 확인할 질문으로 남긴다.
+- 소재 지도·경쟁력 진단·CUEE 엔티티에 근거 구분을 기록했다.
+- 재사용 축: 교내 포상 정량평가, 창업지원금과 상금 구분
+
+## [2026-10-02] query follow-up | 개척인상 공식 취지와 현재 공고 상태 재확인
+
+- GNU 공식 검색에서 제4회 개척인상 연장이나 선발 결과 공지는 찾지 못했고, 9/29 모집 공고가 계속 노출되는 것을 확인했다. 공대·지질학과 등 학교 부서의 동일 공지 재게시에는 10/2 18:00 마감이 표시된다. 본 공고의 포털 일정 14:36과 다른 공식 표기가 있으나 둘 다 현재 시점에는 지났다. 사용자 접수 여부는 추정하지 않는다.
+- GNU 지질과학과 공식 재게시의 안내 문구에서 선발 목적이 우수인재 발굴·시상, 학생 상호간 동기부여, 미래 인재 육성에 대한 학내 관심 제고임을 확인했다. [[2026-10-02-Q-GNU-award-essay-evidence-map]]의 Q2 계획에 추가해, 사용자의 진짜 동기를 확인하기 전에는 `타인에게 동기를 주고 싶다`는 이유를 임의로 쓰지 않도록 명시했다.
+- 재사용 축: 교내 포상 자기소개서, 공식 지원동기 해석, 접수상태 점검
+
+## [2026-10-02] query follow-up | Q7 제품 피벗 선택과 소재 지도 정정
+
+- 현재 Wiki에서 `CUEE 피벗이 제품 방향인지 수익모델인지 확인`을 계속 미해결로 둔 것을 발견했다. 앞선 사용자 답변은 이미 7번 후보를 `큐의 제품 방향`으로 골랐으므로 이를 반영했다.
+- CUEE 엔티티와 자랑스러운 개척인상 소재 지도·경쟁력 진단을 수정해 `배우담`에서 `CUEE`로 바꾼 제품 방향 피벗을 7번의 우선 후보로 정했다. 사용자 보고로 확인된 실패 우려와 기존 작업을 버리는 부담을 기록하고, 실제로 포기한 작업·재사용한 작업·감수한 비용 및 이 선택이 왜 사용자에 대한 책임 판단이었는지는 미확인으로 남겼다. 단순 사업 방향 변경을 윤리행동으로 포장하지 않는다.
+- Q2에는 GNU 학과 공지에 적힌 공식 취지(우수인재 발굴·시상, 학생간 동기부여, 미래 인재 육성에 대한 학내 관심)를 연결하되, 사용자의 진짜 동기는 아직 확인 전이라고 명시했다.
+- 재사용 축: 개척인상 2·7번 소재 계획, 사용자 확인사항 추적
+
+## [2026-10-02] query follow-up | Desktop 공식 HWP 공고 일정 대조
+
+- Desktop에 `제4회 자랑스러운 개척인상 선발 공고.hwp`가 있음을 확인하고 HWP 미리보기 텍스트를 읽었다. 제목과 내용은 개인 작성본이 아닌 총장 명의 공식 선발 공고다.
+- 첨부 공고는 접수 마감을 10/2 18:00, 후보자 심사·최종 발표 기간을 10/6~10/15, 시상식을 10/20 예정으로 명시한다. 여러 학교 부서 재게시도 18:00 마감을 적는다. 포털 상세페이지의 14:36 메타데이터와 차이는 있으나, 사용자의 제출 여부는 알 수 없다.
+- 10/2 23:54 KST에는 발표 예정 기간 전이다. 결과 공지가 안 보이는 점으로 제출·선발 상태를 추정하지 않는다. `1.pdf`는 여전히 없고, Desktop의 HWP는 공식 공고문이다.
+- 소재 지도와 경쟁력 진단에 공고 종류·시상일정·기한 차이를 구분해 반영했다.
+- 재사용 축: GNU 지원서 준비, 공고와 작성본 구분, 접수 상태 검증
+
+## [2026-10-03] query follow-up | Q7 제품 피벗의 공개 개발 근거 대조
+
+- 사용자의 공개 [배우담 개발일지](https://velog.io/@gyutaetae/%EB%B0%B0%EC%9A%B0%EB%8B%B4-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%801) (2026-05-04)를 확인했다. 본문은 개발 전 기획으로 표시되어 있으며, 화면 전환을 어려워할 수 있는 사용자를 위해 실제 앱 위에서 안내하기, 불확실한 버튼은 강조하지 않기, 한 단계 안내 후 멈추기, 민감정보를 로컬에서 처리하기 같은 설계 결정을 담고 있다. 이는 책임 있는 제품 원칙의 근거지만 구현·사용자 효과를 증명하지 않는다.
+- 공개 [CUEE GitHub commit history](https://github.com/gyutaetae/cuee/commits/main)를 GitHub API로 확인했다. 현재 저장소는 2026-05-01 설계 문서 및 같은 날 Android 구현 커밋으로 시작한다. 이력은 이전 배우담 학습형 개념의 별도 산출물·폐기 과정을 보여주지 않으며, 별도 로컬·문서 작업이 없었다는 증명도 아니다. 공개 개발일지의 `개발시작 전` 표기와 5/1 저장소 구현 이력 사이 시점을 사용자 확인 전까지 화해시키지 않는다.
+- Wiki의 Q7 계획을 사용자가 고른 제품 피벗 중심으로 정리했다. Threads 404 사례는 사용자 요청으로 이전 활동실적 PDF에서 제외됐고 정확한 URL·오류·수정·감수 비용이 검증되지 않아 보조 후보에 둔다.
+- 2026-10-03 GNU 공식 공고를 다시 열었을 때 목록에는 기존 공고만 보였고, 접수 일정은 메타데이터상 10/2 14:36 종료, 첨부 공고·학과 재게시상 18:00 종료로 서로 다르다. 다운로드 표시는 401회이며 지원자 수는 아니다. 현재 검색에서 연장·결과 공지를 추가 확인하지 못했고 발표 예정 기간은 아직 시작 전이다.
+- 재사용 축: 개척인상 Q7, 사용자 중심 설계, 기술·행동 이력 증빙
+
+
+## [2026-10-03] query follow-up | 개척인상 지원동기 확인 및 초안 전 기획 유지
+
+- 사용자는 개척인상에 지원하려는 실제 이유로 다음 창업·교육 활동을 이어갈 계기를 얻고 싶다고 확인했다. 이를 소재 지도 Q2에 반영하고, 상을 통해 얻고자 하는 계기의 구체적 의미와 공식 선발 취지·실제 활동 근거를 연결하도록 했다.
+- 사용자는 내일이라도 제출할 수 있으니 마감은 더 신경 쓰지 말고 준비하라고 했다. 공식 공고 일정은 사실 기록으로 남기되, 마감 확인을 반복하거나 글쓰기 계획을 멈추지 않는다.
+- 사용자의 기존 요청대로 초안은 작성하지 않았다. 모두의 창업 탈락·수상 연대기, 배우담→CUEE 피벗에서 실제로 포기·재사용한 일과 윤리적 이유, 취업동아리 활동의 참여 규모·변화에 대한 사용자 답변을 기다린다.
+- 재사용 축: 개척인상 Q2·Q7, 창업·교육 동기, 초안 전 소재 기획
+
+## [2026-10-03] ingest | Modoo CUEE 심사의견 및 사용자 응답
+
+- 사용자가 지정한 Desktop 캡처를 `80. References/Attachments/2026-10-03-Modoo-CUEE-review-context.jpeg`에 보존하고, 보이는 심사평을 `10. Raw Sources/15. Clippings/2026-10-03-Modoo-CUEE-review.md`의 `Original Content`에 전사했다. 기존 `2026-09-08-CUEE-modoo-final-review.jpeg`와 동일한 심사평이며 새 캡처는 주변 페이지 맥락을 더 포함한다.
+- 사용자는 첫 `모두의 창업` 탈락과 심사의견이 2026년 4월이었다고 확인했다. 심사평의 긍정·보완점을 이미지 원문과 대조했다.
+- 사용자가 설명한 대응을 분리해 기록했다: 노인 구독료를 없애 무료 제공, 구매전환률과 시간 단축 자료 확보, 이를 근거로 Korail 같은 기업에 B2B SaaS 제공, CUEE를 통한 구매 성공별 CPS. 이는 사용자 보고상의 사업모델 전환이며 실제 KPI·계약·거래·수익 증거는 없다.
+- 공식 공고 자료의 6월 중순 1차 선정 안내와 사용자의 4월 탈락 기억은 같은 심사 단계인지 불분명해 `cuee`에 경고를 남기고 `disputed: true`로 표시했다. 정확한 단계, 변경 모델의 반영 시점 및 후속 수상과의 인과는 미해결이다.
+- `cuee`, `김규태 Leadership and Teaching Evidence`, 개척인상 소재 지도 및 `index.md`를 갱신했다. Raw Sources 수를 56으로 동기화했다.
+- 재활용 축: 제품/창업, 에세이, 프로젝트 판단·증거
+
+## [2026-10-03] query follow-up | 4월 탈락 이후 제출물 반영 순서 확인
+
+- 사용자는 4월 결과가 공식 탈락 결과였으며, 노인 무료 제공·전환율/시간 절감 자료 확보·B2B SaaS/CPS 선택이 이후 5/27 아이디어톤과 5월 말 경남권 대회 제출물에 담겼다고 추가 확인했다.
+- 이 순서를 반영해 `cuee`, 개척인상 Q1 소재 지도, 원문 클리핑의 사용자 보고를 확인했다. 수상은 이후 발생했지만 해당 사업모델 선택이 수상의 원인이었다고 적지 않았다.
+- 중기부가 공지한 전국 모두의 창업 모집 일정(5/15 마감, 6월 중순 5천 명 발표 계획)과 4월 공식 탈락 시점이 같은 평가 단계인지 아직 불명확하다. `modoo.or.kr`의 GNU 최종 심사인지, 전국 사업과 별도인 교내/사전 단계인지 정확한 공고·선발명을 확인해야 연대기를 확정할 수 있다.
+- 재활용 축: 개척인상 Q1, CUEE 사업모델 의사결정, 공식 결과 연대기
+
+## [2026-10-03] query follow-up | 개척인상 정량 증빙 파일 재확인
+
+- Desktop 및 Wiki의 `70. Outputs`·`80. References/Attachments`에서 상장, 아이디어톤, 경남권, 봉사/1365/VMS, 활동확인 관련 이름을 대상으로 검색했다. U300+ 우수상 상장 이미지와 Buddy·TMU·FPT 증명은 찾았으며, 상금 액수는 U300+ 상장에 없다.
+- GNU 아이디어톤 최우수상 원본, 경남권 대상 원본/상금 액수, 2024-03 이후 기간 지정 포털 봉사 증빙은 검색 결과에서 추가로 찾지 못했다. 파일명이 일반적인 경우까지 배제하지 않도록 확인 범위를 기록했다.
+- 이 범위와 한계를 개척인상 소재 지도의 증빙 현황에 반영했다.
+- 재활용 축: 개척인상 정량점수, 수상·봉사 증빙 패킷
+
+## [2026-10-03] query follow-up | 4월 모두의 창업 신속 심사 일정 확인
+
+- 중기부의 [2026-04-16 통합 모집 수정공고](https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1067363&cbIdx=310)를 확인했다. 신청 수요가 높은 멘토기관에 신속 심사를 도입했고, 4/23 24시까지 접수한 신청의 결과를 4월 말 안내할 계획이었다. 신속 심사 미선정 아이디어도 접수 마감 뒤 정규 심사에 포함된다고 명시했다.
+- 따라서 사용자의 4월 공식 비선정은 전국 프로젝트의 신속 심사 결과일 수 있다. 실제 신청 트랙, 기관, 통지 문구는 아직 확인되지 않아 가능성으로 기록했다. 5/15 모집 마감·6월 중순 전체 선발 발표 계획과 날짜만으로 모순이라고 단정하던 설명을 교정했다.
+- `cuee`, CUEE 심사평 원문 클리핑, 개척인상 소재 지도와 경쟁력 진단을 갱신했다. 배우담→CUEE 제품 방향 결정(지원 준비 중)과 4월 심사평 이후 무료 제공·B2B/CPS 수익모델 결정을 분리했다.
+- 재활용 축: 개척인상 1·7번, 모두의 창업 신청·심사 연대기, CUEE 피벗 기록
+
+## [2026-10-03] query follow-up | 모두의 창업 비선정 단계 사용자 정정
+
+- 사용자는 4월 Modoo 비선정이 신속 심사가 아니라 `정규·최종 비선정`이었다고 명확히 답했다. 이 답변을 사용자 회고로 기록하고 앞선 신속 심사 가능성 중심 설명을 고쳤다.
+- 제공된 화면에는 심사의견만 있으며 실제 결과 통지 문구·날짜는 없다. 전국 정규 선발 예정 시점은 6월 중순이어서 4월 회고와 공식 일정의 차이는 남긴다. 지원서 1번은 심사 단계·정확한 날짜를 쓰지 않고, 비선정 뒤 피드백을 반영한 행동으로 구성한다.
+- `cuee`, 심사평 원문 클리핑, 개척인상 소재 지도·경쟁력 진단, 리더십 문서 두 곳을 갱신했다. 7번의 실제 포기한 작업·설득 근거·본인이 감수한 부담은 사용자에게 추가 질문했다.
+- 재활용 축: 개척인상 1·7번, 모두의 창업 심사 연대기
+
+## [2026-10-03] output | 자랑스러운 개척인상 1~7번 자기소개서 초안
+
+- 사용자가 확정한 7개 소재 배치를 바탕으로 `70. Outputs/2026-10-03-GNU-Proud-Pioneer-Award-Draft.md`에 첫 문안을 작성했다. 공고 HWP의 실제 1~7번 문항 문구와 전체 5쪽 이내 안내를 대조했다.
+- 2·3번에는 수상 후 복지관에 처음 연락해 CUEE 고령자 사용성 검증을 제안한다는 계획을 넣었다. 7번에는 Threads 404 링크를 직접 확인해 글을 내리고 링크 확인 에이전트 워크플로를 개선한 행동을 넣되, 조회수 손실·수정 로그·검증 성능은 주장하지 않았다.
+- 사용자는 현재 로컬 브랜치의 모든 변경사항을 GitHub에 푸시하도록 명시적으로 요청했다.
+- 재활용 축: 교내 포상 지원서, CUEE 사용자 검증 계획, 윤리 행동 사례

@@ -7,7 +7,7 @@ description: "Reusable evidence page for Kim Gyutae's leadership, teaching, club
 author:
   - Codex
 date created: 2026-07-12
-date modified: 2026-09-21
+date modified: 2026-10-03
 tags:
   - leadership
   - teaching
@@ -17,6 +17,10 @@ source:
   - "[[2026-07-12-Kim-Gyutae-Leadership-Product-Context-v2]]"
   - "[[2026-07-12-Velog-Leadership-Product-Hackathon-Bundle]]"
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
+  - "User-provided chat message (2026-10-02)"
+  - "User-provided chat message (2026-10-03)"
+  - "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1067363&cbIdx=310"
+  - "[[2026-10-02-GNU-개척리더스-창업서포터즈-활동기록]]"
   - https://velog.io/@gyutaetae/what-is-leadership
   - https://velog.io/@gyutaetae/week2.-silicon-valley
   - https://velog.io/@gyutaetae/%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC-1%EC%A3%BC%EC%B0%A8
@@ -34,7 +38,7 @@ explored: false
 claimType: mixed
 evidenceScope: multi-source-mixed
 verificationStatus: partial
-verifiedAt: 2026-08-29
+verifiedAt: 2026-10-03
 verifiedBy: Codex
 disputed: false
 status: active
@@ -50,7 +54,7 @@ status: active
 
 ## Failure And Recovery Evidence
 
-사용자 자기보고에 따르면 `모두의 창업` 1차 탈락 뒤 실패를 숨기지 않고 팀원들에게 부족한 점과 아쉬움을 공유했다. 다음 학기 재도전, U300, 경남권 창업동아리라는 다음 목표를 제시했고 이후 경남권 창업동아리에서 대상을 받았다.
+사용자 자기보고에 따르면 `모두의 창업`에서 2026년 4월 공식 비선정과 심사의견을 받은 뒤 부족한 점과 아쉬움을 팀원들에게 공유했다. 사용자는 신속 심사가 아닌 정규·최종 비선정이었다고 명확히 회고한다. 결과 통지 원문이 없고 전국 정규 선발 일정과 시점이 달라 지원서에는 심사 단계와 정확한 날짜를 적지 않는다. 사용자는 이후 후속 창업 대회와 재도전을 팀에 제안했다고 회고했으며, 5월 말 경남권 창업동아리 대회에서 팀이 대상을 받은 사실은 별도 공식 자료로 확인된다. 이 수상이 4월 심사의견 반영 때문에 발생했다고 단정하지 않는다.
 
 이 사례는 다음 리더십 신호를 보여준다.
 
@@ -60,6 +64,8 @@ status: active
 - 최종 결정은 선호하지만 일정·행정·구성원 결과 관리는 보완 과제로 인식함
 
 상세 해석은 [[김규태 Leadership Pattern]]에서 관리한다.
+
+2026-10-02 추가 자기보고에 따르면, CUEE의 `배우담`→사용 순간 안내 앱 제품 피벗을 고민할 때 새 방향도 실패할 수 있다는 두려움과 지금까지 진행한 일을 버려야 하는지에 대한 걱정이 있었다. 김규태는 이미 들인 노력에 매달리기보다 잘못된 방향이라면 바꿔야 한다고 판단해 팀원들을 설득했다고 한다. 사용자는 이 회고가 제품 방향 전환을 가리킨다고 확인했다. 2026-10-03에는 2026년 4월 심사의견을 받은 뒤 노인 구독료를 없애고 무료 제공·구매전환률/시간 단축 데이터 확보·기업 B2B SaaS·구매 성공 CPS로 바꾼 수익모델 대응도 별도로 설명했다. 두 결정은 구분한다. 제품 피벗에서 실제로 포기·재사용한 산출물과 감수한 비용, 사용자 책임이라는 윤리적 이유는 여전히 추가 확인이 필요하다.
 
 ---
 
@@ -71,6 +77,9 @@ status: active
 - **Activities**:
 	- 매주 활동 기록
 	- 영어 모의면접 운영
+	- 영어 LinkedIn 이력서 작성
+	- 관심 있는 회사 3곳을 고르고 조사 내용을 발표
+	- 관심 있는 실리콘밸리 회사 1곳의 실제 면접 질문 3개를 골라 영어 모의면접 진행
 	- Velog 글 정리 및 공유
 	- 교수들과 영어 모의면접 진행
 	- 다음 주 활동 결정 및 공지
@@ -80,6 +89,8 @@ status: active
 	- 책 수요조사 및 예산 내 구매 지원
 
 ### Pending Evidence
+
+2026-10-02 사용자 추가 설명에 따르면, 동아리에서 참가자들이 영어 LinkedIn 이력서를 만들고, 관심 기업 3곳을 조사해 발표했다. 각자 관심 있는 실리콘밸리 기업 하나를 정한 뒤 해당 기업이 실제 면접에서 사용하는 질문 3개를 골라 영어로 답하는 모의면접도 진행했다. 이 활동의 계기는 취업준비에서 관찰한 구체적 공백, 참여자 수, 운영 횟수와 결과·피드백은 아직 확인하지 않았다.
 
 > [!todo] 회의록/운영 자료 보강 예정
 > 사용자가 회의록 파일은 다음에 제공하겠다고 했다. 추후 회의록, 예산/지원금 관리 문서, 책 수요조사, 공지 캡처, 교수 피드백 자료를 Raw Source로 ingest해야 한다.
@@ -117,6 +128,15 @@ Velog 기록 기준으로 실리콘밸리 활동에서는 영어 인터뷰 질�
 	- Codex 사용법 공유
 	- 각자 공부하거나 조사한 내용 공유
 	- 해커톤을 위한 백엔드 boilerplate와 framework 선택 및 배포
+
+### Beginner Coding Barrier and Teaching Outcome
+
+2026-10-02 사용자 자기보고에 따르면, 멋쟁이사자처럼 활동에서 학생들은 코딩을 배우고 싶어 했지만 기초부터 시작하는 일이 어렵고 시간이 많이 든다고 느꼈다. 김규태는 Codex를 활용한 코딩 방법과 개발 기초 개념을 함께 가르치고, 매주 각자의 아이디어를 구체화해 Codex로 구현하는 학습 방식을 진행했다.
+
+- **Cohort**: 8명으로 시작해 1명이 중도 이탈했고, 나머지 7명은 한 학기 끝까지 참석했다. 이는 사용자 보고 기준 7/8명 유지이며, 회차별 출석률은 수업 횟수와 출석부가 없어 계산하지 않는다.
+- **Example outcome**: 경영대 학생 한 명이 일주일 동안 배운 에이전트 활용법을 적용해 2주 만에 자신의 아이디어를 앱으로 만들고, 다음 세션 시작 전 자신의 휴대전화로 시연했다고 사용자가 보고했다. 아이디어는 쇼핑몰/온라인 쇼핑 앱으로 어렴풋이 기억하지만 정확한 기능은 기억나지 않는다고 했다. 앱의 공개·배포나 실제 사용 여부는 확인되지 않았다.
+- **Feedback**: 참가자들이 AI를 이렇게 활용할 수 있는 줄 몰랐고 매주 많이 배워 간다며 새로운 세계를 본 것 같다는 반응을 보였다고 사용자가 회고했다. 공식 설문이나 원문 피드백은 아직 없다.
+- **Evidence boundary**: 수업자료, 출석부, 학생 앱 산출물, 피드백 메시지는 추가 확인이 필요하다.
 
 ---
 
@@ -162,11 +182,18 @@ Velog 기록 기준으로 실리콘밸리 활동에서는 영어 인터뷰 질�
 - **Application preference**: 미래메이커 특강 운영 1순위, 경진대회 운영 2순위
 - **UNLV reuse**: 현지에서 배운 생성형 AI 검증과 기업가적 문제정의·관찰 방법을 교내 창업 프로그램 참가자에게 공유할 수 있는 채널
 
+### Report Preparation Record
+
+- [[2026-10-02-GNU-개척리더스-창업서포터즈-활동기록]] preserves the user's working notes and materials gathered before writing a later activity report.
+- Treat it as a report-preparation record. Specific completed activities, dates, attendance, and outcomes still need confirmation against the corresponding source evidence before being used as verified portfolio claims.
+
 선발 이후 실제로 완료한 활동과 산출물은 아직 확인하지 않았으므로 지원서에서는 구체적인 운영 성과로 확대하지 않는다.
 
 ## Evidence Gaps
 
 - 실리콘밸리 동아리 회의록 파일
+- 영어 LinkedIn 이력서·3개 기업 발표·기업별 실제 면접 질문 3개 영어 모의면접의 운영 횟수와 참여 결과
+- 이 프로그램을 만들게 된 학생들의 구체적인 취업준비 어려움과 활동 이후 변화
 - 예산/지원금 관리 자료
 - 책 수요조사 기록
 - 영어 모의면접 진행 사진/공지/피드백

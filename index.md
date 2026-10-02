@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-26
+date modified: 2026-10-03
 tags:
   - index
   - moc
@@ -29,13 +29,13 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 50 |
-| Wiki Pages | 79 |
-| Concepts | 40 |
+| Raw Sources | 56 |
+| Wiki Pages | 80 |
+| Concepts | 41 |
 | Entities | 15 |
 | Guides | 18 |
 | MOCs | 6 |
-| Queries | 69 |
+| Queries | 73 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -89,6 +89,7 @@ status: active
 - [[변동성 트레이딩과 델타 헤징]] — 델타 중립과 beta 중립을 구분하고 gamma·theta·변동성·비용을 함께 보는 학습 지도
 - [[AI와 머신러닝 시대의 퀀트 리서치]] — 고차원 데이터·비선형 모델·신호 자동화·주문 실행과 모델 리스크의 변화
 - [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]] — AI 초안을 분해·테스트·도메인 규칙·성능 검증을 거쳐 직접 인수하는 개발 원칙
+- [[변화는 새 시도와 불편한 경험의 재시도에서 온다]] — 졸업 후 진로·직장 선택에서 선배 조언을 자기 상황과 작은 경험으로 검토하는 관점
 
 ### Entities
 
@@ -219,6 +220,10 @@ status: active
 - [[2026-09-21-Q-GNU-UNLV-application-draft-v2]] — Docker·CUEE를 문제해결 철학으로 연결하고 Threads 10건 검증·고령 사용자 10명 관찰·네 단계 학업계획을 반영한 2차 초안
 - [[2026-09-21-Q-GNU-UNLV-selection-competitiveness-audit]] — 초안을 수정하지 않고 학적·이중 접수·사용자 관찰·AI 검증·영어 발표·단일 증빙 PDF의 보강 우선순위를 정리한 선발 준비 진단
 - [[2026-09-21-Q-GNU-UNLV-AI-startup-evidence-PDF-checklist]] — 선택 제출용 AI·창업 활동실적 PDF의 7쪽 구성, 확보 자료, 추가로 필요한 증빙을 정리한 제작 체크리스트
+- [[2026-10-02-Q-GNU-pioneering-award-competitiveness]] — CUEE 수상·리더십, Buddy 문화·공동체 활동과 정량 점수 공백을 반영한 자랑스러운 개척인상 경쟁력 진단
+- [[2026-10-02-Q-GNU-award-essay-evidence-map]] — 모두의 창업 재도전, LikeLion 교육, 실리콘밸리 취업동아리, 문화 교류와 윤리 후보를 개척인상 1~7번에 배치한 기획 지도
+- [[2026-10-02-Q-manufacturing-ai-data-course-preparation]] — 제조 AI 16시간 교육의 내용과 Pandas·시각화·분류 평가 중심의 김규태 맞춤 사전 학습안
+- [[2026-10-02-Q-hackathon-choice-for-finance-career]] — 금융권 취업 기준으로 NICE 데이터안심구역, 데이터문제해결, 고용24를 비교한 대회 선택 분석
 
 ---
 
@@ -226,6 +231,9 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-10-03 | [[2026-10-03-Modoo-CUEE-review]] | [[cuee]], [[김규태 Leadership and Teaching Evidence]], [[2026-10-02-Q-GNU-award-essay-evidence-map]] — 4월 심사의견과 사용자가 보고한 무료 제공·구매전환/시간절감 측정·B2B SaaS/CPS 대응을 구분해 기록; 공식 일정과의 단계 충돌은 미해결 |
+| 2026-10-02 | [[2026-10-02-YouTube-한기용-27년차-실리콘밸리-개발자-인생-이야기-1부]] | [[변화는 새 시도와 불편한 경험의 재시도에서 온다]], [[김규태 Work and Learning Operating Guide]], [[MOC-김규태 Self Knowledge]] — 졸업 후 진로·직장 결정에서 선배 조언을 검토하고 시행착오와 후회를 줄이는 참고 자료 |
+| 2026-10-02 | [[2026-10-02-YouTube-교수버튜버-컴공과-학생의-진로]], [[2026-10-02-GNU-개척리더스-창업서포터즈-활동기록]], [[2026-10-02-Kim-Gyutae-Software-Development-Course-Study-Notes]], [[2026-10-02-Kim-Gyutae-Flirting-Ideas]] | [[AI 시대의 개발자 학습 전략]], [[김규태 Leadership and Teaching Evidence]], [[김규태 Attachment and Romantic Pacing Pattern]], [[김규태 Relationship Values]]; 소프트웨어개발론은 Raw Source 보존 |
 | 2026-09-21 | [[2026-09-21-GNU-FPT-Vietnam-GraphRAG-Program-Record]] | [[FPT Vietnam Global Big Data AI Program]], [[김규태]], [[MOC-Portfolio]] |
 | 2026-09-21 | [[2026-09-21-Kim-Gyutae-GNU-Buddy-2026-1-Record]] | [[GNU Buddy]], [[김규태]], [[MOC-Portfolio]] |
 | 2026-09-12 | [[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]] | [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]], [[김규태 금융 시스템 개발자 취업 로드맵]], [[MOC-Portfolio]], [[Core Context]] |
@@ -262,6 +270,7 @@ status: active
 ## 📝 Application Drafts
 
 - [GNU 유학생 튜터링 신청서 문안](70.%20Outputs/2026-09-23-GNU-International-Tutoring/application-plan.md) — 지원동기, 활동목표, CLIL 기반 10~12월 진단·개선·재측정 계획
+- [제4회 자랑스러운 개척인상 자기소개서 1차 초안](70.%20Outputs/2026-10-03-GNU-Proud-Pioneer-Award-Draft.md) — 공고 원문 1~7번 문항에 맞춘 지원서 문안
 
 ## 🔗 Quick Links
 

@@ -7,7 +7,7 @@ description: "A repeated self-reported pattern of long-lasting romantic focus, r
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-08-29
+date modified: 2026-10-02
 tags:
   - relationships
   - attachment
@@ -16,6 +16,7 @@ tags:
 source:
   - "[[2026-07-23-Kim-Gyutae-Personal-Operating-Manual-v1]]"
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
+  - "[[2026-10-02-Kim-Gyutae-Flirting-Ideas]]"
 related:
   - "[[김규태 Relationship Values]]"
 confidence: medium
@@ -62,6 +63,12 @@ status: active
 
 눈빛이나 말투는 오해할 수 있으므로 단독 근거로 사용하지 않는다. 거절 뒤 구체적인 대안이나 상대의 재제안이 없으면 더 밀어붙이지 않는다.
 
+## Flirting Brainstorming Note
+
+김규태는 좋아하는 사람이 생겼을 때 호감을 어떻게 표현할지 고민하며 [[2026-10-02-Kim-Gyutae-Flirting-Ideas]]를 작성했다. 이 파일은 실제 행동이나 검증된 조언이 아니라 개인적인 아이디어 메모다. 대화를 즐겁게 하고 솔직하게 호감을 표현하려는 의도와 함께, 긍정적인 반응 뒤 손을 잡는 아이디어도 적혀 있다. 대화에 대한 호의적 반응을 신체 접촉 동의로 간주하지 말고, 손을 잡기 전에는 부담 없이 거절할 수 있게 물어본다.
+
+원문에 적힌 시술 및 립밤 관련 문구는 검증된 건강·제품 권고로 취급하지 않는다.
+
 ## Strategic Tension
 
 실패 후 YouTube와 AI에서 상대를 불안하게 만들기, 마음을 숨기기, 여러 사람과 동시에 썸을 타기, 죄책감·호혜성·손실회피를 활용하기 같은 전략을 검토했다. 사용자는 이를 대부분 불안해서 시도하려 한 미실행 전략이라고 확인했다.
@@ -84,5 +91,6 @@ AI는 "어떻게 상대의 호감을 얻을까"만 최적화하지 않는다. �
 ## Related
 
 - [[김규태 Relationship Values]]
+- [[2026-10-02-Kim-Gyutae-Flirting-Ideas]]
 - [[김규태 Stress and Recovery Pattern]]
 - [[김규태 AI Mentor Response Contract]]

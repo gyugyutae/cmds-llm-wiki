@@ -7,7 +7,7 @@ description: "A personal learning strategy that combines foundations, abstractio
 author:
   - Codex
 date created: 2026-07-26
-date modified: 2026-08-29
+date modified: 2026-10-02
 tags:
   - ai
   - developer-learning
@@ -22,6 +22,8 @@ source:
   - "[[2026-07-25-Gemini-Computational-Thinking-Decomposition]]"
   - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
   - "[[2026-07-27-Kim-Gyutae-Beyond-Vibe-Coding-Reading-Notes]]"
+  - "[[2026-10-02-YouTube-교수버튜버-컴공과-학생의-진로]]"
+  - "User-provided chat message (2026-10-02)"
 related:
   - "[[컴퓨팅 사고의 추상화와 분해]]"
   - "[[메타인지 학습 루프]]"
@@ -71,6 +73,12 @@ AI 시대 공부를 “무엇을 외웠는가”만으로 평가할 수는 없�
 
 따라서 목표는 모든 사실의 암기가 아니라, 문제를 이해하고 검증할 수 있는 **작동하는 내부 모델**을 만드는 것이다.
 
+## Kim Gyutae's Current Coding Practice
+
+김규태는 AI에게 코딩을 대부분 맡기고 있다는 느낌을 받으며, 직접 손으로 구현하는 경험이 중요하다는 점을 다시 인식했다고 말했다. 현재는 직접 코딩과 AI의 탭 완성을 대략 절반씩 사용하는 방식이 자신의 의도를 유지하면서 생산성도 얻는 데 가장 잘 맞는다고 본다.
+
+이는 고정된 최적 비율이 아니라 사용자의 현재 자기보고와 실천 가설이다. AI 자동완성으로 작성된 부분도 이해하고 수정할 수 있는지, 직접 구현한 부분이 기초 학습에 도움이 되는지, 작업별 결과를 보며 비율을 조정한다. 전체 구현을 AI에 위임하는 것과, 직접 작성 중 제안을 골라 받아들이는 탭 완성은 구분한다.
+
 ## Weekly Practice
 
 1. 이번 주에 해결할 실제 문제 하나를 고른다.
@@ -90,8 +98,8 @@ AI 시대 공부를 “무엇을 외웠는가”만으로 평가할 수는 없�
 [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]는 이 학습 전략을 구현 단계로 연결한다. AI가 만든 초안을 작은 단위로 나누고 정상·경계·실패 테스트, 도메인 규칙, 성능과 운영 조건을 확인한 뒤 직접 설명·수정 가능한 상태로 인수한다.
 
 > [!note] Bias Check
-> Counter-argument: AI 도구의 발전으로 필요한 세부 기술은 계속 바뀔 수 있으며, 모든 개발 직무가 같은 학습 우선순위를 갖지는 않는다.
-> Data gap: 이 전략이 김규태의 코딩테스트 성과, 프로젝트 품질, 학습 유지율을 개선하는지는 아직 측정하지 않았다.
+> Counter-argument: AI 도구의 발전으로 필요한 세부 기술은 계속 바뀔 수 있으며, 모든 개발 직무가 같은 학습 우선순위를 갖지는 않는다. 손 코딩과 탭 완성의 절반 배분도 모든 과제와 학습 목표에 통하는 비율은 아니다.
+> Data gap: 이 전략이 김규태의 코딩테스트 성과, 프로젝트 품질, 학습 유지율 또는 작업 생산성을 개선하는지는 아직 측정하지 않았다.
 
 ## Related
 

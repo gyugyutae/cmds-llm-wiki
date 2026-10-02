@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-09-26
+date modified: 2026-10-02
 tags:
   - moc
   - portfolio

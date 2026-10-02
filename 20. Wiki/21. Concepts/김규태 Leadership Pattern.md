@@ -7,7 +7,7 @@ description: "Interpretation of Kim Gyutae's vision-led leadership, final-decisi
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-08-29
+date modified: 2026-10-03
 tags:
   - leadership
   - team
@@ -15,6 +15,8 @@ tags:
   - behavior-pattern
 source:
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
+  - "User-provided chat message (2026-10-03)"
+  - "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1067363&cbIdx=310"
 related:
   - "[[김규태 Leadership and Teaching Evidence]]"
   - "[[cuee]]"
@@ -22,9 +24,9 @@ confidence: medium
 layer: concepts
 explored: false
 claimType: interpretive
-evidenceScope: user-original
+evidenceScope: multi-source-mixed
 verificationStatus: partial
-verifiedAt: 2026-08-29
+verifiedAt: 2026-10-03
 verifiedBy: Codex
 disputed: false
 status: active
@@ -47,7 +49,7 @@ status: active
 
 ## Failure Response Evidence
 
-`모두의 창업` 1차 탈락 뒤 팀원들에게 다음 학기 재도전과 U300·경남권 창업동아리 집중 방향을 제시했다고 회고했다. 이후 경남권 창업동아리에서 우승했다고 자기보고했다. 실패를 숨기기보다 아쉬움과 부족한 점을 팀원에게 솔직히 말하고, 약한 모습을 보여야 팀원도 의견을 편하게 말할 수 있다고 본다. 대회 결과와 팀원의 경험은 이 인터뷰 원문만으로 독립 확인되지 않는다.
+사용자는 2026년 4월 `모두의 창업` 공식 비선정 통보 뒤 부족한 점과 아쉬움을 팀원들에게 공유하고 후속 대회·재도전 방향을 제시했다고 회고했다. 사용자는 이 결과가 신속 심사가 아닌 정규·최종 비선정이었다고 회고했다. 다만 통지 원문은 없고 전국 정규 선발 일정과 4월 시점이 달라 지원서에는 심사 단계와 정확한 날짜를 적지 않는다. 경남권 대회는 같은 해 5월 말 열렸으므로 이 대회 참여를 `다음 학기` 활동으로 적지 않는다. 실패를 숨기기보다 아쉬움과 부족한 점을 팀원에게 솔직히 말하고, 약한 모습을 보여야 팀원도 의견을 편하게 말할 수 있다고 본다. 팀원의 반응과 이 행동이 수상에 미친 영향은 이 회고만으로 확인되지 않는다.
 
 ## Communication Model
 
