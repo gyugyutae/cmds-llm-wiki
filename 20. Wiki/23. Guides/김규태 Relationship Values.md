@@ -7,13 +7,14 @@ description: "Kim Gyutae's current relationship values concerning maturity, auto
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-10-02
+date modified: 2026-10-05
 tags:
   - relationships
   - values
   - consent
   - self-knowledge
 source:
+  - "[[2026-10-05-YouTube-(카톡101) 여자가 나를 보고 싶고 생각나게 만드는 전략 3가지]]"
   - "[[2026-07-23-Kim-Gyutae-Personal-Operating-Manual-v1]]"
   - "[[2026-07-23-Kim-Gyutae-Romantic-Self-Reflection-v1]]"
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
@@ -94,3 +95,9 @@ status: active
 - [[김규태 Taste and Intellectual Intimacy]]
 - [[김규태 Personal Operating Manual]]
 - [[김규태 AI Mentor Response Contract]]
+
+## 2026-10-05 관계·소설 참고 자료
+
+사용자는 대화·관계 판단의 참고 자료로 새 카톡 영상을 수집했다. [[관계 대화 조언을 상호성과 명시적 의사로 점검하기]]에 발표자 조언의 한계와 상호성·솔직한 의사표현 기준을 연결했다. 사용자가 원문의 모든 전략을 동의하거나 실행했다고 기록하지 않는다.
+
+추가 영상의 주장은 아직 외부 검증하지 않았다.

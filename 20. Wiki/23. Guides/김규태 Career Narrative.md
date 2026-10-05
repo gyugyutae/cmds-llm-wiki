@@ -7,13 +7,14 @@ description: "Reusable career narrative for positioning Kim Gyutae's developer i
 author:
   - Codex
 date created: 2026-07-11
-date modified: 2026-09-04
+date modified: 2026-10-05
 tags:
   - career
   - portfolio
   - interview
   - self-narrative
 source:
+  - "[[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]"
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
   - "[[Core Context]]"
@@ -126,3 +127,9 @@ status: active
 - [[일반 지식보다 도메인 지식이 중요해지는 이유]]
 - [[TMU Global Leadership Program]]
 - [[김규태 개발 도메인 영어 성장 계획]]
+
+## 2026-10-05 취업 준비 영상 인제스트 연결
+
+사용자는 금융권 백엔드 개발자가 되어 2027년 8월 졸업 후 바로 취업 또는 인턴 선발로 연결하고 싶다고 재확인했다. 회사 찬양보다 실제 프로젝트 경험이 팀의 문제 해결에 어떻게 도움이 되는지를 설명하는 [[채용공고와 기여 증거를 연결하는 지원동기]]를 선호한다. 구현 중인 목표와 검증 완료 경험을 구분하며, [[개발자 이력서 첫 페이지와 대표 증거]]에서 완료 근거를 선택한다.
+
+근거: [[2026-10-05-YouTube-요즘 개발자 채용 현실]], [[2026-10-05-YouTube-이력서 채용공고보고 지원동기 쓰는 방법 (보기만해도 합격률 UP)]], [[2026-10-05-YouTube-취준생 90%가 놓치는 이력서 ‘쓰기 전’ 4가지 (안 챙기면 시작부터 불리합니다)]], [[2026-10-05-YouTube-개발자 이력서만 수백개 검토하는 IT 회사 대표가 본 서류 합격 기준]], [[2026-10-05-YouTube-요즘 주니어 개발자들에게 부족한 것]], [[2026-10-05-YouTube-개발자 포폴은 OO가 전부입니다]], [[2026-10-05-YouTube-개발자 취업, 100% 성공하는 포트폴리오 작성법]], [[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]. 영상에서 가져온 조언은 외부 검증을 완료하지 않은 참고 관점이다.

@@ -7,13 +7,15 @@ description: "Navigation map for Kim Gyutae's durable self-knowledge, operating 
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-10-02
+date modified: 2026-10-05
 tags:
   - moc
   - self-knowledge
   - ai-personalization
   - llm-wiki
 source:
+  - "[[2026-10-05-YouTube-(카톡101) 여자가 나를 보고 싶고 생각나게 만드는 전략 3가지]]"
+  - "[[2026-10-05-Kim-Gyutae-Reading-and-Interleaved-Learning-Purpose]]"
   - "[[2026-07-23-Kim-Gyutae-Personal-Operating-Manual-v1]]"
   - "[[2026-07-23-Kim-Gyutae-Romantic-Self-Reflection-v1]]"
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
@@ -95,3 +97,18 @@ status: active
 - [[김규태 Personal Operating Manual]]
 - [[MOC-Portfolio]]
 - [[Core Context]]
+
+## 2026-10-05 독서와 교차 학습 목적
+
+- [[자기 신뢰 독서 관심과 판단 기록]] — 첫 책에 관심이 생긴 실제 수집 목적
+- [[인출 간격 교차 자기설명을 학습에 적용하는 법]] — Java·Spring과 문제 풀이 학습 적용안
+- [[김규태 Python 코딩테스트 교차 학습 가이드]] — 익힌 문제 유형을 비교하며 선택·재풀이하는 실험안
+
+추가 연결은 사용자 목적과 영상 참고 관점이며, 기존 검증 날짜는 새 영상 주장의 검증을 뜻하지 않는다.
+
+## 2026-10-05 관계·소설 참고 자료
+
+- [[관계 대화 조언을 상호성과 명시적 의사로 점검하기]] — 대화 조언을 실제 상호 행동과 명시적 의사로 평가
+- [[소설 읽기는 인물의 선택과 감정을 따라가는 경험이다]] — 사람·감정을 이해하는 소설 독서 관점
+
+추가 영상의 주장은 아직 외부 검증하지 않았다.

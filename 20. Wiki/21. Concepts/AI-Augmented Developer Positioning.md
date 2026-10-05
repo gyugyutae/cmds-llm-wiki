@@ -7,13 +7,14 @@ description: "Positioning frame for presenting AI use as leverage for developer 
 author:
   - Codex
 date created: 2026-07-11
-date modified: 2026-08-29
+date modified: 2026-10-05
 tags:
   - ai
   - career
   - portfolio
   - developer-growth
 source:
+  - "[[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]"
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[Human-AI Knowledge Boundary]]"
   - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
@@ -136,3 +137,9 @@ AI-Augmented Developer Positioning은 AI를 개발 역량의 대체물이 아니
 - [[컴퓨팅 사고의 추상화와 분해]]
 - [[AI 시대의 개발자 학습 전략]]
 - [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]
+
+## 2026-10-05 취업 준비 영상 인제스트 연결
+
+[[AI 시대 주니어의 문제 진단과 좋은 코드 판단 기준]]의 발표자 의견을 추가 참고한다. AI 사용보다 본인의 문제 정의·설명·수정·검증 능력을 증거로 제시한다. [[포트폴리오 주제는 기술 문제와 도메인 가치를 함께 보여준다]]를 통해 기술적 판단이 사용자 자금·중복 거래·정합성에 주는 가치를 연결한다.
+
+근거: [[2026-10-05-YouTube-요즘 개발자 채용 현실]], [[2026-10-05-YouTube-이력서 채용공고보고 지원동기 쓰는 방법 (보기만해도 합격률 UP)]], [[2026-10-05-YouTube-취준생 90%가 놓치는 이력서 ‘쓰기 전’ 4가지 (안 챙기면 시작부터 불리합니다)]], [[2026-10-05-YouTube-개발자 이력서만 수백개 검토하는 IT 회사 대표가 본 서류 합격 기준]], [[2026-10-05-YouTube-요즘 주니어 개발자들에게 부족한 것]], [[2026-10-05-YouTube-개발자 포폴은 OO가 전부입니다]], [[2026-10-05-YouTube-개발자 취업, 100% 성공하는 포트폴리오 작성법]], [[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]. 영상에서 가져온 조언은 외부 검증을 완료하지 않은 참고 관점이다.

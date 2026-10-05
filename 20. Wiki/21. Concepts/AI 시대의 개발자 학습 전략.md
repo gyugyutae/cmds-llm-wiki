@@ -7,7 +7,7 @@ description: "A personal learning strategy that combines foundations, abstractio
 author:
   - Codex
 date created: 2026-07-26
-date modified: 2026-10-02
+date modified: 2026-10-05
 tags:
   - ai
   - developer-learning
@@ -15,6 +15,7 @@ tags:
   - problem-solving
   - career
 source:
+  - "[[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]"
   - "[[2026-07-25-YouTube-AI시대-컴퓨터공학-교육]]"
   - "[[2026-07-13-YouTube-AI시대-공부법]]"
   - "[[2026-07-13-YouTube-Shorts-AI시대-도메인-지식]]"
@@ -110,3 +111,9 @@ AI 시대 공부를 “무엇을 외웠는가”만으로 평가할 수는 없�
 - [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
 - [[김규태 Career Narrative]]
 - [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]
+
+## 2026-10-05 취업 준비 영상 인제스트 연결
+
+추가 영상의 의견은 [[AI 시대 주니어의 문제 진단과 좋은 코드 판단 기준]]으로 연결했다. 직접 구현·리뷰·리팩터링으로 코드 기준을 형성하고, 문제 진단과 금융 불변조건 검증을 함께 훈련한다. AI 때문에 주니어 전체 역량이 저하됐다는 사실로 일반화하지 않는다.
+
+근거: [[2026-10-05-YouTube-요즘 개발자 채용 현실]], [[2026-10-05-YouTube-이력서 채용공고보고 지원동기 쓰는 방법 (보기만해도 합격률 UP)]], [[2026-10-05-YouTube-취준생 90%가 놓치는 이력서 ‘쓰기 전’ 4가지 (안 챙기면 시작부터 불리합니다)]], [[2026-10-05-YouTube-개발자 이력서만 수백개 검토하는 IT 회사 대표가 본 서류 합격 기준]], [[2026-10-05-YouTube-요즘 주니어 개발자들에게 부족한 것]], [[2026-10-05-YouTube-개발자 포폴은 OO가 전부입니다]], [[2026-10-05-YouTube-개발자 취업, 100% 성공하는 포트폴리오 작성법]], [[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]. 영상에서 가져온 조언은 외부 검증을 완료하지 않은 참고 관점이다.

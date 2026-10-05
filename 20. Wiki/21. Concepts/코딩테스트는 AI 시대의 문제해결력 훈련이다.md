@@ -7,7 +7,7 @@ description: "Concept page framing coding test preparation as evidence of AI-era
 author:
   - Codex
 date created: 2026-07-16
-date modified: 2026-08-29
+date modified: 2026-10-05
 tags:
   - coding-test
   - problem-solving
@@ -15,6 +15,7 @@ tags:
   - career
   - ai
 source:
+  - "[[2026-10-05-Kim-Gyutae-Reading-and-Interleaved-Learning-Purpose]]"
   - "[[Core Context]]"
   - "[[김규태 Career Narrative]]"
   - "[[AI-Augmented Developer Positioning]]"
@@ -159,3 +160,9 @@ Project transfer:
 
 - Microsoft Careers, Technical Interviewing: https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing
 - NACE Career Readiness Competencies 2024: https://www.naceweb.org/docs/default-source/default-document-library/2024/resources/nace-career-readiness-competencies-revised-apr-2024.pdf
+
+## 2026-10-05 독서와 교차 학습 목적
+
+사용자는 Python 코딩테스트 문제 유형을 교차하여 학습 효과를 높이고 싶다고 밝혔다. [[김규태 Python 코딩테스트 교차 학습 가이드]]는 비슷한 조건에서 전략을 구분하는 연습과 간격 재풀이의 실험안이다. 영상의 수학 실험 결과를 코딩테스트 합격률로 환산하지 않는다.
+
+추가 연결은 사용자 목적과 영상 참고 관점이며, 기존 검증 날짜는 새 영상 주장의 검증을 뜻하지 않는다.

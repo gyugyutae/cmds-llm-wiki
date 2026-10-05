@@ -7,7 +7,7 @@ description: "Practical guide for structuring Kim Gyutae's learning, deadlines, 
 author:
   - Codex
 date created: 2026-07-23
-date modified: 2026-10-02
+date modified: 2026-10-05
 tags:
   - learning
   - work-style
@@ -15,6 +15,7 @@ tags:
   - algorithms
   - self-knowledge
 source:
+  - "[[2026-10-05-Kim-Gyutae-Reading-and-Interleaved-Learning-Purpose]]"
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
 related:
   - "[[김규태 Motivation and Execution Pattern]]"
@@ -87,3 +88,9 @@ status: active
 - [[김규태 Breadth-to-Depth Development Pattern]]
 - [[김규태 Stress and Recovery Pattern]]
 - [[김규태 AI Mentor Response Contract]]
+
+## 2026-10-05 독서와 교차 학습 목적
+
+Python 코딩테스트 학습의 새 운영 후보는 [[김규태 Python 코딩테스트 교차 학습 가이드]]다. 익힌 유형 두세 개를 섞어 선택 이유를 먼저 적고, 인출·간격·피드백으로 조정한다. 사용자는 한기용 자료의 목적을 시행착오 줄이기로 재확인했으며 기존 원문은 중복 저장하지 않았다.
+
+추가 연결은 사용자 목적과 영상 참고 관점이며, 기존 검증 날짜는 새 영상 주장의 검증을 뜻하지 않는다.

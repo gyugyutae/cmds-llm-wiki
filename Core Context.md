@@ -7,7 +7,7 @@ description: The user's active standalone LLM Wiki context for portfolio evidenc
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-09-12
+date modified: 2026-10-05
 tags:
   - system
   - schema
@@ -15,13 +15,15 @@ tags:
 operationMode: standalone
 source-vault: null
 source:
+  - "[[2026-10-05-Kim-Gyutae-Reading-and-Interleaved-Learning-Purpose]]"
+  - "[[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]"
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-12-Kim-Gyutae-Leadership-Product-Context-v2]]"
   - "[[2026-07-23-Kim-Gyutae-Personal-Operating-Manual-v1]]"
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
   - "[[2026-07-26-Kim-Gyutae-AI-Era-Developer-Reflection]]"
   - "[[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]]"
-version: "1.5"
+version: "1.7"
 snapshot_date: 2026-09-12
 status: active
 ---
@@ -165,6 +167,12 @@ Mode A로 단독 운영한다. 별도 mothership vault는 연결하지 않는다
 - 이후 관련 질문과 공부 노트는 기존 질문 기록과 연결해 반복 약점을 찾고, `이해 → 직접 구현 → 테스트 → 자기 말로 설명 → 금융 주문 규칙에 적용`하는 증거로 누적한다.
 - 상세 운영 기준과 약점 추적표는 [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]]을 따른다.
 
+### 2026-10-05 독서·학습 관심
+
+- 에머슨 《자기 신뢰》를 영상으로 접한 뒤 읽어보고 싶다고 밝혔다. 독서 완료가 아니라 관심/계획이다.
+- Java·Spring 학습과 함께 Python 코딩테스트에서 어떤 유형을 교차로 풀지 설계해 학습 효과를 높이고 싶다고 밝혔다. 상세 적용안은 [[김규태 Python 코딩테스트 교차 학습 가이드]]에 둔다.
+- 한기용 자료는 시행착오를 줄이기 위한 기존 목적을 재확인했다.
+
 ### 프로젝트 역할 기준
 
 - 김규태는 프로젝트에서 설계, 성능, 개발을 맡았고 팀장 역할도 수행했다.
@@ -180,6 +188,13 @@ Mode A로 단독 운영한다. 별도 mothership vault는 연결하지 않는다
 - 관계 질문에서는 상대의 마음을 추측으로 확정하지 않고 명시적 의사, 상호 행동, 자율성, 동의를 우선한다.
 - 사용자 신념이 안전·동의 원칙과 충돌하면 개인 취향으로 정당화하지 말고 교정한다.
 - 상세 규칙은 [[김규태 AI Mentor Response Contract]]와 [[MOC-김규태 Self Knowledge]]를 따른다.
+
+### 2026-10-05 취업 목표 재확인
+
+- 사용자 목표: 2027년 8월 졸업 후 바로 금융권 백엔드 개발자 취업 또는 인턴 선발.
+- 현재 실행 방식: 이상적인 포트폴리오를 목표로 먼저 설계하고 필요한 경험을 하나씩 수행 중이라고 보고했다. 구체 목표 문안은 이번 대화에서 제공되지 않았다.
+- 지원동기 선호: 회사·서비스 칭찬보다 내가 해당 팀에 어떤 도움을 줄 수 있는지 실제 경험으로 설명한다.
+- 목표와 완료 경험을 구분하는 상세 기준은 [[금융권 백엔드 목표 포트폴리오를 역설계하는 법]]과 [[채용공고와 기여 증거를 연결하는 지원동기]]에 둔다. 기존 프로젝트의 구현 상태는 이번 대화로 승격하지 않는다.
 
 ### 목표 회사 / 도메인 탐색
 

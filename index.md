@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-10-03
+date modified: 2026-10-05
 tags:
   - index
   - moc
@@ -29,11 +29,11 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 56 |
-| Wiki Pages | 80 |
-| Concepts | 41 |
+| Raw Sources | 69 |
+| Wiki Pages | 90 |
+| Concepts | 44 |
 | Entities | 15 |
-| Guides | 18 |
+| Guides | 25 |
 | MOCs | 6 |
 | Queries | 73 |
 
@@ -91,6 +91,11 @@ status: active
 - [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]] — AI 초안을 분해·테스트·도메인 규칙·성능 검증을 거쳐 직접 인수하는 개발 원칙
 - [[변화는 새 시도와 불편한 경험의 재시도에서 온다]] — 졸업 후 진로·직장 선택에서 선배 조언을 자기 상황과 작은 경험으로 검토하는 관점
 
+- [[포트폴리오 주제는 기술 문제와 도메인 가치를 함께 보여준다]] — 금융권 백엔드 취업 준비 영상과 사용자 목적을 연결한 참고 가이드
+- [[AI 시대 주니어의 문제 진단과 좋은 코드 판단 기준]] — 금융권 백엔드 취업 준비 영상과 사용자 목적을 연결한 참고 가이드
+
+- [[소설 읽기는 인물의 선택과 감정을 따라가는 경험이다]] — 사람·감정 이해를 위한 픽션 독서 관점
+
 ### Entities
 
 > 사람, 조직, 제품, 모델
@@ -133,6 +138,16 @@ status: active
 - [[김규태 개발 도메인 영어 성장 계획]] — 영어 몰입 경험을 기술 문서 읽기·영어 README·설명·협업 증거로 전환하는 계획
 - [[UAV 정밀착륙 특허 검색 가이드]] — KIPRIS·Google Patents·PATENTSCOPE·Espacenet을 이용한 반복 가능한 특허 검색·검증 절차
 - [[EvolvingTraceDB Neo4j 구축 및 검증 가이드]] — JavaParser 결과를 Neo4j 그래프로 적재하고 Browser에서 검증하는 재현 절차
+
+- [[금융권 백엔드 목표 포트폴리오를 역설계하는 법]] — 금융권 백엔드 취업 준비 영상과 사용자 목적을 연결한 참고 가이드
+- [[채용공고와 기여 증거를 연결하는 지원동기]] — 금융권 백엔드 취업 준비 영상과 사용자 목적을 연결한 참고 가이드
+- [[개발자 이력서 첫 페이지와 대표 증거]] — 금융권 백엔드 취업 준비 영상과 사용자 목적을 연결한 참고 가이드
+
+- [[김규태 Python 코딩테스트 교차 학습 가이드]] — 사용자 독서 관심과 학습 방식 적용안
+- [[인출 간격 교차 자기설명을 학습에 적용하는 법]] — 사용자 독서 관심과 학습 방식 적용안
+- [[자기 신뢰 독서 관심과 판단 기록]] — 사용자 독서 관심과 학습 방식 적용안
+
+- [[관계 대화 조언을 상호성과 명시적 의사로 점검하기]] — 대화 전략을 사용자 관계 기준으로 검토
 
 ### Maps (MOC)
 
@@ -231,6 +246,9 @@ status: active
 
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-10-05 | [[2026-10-05-YouTube-(카톡101) 여자가 나를 보고 싶고 생각나게 만드는 전략 3가지]], [[2026-10-05-YouTube-소설을 읽어봐야 하는 진짜 이유]] | 2 Wiki pages created + 3 updated; 대화·관계 판단과 사람·감정 이해 독서 |
+| 2026-10-05 | [[2026-10-05-YouTube-23살에 1억 모으기까지 실제로 읽었던 책들 (20대 인생책 추천)]], [[2026-10-05-YouTube-뇌과학이 증명한 무엇이든 누구보다 빠르게 배우는 방법]], [[2026-10-05-Kim-Gyutae-Reading-and-Interleaved-Learning-Purpose]] | 3 guides + 7 Wiki updates; 한기용 기존 source 재사용; 카톡·소설은 같은 날 후속 인제스트 완료 |
+| 2026-10-05 | [[2026-10-05-YouTube-요즘 개발자 채용 현실]], [[2026-10-05-YouTube-이력서 채용공고보고 지원동기 쓰는 방법 (보기만해도 합격률 UP)]], [[2026-10-05-YouTube-취준생 90%가 놓치는 이력서 ‘쓰기 전’ 4가지 (안 챙기면 시작부터 불리합니다)]], [[2026-10-05-YouTube-개발자 이력서만 수백개 검토하는 IT 회사 대표가 본 서류 합격 기준]], [[2026-10-05-YouTube-요즘 주니어 개발자들에게 부족한 것]], [[2026-10-05-YouTube-개발자 포폴은 OO가 전부입니다]], [[2026-10-05-YouTube-개발자 취업, 100% 성공하는 포트폴리오 작성법]], [[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]] | 5 Wiki pages created + 5 updated; 2027년 8월 금융권 백엔드 취업, 목표 포트폴리오 역설계와 기여 중심 지원동기 |
 | 2026-10-03 | [[2026-10-03-Modoo-CUEE-review]] | [[cuee]], [[김규태 Leadership and Teaching Evidence]], [[2026-10-02-Q-GNU-award-essay-evidence-map]] — 4월 심사의견과 사용자가 보고한 무료 제공·구매전환/시간절감 측정·B2B SaaS/CPS 대응을 구분해 기록; 공식 일정과의 단계 충돌은 미해결 |
 | 2026-10-02 | [[2026-10-02-YouTube-한기용-27년차-실리콘밸리-개발자-인생-이야기-1부]] | [[변화는 새 시도와 불편한 경험의 재시도에서 온다]], [[김규태 Work and Learning Operating Guide]], [[MOC-김규태 Self Knowledge]] — 졸업 후 진로·직장 결정에서 선배 조언을 검토하고 시행착오와 후회를 줄이는 참고 자료 |
 | 2026-10-02 | [[2026-10-02-YouTube-교수버튜버-컴공과-학생의-진로]], [[2026-10-02-GNU-개척리더스-창업서포터즈-활동기록]], [[2026-10-02-Kim-Gyutae-Software-Development-Course-Study-Notes]], [[2026-10-02-Kim-Gyutae-Flirting-Ideas]] | [[AI 시대의 개발자 학습 전략]], [[김규태 Leadership and Teaching Evidence]], [[김규태 Attachment and Romantic Pacing Pattern]], [[김규태 Relationship Values]]; 소프트웨어개발론은 Raw Source 보존 |

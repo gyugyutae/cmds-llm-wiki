@@ -7,7 +7,7 @@ description: "A user-specific study spine that turns two parallel Java, Spring B
 author:
   - Codex
 date created: 2026-09-12
-date modified: 2026-09-12
+date modified: 2026-10-05
 tags:
   - java
   - spring-boot
@@ -16,6 +16,7 @@ tags:
   - learning
   - portfolio
 source:
+  - "[[2026-10-05-Kim-Gyutae-Reading-and-Interleaved-Learning-Purpose]]"
   - "[[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]]"
   - "[[Core Context]]"
   - "[[김규태 금융 시스템 개발자 취업 로드맵]]"
@@ -127,3 +128,9 @@ status: active
 - [[MOC-Portfolio]]
 - [[메타인지 학습 루프]]
 - [[AI 보조 엔지니어링은 생성보다 검증이 중요하다]]
+
+## 2026-10-05 독서와 교차 학습 목적
+
+사용자가 Java·Spring 공부법과 Python 코딩테스트 유형 교차 학습에 관심을 확인했다. [[인출 간격 교차 자기설명을 학습에 적용하는 법]]을 회상·직접 구현·책임 구분의 적용안으로 연결하고, 알고리즘 유형 조합은 [[김규태 Python 코딩테스트 교차 학습 가이드]]에서 관리한다. 현재 구현 단계의 새 완료 증거는 추가하지 않는다.
+
+추가 연결은 사용자 목적과 영상 참고 관점이며, 기존 검증 날짜는 새 영상 주장의 검증을 뜻하지 않는다.

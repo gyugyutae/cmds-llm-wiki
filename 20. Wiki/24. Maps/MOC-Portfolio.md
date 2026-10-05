@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-10-02
+date modified: 2026-10-05
 tags:
   - moc
   - portfolio
@@ -19,6 +19,8 @@ topic:
   - career
   - project-evidence
 source:
+  - "[[2026-10-05-Kim-Gyutae-Reading-and-Interleaved-Learning-Purpose]]"
+  - "[[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]"
   - "[[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]]"
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[2026-07-23-Kim-Gyutae-Self-Understanding-Interview-v1]]"
@@ -358,3 +360,20 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 - [[퀀트 리서치는 가설에서 검증까지 이어지는 과정이다]]
 - [[코딩테스트는 AI 시대의 문제해결력 훈련이다]]
 - [[2026-09-18-Q-worldjob-overseas-entry-level-developer-resume-strategy]]
+
+## 2026-10-05 취업 준비 영상 인제스트 연결
+
+- [[금융권 백엔드 목표 포트폴리오를 역설계하는 법]]
+- [[채용공고와 기여 증거를 연결하는 지원동기]]
+- [[개발자 이력서 첫 페이지와 대표 증거]]
+- [[포트폴리오 주제는 기술 문제와 도메인 가치를 함께 보여준다]]
+- [[AI 시대 주니어의 문제 진단과 좋은 코드 판단 기준]]
+
+근거: [[2026-10-05-YouTube-요즘 개발자 채용 현실]], [[2026-10-05-YouTube-이력서 채용공고보고 지원동기 쓰는 방법 (보기만해도 합격률 UP)]], [[2026-10-05-YouTube-취준생 90%가 놓치는 이력서 ‘쓰기 전’ 4가지 (안 챙기면 시작부터 불리합니다)]], [[2026-10-05-YouTube-개발자 이력서만 수백개 검토하는 IT 회사 대표가 본 서류 합격 기준]], [[2026-10-05-YouTube-요즘 주니어 개발자들에게 부족한 것]], [[2026-10-05-YouTube-개발자 포폴은 OO가 전부입니다]], [[2026-10-05-YouTube-개발자 취업, 100% 성공하는 포트폴리오 작성법]], [[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]. 영상에서 가져온 조언은 외부 검증을 완료하지 않은 참고 관점이다.
+
+## 2026-10-05 독서와 교차 학습 목적
+
+- [[김규태 Python 코딩테스트 교차 학습 가이드]] — 금융권 취업 준비의 Python 문제 풀이 학습 후보
+- [[인출 간격 교차 자기설명을 학습에 적용하는 법]] — Java·Spring 기초를 기억·구현·설명으로 점검
+
+추가 연결은 사용자 목적과 영상 참고 관점이며, 기존 검증 날짜는 새 영상 주장의 검증을 뜻하지 않는다.
