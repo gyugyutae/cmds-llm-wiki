@@ -8,7 +8,7 @@ author:
   - Claude
   - Codex
 date created: 2026-04-10T21:30
-date modified: 2026-08-29
+date modified: 2026-10-12
 tags:
   - moc
   - guide
@@ -129,6 +129,7 @@ Broken link는 자동으로 새 개념을 만들지 않는다. 오타·이동이
 - [[Agent-Readable Metadata]] — 에이전트가 읽기 좋은 note 설계
 - [[Web Clipper to Inbox Workflow]] — 캡처부터 ingest까지
 - [[Citation Manager Integration for LLM Wiki]] — 학술 인용을 위한 Zotero/Bookends 연동 설계
+- [[2026-10-12-Q-unlv-networking-evidence-wiki-and-ai-tools]] — Evidence Wiki의 기록과 실행 평가를 연결하는 소규모 평가 제안·도구 후보. 아직 실행 결과는 없음
 
 ---
 

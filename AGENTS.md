@@ -15,7 +15,7 @@ tags:
 status: active
 version: "2.0.0-codex"
 ---
-
+주
 # AGENTS.md - Codex LLM Wiki Harness
 
 Codex reads this file automatically when it starts in this repository. Keep this file short and operational; detailed workflows live in `.agents/skills/{operation}/SKILL.md` and `.codex/commands/{operation}.md`.

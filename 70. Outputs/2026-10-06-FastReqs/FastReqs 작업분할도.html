@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>요구사항 관리 Slack 봇 개발 · 작업분할도</title>
+<style>
+.text-tree-section{margin-bottom:36px}.text-tree{margin:0;padding:18px 22px;overflow-x:auto;border:1px solid #d5e3eb;background:#f7fafc;color:#24485f;font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre;width:100%}@media(max-width:700px){.text-tree{font-size:11px;padding:14px 12px}}@media print{.text-tree-section{break-after:page}.text-tree{font-size:10px}}
+*{box-sizing:border-box}body{margin:0;background:#fff;color:#173247;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}main{max-width:1500px;padding:24px 28px 40px;margin:auto}h2{font-size:21px;margin:0 0 20px;font-weight:700}.tree-section{margin-bottom:42px}.root{background:#173e59;color:#fff;border:1px solid #173e59;border-radius:3px;text-align:center;font-size:18px;line-height:1.5;padding:15px 20px;width:min(760px,85%);margin:0 auto;position:relative}.root:after{content:"";position:absolute;width:1px;height:24px;background:#849baa;left:50%;top:100%}.stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding-top:48px;position:relative}.stages:before{content:"";position:absolute;height:1px;background:#849baa;left:calc(12.5% - 6.75px);right:calc(12.5% - 6.75px);top:24px}.stage{position:relative;min-width:0}.stage:before{content:"";position:absolute;top:-24px;left:50%;height:24px;width:1px;background:#849baa}.stage h3{margin:0;min-height:60px;padding:11px 8px;background:#c7e9f6;border:1px solid #a9c9d8;border-radius:3px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:14px;line-height:1.5;word-break:keep-all}.stage ul{list-style:none;padding:0 0 0 12px;margin:18px 0 0;position:relative}.stage ul:before{content:"";position:absolute;top:-18px;bottom:25px;left:0;border-left:1px solid #849baa}.stage li{position:relative;display:flex;align-items:center;gap:7px;padding:7px 9px;min-height:50px;background:#eef5f9;border:1px solid #d5e3eb;border-radius:2px;margin-bottom:8px;font-size:13px;line-height:1.45;word-break:keep-all}.stage li:before{content:"";position:absolute;width:12px;left:-13px;top:50%;border-top:1px solid #849baa}.task-id{font-weight:700;color:#285776;flex-shrink:0}.table-section{margin-top:24px}table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums;table-layout:fixed}col.id{width:5%}col.pred{width:14%}col.progress{width:9%}col.priority{width:8%}col.task{width:34%}col.duration{width:6%}col.date{width:12%}th,td{border:1px solid #cedbe4;padding:10px 9px;line-height:1.4;vertical-align:middle}th{background:#dcebf4;text-align:left;white-space:nowrap}tbody tr:nth-child(even){background:#f7fafc}td:not(:nth-child(5)){white-space:nowrap}.progress{text-align:center}.priority{text-align:center}.high{background:#fbe4dc}.medium{background:#fff1cb}.low{background:#e8eef3}
+@media(max-width:1100px){main{padding:18px 14px}.stages{gap:10px}.stage h3{font-size:12px}.stage li{font-size:11px;padding:6px;gap:4px;min-height:48px}.root{font-size:16px}table{font-size:11px}th,td{padding:8px 5px}}
+@media(max-width:700px){main{padding:16px 10px}.stages{gap:6px}.stage h3{font-size:10px;padding:5px 3px;min-height:72px}.stage ul{padding-left:6px}.stage li{display:block;font-size:10px;padding:5px 3px;min-height:78px;word-break:normal;overflow-wrap:anywhere}.stage li:before{width:6px;left:-7px}.task-id{display:block}.root{width:100%;font-size:14px}.table-section{overflow-x:auto}table{min-width:800px}h2{font-size:18px}}
+@media print{@page{size:A3 landscape;margin:12mm}main{max-width:none;padding:0}.tree-section{break-after:page}.stages{gap:16px}.stage h3{font-size:14px}.stage li{font-size:13px}table{font-size:11px}th,td{padding:6px}thead{display:table-header-group}tr{break-inside:avoid}*{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+
+@media(max-width:1100px){.stages:before{left:calc(12.5% - 3.75px);right:calc(12.5% - 3.75px)}}
+@media(max-width:700px){.stages:before{left:calc(12.5% - 2.25px);right:calc(12.5% - 2.25px)}}
+</style>
+</head>
+<body>
+<main>
+<section class="text-tree-section" aria-labelledby="text-tree-title">
+<h2 id="text-tree-title">텍스트형 작업분할도</h2>
+<pre class="text-tree">요구사항 관리 Slack 봇 개발
+├─ 1 요구분석
+│  ├─ 1.1 주제·제안서 작성
+│  ├─ 1.2 기능 범위·승인 시나리오 분석
+│  ├─ 1.3 Slack·CLI 실행 환경 요구분석
+│  ├─ 1.4 AI·음성 API 사용 제약 분석
+│  ├─ 1.5 요구분석·WBS 중간발표 정리
+│  └─ 1.6 요구분석 검토·중간발표 제출
+├─ 2 설계
+│  ├─ 2.1 시스템 구조·봇·CLI 연결 설계
+│  ├─ 2.2 문서 템플릿·저장 구조 설계
+│  ├─ 2.3 대화·승인 흐름 설계
+│  └─ 2.4 AI 분석·회의·충돌 검사 설계
+├─ 3 코딩
+│  ├─ 3.1 Slack 대화 수집·종료 감지 구현
+│  ├─ 3.2 CLI 연결·로컬 문서 관리 구현
+│  ├─ 3.3 AI 요구사항 분석·문서 초안 생성
+│  ├─ 3.4 Slack 승인·문서 갱신 통합
+│  ├─ 3.5 MP3 회의록·요구사항 처리 구현
+│  ├─ 3.6 /conflict 검사·충돌 해결 구현
+│  └─ 3.7 재연결·오류·API 비용 관리 구현
+└─ 4 테스트
+   ├─ 4.1 승인·정보부족 경계 테스트
+   ├─ 4.2 사용자 분리·재연결 테스트
+   ├─ 4.3 음성·문서 충돌 통합 테스트
+   ├─ 4.4 실행 안내·인수 시연 준비
+   ├─ 4.5 테스트 결과·최종발표 자료 정리
+   └─ 4.6 인수 시연·최종 제출 확인</pre>
+</section>
+<section class="tree-section" aria-labelledby="tree-title">
+<h2 id="tree-title">트리형 작업분할도</h2>
+<div class="root">요구사항 관리 Slack 봇 개발</div>
+<div class="stages"><section class="stage" aria-label="1 요구분석"><h3>1 요구분석</h3><ul><li><span class="task-id">1.1</span><span>주제·제안서 작성</span></li><li><span class="task-id">1.2</span><span>기능 범위·승인 시나리오 분석</span></li><li><span class="task-id">1.3</span><span>Slack·CLI 실행 환경 요구분석</span></li><li><span class="task-id">1.4</span><span>AI·음성 API 사용 제약 분석</span></li><li><span class="task-id">1.5</span><span>요구분석·WBS 중간발표 정리</span></li><li><span class="task-id">1.6</span><span>요구분석 검토·중간발표 제출</span></li></ul></section><section class="stage" aria-label="2 설계"><h3>2 설계</h3><ul><li><span class="task-id">2.1</span><span>시스템 구조·봇·CLI 연결 설계</span></li><li><span class="task-id">2.2</span><span>문서 템플릿·저장 구조 설계</span></li><li><span class="task-id">2.3</span><span>대화·승인 흐름 설계</span></li><li><span class="task-id">2.4</span><span>AI 분석·회의·충돌 검사 설계</span></li></ul></section><section class="stage" aria-label="3 코딩"><h3>3 코딩</h3><ul><li><span class="task-id">3.1</span><span>Slack 대화 수집·종료 감지 구현</span></li><li><span class="task-id">3.2</span><span>CLI 연결·로컬 문서 관리 구현</span></li><li><span class="task-id">3.3</span><span>AI 요구사항 분석·문서 초안 생성</span></li><li><span class="task-id">3.4</span><span>Slack 승인·문서 갱신 통합</span></li><li><span class="task-id">3.5</span><span>MP3 회의록·요구사항 처리 구현</span></li><li><span class="task-id">3.6</span><span>/conflict 검사·충돌 해결 구현</span></li><li><span class="task-id">3.7</span><span>재연결·오류·API 비용 관리 구현</span></li></ul></section><section class="stage" aria-label="4 테스트"><h3>4 테스트</h3><ul><li><span class="task-id">4.1</span><span>승인·정보부족 경계 테스트</span></li><li><span class="task-id">4.2</span><span>사용자 분리·재연결 테스트</span></li><li><span class="task-id">4.3</span><span>음성·문서 충돌 통합 테스트</span></li><li><span class="task-id">4.4</span><span>실행 안내·인수 시연 준비</span></li><li><span class="task-id">4.5</span><span>테스트 결과·최종발표 자료 정리</span></li><li><span class="task-id">4.6</span><span>인수 시연·최종 제출 확인</span></li></ul></section></div>
+</section>
+<section class="table-section" aria-labelledby="table-title">
+<h2 id="table-title">표형 작업분할도</h2>
+<table><colgroup><col class="id"><col class="pred"><col class="progress"><col class="priority"><col class="task"><col class="duration"><col class="date"><col class="date"></colgroup>
+<thead><tr><th scope="col">ID</th><th scope="col">선행 작업 ID</th><th scope="col">작업 완료도</th><th scope="col">우선순위</th><th scope="col">작업 이름</th><th scope="col">기간</th><th scope="col">시작 날짜</th><th scope="col">완료 날짜</th></tr></thead>
+<tbody><tr><td>1.1</td><td>-</td><td class="progress">100%</td><td class="priority low">낮음</td><td>주제·제안서 작성</td><td>미기록</td><td>미기록</td><td>미기록</td></tr><tr><td>1.2</td><td>1.1</td><td class="progress">0%</td><td class="priority high">높음</td><td>기능 범위·승인 시나리오 분석</td><td>2일</td><td>2026-10-06</td><td>2026-10-07</td></tr><tr><td>1.3</td><td>1.1</td><td class="progress">0%</td><td class="priority high">높음</td><td>Slack·CLI 실행 환경 요구분석</td><td>2일</td><td>2026-10-06</td><td>2026-10-07</td></tr><tr><td>1.4</td><td>1.1</td><td class="progress">0%</td><td class="priority high">높음</td><td>AI·음성 API 사용 제약 분석</td><td>4일</td><td>2026-10-06</td><td>2026-10-09</td></tr><tr><td>1.5</td><td>1.2</td><td class="progress">0%</td><td class="priority high">높음</td><td>요구분석·WBS 중간발표 정리</td><td>2일</td><td>2026-10-12</td><td>2026-10-13</td></tr><tr><td>1.6</td><td>1.5</td><td class="progress">0%</td><td class="priority high">높음</td><td>요구분석 검토·중간발표 제출</td><td>1일</td><td>2026-10-14</td><td>2026-10-14</td></tr><tr><td>2.1</td><td>1.3,1.4</td><td class="progress">0%</td><td class="priority high">높음</td><td>시스템 구조·봇·CLI 연결 설계</td><td>3일</td><td>2026-10-12</td><td>2026-10-14</td></tr><tr><td>2.2</td><td>2.1</td><td class="progress">0%</td><td class="priority medium">보통</td><td>문서 템플릿·저장 구조 설계</td><td>2일</td><td>2026-10-19</td><td>2026-10-20</td></tr><tr><td>2.3</td><td>2.1</td><td class="progress">0%</td><td class="priority high">높음</td><td>대화·승인 흐름 설계</td><td>3일</td><td>2026-10-15</td><td>2026-10-17</td></tr><tr><td>2.4</td><td>2.2</td><td class="progress">0%</td><td class="priority high">높음</td><td>AI 분석·회의·충돌 검사 설계</td><td>3일</td><td>2026-10-21</td><td>2026-10-23</td></tr><tr><td>3.1</td><td>2.3</td><td class="progress">0%</td><td class="priority high">높음</td><td>Slack 대화 수집·종료 감지 구현</td><td>7일</td><td>2026-10-26</td><td>2026-11-01</td></tr><tr><td>3.2</td><td>2.1,2.2</td><td class="progress">0%</td><td class="priority high">높음</td><td>CLI 연결·로컬 문서 관리 구현</td><td>14일</td><td>2026-10-26</td><td>2026-11-08</td></tr><tr><td>3.3</td><td>2.4</td><td class="progress">0%</td><td class="priority high">높음</td><td>AI 요구사항 분석·문서 초안 생성</td><td>14일</td><td>2026-10-26</td><td>2026-11-08</td></tr><tr><td>3.4</td><td>3.1,3.2,3.3</td><td class="progress">0%</td><td class="priority high">높음</td><td>Slack 승인·문서 갱신 통합</td><td>7일</td><td>2026-11-09</td><td>2026-11-15</td></tr><tr><td>3.5</td><td>3.3,3.4</td><td class="progress">0%</td><td class="priority high">높음</td><td>MP3 회의록·요구사항 처리 구현</td><td>7일</td><td>2026-11-16</td><td>2026-11-22</td></tr><tr><td>3.6</td><td>3.3,3.4</td><td class="progress">0%</td><td class="priority medium">보통</td><td>/conflict 검사·충돌 해결 구현</td><td>14일</td><td>2026-11-16</td><td>2026-11-29</td></tr><tr><td>3.7</td><td>3.4,3.5</td><td class="progress">0%</td><td class="priority medium">보통</td><td>재연결·오류·API 비용 관리 구현</td><td>7일</td><td>2026-11-23</td><td>2026-11-29</td></tr><tr><td>4.1</td><td>3.4,3.5</td><td class="progress">0%</td><td class="priority high">높음</td><td>승인·정보부족 경계 테스트</td><td>3일</td><td>2026-11-30</td><td>2026-12-02</td></tr><tr><td>4.2</td><td>3.2,3.7</td><td class="progress">0%</td><td class="priority high">높음</td><td>사용자 분리·재연결 테스트</td><td>4일</td><td>2026-11-30</td><td>2026-12-03</td></tr><tr><td>4.3</td><td>3.5,3.6,3.7</td><td class="progress">0%</td><td class="priority medium">보통</td><td>음성·문서 충돌 통합 테스트</td><td>6일</td><td>2026-11-30</td><td>2026-12-05</td></tr><tr><td>4.4</td><td>4.1,4.2,4.3</td><td class="progress">0%</td><td class="priority medium">보통</td><td>실행 안내·인수 시연 준비</td><td>2일</td><td>2026-12-07</td><td>2026-12-08</td></tr><tr><td>4.5</td><td>4.1,4.2,4.3</td><td class="progress">0%</td><td class="priority low">낮음</td><td>테스트 결과·최종발표 자료 정리</td><td>3일</td><td>2026-12-07</td><td>2026-12-09</td></tr><tr><td>4.6</td><td>4.4,4.5</td><td class="progress">0%</td><td class="priority high">높음</td><td>인수 시연·최종 제출 확인</td><td>3일</td><td>2026-12-10</td><td>2026-12-12</td></tr></tbody></table>
+</section>
+</main>
+</body>
+</html>

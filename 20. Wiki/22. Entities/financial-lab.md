@@ -7,7 +7,7 @@ description: "Project hub for 김규태's self-implemented Java and Spring finan
 author:
   - "[[김규태]]"
 date created: 2026-09-26
-date modified: 2026-09-26
+date modified: 2026-09-28
 tags:
   - project
   - portfolio
@@ -27,7 +27,7 @@ explored: true
 claimType: mixed
 evidenceScope: user-reported-and-local-code
 verificationStatus: partial
-verifiedAt: 2026-09-26
+verifiedAt: 2026-09-28
 verifiedBy: Codex
 disputed: false
 status: active
@@ -69,6 +69,15 @@ status: active
 - 이체 서비스는 같은 계좌 여부를 검사하고 양쪽 계좌를 조회한 뒤 출금·입금을 수행한다.
 - 계좌 도메인 테스트와 정상 이체, 잔액 부족·수취 계좌 미존재·동일 계좌 이체의 예외 및 잔액 유지 테스트가 있다. 2026-09-26 확인한 Gradle 테스트는 통과했다.
 - 사용자는 정상 이체를 실제 HTTP API 요청으로도 확인했다고 보고했다.
+
+### 현재 저장소 재확인 — 2026-09-28
+
+읽기 전용 코드 점검에서 financial-lab 저장소는 main 브랜치의 8d7234c에 있고 작업 트리는 깨끗했다. 이번 점검에서는 테스트를 실행하지 않았다.
+
+- AccountService는 ConcurrentHashMap<Long, Account>와 AtomicLong을 사용하고, transfer는 송금·수취 계좌를 찾은 뒤 출금하고 입금한다. 저장소와 DB transaction은 아직 연결되어 있지 않다.
+- AccountTest에는 계좌 입금·출금·잔액 부족·0원 입금 등 도메인 테스트와 정상 이체 테스트가 있다. FinancialLabApplicationTests에는 contextLoads 테스트가 있다.
+- 현재 테스트 파일에는 AccountService 이체의 잔액 부족, 수취 계좌 미존재, 동일 계좌, 예외 주입 후 상태 복구, 동시 요청 테스트가 보이지 않는다. 이는 2026-09-26 작업 기록과 현재 checkout 사이의 차이다. 과거 사용자 보고는 기록으로 보존하되, 현재 재현 가능한 증거와 구분한다.
+- Gradle에는 Spring Data JPA, H2, MySQL 의존성이 선언되어 있지만 현재 Java 소스에는 JPA Entity, Repository, Migration 구현이 없다. 의존성 선언을 DB 영속화 완료로 표현하지 않는다.
 
 ### 아직 구현하지 않은 핵심
 
@@ -134,7 +143,7 @@ status: active
 
 ## 포트폴리오 표현 경계
 
-현재 단계에서 말할 수 있는 것은 “Java/Spring Boot로 메모리 기반 계좌 API와 이체 흐름을 직접 구현하고, 정상·잔액 부족 조건을 테스트했다” 정도다. DB 영속성, 실제 트랜잭션 rollback, 원장, 멱등성, 동시성, 성능 수치를 구현·측정하기 전에는 완료 경험으로 표현하지 않는다.
+현재 checkout에서 코드로 말할 수 있는 것은 “Java/Spring Boot로 메모리 기반 계좌 생성·조회·입금·출금·이체 API를 구현하고, 계좌 도메인 규칙과 정상 이체 테스트를 작성했다” 정도다. 2026-09-26 Wiki 기록의 추가 이체 실패 테스트와 HTTP 검증은 현재 테스트 파일과 대조하여 재확인하기 전까지 최신 이력서에 넣지 않는다. DB 영속성, 실제 transaction rollback, 원장, 멱등성, 동시성, 성능 수치를 구현·측정하기 전에는 완료 경험으로 표현하지 않는다.
 
 ## Related
 

@@ -1,0 +1,1458 @@
+{
+  "solverExecuted": false,
+  "hdf5": [
+    {
+      "path": "assets/ansys-axial-fan/axial_fan.cas.h5",
+      "datasets": [
+        {
+          "name": "meshes/1/cells/partition/1/owner-cell-ids",
+          "shape": [
+            56963
+          ],
+          "dtype": "uint64"
+        },
+        {
+          "name": "meshes/1/cells/partition/1/partition-ids",
+          "shape": [
+            56963
+          ],
+          "dtype": "int32"
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/cellType",
+          "shape": [
+            3
+          ],
+          "dtype": "int32",
+          "value": "[7 7 7]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/childZoneId",
+          "shape": [
+            3
+          ],
+          "dtype": "int32",
+          "value": "[0 0 0]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/dimension",
+          "shape": [
+            3
+          ],
+          "dtype": "uint64",
+          "value": "[3 3 3]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/fields",
+          "shape": [
+            1
+          ],
+          "dtype": "|S35",
+          "value": "[b'cellType;childZoneId;zoneType;name']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/id",
+          "shape": [
+            3
+          ],
+          "dtype": "int32",
+          "value": "[8871 8874 8877]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/maxId",
+          "shape": [
+            3
+          ],
+          "dtype": "uint64",
+          "value": "[21750 50168 56963]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/minId",
+          "shape": [
+            3
+          ],
+          "dtype": "uint64",
+          "value": "[    1 21751 50169]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/name",
+          "shape": [
+            1
+          ],
+          "dtype": "|S53",
+          "value": "[b'stationary-upwards;stationary-backwards;rotating-fan']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/zoneType",
+          "shape": [
+            3
+          ],
+          "dtype": "int32",
+          "value": "[1 1 1]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/c0/1",
+          "shape": [
+            394173
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/1",
+          "shape": [
+            378436
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/1/nnodes",
+          "shape": [
+            394173
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/1/nodes",
+          "shape": [
+            2011839
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/shadow/1",
+          "shape": [
+            124
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/c0",
+          "shape": [
+            13
+          ],
+          "dtype": "int32",
+          "value": "[8877 8874 8871 8874 8871 8877 8877 8871 8874 8874 8871 8871 8877]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/c1",
+          "shape": [
+            13
+          ],
+          "dtype": "int32",
+          "value": "[8877 8874 8871 8877 8877    0    0    0    0    0    0 8877 8871]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/childZoneId",
+          "shape": [
+            13
+          ],
+          "dtype": "int32",
+          "value": "[0 0 0 0 0 0 0 0 0 0 0 0 0]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/dimension",
+          "shape": [
+            13
+          ],
+          "dtype": "uint64",
+          "value": "[3 3 3 3 3 3 3 3 3 3 3 3 3]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/faceType",
+          "shape": [
+            13
+          ],
+          "dtype": "int32",
+          "value": "[5 5 5 5 5 5 5 5 5 5 5 5 5]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/fields",
+          "shape": [
+            1
+          ],
+          "dtype": "|S60",
+          "value": "[b'c0;c1;childZoneId;faceType;flags;shadowZoneId;zoneType;name']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/flags",
+          "shape": [
+            13
+          ],
+          "dtype": "int32",
+          "value": "[0 0 0 0 0 0 0 0 0 0 0 5 6]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/id",
+          "shape": [
+            13
+          ],
+          "dtype": "int32",
+          "value": "[8876 8873 8870   54   53   52   51   50   49   48   47   46    1]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/maxId",
+          "shape": [
+            13
+          ],
+          "dtype": "uint64",
+          "value": "[ 40814 230162 377636 377997 378436 379046 381590 387447 393355 393846\n 394049 394111 394173]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/minId",
+          "shape": [
+            13
+          ],
+          "dtype": "uint64",
+          "value": "[     1  40815 230163 377637 377998 378437 379047 381591 387448 393356\n 393847 394050 394112]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/name",
+          "shape": [
+            1
+          ],
+          "dtype": "|S297",
+          "value": "[b'interior--rotating-fan;interior--stationary-backwards;interior--stationary-upwards;interior-rotating-backwards;interior-upwards-rotating;fan-tip-wall;fan-walls;walls-domain-upwards;walls-domain-backwards;pressure-outlet;inlet;rotating-fan-stationary-upwards;rotating-fan-stationary-upwards-shadow']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/shadowZoneId",
+          "shape": [
+            13
+          ],
+          "dtype": "int32",
+          "value": "[ 0  0  0  0  0  0  0  0  0  0  0  1 46]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/zoneType",
+          "shape": [
+            13
+          ],
+          "dtype": "int32",
+          "value": "[2 2 2 2 2 3 3 3 3 5 4 3 3]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/coords/8875",
+          "shape": [
+            331597,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/dimension",
+          "shape": [
+            1
+          ],
+          "dtype": "uint64",
+          "value": "[3]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/id",
+          "shape": [
+            1
+          ],
+          "dtype": "int32",
+          "value": "[8875]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/maxId",
+          "shape": [
+            1
+          ],
+          "dtype": "uint64",
+          "value": "[331597]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/minId",
+          "shape": [
+            1
+          ],
+          "dtype": "uint64",
+          "value": "[1]",
+          "valueTruncated": false
+        },
+        {
+          "name": "settings/Cortex Variables",
+          "shape": [
+            1
+          ],
+          "dtype": "|S200645",
+          "value": "[b'(38 ((\\n(meshing-mode-vars ((re-partition . #t)))\\n(meshing-to-solver-scaling-factor -0.001)\\n(reference-frames-display (((name . \"global\") (display-state . current))))\\n(reference-frames-definition (((name . \"global\") (origin point 0. 0. 0. (frame . parent)) (orientation two-axis (axis ((axis-from axis-label x (frame . global)) (axis-to vector 1. 0. 0. (frame . parent))) ((axis-from axis-label y (frame . global)) (axis-to vector 0. 1. 0. (frame . parent)))) (auto? . #t)) (transformations))))\\n(reference-frames (((name . \"global\") (id . 1) (parent . 0) (current-state (origin 0. 0. 0.) (quat 1. 0. 0. 0.)) (motion (motion-type . 0) (velocity 0. 0. 0.) (acceleration 0. 0. 0.) (omega (angle . 0.) (axis 0. 0. 0.)) (alpha (angle . 0.) (axis 0. 0. 0.)) (update . \"8877\") (utl-vid . 0)) (read-only? . #t))))\\n(tg-native-poly-mesh? #t)\\n(gui-processing? #t)\\n(surfaces/groups ((mesh (10)) (pressure-outlet (7)) (rotating-fan-stationary-upwards (9)) (inlet (8)) (walls-domain-backwards (6)) (walls-domain-upwards (5)) (fan-walls (4)) (fan-tip-wall (3)) (interior-upwards-rotating (2)) (interior-rotating-backwards (1)) (rotating-fan-stationary-upwards-shadow (0))))\\n(cx-virtual-id-list (4196 4197 4198 4199 4200 4201 4202 4205 4206 4207 4208))\\n(cx-surface-id-map ((10 4208) (7 4207) (8 4206) (9 4205) (6 4202) (5 4201) (4 4200) (3 4199) (2 4198) (1 4197) (0 4196)))\\n(cx-surface-type ((0 0) (1 0) (2 0) (3 0) (4 0) (5 0) (6 0) (9 0) (8 0) (7 0) (10 0)))\\n(cx-surface-def-list ((4208 () (plane-su",
+          "valueTruncated": true
+        },
+        {
+          "name": "settings/Domain Variables",
+          "shape": [
+            1
+          ],
+          "dtype": "|S8",
+          "value": "[b'(64 ())']",
+          "valueTruncated": false
+        },
+        {
+          "name": "settings/Origin",
+          "shape": [
+            1
+          ],
+          "dtype": "|S30",
+          "value": "[b'ANSYS_FLUENT 26.1 Build 10262']",
+          "valueTruncated": false
+        },
+        {
+          "name": "settings/Rampant Variables",
+          "shape": [
+            1
+          ],
+          "dtype": "|S415531",
+          "value": "[b'(37 (\\n(rbf/rbf4noisy-scale-factor 2.)\\n(rbf/smorph-adjoint-eval 0.)\\n(rbf/source-points-filename \"SP.pts\")\\n(rbf/omp-num-threads 0)\\n(rbf/constraint/mindist ())\\n(rbf/constraint/planes ())\\n(rbf/constraint/threads ())\\n(rbf/sequence-name \"default\")\\n(rbf/sequence-text \"default\")\\n(rbf/sequence ())\\n(rbf/stl-scale-factor 1.)\\n(rbf/stl-color \"yellow\")\\n(rbf/stl-input-file \"default.stl\")\\n(rbf/nastran-thread-list ())\\n(rbf/nastran-p-factor 1.)\\n(rbf/nastran-n-errors 20)\\n(rbf/nastran-pid-list ())\\n(rbf/nastran-r-sub-sampling 0.)\\n(rbf/nastran-ampli-factor 10.)\\n(rbf/nastran-scale-disp-factor 0.001)\\n(rbf/nastran-scale-factor 0.001)\\n(rbf/nastran-input-file-corners \"\")\\n(rbf/nastran-input-file \"default\")\\n(rbf/nastran-enabled? #f)\\n(rbf/cad/ampli 1.)\\n(rbf/cad/stp-factor-inv 1000.)\\n(rbf/cad/stp-factor 0.001)\\n(rbf/cad/stp-display \"default\")\\n(rbf/cad/stp-out \"default_morphed.stp\")\\n(rbf/cad/stp-in \"default.stp\")\\n(rbf/project/active-as-constraint? #f)\\n(rbf/project/use-normals? #f)\\n(rbf/project/calculate-error? #f)\\n(rbf/project/r-sub-sampling-lcm 0.02)\\n(rbf/project/n-multi-sol 1)\\n(rbf/project/multi-sol-id 0)\\n(rbf/project/stl-scale-factor 1.)\\n(rbf/project/stl-input-file \"default.stl\")\\n(rbf/project/type 1)\\n(rbf/project/maxitr 20)\\n(rbf/project/active-distance 1000000.)\\n(rbf/project/tol 1e-06)\\n(rbf/project/project-threads ())\\n(rbf/project/r-sub-sampling 0.2)\\n(rbf/project/delta 0.01)\\n(rbf/project/source-threads ())\\n(rbf/project/enabled? #f)\\n(rbf/steer/kinematics d",
+          "valueTruncated": true
+        },
+        {
+          "name": "settings/Solver",
+          "shape": [
+            1
+          ],
+          "dtype": "|S13",
+          "value": "[b'ANSYS_FLUENT']",
+          "valueTruncated": false
+        },
+        {
+          "name": "settings/TGrid Variables",
+          "shape": [
+            1
+          ],
+          "dtype": "|S56431",
+          "value": "[b'(60 (\\n(mesh-lib #f)\\n(cad-hierarchy ())\\n(cad-node-zones ())\\n(cad-zone-associations ())\\n(cad-assoc ())\\n(cad/import-options ((single? #t) (file \"D:\\\\generic_fan_case_Achilleas\\\\0.Pyfluent\\\\Fan-Model-MRF-Conformal.pmdb\") (pattern \"\") (append? #t) (import-curvature? #t) (feature-angle 40) (scale-factor 1) (zone-name-prefix \"\") (one-zone-per \"program-controlled\") (one-face-zone-per \"body\") (export-cad-hierarchy? #f) (extract-feature? #t)))\\n(cad/adv-options ((recursive? #f) (continue-on-error? #f) (create-faceting? #t) (savepmdb? #f) (length-unit \"mm\") (import-part-names? #f) (import-body-names? #t) (create-conformal-faceting? #t) (conformal-faceting-minsize 0) (conformal-faceting-maxsize 0) (conformal-faceting-curvature-normal-angle 10) (sag-control? #f) (sag-tolerance 0) (sag-maxsize 0) (encl-symm-processing #f) (import-ns? #t) (ns-pattern \"Layer*\") (ns-regex \"^(Color|Layer|Material|NX_Material|[0-9]:).*\") (conf-faceting-merge-nodes #t) (conf-faceting-make-objs-independent #t) (conf-faceting-edge-proximity #f) (conf-faceting-cells-per-gap 3) (conf-faceting-size-field-load? #t) (conf-faceting-size-field-file \"D:\\\\generic_fan_case_Achilleas\\\\0.Pyfluent\\\\FM_SNPS-saQ3UISrNo_12884\\\\\\\\Fan-Model-MRF-Conformal.sf\") (conf-faceting-size-field-save? #f) (do-refaceting? #f) (sag-minsize 0) (conformal-tess #f) (conformal-tess-minsize 0) (conformal-tess-maxsize 0) (conformal-tess-tolerance 0) (double-connected-face-label \"\") (single-connected-edge-label \"single\") (name-separator-chara",
+          "valueTruncated": true
+        },
+        {
+          "name": "settings/Thread Variables",
+          "shape": [
+            1
+          ],
+          "dtype": "|S121570",
+          "value": "[b'(39 (8877 fluid rotating-fan 1)(\\n (material . air)\\n (sources? . #f)\\n (source-terms)\\n (fixed? . #f)\\n (cylindrical-fixed-var? . #f)\\n (fixes)\\n (motion-spec . 1)\\n (relative-to-thread . -1)\\n (omega (profile __expr__ \"rotational_speed\") (constant . 0))\\n (grid-x-vel . 0)\\n (grid-y-vel . 0)\\n (grid-z-vel . 0)\\n (x-origin . 0.)\\n (y-origin . 0.)\\n (z-origin . 0.)\\n (axis-origin-component 0. 0. 0.)\\n (ai . 0)\\n (aj . 1)\\n (ak . 0)\\n (axis-direction-component 0 1 0)\\n (udf-zmotion-name . \"none\")\\n (mrf-motion? . #t)\\n (mrf-relative-to-thread . -1)\\n (mrf-omega (profile __expr__ \"rotational_speed\") (constant . 0))\\n (mrf-grid-x-vel (constant . 0) (profile \"\" \"\"))\\n (mrf-grid-y-vel (constant . 0) (profile \"\" \"\"))\\n (mrf-grid-z-vel (constant . 0) (profile \"\" \"\"))\\n (reference-frame-velocity-components ((constant . 0) (profile \"\" \"\")) ((constant . 0) (profile \"\" \"\")) ((constant . 0) (profile \"\" \"\")))\\n (mrf-x-origin (constant . 0.) (profile \"\" \"\"))\\n (mrf-y-origin (constant . 0.) (profile \"\" \"\"))\\n (mrf-z-origin (constant . 0.) (profile \"\" \"\"))\\n (reference-frame-axis-origin-components ((constant . 0.) (profile \"\" \"\")) ((constant . 0.) (profile \"\" \"\")) ((constant . 0.) (profile \"\" \"\")))\\n (mrf-ai (constant . 0) (profile \"\" \"\"))\\n (mrf-aj (constant . 1) (profile \"\" \"\"))\\n (mrf-ak (constant . 0) (profile \"\" \"\"))\\n (reference-frame-axis-direction-components ((constant . 0) (profile \"\" \"\")) ((constant . 1) (profile \"\" \"\")) ((constant . 0) (profile \"\" \"\")))\\n (mrf-udf-zmotion-name .",
+          "valueTruncated": true
+        },
+        {
+          "name": "settings/Version",
+          "shape": [
+            1
+          ],
+          "dtype": "|S5",
+          "value": "[b'26.1']",
+          "valueTruncated": false
+        }
+      ],
+      "attributes": {},
+      "cellCount": 56963,
+      "cellZones": "[b'stationary-upwards;stationary-backwards;rotating-fan']"
+    },
+    {
+      "path": "assets/ansys-axial-fan/axial_fan.msh.h5",
+      "datasets": [
+        {
+          "name": "meshes/1/cells/partition/1/partition-ids",
+          "shape": [
+            21750
+          ],
+          "dtype": "int32"
+        },
+        {
+          "name": "meshes/1/cells/partition/2/partition-ids",
+          "shape": [
+            28418
+          ],
+          "dtype": "int32"
+        },
+        {
+          "name": "meshes/1/cells/partition/3/partition-ids",
+          "shape": [
+            6795
+          ],
+          "dtype": "int32"
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/cellType",
+          "shape": [
+            3
+          ],
+          "dtype": "int32",
+          "value": "[7 7 7]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/childZoneId",
+          "shape": [
+            3
+          ],
+          "dtype": "int32",
+          "value": "[0 0 0]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/dimension",
+          "shape": [
+            3
+          ],
+          "dtype": "uint64",
+          "value": "[3 3 3]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/fields",
+          "shape": [
+            1
+          ],
+          "dtype": "|S21",
+          "value": "[b'cellType;childZoneId;']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/id",
+          "shape": [
+            3
+          ],
+          "dtype": "int32",
+          "value": "[8871 8874 8877]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/maxId",
+          "shape": [
+            3
+          ],
+          "dtype": "uint64",
+          "value": "[21750 50168 56963]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/minId",
+          "shape": [
+            3
+          ],
+          "dtype": "uint64",
+          "value": "[    1 21751 50169]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/cells/zoneTopology/name",
+          "shape": [
+            1
+          ],
+          "dtype": "|S52",
+          "value": "[b'stationary-upwards;stationary-backwards;rotating-fan']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/1/nnodes",
+          "shape": [
+            48
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2\n 2 2 2 2 2 2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/1/nodes",
+          "shape": [
+            96
+          ],
+          "dtype": "uint32",
+          "value": "[ 1  2  2  3  3  4  4  5  5  6  6  7  7  8  8  9  9 10 10 11 11 12 12 13\n 13 14 14 15 15 16 16 17 17 18 18 19 19 20 20 21 21 22 22 23 23 24 24 25\n 25 26 26 27 27 28 28 29 29 30 30 31 31 32 32 33 33 34 34 35 35 36 36 37\n 37 38 38 39 39 40 40 41 41 42 42 43 43 44 44 45 45 46 46 47 47 48 48  1]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/10/nnodes",
+          "shape": [
+            6
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/10/nodes",
+          "shape": [
+            12
+          ],
+          "dtype": "uint32",
+          "value": "[2580 2581 2581 2582 2582 2583 2583 2584 2584 2585 2585 2586]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/11/nnodes",
+          "shape": [
+            72
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2\n 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/11/nodes",
+          "shape": [
+            144
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/edges/nodes/12/nnodes",
+          "shape": [
+            47
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2\n 2 2 2 2 2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/12/nodes",
+          "shape": [
+            94
+          ],
+          "dtype": "uint32",
+          "value": "[2660 2661 2661 2662 2662 2663 2663 2664 2664 2665 2665 2666 2666 2667\n 2667 2668 2668 2669 2669 2670 2670 2671 2671 2672 2672 2673 2673 2674\n 2674 2675 2675 2676 2676 2677 2677 2678 2678 2679 2679 2680 2680 2681\n 2681 2682 2682 2683 2683 2684 2684 2685 2685 2686 2686 2687 2687 2688\n 2688 2689 2689 2690 2690 2691 2691 2692 2692 2693 2693 2694 2694 2695\n 2695 2696 2696 2697 2697 2698 2698 2699 2699 2700 2700 2701 2701 2702\n 2702 2703 2703 2704 2704 2705 2705 2706 2706 2660]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/13/nnodes",
+          "shape": [
+            210
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/edges/nodes/13/nodes",
+          "shape": [
+            420
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/edges/nodes/14/nnodes",
+          "shape": [
+            47
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2\n 2 2 2 2 2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/14/nodes",
+          "shape": [
+            94
+          ],
+          "dtype": "uint32",
+          "value": "[2859 2860 2860 2861 2861 2862 2862 2863 2863 2864 2864 2865 2865 2866\n 2866 2867 2867 2868 2868 2869 2869 2870 2870 2871 2871 2872 2872 2873\n 2873 2874 2874 2875 2875 2876 2876 2877 2877 2878 2878 2879 2879 2880\n 2880 2881 2881 2882 2882 2883 2883 2884 2884 2885 2885 2886 2886 2887\n 2887 2888 2888 2889 2889 2890 2890 2891 2891 2892 2892 2893 2893 2894\n 2894 2895 2895 2896 2896 2897 2897 2898 2898 2899 2899 2900 2900 2901\n 2901 2902 2902 2903 2903 2904 2904 2905 2905 2906]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/15/nnodes",
+          "shape": [
+            120
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/edges/nodes/15/nodes",
+          "shape": [
+            240
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/edges/nodes/16/nnodes",
+          "shape": [
+            201
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/edges/nodes/16/nodes",
+          "shape": [
+            402
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/edges/nodes/2/nnodes",
+          "shape": [
+            48
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2\n 2 2 2 2 2 2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/2/nodes",
+          "shape": [
+            96
+          ],
+          "dtype": "uint32",
+          "value": "[49 50 50 51 51 52 52 53 53 54 54 55 55 56 56 57 57 58 58 59 59 60 60 61\n 61 62 62 63 63 64 64 65 65 66 66 67 67 68 68 69 69 70 70 71 71 72 72 73\n 73 74 74 75 75 76 76 77 77 78 78 79 79 80 80 81 81 82 82 83 83 84 84 85\n 85 86 86 87 87 88 88 89 89 90 90 91 91 92 92 93 93 94 94 95 95 96 96 49]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/3/nnodes",
+          "shape": [
+            1167
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/edges/nodes/3/nodes",
+          "shape": [
+            2334
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/edges/nodes/4/nnodes",
+          "shape": [
+            72
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2\n 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/4/nodes",
+          "shape": [
+            144
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/edges/nodes/5/nnodes",
+          "shape": [
+            1038
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/edges/nodes/5/nodes",
+          "shape": [
+            2076
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/edges/nodes/6/nnodes",
+          "shape": [
+            32
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/6/nodes",
+          "shape": [
+            64
+          ],
+          "dtype": "uint32",
+          "value": "[1814 1804 1809 1799 1830 1820 1825 1815 1846 1836 1831 1841 1852 1862\n 1847 1857 1868 1878 1863 1873 1884 1894 1879 1889 1900 1905 1910 1895\n 1931 1794 1936 1789 1784 1949 1769 1953 1774 1954 1759 1958 1764 1959\n 1749 1963 1754 1964 1739 1968 1744 1969 1729 1973 1734 1974 1719 1978\n 1724 1979 1709 1983 1714 1984 1779 1988]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/7/nnodes",
+          "shape": [
+            73
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2\n 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/7/nodes",
+          "shape": [
+            146
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/edges/nodes/8/nnodes",
+          "shape": [
+            43
+          ],
+          "dtype": "int16",
+          "value": "[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2\n 2 2 2 2 2 2]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/8/nodes",
+          "shape": [
+            86
+          ],
+          "dtype": "uint32",
+          "value": "[2417 2418 2418 2419 2419 2420 2420 2421 2421 2422 2422 2423 2423 2424\n 2424 2425 2425 2426 2426 2427 2427 2428 2428 2429 2429 2430 2430 2431\n 2431 2432 2432 2433 2433 2434 2434 2435 2435 2436 2436 2437 2437 2438\n 2438 2439 2439 2440 2440 2441 2441 2442 2442 2443 2443 2444 2444 2445\n 2445 2446 2446 2447 2447 2448 2448 2449 2449 2450 2450 2451 2451 2452\n 2452 2453 2453 2417 2454 2455 2455 2456 2456 2457 2457 2458 2458 2459\n 2459 2460]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/nodes/9/nnodes",
+          "shape": [
+            101
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/edges/nodes/9/nodes",
+          "shape": [
+            202
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/edges/zoneTopology/dimension",
+          "shape": [
+            16
+          ],
+          "dtype": "uint64",
+          "value": "[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/zoneTopology/edgeType",
+          "shape": [
+            16
+          ],
+          "dtype": "int32",
+          "value": "[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/zoneTopology/fields",
+          "shape": [
+            1
+          ],
+          "dtype": "|S18",
+          "value": "[b'edgeType;zoneType;']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/zoneTopology/id",
+          "shape": [
+            16
+          ],
+          "dtype": "int32",
+          "value": "[31 32 33 34 35 36 37 38 39 40 41 42 26 27 28 29]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/zoneTopology/maxId",
+          "shape": [
+            16
+          ],
+          "dtype": "uint64",
+          "value": "[  48   96 1263 1335 2373 2405 2478 2521 2622 2628 2700 2747 2957 3004\n 3124 3325]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/zoneTopology/minId",
+          "shape": [
+            16
+          ],
+          "dtype": "uint64",
+          "value": "[   1   49   97 1264 1336 2374 2406 2479 2522 2623 2629 2701 2748 2958\n 3005 3125]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/zoneTopology/name",
+          "shape": [
+            1
+          ],
+          "dtype": "|S786",
+          "value": "[b'inlet:walls-domain-upwards:stationary-upwards:feature:angle:nc;pressure-outlet:walls-domain-backwards:stationary-backwards:feature:angle:nc;walls-domain-backwards:feature:angle;walls-domain-backwards:feature:secondary;walls-domain-upwards:feature:angle;walls-domain-upwards:feature:secondary;fan-tip-wall:walls-domain-upwards:rotating-fan:stationary-upwards:feature:multi:nc:3:0;fan-walls:feature:angle;fan-walls:feature:secondary;fan-walls:interior-rotating-backwards:walls-domain-backwards:rotating-fan:stationary-backwards:feature:multi:nc:3:0;interior-upwards-rotating:feature:nc;fan-tip-wall:interior-rotating-backwards:walls-domain-backwards:rotating-fan:stationary-backwards:feature:multi:nc:3:0;boi-2:feature:angle;boi-2:feature:secondary;boi-3:feature:angle;boi-1:feature:angle']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/edges/zoneTopology/zoneType",
+          "shape": [
+            16
+          ],
+          "dtype": "int32",
+          "value": "[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/c0/1",
+          "shape": [
+            40814
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/10",
+          "shape": [
+            491
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/11",
+          "shape": [
+            203
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/12",
+          "shape": [
+            62
+          ],
+          "dtype": "uint32",
+          "value": "[  870   881   894   903   906   909   911   912   925   929   944   946\n   950   951   955   977   993  1005  1014  1019  1020  1022  1026  1034\n  1055  1074  1144  1146  1147  1148  1208  1211  1212  1213  1214  1215\n  1216  1217  1218  1219  1220  1223  1224  1225  1226    32  1227  1228\n  1229  1230 19344 19418 19417 19077 19107 19126 19353 19429 19482 19483\n 19516 19144]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/c0/2",
+          "shape": [
+            189348
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/3",
+          "shape": [
+            147474
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/4",
+          "shape": [
+            361
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/5",
+          "shape": [
+            439
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/6",
+          "shape": [
+            610
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/7",
+          "shape": [
+            2544
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/8",
+          "shape": [
+            5857
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c0/9",
+          "shape": [
+            5908
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/1",
+          "shape": [
+            40814
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/10",
+          "shape": [
+            491
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/11",
+          "shape": [
+            203
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/12",
+          "shape": [
+            62
+          ],
+          "dtype": "uint32",
+          "value": "[50193 50224 50260 50285 50299 50302 50305 50306 50341 50346 50385 50392\n 50399 50400 50454 50493 50507 50540 50575 50589 50610 50615 50659 50858\n 51284 51312 51453 51455 51456 51457 52869 52872 52873 52874 52875 52876\n 52877 52878 52879 52880 52881 52884 52885 52886 52887 52888 52889 52890\n 52891 52892 51301 50406 50411 52883 52882 52871 50734 50384 50323 50311\n 50250 52870]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/c1/2",
+          "shape": [
+            189348
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/3",
+          "shape": [
+            147474
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/4",
+          "shape": [
+            361
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/5",
+          "shape": [
+            439
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/6",
+          "shape": [
+            610
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/7",
+          "shape": [
+            2544
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/8",
+          "shape": [
+            5857
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/c1/9",
+          "shape": [
+            5908
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/1/nnodes",
+          "shape": [
+            40814
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/1/nodes",
+          "shape": [
+            204224
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/10/nnodes",
+          "shape": [
+            491
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/10/nodes",
+          "shape": [
+            2896
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/11/nnodes",
+          "shape": [
+            203
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/11/nodes",
+          "shape": [
+            1168
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/12/nnodes",
+          "shape": [
+            62
+          ],
+          "dtype": "int16",
+          "value": "[5 4 5 5 5 5 6 4 5 5 5 4 6 4 5 4 5 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 6\n 5 5 5 5 5 5 5 4 5 5 5 5 5 4 5 5 6 5 5 5 5 5 5 5 5]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/nodes/12/nodes",
+          "shape": [
+            306
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/2/nnodes",
+          "shape": [
+            189348
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/2/nodes",
+          "shape": [
+            965045
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/3/nnodes",
+          "shape": [
+            147474
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/3/nodes",
+          "shape": [
+            754604
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/4/nnodes",
+          "shape": [
+            361
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/4/nodes",
+          "shape": [
+            2044
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/5/nnodes",
+          "shape": [
+            439
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/5/nodes",
+          "shape": [
+            2558
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/6/nnodes",
+          "shape": [
+            610
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/6/nodes",
+          "shape": [
+            3534
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/7/nnodes",
+          "shape": [
+            2544
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/7/nodes",
+          "shape": [
+            12718
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/8/nnodes",
+          "shape": [
+            5857
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/8/nodes",
+          "shape": [
+            31464
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/nodes/9/nnodes",
+          "shape": [
+            5908
+          ],
+          "dtype": "int16"
+        },
+        {
+          "name": "meshes/1/faces/nodes/9/nodes",
+          "shape": [
+            30972
+          ],
+          "dtype": "uint32"
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/childZoneId",
+          "shape": [
+            12
+          ],
+          "dtype": "int32",
+          "value": "[0 0 0 0 0 0 0 0 0 0 0 0]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/dimension",
+          "shape": [
+            12
+          ],
+          "dtype": "uint64",
+          "value": "[3 3 3 3 3 3 3 3 3 3 3 3]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/faceType",
+          "shape": [
+            12
+          ],
+          "dtype": "int32",
+          "value": "[5 5 5 5 5 5 5 5 5 5 5 5]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/fields",
+          "shape": [
+            1
+          ],
+          "dtype": "|S43",
+          "value": "[b'childZoneId;faceType;shadowZoneId;zoneType;']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/id",
+          "shape": [
+            12
+          ],
+          "dtype": "int32",
+          "value": "[8876 8873 8870   54   53   52   51   50   49   48   47   46]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/maxId",
+          "shape": [
+            12
+          ],
+          "dtype": "uint64",
+          "value": "[ 40814 230162 377636 377997 378436 379046 381590 387447 393355 393846\n 394049 394111]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/minId",
+          "shape": [
+            12
+          ],
+          "dtype": "uint64",
+          "value": "[     1  40815 230163 377637 377998 378437 379047 381591 387448 393356\n 393847 394050]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/name",
+          "shape": [
+            1
+          ],
+          "dtype": "|S257",
+          "value": "[b'interior--rotating-fan;interior--stationary-backwards;interior--stationary-upwards;interior-rotating-backwards;interior-upwards-rotating;fan-tip-wall;fan-walls;walls-domain-upwards;walls-domain-backwards;pressure-outlet;inlet;rotating-fan-stationary-upwards']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/shadowZoneId",
+          "shape": [
+            12
+          ],
+          "dtype": "int32",
+          "value": "[0 0 0 0 0 0 0 0 0 0 0 0]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/faces/zoneTopology/zoneType",
+          "shape": [
+            12
+          ],
+          "dtype": "int32",
+          "value": "[ 2  2  2 15 15  3  3  3  3  5  4  3]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/coords/1",
+          "shape": [
+            3227,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "name": "meshes/1/nodes/coords/2",
+          "shape": [
+            27285,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "name": "meshes/1/nodes/coords/3",
+          "shape": [
+            120075,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "name": "meshes/1/nodes/coords/4",
+          "shape": [
+            153786,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "name": "meshes/1/nodes/coords/5",
+          "shape": [
+            30391,
+            3
+          ],
+          "dtype": "float64"
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/dimension",
+          "shape": [
+            5
+          ],
+          "dtype": "uint64",
+          "value": "[3 3 3 3 3]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/fields",
+          "shape": [
+            1
+          ],
+          "dtype": "|S9",
+          "value": "[b'zoneType;']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/id",
+          "shape": [
+            5
+          ],
+          "dtype": "int32",
+          "value": "[  30 8858 8869 8872 8875]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/maxId",
+          "shape": [
+            5
+          ],
+          "dtype": "uint64",
+          "value": "[  3227  30512 150587 304373 334764]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/minId",
+          "shape": [
+            5
+          ],
+          "dtype": "uint64",
+          "value": "[     1   3228  30513 150588 304374]",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/name",
+          "shape": [
+            1
+          ],
+          "dtype": "|S73",
+          "value": "[b'boundary-node-30;boundary-node-p-8858;node-p-8869;node-p-8872;node-p-8875']",
+          "valueTruncated": false
+        },
+        {
+          "name": "meshes/1/nodes/zoneTopology/zoneType",
+          "shape": [
+            5
+          ],
+          "dtype": "int32",
+          "value": "[2 2 1 1 1]",
+          "valueTruncated": false
+        },
+        {
+          "name": "settings/Cortex Variables",
+          "shape": [
+            1
+          ],
+          "dtype": "|S2469",
+          "value": "[b'\\n(0 \"Cortex variables:\")\\n(38 ((\\n(meshing-mode-vars ((re-partition . #t)))\\n(meshing-to-solver-scaling-factor 0.001)\\n(reference-frames-display (((name . \"global\") (display-state . current))))\\n(reference-frames-definition (((name . \"global\") (origin point 0. 0. 0. (frame . parent)) (orientation two-axis (axis ((axis-from axis-label x (frame . global)) (axis-to vector 1. 0. 0. (frame . parent))) ((axis-from axis-label y (frame . global)) (axis-to vector 0. 1. 0. (frame . parent)))) (auto? . #t)) (transformations))))\\n(reference-frames (((name . \"global\") (id . 1) (parent . 0) (current-state (origin 0. 0. 0.) (quat 1. 0. 0. 0.)) (motion (motion-type . 0) (velocity 0. 0. 0.) (acceleration 0. 0. 0.) (omega (angle . 0.) (axis 0. 0. 0.)) (alpha (angle . 0.) (axis 0. 0. 0.)) (update . \"\") (utl-vid . 0)) (read-only? . #t))))\\n(tg-native-poly-mesh? #t)\\n(gui-processing? #t)\\n(color/grid/inlet \"green\")\\n(color/grid/symmetry \"orange\")\\n(color/grid/color-by? id)\\n(color/grid/types? #f)\\n(view-list ((wf-view ((20923.0390625 29740.93359375 20923.0390625) (-35.98590850830078 100.3922271728516 -35.98657989501953) (-0.5000000596046448 0.7071067690849304 -0.5000000596046448) 17412.27734375 6082.0751953125 \"perspective\") #(1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1.)) (isometric ((6966.03369140625 9900.9599609375 6966.03369140625) (0. 49.5 0.) (-0.5000000596046448 0.7071068286895752 -0.5000000596046448) 5572.826930741704 5572.826930741704 \"perspective\") #(1 0 0 0 0 1 0 0 0 0 1 0 0 0 0",
+          "valueTruncated": true
+        },
+        {
+          "name": "settings/Origin",
+          "shape": [
+            1
+          ],
+          "dtype": "|S29",
+          "value": "[b'ANSYS FLUENT MESHING 2026 R1']",
+          "valueTruncated": false
+        },
+        {
+          "name": "settings/Solver",
+          "shape": [
+            1
+          ],
+          "dtype": "|S21",
+          "value": "[b'ANSYS_FLUENT_MESHING']",
+          "valueTruncated": false
+        },
+        {
+          "name": "settings/TGrid Meshing Data",
+          "shape": [
+            1
+          ],
+          "dtype": "|S36",
+          "value": "[b'\\n(0 \"TGrid meshing data:\")\\n(73 ())\\n']",
+          "valueTruncated": false
+        },
+        {
+          "name": "settings/TGrid Variables",
+          "shape": [
+            1
+          ],
+          "dtype": "|S56456",
+          "value": "[b'\\n(0 \"TGrid variables:\")\\n(60 (\\n(mesh-lib #f)\\n(cad-hierarchy ())\\n(cad-node-zones ())\\n(cad-zone-associations ())\\n(cad-assoc ())\\n(cad/import-options ((single? #t) (file \"D:\\\\generic_fan_case_Achilleas\\\\0.Pyfluent\\\\Fan-Model-MRF-Conformal.pmdb\") (pattern \"\") (append? #t) (import-curvature? #t) (feature-angle 40) (scale-factor 1) (zone-name-prefix \"\") (one-zone-per \"program-controlled\") (one-face-zone-per \"body\") (export-cad-hierarchy? #f) (extract-feature? #t)))\\n(cad/adv-options ((recursive? #f) (continue-on-error? #f) (create-faceting? #t) (savepmdb? #f) (length-unit \"mm\") (import-part-names? #f) (import-body-names? #t) (create-conformal-faceting? #t) (conformal-faceting-minsize 0) (conformal-faceting-maxsize 0) (conformal-faceting-curvature-normal-angle 10) (sag-control? #f) (sag-tolerance 0) (sag-maxsize 0) (encl-symm-processing #f) (import-ns? #t) (ns-pattern \"Layer*\") (ns-regex \"^(Color|Layer|Material|NX_Material|[0-9]:).*\") (conf-faceting-merge-nodes #t) (conf-faceting-make-objs-independent #t) (conf-faceting-edge-proximity #f) (conf-faceting-cells-per-gap 3) (conf-faceting-size-field-load? #t) (conf-faceting-size-field-file \"D:\\\\generic_fan_case_Achilleas\\\\0.Pyfluent\\\\FM_SNPS-saQ3UISrNo_12884\\\\\\\\Fan-Model-MRF-Conformal.sf\") (conf-faceting-size-field-save? #f) (do-refaceting? #f) (sag-minsize 0) (conformal-tess #f) (conformal-tess-minsize 0) (conformal-tess-maxsize 0) (conformal-tess-tolerance 0) (double-connected-face-label \"\") (single-connected-edge-label \"sing",
+          "valueTruncated": true
+        },
+        {
+          "name": "settings/Thread Variables",
+          "shape": [
+            1
+          ],
+          "dtype": "|S1880",
+          "value": "[b'\\n(0 \"Zone variables:\")\\n(39 (8877 fluid rotating-fan)(\\n))\\n(39 (8874 fluid stationary-backwards)(\\n))\\n(39 (8871 fluid stationary-upwards)(\\n))\\n(39 (46 wall rotating-fan-stationary-upwards)(\\n))\\n(39 (47 pressure-inlet inlet)(\\n))\\n(39 (48 pressure-outlet pressure-outlet)(\\n))\\n(39 (49 wall walls-domain-backwards)(\\n))\\n(39 (50 wall walls-domain-upwards)(\\n))\\n(39 (51 wall fan-walls)(\\n))\\n(39 (52 wall fan-tip-wall)(\\n))\\n(39 (53 internal interior-upwards-rotating)(\\n))\\n(39 (54 internal interior-rotating-backwards)(\\n))\\n(39 (8870 interior interior--stationary-upwards)(\\n))\\n(39 (8873 interior interior--stationary-backwards)(\\n))\\n(39 (8876 interior interior--rotating-fan)(\\n))\\n(39 (29 boundary-edge boi-1:feature:angle)(\\n))\\n(39 (28 boundary-edge boi-3:feature:angle)(\\n))\\n(39 (27 boundary-edge boi-2:feature:secondary)(\\n))\\n(39 (26 boundary-edge boi-2:feature:angle)(\\n))\\n(39 (42 boundary-edge fan-tip-wall:interior-rotating-backwards:walls-domain-backwards:rotating-fan:stationary-backwards:feature:multi:nc:3:0)(\\n))\\n(39 (41 boundary-edge interior-upwards-rotating:feature:nc)(\\n))\\n(39 (40 boundary-edge fan-walls:interior-rotating-backwards:walls-domain-backwards:rotating-fan:stationary-backwards:feature:multi:nc:3:0)(\\n))\\n(39 (39 boundary-edge fan-walls:feature:secondary)(\\n))\\n(39 (38 boundary-edge fan-walls:feature:angle)(\\n))\\n(39 (37 boundary-edge fan-tip-wall:walls-domain-upwards:rotating-fan:stationary-upwards:feature:multi:nc:3:0)(\\n))\\n(39 (36 boundary-edg",
+          "valueTruncated": true
+        },
+        {
+          "name": "settings/Version",
+          "shape": [
+            1
+          ],
+          "dtype": "|S5",
+          "value": "[b'26.1']",
+          "valueTruncated": false
+        },
+        {
+          "name": "special/curvature_data/nodes/30/data",
+          "shape": [
+            3227
+          ],
+          "dtype": "float64"
+        },
+        {
+          "name": "special/curvature_data/nodes/topology",
+          "shape": [
+            1
+          ],
+          "dtype": "int32",
+          "value": "[30]",
+          "valueTruncated": false
+        }
+      ],
+      "attributes": {},
+      "cellCount": 56963,
+      "cellZones": "[b'stationary-upwards;stationary-backwards;rotating-fan']"
+    }
+  ],
+  "geometry": [
+    {
+      "path": "assets/openfoam/propeller-OpenFOAM-extracted/propeller-OpenFOAM-eaa8e70e8ecc2c48ba9927cac5feb83c8e39e416/mesh/rotor/prop.stl",
+      "faces": 43538,
+      "vertices": 23412,
+      "watertight": false,
+      "boundsNativeUnits": [
+        [
+          -0.02124795,
+          -0.014,
+          -0.165
+        ],
+        [
+          0.02124795,
+          0.014,
+          0.165
+        ]
+      ],
+      "unitsConfirmed": false
+    }
+  ],
+  "nasaVsp": {
+    "xmlParsed": true,
+    "rootTag": "Vsp_Geometry",
+    "propellerGeometryCount": 7
+  },
+  "nasaGlb": {
+    "magic": "glTF",
+    "version": 2,
+    "declaredSizeMatches": true
+  },
+  "openfoam": {
+    "hasVolumeMesh": false,
+    "mrf": "/*--------------------------------*- C++ -*----------------------------------*\\\n| =========                 |                                                 |\n| \\\\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |\n|  \\\\    /   O peration     | Version:  v2012                                 |\n|   \\\\  /    A nd           | Website:  www.openfoam.com                      |\n|    \\\\/     M anipulation  |                                                 |\n\\*---------------------------------------------------------------------------*/\nFoamFile\n{\n    version     2.0;\n    format      ascii;\n    class       dictionary;\n    location    \"constant\";\n    object      MRFProperties;\n}\n// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //\n\nMRF1\n{\n    cellZone    rotor;\n    active      yes;\n\n    // Fixed patches (by default they 'move' with the MRF zone)\n    nonRotatingPatches (AMI1 AMI2);\n\n    origin    (0 0 0);\n    axis      (0 1 0);\n    omega     314.16;    // [rad/s]  314.16 rad/s = 3000 rpm\n}\n\n// ************************************************************************* //\n",
+    "controlDict": "// -*- C++ -*-\n// File generated by PyFoam - sorry for the ugliness\n\nFoamFile\n{\n version 2.0;\n format ascii;\n class dictionary;\n location \"system\";\n object controlDict;\n}\n\napplication rhoSimpleFoam;\n\nstartFrom latestTime;\n\nstartTime 0;\n\nstopAt endTime;\n\nendTime 400;\n\ndeltaT 1;\n\nwriteControl timeStep;\n\nwriteInterval 100;\n\npurgeWrite 0;\n\nwriteFormat binary;\n\nwritePrecision 6;\n\nwriteCompression no;\ntimeFormat general;\n\ntimePrecision 6;\n\nrunTimeModifiable yes;\nadjustTimeStep yes;\nmaxCo 2;\n\nfunctions\n{\n#includeFunc Q\n#include \"surfaces\"\n#include \"forces\"\n#include \"AMIWeights\"\n#includeFunc MachNo\n#includeFunc solverInfo\n  yPlus\n  {\n    type yPlus;\n    libs\n      (\n        fieldFunctionObjects\n      );\n    executeControl timeStep;\n    writeControl writeTime;\n    patches\n      (\n        propellerTip\n      );\n  }\n  wallShearStress1\n  {\n    type wallShearStress;\n    libs\n      (\n        \"libfieldFunctionObjects.so\"\n      );\n    patches\n      (\n        propellerTip\n      );\n    executeControl timeStep;\n    writeControl writeTime;\n  }\n} \t// ************************************************************************* //\n\n",
+    "forces": "/*--------------------------------*- C++ -*----------------------------------*\\\n| =========                 |                                                 |\n| \\\\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |\n|  \\\\    /   O peration     | Version:  v2012                                 |\n|   \\\\  /    A nd           | Website:  www.openfoam.com                      |\n|    \\\\/     M anipulation  |                                                 |\n\\*---------------------------------------------------------------------------*/\n\nforces\n{\n    type          forces;\n\n    libs          (\"libforces.so\");\n\n    writeControl  timeStep;\n    timeInterval  1;\n\n    log           yes;\n\n    patches       (\"propeller.*\");\n\trho\t\t\t  rho;\n    //rho           rhoInf;     // Indicates incompressible\n    log           true;\n    //rhoInf        1;      // Redundant for incompressible\n\n    CofR          (0 0 0);    // Rotation around centre line of propeller\n    pitchAxis     (0 1 0);\n}\n\n\n// ************************************************************************* //\n"
+  }
+}

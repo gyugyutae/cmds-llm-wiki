@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-10-05
+date modified: 2026-10-12
 tags:
   - index
   - moc
@@ -29,13 +29,13 @@ status: active
 
 | Metric | Count |
 |--------|-------|
-| Raw Sources | 69 |
-| Wiki Pages | 90 |
-| Concepts | 44 |
+| Raw Sources | 105 |
+| Wiki Pages | 100 |
+| Concepts | 46 |
 | Entities | 15 |
-| Guides | 25 |
+| Guides | 33 |
 | MOCs | 6 |
-| Queries | 73 |
+| Queries | 93 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -46,6 +46,9 @@ status: active
 아래는 현재 Wiki 페이지 목록입니다. 새 소스를 ingest 할 때마다 이 목록이 자라납니다.
 
 ### Concepts
+
+- [[이력서 문장은 문제 해결 결과 도메인으로 압축한다]] — ideal 이력서·포트폴리오 참고 영상의 작성 기준과 증거 경계
+- [[취업 스펙은 공고와 프로젝트 증거에 맞춰 배치한다]] — ideal 이력서·포트폴리오 참고 영상의 작성 기준과 증거 경계
 
 > 추상 개념, 기술, 방법론
 
@@ -118,7 +121,18 @@ status: active
 
 ### Guides
 
+- [[금융 Java 포트폴리오에서 해결 차이와 트레이드오프를 증명하는 법]] — 사용자 3·4단계 성장 목적, 네 금융 사례의 반례·대안·선택 비용과 실행 기준
+
+- [[클리핑 원문 보존과 재사용 지도]] — 클리핑 11개와 작업 노트 이미지의 보존 범위·재사용 목적
+
+- [[ideal 이력서와 포트폴리오 참고 영상 활용 지도]] — ideal 이력서·포트폴리오 참고 영상의 작성 기준과 증거 경계
+- [[포트폴리오 문제 해결 블록과 그림을 편집하는 법]] — ideal 이력서·포트폴리오 참고 영상의 작성 기준과 증거 경계
+- [[포트폴리오 트래픽 가정과 측정 결과를 구분하는 법]] — ideal 이력서·포트폴리오 참고 영상의 작성 기준과 증거 경계
+- [[대표 프로젝트 설명과 피드백으로 지원 문서를 개선한다]] — ideal 이력서·포트폴리오 참고 영상의 작성 기준과 증거 경계
+
 > How-to, 튜토리얼, 실전 가이드
+
+- [[이력서는 프로젝트 포트폴리오는 문제 해결로 구성한다]] — ideal 이력서 2장·포트폴리오 5장, 항목 1~2줄·프로젝트 약 7줄과 대표 사례 선정 기준
 
 - [[Obsidian Tooling for LLM Wiki]] — Web Clipper, Dataview, qmd 등 실용 도구 가이드
 - [[Web Clipper to Inbox Workflow]] — Web Clipper capture에서 purpose-gated ingest까지의 실전 절차
@@ -126,7 +140,7 @@ status: active
 - [[개발자 커리어로 경제적 자유에 가까워지기]] — 개발자 취업과 고소득 커리어를 경제적 자유의 1순위 수단으로 정리한 가이드
 - [[LLM Wiki Token Optimization Strategies]] — LLM Wiki 운영에서 토큰을 절약하는 전략
 - [[김규태 Career Narrative]] — 자기소개, 목표 도메인, 성장 과제, 면접용 내러티브 정리
-- [[김규태 금융 시스템 개발자 취업 로드맵]] — 지방 국립대 소프트웨어공학과 4학년 관점의 금융권·핀테크 Java 주문 시스템 개발 취업 계획
+- [[김규태 금융 시스템 개발자 취업 로드맵]] — 금융권·핀테크 Java 시스템 개발 취업 계획과 TOEIC Speaking IH 단기 취득·종료 기준
 - [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]] — 두 Spring Boot 교재의 질문·오개념·재시험을 금융 주문 프로젝트 전의 Java·Spring Boot·AWS 기초로 누적하는 중심 학습 축
 - [[김규태 Leadership and Teaching Evidence]] — 실리콘밸리 대표, 멋쟁이사자처럼 부대표, 백엔드 세션, 해커톤 템플릿 증거
 - [[개발자 롤모델을 GitHub에서 공부하는 법]] — 공개 commit·issue·PR·README·agent gate를 자신의 프로젝트 습관으로 전환하는 관찰 가이드
@@ -138,6 +152,7 @@ status: active
 - [[김규태 개발 도메인 영어 성장 계획]] — 영어 몰입 경험을 기술 문서 읽기·영어 README·설명·협업 증거로 전환하는 계획
 - [[UAV 정밀착륙 특허 검색 가이드]] — KIPRIS·Google Patents·PATENTSCOPE·Espacenet을 이용한 반복 가능한 특허 검색·검증 절차
 - [[EvolvingTraceDB Neo4j 구축 및 검증 가이드]] — JavaParser 결과를 Neo4j 그래프로 적재하고 Browser에서 검증하는 재현 절차
+- [[제조 DB 성능 최적화 에이전트 프로젝트 검증 가이드]] — 제조 DB 튜닝 아이디어를 실행계획·부하·안전장치·전후 측정 증거로 바꾸는 검증 설계
 
 - [[금융권 백엔드 목표 포트폴리오를 역설계하는 법]] — 금융권 백엔드 취업 준비 영상과 사용자 목적을 연결한 참고 가이드
 - [[채용공고와 기여 증거를 연결하는 지원동기]] — 금융권 백엔드 취업 준비 영상과 사용자 목적을 연결한 참고 가이드
@@ -163,6 +178,30 @@ status: active
 ---
 
 ## 🔎 Queries (Synthesized Answers)
+
+- [[2026-10-12-Q-unlv-networking-evidence-wiki-and-ai-tools]] — 미국 개발자 취업 네트워킹의 역할, Evidence Wiki 평가 루프, Promptfoo·Ragas·Langfuse·Spring AI·MCP·LangGraph 후보
+- [[2026-10-12-UNLV-연수에서-얻어올-다섯가지]] — 70. Outputs의 별도 실행 메모. 영어 설명·현지 피드백·개선·관계·진로 판단의 체크리스트와 완료 기준
+
+- 이력서·5장 포트폴리오 정합성: 개인 요약은 3~4장, 기본기 근거는 1~2장, 협업 요약은 5장. 같은 주장에는 같은 실험·조건·관측값을 사용한다.
+
+- 에이전트 개인 프로젝트 컨텍스트: [[금융 백엔드 포트폴리오 5장 원고]](목표) → [[거래 원장 아키텍처와 장애 복구 설계]](계약·경계) → [[2026-10-07-Q-representative-article-detailed-plan]](실험·증거). 두 참고 파일의 중복·이전 분량 참조를 제거했다.
+
+
+- [금융 백엔드 포트폴리오 5장 원고](70.%20Outputs/2026-10-06-Financial-Portfolio/금융%20백엔드%20포트폴리오%205장%20원고.md) — 개인 3블록·협업 1블록의 동일한 제목/그림/문제/해결/결과 편집 원고, 실측 조건 포함
+
+- [금융 백엔드 이력서 2장 원고](70.%20Outputs/2026-10-06-Financial-Portfolio/금융%20백엔드%20이력서%202장%20원고.md) — 개인·팀 대표 문제 해결형 이상형 편집안, 신입 기본기와 자기객관화 증거 포함
+
+- [[2026-10-11-Q-five-page-portfolio-review-and-confirmation-rules]] — 2장 이력서·5장 포트폴리오 배치 검토, 압축 사례 복원, 새 영상 조언 적용과 거래 확정/예약 해제 증거 기준
+
+- [[2026-10-07-Q-representative-article-detailed-plan]] — financial-lab 개발·학습 길잡이. 개인의 실패 탐지·복구 범위, 대표 글 일곱 절의 구현·실험 기준과 정처기/SQLD 한 줄 표기. 제출본에는 대표 글 직접 링크로 연결
+
+- [[2026-10-06-Q-portfolio-architecture-technical-article-and-target-profile]] — 데이터 흐름·미확정 거래 복구 설계, 대표 글 3~4주 제작, 비금융 협업의 기여 증거, 공개 합격 회고와 자격·어학 목표
+
+- [[2026-10-06-Q-two-page-financial-portfolio-k6-and-domain-rules]] — 프로젝트 2개·제출 2쪽 편집, k6 합성 요청·모의 기관, 공식 결제 시각과 명세 마감의 구분; [2쪽 편집 원고](70.%20Outputs/2026-10-06-Financial-Portfolio/금융%20백엔드%20포트폴리오%202쪽%20원고.md)
+
+- [[2026-10-01-Q-financial-portfolio-integration-reconciliation-and-review]] — 내부·모의 기관 연동, 대사 명세·마감, 팀장과 백엔드 책임, 실측·기여 증빙 제안
+
+- [[2026-10-01-Q-ideal-portfolio-submission-draft]] — 코딩웨일 이상형 선설계와 생각등대의 제목·그림·문제·해결·결과 형식으로 작성한 개인·협업 포트폴리오 제작본; 미정 업무 경계와 실측 빈칸 포함
 
 > 질의 결과가 wiki 에 역피드백된 합성 페이지. [[Ingest-Query-Lint Cycle|Karpathy 원문 권장]]: "good answers can be filed back into the wiki as new pages."
 
@@ -198,9 +237,19 @@ status: active
 - [[2026-09-12-Q-Nexon-Tutorial-AI-Interview-Retrospective]] — 실제 AI면접 복기 기반 문항별 교정, C++·자료구조·공간 탐색 학습 우선순위
 - [[2026-09-13-Q-bank-backend-entry-readiness-gap]] — 은행권 백엔드 인턴·신입 채용선, 공개 합격 사례와 김규태의 핵심 역량 격차 진단
 - [[2026-09-13-Q-java-bank-transfer-ledger-portfolio-design]] — Java·Spring Boot로 동시성·멱등성·원장 정합성을 증명하는 은행 백엔드 대표 프로젝트 설계
+- [[2026-09-28-Q-financial-backend-portfolio-reference-analysis]] — 금융권 백엔드 합격 회고·채용공고 예시·기술 블로그·공개 저장소 32개를 분석한 포트폴리오·이력서 기준안
+- [[2026-09-28-Q-ideal-financial-backend-portfolio]] — 합격자 사례·기술 블로그를 바탕으로 한 금융권 백엔드 포트폴리오 이상형과 이체 workload/TPS·초기 인프라 가정
+- [[2026-09-28-Q-video-based-financial-portfolio-case-choice]] — 영상의 제목·그림·문제·해결·결과 구조로 이체/원장, 결제/환불, 정산/대사를 비교한 설계안
+- [[2026-09-28-Q-ideal-portfolio-fit-audit]] — 생각등대의 문제 해결 블록과 코딩웨일의 이상형→조정 절차에 비춰 본 금융 포트폴리오 점검
+- [[2026-09-30-Q-portfolio-progress-and-ideal-quality-upgrade]] — 최신 Mac 구현·기획 진행 확인과 금융 업무 규칙·네 사례·성능·복구·제출 초안의 이상형 보강 조건
+- [[2026-09-30-Q-financial-portfolio-deliverables-and-reference-review]] — 개인·협업 두 프로젝트, 금융 사례 네 개, 대표 글·최종 산출물과 레퍼런스 장점 비교; 마지막 페이지는 보류한 참고안
+- [[2026-09-30-Q-현상분석3-다음은-작성워크시트]] — 현상·개념·기술 변화·사용자·이유·전망 틀로 강의 사례와 게임 트렌드를 분석하는 워크시트
+- [[2026-09-30-Q-Muse-에이전트-근거와-다음-단계]] — Gartner 사용자 조사·Muse 기능·초기 다운로드 근거와 앱/웨어러블 에이전트의 다음 단계 토론
+- [[2026-09-28-Q-financial-ledger-transactions-and-architecture-learning]] — 계좌이체 프로젝트의 트랜잭션·동시성 실험과 DB·소프트웨어 아키텍처 독서 경로
 - [[2026-09-14-Q-modoo-startup-second-cuee-application-draft]] — CUEE 모두의 창업 2차 지원을 위한 증거 경계형 문항 초안, 실행 일정과 이미지 구성
 - [[2026-09-01-Q-software-engineering-semester-project-selection]] — 소프트웨어개발론의 12주 범위에 맞춘 무인기 추적성과 Upbit 투자 시스템 후보 비교
 - [[2026-09-01-Q-emerging-traceability-technology-selection]] — 최신 논문·오픈소스와 12주 제약을 반영한 경량 GraphRAG형 추적 기술 선정
+- [[2026-09-24-Q-emerging-technologies-for-rotor-engineering-agent]] — 프로펠러 근거 재사용·다음 시험 설계를 위한 CAD, Bayesian optimization, CFD agent, PhysicsNeMo 기술 후보 및 적용 한계
 - [[2026-09-01-Q-upbit-financial-decision-traceability-project]] — 사용자 의도부터 Upbit test order까지 재현하는 금융 AI Decision Receipt 프로젝트
 - [[2026-09-01-Q-team-meeting-two-project-proposals]] — Agentic UAV Digital Thread와 Upbit Decision Provenance를 같은 기준으로 비교한 팀 회의용 2안
 - [[2026-09-01-Q-whybuy-agentic-finance-technology-selection]] — Google AP2의 signed mandate를 투자 권한에 변형한 WhyBuy Agentic Finance 기술안
@@ -230,6 +279,8 @@ status: active
 - [[2026-09-14-Q-korea-non-finance-backend-employer-comparison]] — 금융 외 일반기업 백엔드 유형과 보상·워라밸·개발환경·회사 선택 기준 비교
 - [[2026-09-14-Q-korea-financial-java-employer-comparison]] — 주요 은행·인터넷은행·증권사의 Java 신입 채용 입구, 보상·워라밸 경향, 현직자 평가 신호와 근무 거점 비교
 - [[2026-09-18-Q-current-scholarship-global-hackathon-opportunity-map]] — 소득 9구간을 반영한 현재 장학금·해외·금융/개발·해커톤·일경험 후보와 지원 순서
+- [[2026-09-28-Q-domestic-developer-competition-portfolio-fit]] — 국내 개발·AI 공모전 8개의 산출물·접수 마감·수상 난도와 비수상 포트폴리오 적합도 비교
+- [[2026-09-30-Q-ai-data-competition-expanded-comparison]] — 신규 4개 대회와 고용24·스페이스 해커톤 등 접수 중인 개발·데이터 대회를 포트폴리오 기준으로 비교
 - [[2026-09-18-Q-worldjob-overseas-entry-level-developer-resume-strategy]] — 미국·캐나다·독일의 신입 진입 경로와 성공사례의 숨은 조건을 반영한 월드잡 이력서 작성 전략
 - [[2026-09-21-Q-GNU-UNLV-application-draft-v1]] — FPT GraphRAG·Threads workflow·CUEE 피벗과 수상·해외 수학 증거를 연결한 GNU-UNLV 세 문항 1차 초안
 - [[2026-09-21-Q-GNU-UNLV-application-draft-v2]] — Docker·CUEE를 문제해결 철학으로 연결하고 Threads 10건 검증·고령 사용자 10명 관찰·네 단계 학업계획을 반영한 2차 초안
@@ -239,19 +290,28 @@ status: active
 - [[2026-10-02-Q-GNU-award-essay-evidence-map]] — 모두의 창업 재도전, LikeLion 교육, 실리콘밸리 취업동아리, 문화 교류와 윤리 후보를 개척인상 1~7번에 배치한 기획 지도
 - [[2026-10-02-Q-manufacturing-ai-data-course-preparation]] — 제조 AI 16시간 교육의 내용과 Pandas·시각화·분류 평가 중심의 김규태 맞춤 사전 학습안
 - [[2026-10-02-Q-hackathon-choice-for-finance-career]] — 금융권 취업 기준으로 NICE 데이터안심구역, 데이터문제해결, 고용24를 비교한 대회 선택 분석
+- [[2026-09-18-Q-korea-financial-developer-employer-deep-comparison]] — 금융사별 개발 근무지·직군·공시 보상·복지·성장성·개발 커리어 매력·입사난이도 심층 비교
 
 ---
 
 ## 📥 Recent Ingests
 
+- 2026-10-12: [[2026-10-12-YouTube-이력서에 문제 해결을 쓸 수가 없어요-예상 환경과 예방]] → [[포트폴리오 트래픽 가정과 측정 결과를 구분하는 법]] — 서비스·수요 가정, 예방 실험, 확장 용량·비용 추정 기준
+
+- 2026-10-12: [[2026-10-12-YouTube-개발자 이력서 4단계와 금융 Java 성장 목적]] → [[금융 Java 포트폴리오에서 해결 차이와 트레이드오프를 증명하는 법]]
+
 | Date | Source | Pages Touched |
 |------|--------|---------------|
+| 2026-10-11 | [[2026-10-11-YouTube-자기소개 5분만에 써드립니다. 그냥 가져가세요.]] | 취업 영상 묶음에서 누락된 자기소개 원문 보완·지원동기 출처 수정. 최종 묶음 24개 파일/22개 영상. 파일 삭제·이동 없음 |
+| 2026-10-11 | [[ideal 이력서와 포트폴리오 참고 영상 활용 지도]] — Clippings 23개 / 영상 21개 | 신규 Raw Source 19개·기존 원문 2개 재사용; Wiki 6개 생성·7개 갱신. 목적: 현재 ideal 이력서·포트폴리오 개선. 원본 Clippings 유지 |
+| 2026-10-11 | [[2026-10-11-YouTube-Resume-Portfolio-Difference-Reference]] | 가이드 1개 생성·2개 갱신; 기존 편집 원고에 새 기준 연결. 영상 전체 자막 미확보, 사용자 메모·화면 원본 보존 |
 | 2026-10-05 | [[2026-10-05-YouTube-(카톡101) 여자가 나를 보고 싶고 생각나게 만드는 전략 3가지]], [[2026-10-05-YouTube-소설을 읽어봐야 하는 진짜 이유]] | 2 Wiki pages created + 3 updated; 대화·관계 판단과 사람·감정 이해 독서 |
 | 2026-10-05 | [[2026-10-05-YouTube-23살에 1억 모으기까지 실제로 읽었던 책들 (20대 인생책 추천)]], [[2026-10-05-YouTube-뇌과학이 증명한 무엇이든 누구보다 빠르게 배우는 방법]], [[2026-10-05-Kim-Gyutae-Reading-and-Interleaved-Learning-Purpose]] | 3 guides + 7 Wiki updates; 한기용 기존 source 재사용; 카톡·소설은 같은 날 후속 인제스트 완료 |
 | 2026-10-05 | [[2026-10-05-YouTube-요즘 개발자 채용 현실]], [[2026-10-05-YouTube-이력서 채용공고보고 지원동기 쓰는 방법 (보기만해도 합격률 UP)]], [[2026-10-05-YouTube-취준생 90%가 놓치는 이력서 ‘쓰기 전’ 4가지 (안 챙기면 시작부터 불리합니다)]], [[2026-10-05-YouTube-개발자 이력서만 수백개 검토하는 IT 회사 대표가 본 서류 합격 기준]], [[2026-10-05-YouTube-요즘 주니어 개발자들에게 부족한 것]], [[2026-10-05-YouTube-개발자 포폴은 OO가 전부입니다]], [[2026-10-05-YouTube-개발자 취업, 100% 성공하는 포트폴리오 작성법]], [[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]] | 5 Wiki pages created + 5 updated; 2027년 8월 금융권 백엔드 취업, 목표 포트폴리오 역설계와 기여 중심 지원동기 |
 | 2026-10-03 | [[2026-10-03-Modoo-CUEE-review]] | [[cuee]], [[김규태 Leadership and Teaching Evidence]], [[2026-10-02-Q-GNU-award-essay-evidence-map]] — 4월 심사의견과 사용자가 보고한 무료 제공·구매전환/시간절감 측정·B2B SaaS/CPS 대응을 구분해 기록; 공식 일정과의 단계 충돌은 미해결 |
 | 2026-10-02 | [[2026-10-02-YouTube-한기용-27년차-실리콘밸리-개발자-인생-이야기-1부]] | [[변화는 새 시도와 불편한 경험의 재시도에서 온다]], [[김규태 Work and Learning Operating Guide]], [[MOC-김규태 Self Knowledge]] — 졸업 후 진로·직장 결정에서 선배 조언을 검토하고 시행착오와 후회를 줄이는 참고 자료 |
 | 2026-10-02 | [[2026-10-02-YouTube-교수버튜버-컴공과-학생의-진로]], [[2026-10-02-GNU-개척리더스-창업서포터즈-활동기록]], [[2026-10-02-Kim-Gyutae-Software-Development-Course-Study-Notes]], [[2026-10-02-Kim-Gyutae-Flirting-Ideas]] | [[AI 시대의 개발자 학습 전략]], [[김규태 Leadership and Teaching Evidence]], [[김규태 Attachment and Romantic Pacing Pattern]], [[김규태 Relationship Values]]; 소프트웨어개발론은 Raw Source 보존 |
+| 2026-09-22 | [[2026-09-22-Gemini-Manufacturing-Database-Performance-Agent-Conversation]] | [[제조 DB 성능 최적화 에이전트 프로젝트 검증 가이드]], [[MOC-Portfolio]] |
 | 2026-09-21 | [[2026-09-21-GNU-FPT-Vietnam-GraphRAG-Program-Record]] | [[FPT Vietnam Global Big Data AI Program]], [[김규태]], [[MOC-Portfolio]] |
 | 2026-09-21 | [[2026-09-21-Kim-Gyutae-GNU-Buddy-2026-1-Record]] | [[GNU Buddy]], [[김규태]], [[MOC-Portfolio]] |
 | 2026-09-12 | [[2026-09-12-Kim-Gyutae-Java-Spring-AWS-Study-Declaration]] | [[김규태 Java-Spring-AWS 금융 포트폴리오 기초 학습 트랙]], [[김규태 금융 시스템 개발자 취업 로드맵]], [[MOC-Portfolio]], [[Core Context]] |
@@ -282,8 +342,19 @@ status: active
 
 ## 📦 Shared Project Proposals
 
-- [Rotor Engineering Knowledge Agent 제안서](Propeller%20Evidence%20Agent%201.md) — 전문가 검토 절차·과거 증거 재사용·승인형 프로펠러 해석 데모를 통합하는 팀 기준안
-- [Rotor Engineering Knowledge Agent PRD](70.%20Outputs/2026-09-23-Propeller-Evidence-Agent/Propeller%20Evidence%20Agent%20PRD.md) — 자연어 요청부터 시각적 점검·승인형 Fluent 실행·근거 보고서까지의 MVP 요구사항
+- [FastReqs 프로젝트 기준 문서](70.%20Outputs/2026-10-06-FastReqs/FastReqs%20프로젝트%20기준%20문서.md) — 소프트웨어개발론 팀 검토용 범위·최신 결정·CLI 실행 조건·후속 에이전트 지침
+- [FastReqs WBS 계획과 진척](70.%20Outputs/2026-10-06-FastReqs/FastReqs%20WBS%20계획과%20진척.md) — 요구사항 관리 Slack 봇 개발, 요구분석·설계·코딩·테스트 네 단계의 텍스트·시각 트리와 작업표
+- [FastReqs 작업분할도 HTML](70.%20Outputs/2026-10-06-FastReqs/FastReqs%20작업분할도.html) — 텍스트 트리·시각 트리와 우선순위·기간·완료도를 담은 작업표
+- [FastReqs WBS 검토본 PDF](70.%20Outputs/2026-10-06-FastReqs/FastReqs%20WBS%20검토본.pdf) — 트리와 단계별 계획표를 포함한 팀 공유용 검토본
+
+- [프로펠러 에이전트 개발계획서 초안](70.%20Outputs/2026-09-23-Propeller-Evidence-Agent/개발계획서%20초안.md) — 9/27 제출용 검토안, 역할·10/6 결과물 일정·정량 목표·As-Is/To-Be
+- [CFD 자동화 데모 키트와 실현가능성 검증](70.%20Outputs/2026-09-23-Propeller-Evidence-Agent/cfd-demo-kit/README.md) — 공개 원본 확보, 공식 팬 케이스 정적 검사, Windows Fluent 연결 시험 및 최종 프로펠러 케이스 요청
+- [개발계획서 HWP 붙여넣기용 본문](70.%20Outputs/2026-09-23-Propeller-Evidence-Agent/개발계획서%20HWP%20붙여넣기용.md) — 표 없이 양식 순서대로 복사할 수 있는 제출용 본문
+
+- [Rotor Engineering Knowledge Agent 제안서](Propeller%20Evidence%20Agent%201.md) — 사람의 가설을 과거 사례·후보 비교·필요한 CFD 실행으로 검토하는 팀 기준안
+- [Rotor Engineering Knowledge Agent PRD](70.%20Outputs/2026-09-23-Propeller-Evidence-Agent/Propeller%20Evidence%20Agent%20PRD.md) — 품질 엔지니어의 제조 변경 요구사항 검토, ENOLA 데모, 최신 결정·미결 사항·작업 재개 순서
+- [ENOLA 음향 검토와 확정 데모 조건](70.%20Outputs/2026-09-23-Propeller-Evidence-Agent/ENOLA%20음향%20검토와%20확정%20데모%20조건.md) — 7350RPM 세 음향 원본의 탐색 계산, 처리 규칙, 메타데이터 한계와 Fluent 실행 범위
+- [Propeller Evidence Agent 2](Propeller%20Evidence%20Agent%202.md) — 1~3장 핵심 정의를 유지하고 시연·남은 과제를 압축한 공유본
 
 ## 📝 Application Drafts
 

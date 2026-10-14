@@ -8,7 +8,7 @@ description: The LLM Wiki pattern proposed by Andrej Karpathy — LLMs increment
 author:
   - Claude
 date created: 2026-04-12T00:00
-date modified: 2026-08-29
+date modified: 2026-10-12
 tags:
   - llm-wiki
   - knowledge-management
@@ -126,6 +126,19 @@ Karpathy의 Gist는 위키 유지의 어려운 부분을 cross-reference 업데�
 ### 개인 맞춤형 context layer로서의 LLM Wiki
 
 이 vault에서는 LLM Wiki를 [[Personal Context Layer for LLM Wiki|개인 맞춤형 LLM 맥락층]]으로도 본다. 모델 성능이 상향 평준화될수록 차이는 "어떤 LLM을 쓰는가"보다 "LLM에게 나에 대한 어떤 맥락을 제공하는가"에서 생길 수 있다. [[Core Context]], owner entity, 프로젝트 page, Query result는 모두 다음 LLM 세션이 읽을 수 있는 개인 맥락 자산이다.
+
+---
+
+## 증거 기록과 실행 평가의 연결
+
+이 볼트의 Evidence Wiki 운영은 원본 근거·판단·본인 기여·검증 상태를 연결하는 방식이다. Markdown에 기록했다는 사실만으로 AI 출력이나 구현 결과가 검증되지는 않는다.
+
+- 실행용 입력·정답·금지 주장과 평가 스크립트는 프로젝트 저장소에 두고, Wiki에서 버전·실행 결과·실패 사례로 연결한다.
+- 숫자·필수 필드·JSON 스키마 검증과 문장 의미·출처의 주장 지원 여부 검증을 구분한다.
+- 동일 데이터·프롬프트·모델 설정·검색 설정을 기록해 개선 전후를 비교한다. 출력의 완전한 동일성은 보장하지 않는다.
+- 아직 없는 실행 결과를 계획만으로 통과·개선으로 표시하지 않는다.
+
+작은 평가 제안과 도구 후보는 [[2026-10-12-Q-unlv-networking-evidence-wiki-and-ai-tools]]에 둔다. 이는 실행 전 계획이며 이 볼트의 정확도 개선을 측정한 결과는 아니다.
 
 ---
 

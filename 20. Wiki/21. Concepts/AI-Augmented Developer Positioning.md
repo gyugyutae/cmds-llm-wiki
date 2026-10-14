@@ -7,13 +7,16 @@ description: "Positioning frame for presenting AI use as leverage for developer 
 author:
   - Codex
 date created: 2026-07-11
-date modified: 2026-10-05
+date modified: 2026-10-11
 tags:
   - ai
   - career
   - portfolio
   - developer-growth
 source:
+  - "[[2026-10-11-YouTube-이력서에 AI 관련 이거 쓰세요. 더 이상 고민하지마세요]]"
+  - "[[2026-10-11-YouTube-AI 시대, 넥슨은 어떤 프로그래머를 찾고 있을까? (w.윤수빈 아나운서)ㅣ넥토리얼 X 넥슨태그]]"
+  - "[[2026-10-11-YouTube-요즘 취준생분들 위기입니다. 이렇게 공부하시면 당연히 떨어져요 1]]"
   - "[[2026-10-05-Kim-Gyutae-Finance-Backend-Portfolio-Purpose]]"
   - "[[2026-07-11-Kim-Gyutae-Personal-Raw-Context-v1]]"
   - "[[Human-AI Knowledge Boundary]]"
@@ -33,7 +36,7 @@ confidence: medium
 layer: concepts
 explored: false
 claimType: interpretive
-evidenceScope: user-original
+evidenceScope: multi-source-mixed
 verificationStatus: partial
 verifiedAt: 2026-08-29
 verifiedBy: Codex
@@ -126,6 +129,16 @@ AI-Augmented Developer Positioning은 AI를 개발 역량의 대체물이 아니
 > Data gap: 현재는 AI 비의존 구현 증거와 코딩테스트/기초 CS 실력의 외부 검증 자료가 부족하다.
 
 ---
+
+## 2026-10-11 참고 — 서비스 구성 요소로서의 AI
+
+[[2026-10-11-YouTube-이력서에 AI 관련 이거 쓰세요. 더 이상 고민하지마세요]] 0:51~5:46·6:18~7:18은 AI를 개발 도구로 쓴 경험과 서비스 안에서 이벤트·API·큐·워커·검색·모델·결과를 연결한 경험을 구분한다. 이 구조는 발표자의 예시이며 사용자 구현 완료로 기록하지 않는다.
+
+이력서에 AI 경험을 넣을 때는 어떤 문제의 어느 단계에 AI를 썼는지, 본인이 정한 입력·출력·제약, 생성 결과의 검증·수정·실패 처리와 관찰 결과를 적는다. 프레임워크 이름을 길게 늘리거나 금융 원장에 필요 없는 AI 기능을 추가하지 않는다.
+
+[[2026-10-11-YouTube-AI 시대, 넥슨은 어떤 프로그래머를 찾고 있을까? (w.윤수빈 아나운서)ㅣ넥토리얼 X 넥슨태그]] 4:23~5:54의 문제 구조화·목표 정렬·결과 검증, 19:24~19:42의 직접 구현 구분은 [[Human-AI Knowledge Boundary]]와 연결한다. 현재 있는 harness·Threads 경험도 실제 책임·실행·검증 범위에 맞춰 설명한다.
+
+이번 영상 조언은 unverified 참고이며 기존 verifiedAt 날짜가 이 보강의 검증을 뜻하지 않는다. 전체 자료는 [[ideal 이력서와 포트폴리오 참고 영상 활용 지도]]에서 찾는다.
 
 ## Related
 
