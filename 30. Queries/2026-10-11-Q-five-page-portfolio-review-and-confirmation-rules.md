@@ -13,7 +13,7 @@ source:
   - "[[이력서는 프로젝트 포트폴리오는 문제 해결로 구성한다]]"
   - "[[포트폴리오 문제 해결 블록과 그림을 편집하는 법]]"
   - "[[2026-10-01-Q-ideal-portfolio-submission-draft]]"
-  - "[[2026-10-07-Q-representative-article-detailed-plan]]"
+  - "[[거래 원장 실험과 대표 기술 글 계획]]"
 reusableFor:
   - 이력서·포트폴리오 편집
   - financial-lab 상태·복구 규칙 설계

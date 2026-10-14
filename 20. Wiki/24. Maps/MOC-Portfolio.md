@@ -8,7 +8,7 @@ description: Map of Content for using this LLM Wiki as a job-search portfolio ev
 author:
   - Codex
 date created: 2026-07-07
-date modified: 2026-10-11
+date modified: 2026-10-14
 tags:
   - moc
   - portfolio
@@ -83,6 +83,8 @@ disputed: false
 ---
 
 # MOC-Portfolio
+
+- [[2026-10-14-Q-financial-portfolio-final-review-and-video-alignment]] — 목표 원고와 제출본의 구분, 영상 기준 반영/미완료, 우선순위별 증거·압축·피크·협업 점검
 
 - [[포트폴리오 트래픽 가정과 측정 결과를 구분하는 법]] — 예상 서비스·회원·행동량에서 부하를 산정하고 예방 실험·용량·비용과 연결한다. 단일 인스턴스 배수는 확장 추정으로 구분한다.
 
@@ -390,7 +392,7 @@ AI 활용 프로젝트는 아래 두 항목을 추가한다.
 
 ## 2026-10-05 취업 준비 영상 인제스트 연결
 
-- [[2026-10-07-Q-representative-article-detailed-plan]] — financial-lab 개발·학습 길잡이. 실패 탐지·복구 범위, 일곱 절·동일 기관 계약의 전후 비교·자격 표기를 구체화한 목표 문서다. 제출본에는 대표 글 링크로 연결하며 집필·학습 계획은 넣지 않는다.
+- [[거래 원장 실험과 대표 기술 글 계획]] — financial-lab 개발·학습 길잡이. 실패 탐지·복구 범위, 일곱 절·동일 기관 계약의 전후 비교·자격 표기를 구체화한 목표 문서다. 제출본에는 대표 글 링크로 연결하며 집필·학습 계획은 넣지 않는다.
 
 - [[금융권 백엔드 목표 포트폴리오를 역설계하는 법]]
 - [[채용공고와 기여 증거를 연결하는 지원동기]]

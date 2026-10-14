@@ -7,7 +7,7 @@ description: Master index of the LLM Wiki. Central navigation hub listing all Wi
 author:
   - "[[김규태]]"
 date created: 2026-07-07
-date modified: 2026-10-12
+date modified: 2026-10-14
 tags:
   - index
   - moc
@@ -35,7 +35,7 @@ status: active
 | Entities | 15 |
 | Guides | 33 |
 | MOCs | 6 |
-| Queries | 93 |
+| Queries | 94 |
 
 > *Stats 는 `/ingest` 실행 시 자동 갱신됩니다. 본인 컨텐츠를 채워나가면서 업데이트.*
 
@@ -179,21 +179,23 @@ status: active
 
 ## 🔎 Queries (Synthesized Answers)
 
+- [[2026-10-14-Q-financial-portfolio-final-review-and-video-alignment]] — 금융 Java 원고의 제출 전 빈틈, 현재 코드 증거, 생각등대 핵심 조언 반영 상태와 대표 면접 질문
+
 - [[2026-10-12-Q-unlv-networking-evidence-wiki-and-ai-tools]] — 미국 개발자 취업 네트워킹의 역할, Evidence Wiki 평가 루프, Promptfoo·Ragas·Langfuse·Spring AI·MCP·LangGraph 후보
 - [[2026-10-12-UNLV-연수에서-얻어올-다섯가지]] — 70. Outputs의 별도 실행 메모. 영어 설명·현지 피드백·개선·관계·진로 판단의 체크리스트와 완료 기준
 
 - 이력서·5장 포트폴리오 정합성: 개인 요약은 3~4장, 기본기 근거는 1~2장, 협업 요약은 5장. 같은 주장에는 같은 실험·조건·관측값을 사용한다.
 
-- 에이전트 개인 프로젝트 컨텍스트: [[금융 백엔드 포트폴리오 5장 원고]](목표) → [[거래 원장 아키텍처와 장애 복구 설계]](계약·경계) → [[2026-10-07-Q-representative-article-detailed-plan]](실험·증거). 두 참고 파일의 중복·이전 분량 참조를 제거했다.
+- 에이전트 개인 프로젝트 컨텍스트: [[금융 백엔드 포트폴리오 5장 원고]](목표) → [[거래 원장 아키텍처와 장애 복구 설계]](계약·경계) → [[거래 원장 실험과 대표 기술 글 계획]](실험·증거). 두 참고 파일의 중복·이전 분량 참조를 제거했다.
 
 
-- [금융 백엔드 포트폴리오 5장 원고](70.%20Outputs/2026-10-06-Financial-Portfolio/금융%20백엔드%20포트폴리오%205장%20원고.md) — 개인 3블록·협업 1블록의 동일한 제목/그림/문제/해결/결과 편집 원고, 실측 조건 포함
+- [금융 백엔드 포트폴리오 5장 원고](70.%20Outputs/2026-10-06-Financial-Portfolio/금융%20백엔드%20포트폴리오%205장%20원고.md) — 개인 4블록·협업 1블록. 개인 간 송금 서비스의 가정·선택 비용·피크 검증을 연결한 목표 원고; ideal-portfolio와 동기화
 
 - [금융 백엔드 이력서 2장 원고](70.%20Outputs/2026-10-06-Financial-Portfolio/금융%20백엔드%20이력서%202장%20원고.md) — 개인·팀 대표 문제 해결형 이상형 편집안, 신입 기본기와 자기객관화 증거 포함
 
 - [[2026-10-11-Q-five-page-portfolio-review-and-confirmation-rules]] — 2장 이력서·5장 포트폴리오 배치 검토, 압축 사례 복원, 새 영상 조언 적용과 거래 확정/예약 해제 증거 기준
 
-- [[2026-10-07-Q-representative-article-detailed-plan]] — financial-lab 개발·학습 길잡이. 개인의 실패 탐지·복구 범위, 대표 글 일곱 절의 구현·실험 기준과 정처기/SQLD 한 줄 표기. 제출본에는 대표 글 직접 링크로 연결
+- [[거래 원장 실험과 대표 기술 글 계획]] — financial-lab 실패·복구·용량·비용 실험 계획. 금융 공개 통계·피크 집중 산식·단일/2개 앱·공유 DB·SLO/지속/회복 검토안; ideal-portfolio와 동기화
 
 - [[2026-10-06-Q-portfolio-architecture-technical-article-and-target-profile]] — 데이터 흐름·미확정 거래 복구 설계, 대표 글 3~4주 제작, 비금융 협업의 기여 증거, 공개 합격 회고와 자격·어학 목표
 
